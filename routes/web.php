@@ -76,9 +76,9 @@ use App\Http\Controllers\RoleController;
 
 
 
-    Route::get('/loi', function () {
+    /* Route::get('/loi', function () {
         return view('loiCadre');
-    });
+    }); */
 
  
 

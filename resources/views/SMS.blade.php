@@ -430,16 +430,16 @@
                 <li class="dropdown" Style="color:black;" ><a ><span>ESPACE RH</span> <i
                             class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="{{url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
-                        <li><a href="{{url('../Avis recrutement') }}" class="dropdown-item">Avis de recrutement</a></li>
+<!--                         <li><a href="{{url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
+ -->                        <li><a href="{{url('../Avis recrutement') }}" class="dropdown-item">Avis de recrutement</a></li>
                         <li><a href="{{url('../stage') }}" class="dropdown-item">Stages </a></li>
                     </ul>
                 </li>
                 <li class="dropdown" Style="color:black;"><a ><span>FOURNISSEURS</span> <i
                             class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href=" {{url('../AppelOffre') }}" class="dropdown-item">Avis des appels d'offres</a></li>
-                        <li><a href="{{url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels d'offres</a></li>
+                       <!--  <li><a href=" {{url('../AppelOffre') }}" class="dropdown-item">Avis des appels d'offres</a></li>
+                        <li><a href="{{url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels d'offres</a></li> -->
                         <li><a href="{{url('../programme') }}" class="dropdown-item">Programme prévisionnel</a></li>
                         <li><a href="{{url('../Reglement') }}" class="dropdown-item"> Réglement des marchés publics </a></li>
 
@@ -449,8 +449,8 @@
                             class="bi bi-chevron-down"></i></a>
                     <ul>
                     <li><a href="{{url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a></li>
-                        <li><a href="{{url('../galerie') }}" class="dropdown-item">Galerie</a></li>
-                        <li><a href="{{url('../') }}#AudioVisual" class="dropdown-item">Audiovisuel</a></li>
+<!--                         <li><a href="{{url('../galerie') }}" class="dropdown-item">Galerie</a></li>-->
+                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a></li>
                         <li><a href="{{url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
                         <li><a href="{{url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
 
