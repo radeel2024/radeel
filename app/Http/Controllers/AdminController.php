@@ -42,7 +42,8 @@ class AdminController extends Controller
 {
     public function Acceuil2(){
 
-        $now = now(); // Get the current timestamp
+        $now = now();
+        // Get the current timestamp
 
         $annoncefilter = annonce::where('db', '<=', $now)
         ->where('df', '>=', $now)
