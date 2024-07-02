@@ -495,7 +495,7 @@
                                 style="background-color: #A6CCDC;">
 
                                 <h1 class="display-1 text-white mb-0" data-toggle="counter-up">28</h1>
-                                <small class="fs-5 text-white">Années existance</small>
+                                <small class="fs-5 text-white">Années existence</small>
                             </div>
                         </div>
                     </div>
