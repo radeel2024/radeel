@@ -1281,7 +1281,7 @@
             <li class="facebook">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                 <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
+                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
@@ -1301,33 +1301,33 @@
                 </svg>
                 <div class="slider">
                     <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">twitter</a></p>
+                            style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
     
                 <div class="slider">
                     <p><a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"
-                            style="color:white;">twitter</a></p>
+                            style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
             <li class="instagram">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">instagram</a></p>
+                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
             <li class="linkdin">
                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
+                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
             <li class="youtube">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
+                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
         </ul>
