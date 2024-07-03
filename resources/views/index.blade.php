@@ -346,8 +346,7 @@
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</strong></a></li>
@@ -358,19 +357,18 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-<!--                             <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
- -->                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
+                            <!--                             <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
+ -->
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
                                     recrutement</a></li>
                             <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <!--  <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
+                            <!--  <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
                                     d'offres</a></li>
                             <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
                                     d'offres</a></li> -->
@@ -381,13 +379,12 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
                             <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                    </li>
+                            </li>
                             <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
                             <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
 
@@ -397,11 +394,11 @@
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact">CONTACT</a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="dropdown">
-                       <strong>Fr</strong>
+                        <strong>Fr</strong>
                         <ul>
                             <li>
                                 <a href="#" class="dropdown-item">
-                                   Fr
+                                    Fr
                                 </a>
                             </li>
                             <li>
@@ -429,9 +426,8 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             @foreach ($slider as $key => $slide)
-                <button type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="{{ $key }}" class="{{ $key === 0 ? 'active' : '' }}"
-                    aria-current="{{ $key === 0 ? 'true' : 'false' }}"
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ $key }}"
+                    class="{{ $key === 0 ? 'active' : '' }}" aria-current="{{ $key === 0 ? 'true' : 'false' }}"
                     aria-label="Slide {{ $key + 1 }}"></button>
             @endforeach
         </div>
@@ -539,7 +535,7 @@
     <!-- annance fix start-->
     <div class="container">
         @foreach($zone as $z)
-        <img src="{{ asset('zone/' . $z->image) }}" width="100%" class="img-fluid">
+            <img src="{{ asset('zone/' . $z->image) }}" width="100%" class="img-fluid">
         @endforeach
     </div>
     <!-- annance fix end-->
@@ -555,14 +551,13 @@
                 <hr class="mx-auto" />
             </div>
             <div class="row g-5 bg-white services-inner" bis_skin_checked="1">
-                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s" bis_skin_checked="1">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s" bis_skin_checked="1">
                     <div class=" shadow services-item" style="background-color: #ffff;" bis_skin_checked="1">
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
                             <div class="services-content-icon" bis_skin_checked="1">
                                 <!-- <i class="fa fa-file" aria-hidden="true" style="font-size: 150px;padding: 20px; color: #077ec0;" ></i>-->
                                 <a href="{{ route('bureau') }}">
-                                    <img src="img/abonnement.png" alt="" height="100px"
-                                        width="30%"><br><br>
+                                    <img src="img/abonnement.png" alt="" height="100px" width="30%"><br><br>
                                     <h4 class="mb-3"> Bureau d'ordre</h4>
                                 </a>
                             </div>
@@ -575,8 +570,7 @@
                             <div class="services-content-icon" bis_skin_checked="1">
                                 <a href="{{ url('/paiement') }}"
                                     bis_size="{&quot;x&quot;:327,&quot;y&quot;:1329,&quot;w&quot;:352,&quot;h&quot;:114,&quot;abs_x&quot;:327,&quot;abs_y&quot;:1329}">
-                                    <img src="img/paiement-securise.png" alt="" height="100px"
-                                        width="30%"
+                                    <img src="img/paiement-securise.png" alt="" height="100px" width="30%"
                                         bis_size="{&quot;x&quot;:433,&quot;y&quot;:1291,&quot;w&quot;:140,&quot;h&quot;:100,&quot;abs_x&quot;:433,&quot;abs_y&quot;:1291}"
                                         bis_id="bn_cxuqocn0vprovyus39cjmp"><br><br>
                                     <h4 class="mb-3">Paiement en ligne </h4>
@@ -591,15 +585,14 @@
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
                             <div class="services-content-icon" bis_skin_checked="1">
                                 <a href="{{ url('/SMS') }}">
-                                    <img src="img/messagerie.png" alt="" height="100px"
-                                        width="30%"><br><br>
+                                    <img src="img/messagerie.png" alt="" height="100px" width="30%"><br><br>
                                     <h4 class="mb-3">Service SMS</h4>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s" bis_skin_checked="1">
                     <div class=" shadow services-item" style="background-color: #ffff; " bis_skin_checked="1">
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
@@ -619,8 +612,7 @@
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
                             <div class="services-content-icon" bis_skin_checked="1">
                                 <a href="{{ url('/Abonnement') }}">
-                                    <img src="img/brancher.png" alt="" height="100px"
-                                        width="30%"><br><br>
+                                    <img src="img/brancher.png" alt="" height="100px" width="30%"><br><br>
                                     <h4 class="mb-3"> Abonnement - Raccordement </h4>
                                 </a>
                             </div>
@@ -633,8 +625,7 @@
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
                             <div class="services-content-icon" bis_skin_checked="1">
                                 <a href="{{ url('/resiliation') }}">
-                                    <img src="img/contracter.png" alt="" height="100px"
-                                        width="30%"><br><br>
+                                    <img src="img/contracter.png" alt="" height="100px" width="30%"><br><br>
                                     <h4 class="mb-3"> Résiliation</h4>
                                 </a>
                             </div>
@@ -648,25 +639,24 @@
         <div class="container">
             <div class="row">
                 <div class="text-center fh5co-recent-news wow fadeInUp" data-wow-delay="0.1s"
-                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;"
-                    bis_skin_checked="1">
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" bis_skin_checked="1">
 
                     <h1 class="" style="color:#077ec0; background : "> Actualité </h1>
                     <hr class="mx-auto" />
                     <br>
                 </div>
-                <div class="col-lg-6 col-12 mb-6 mb-lg-0">
+                 <div class="col-lg-6 col-12 mb-6 mb-lg-0">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}"
-                                class="img-fluid large-news-image news-image" alt="">
+                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:420px"
+                                class="img-fluid large-news-image news-image" alt="" >
                         </a>
-                        
+
                         <div class="news-text-info">
                             <h5 class="news-title">
                                 <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link">
-                                    {{ Illuminate\Support\Str::limit($articles[5]->title, $limit = 20, $end = '...') }}
+                                    {{ Illuminate\Support\Str::limit($articles[5]->title, $limit = 40, $end = '...') }}
                                 </a>
                                 <div class="news-category bg-warning text-white">Nouveau</div>
 
@@ -681,24 +671,24 @@
                 <div class="col-lg-6 col-12">
                     <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
                         <div class="news-top w-100">
-                            <a href="{{ route('details', $articles[4]->id) }}"
+                            <a href="{{ route('details', $articles[2]->id) }}"
                                 class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[4]->image) }}"
+                                <img src="{{ asset('articlescopie/' . $articles[2]->image) }}" 
                                     class="img-fluid news-image" alt="">
                             </a>
                         </div>
                         <div class="news-bottom w-100">
                             <div class="news-text-info">
                                 <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[4]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[4]->title, $limit = 20, $end = '...') }}
+                                    <a href="{{ route('details', $articles[2]->id) }}" class="news-title-link">
+                                        {{ Illuminate\Support\Str::limit($articles[2]->title, $limit = 40, $end = '...') }}
                                     </a>
                                     </a>
                                     <div class="news-category bg-primary text-white">Nouveau</div>
 
                                 </h5>
                                 <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[4]->created_at }}</span>
+                                    <span class="text-muted">{{ $articles[5]->created_at }}</span>
                                 </div>
                             </div>
                         </div>
@@ -718,7 +708,7 @@
                             <div class="news-text-info">
                                 <h5 class="news-title">
                                     <a href="{{ route('details', $articles[1]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[1]->title, $limit = 20, $end = '...') }}
+                                        {{ Illuminate\Support\Str::limit($articles[1]->title, $limit = 40, $end = '...') }}
                                     </a>
 
                                     </a>
@@ -742,19 +732,17 @@
                         background: rgba(0, 0, 0, 0);
                     }
                 </style>
-                <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+               <!--  <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('coupure') }}" class="news-image-hover news-image-hover-warning">
                             <div id="test" class="carousel slide" data-bs-ride="carousel">
 
-                                <!-- Indicators/dots -->
                                 <div class="carousel-indicators">
                                     <button type="button" style="background:black;" data-bs-target="#test"
                                         data-bs-slide-to="0" class="active"></button>
                                     <button type="button" style="background:black;" data-bs-target="#test"
                                         data-bs-slide-to="1"></button>
                                 </div>
-                                <!-- The slideshow/carousel -->
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" id="slideAvis">
                                         <img src="{{ asset('aviscoupure/' . $avis[0]->avis) }}"
@@ -763,8 +751,8 @@
                                     </div>
                                     <div class="carousel-item" id="slideAvis1">
                                         <img src="{{ asset('aviscoupure/' . $avis[1]->avis) }}"
-                                            class="img-fluid large-news-image news-image" alt=""
-                                            style="height:500px;" width="900px">
+                                            class="img-fluid large-news-image news-image" alt="" style="height:500px;"
+                                            width="900px">
                                     </div>
                                 </div>
                             </div>
@@ -842,10 +830,55 @@
                                     type="submit">PLUS INFO </button></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
     </section>
-    
+    <br><br><br>
+    <!-- <div class="container-fluid project py-5 mb-5">
+        <div class="container">
+           
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="project-item">
+                        <div class="project-img">
+                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" class="img-fluid w-100 rounded" alt="">
+                            <div class="project-content">
+                                <a href="#" class="text-center">
+                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[1]->title, $limit = 20, $end = '...') }}</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="project-item">
+                        <div class="project-img">
+                            <img src="{{ asset('articlescopie/' . $articles[2]->image) }}" class="img-fluid w-100 rounded" alt="">
+                            <div class="project-content">
+                                <a href="#" class="text-center">
+                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[2]->title, $limit = 20, $end = '...') }}</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                    <div class="project-item">
+                        <div class="project-img">
+                            <img src="{{ asset('articlescopie/' . $articles[3]->image) }}" class="img-fluid w-100 rounded" alt="">
+                            <div class="project-content">
+                                <a href="#" class="text-center">
+                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[3]->title, $limit = 20, $end = '...') }}</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+                
+            </div>
+        </div>
+    </div> -->
     <style>
         .btn-play {
             width: 40px;
@@ -880,11 +913,9 @@
 
     <!-- Actualite end -->
 
-    <div class="media-block py-5"
-        style="background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+    <div class="media-block py-5" style="background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
             url('https://images.pexels.com/photos/7358746/pexels-photo-7358746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center no-repeat;
-        background-size: cover;"
-        id="AudioVisual">
+        background-size: cover;" id="AudioVisual">
         <div class="container">
             <h4 class="text-white text-center mb-3">Audiovisuel</h4>
             <div class="row gx-md-5">
@@ -934,16 +965,16 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const videoModal = document.getElementById('videoModal');
-            videoModal.addEventListener('show.bs.modal', function(event) {
+            videoModal.addEventListener('show.bs.modal', function (event) {
                 const button = event.relatedTarget;
                 const videoSrc = button.getAttribute('data-src');
                 const videoFrame = videoModal.querySelector('#video');
                 videoFrame.src = videoSrc;
             });
 
-            videoModal.addEventListener('hide.bs.modal', function(event) {
+            videoModal.addEventListener('hide.bs.modal', function (event) {
                 const videoFrame = videoModal.querySelector('#video');
                 videoFrame.src = '';
             });
@@ -1018,18 +1049,17 @@
                         <form action="{{ route('addcontact') }}" method="post" class="">
                             @csrf
                             <div class="input-group mb-3">
-                                <input type="text" class="w-30 form-control rounded py-3   "
-                                    placeholder="Votre nom" name="name"
-                                    style="border: 1px solid #666; margin-right:5px;">
-                                <input type="text" class="w-30 form-control rounded py-3 "
-                                    placeholder="Votre Prenom" name="prenom" style="border: 1px solid #666;">
+                                <input type="text" class="w-30 form-control rounded py-3   " placeholder="Votre nom"
+                                    name="name" style="border: 1px solid #666; margin-right:5px;">
+                                <input type="text" class="w-30 form-control rounded py-3 " placeholder="Votre Prenom"
+                                    name="prenom" style="border: 1px solid #666;">
                             </div>
-                            <input type="text" class="w-100 form-control  py-3 mb-3" placeholder="Objet"
-                                name="objet" style="border: 1px solid #666;">
-                            <input type="email" class="w-100 form-control py-3 mb-3"
-                                placeholder="Enter votre Email" name="email" style="border: 1px solid #666;">
-                            <textarea class="w-100 form-control  mb-3" rows="6" cols="10" name="message" placeholder="Votre Message"
-                                style="border: 1px solid #666;"></textarea>
+                            <input type="text" class="w-100 form-control  py-3 mb-3" placeholder="Objet" name="objet"
+                                style="border: 1px solid #666;">
+                            <input type="email" class="w-100 form-control py-3 mb-3" placeholder="Enter votre Email"
+                                name="email" style="border: 1px solid #666;">
+                            <textarea class="w-100 form-control  mb-3" rows="6" cols="10" name="message"
+                                placeholder="Votre Message" style="border: 1px solid #666;"></textarea>
                             <button class="w-100 btn form-control border-primary py-3 text "
                                 style="background-color:#077ec0; color:#eeeee4; border: #077ec0; font-size:19px;"
                                 type="submit">Envoyer</button>
@@ -1041,8 +1071,8 @@
     </div>
     </div>
     <br><br><br>
-
-      @foreach ($poup as $p)
+  
+    @foreach ($poup as $p)
         <div id="modalIndex" class="modal animated " style="cursor: pointer;">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
@@ -1050,17 +1080,16 @@
                         @if(isset($p->titre))
                             <h1 class="d-flex justify-content-start">{{ $p->titre }}</h1>
                         @endif
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         @if($p->des)
                             <p style="padding: 20px">{{ $p->des }}</p>
                         @endif
                         @if($p->imageannonce)
-                        <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">
-                        <img src="{{ asset('annonce/' . $p->imageannonce) }}" style="width: 100%;">
-                        </a>
+                            <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">
+                                <img src="{{ asset('annonce/' . $p->imageannonce) }}" style="width: 100%;">
+                            </a>
                         @endif
                     </div>
                 </div>
@@ -1068,7 +1097,7 @@
         </div>
     @endforeach 
 
-  <!--    <div id="modalIndex" class="modal animated" style="cursor: pointer;">
+    <!--    <div id="modalIndex" class="modal animated" style="cursor: pointer;">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1093,8 +1122,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png"
-                            style="height: 130px; width=90px;">
+                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -1117,15 +1145,15 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
                     <div class="mt-4 d-flex flex-column short-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color: white;"></i>RADEEL</a>
+                        <a href="{{ url('../') }}" class="mb-2 text-white"><i class="fas fa-angle-right text me-2"
+                                style="color: white;"></i>RADEEL</a>
                         <a href="{{ url('../') }}#contact" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Contact</a>
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                                style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1281,7 +1309,7 @@
             <li class="facebook">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                 <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEELOfficiel</a></p>
+                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEEL Officiel</a></p>
                 </div>
             </li>
 
@@ -1293,7 +1321,7 @@
                     transform: translate(-50%, -50%);
                 }
             </style>
-             <li class="twitter">
+            <li class="twitter">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
                     viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path fill="#fff"
@@ -1301,33 +1329,34 @@
                 </svg>
                 <div class="slider">
                     <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">RADEELOfficiel</a></p>
+                            style="color:white;">RADEEL Officiel</a></p>
                 </div>
             </li>
-    
-                <div class="slider">
-                    <p><a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"
-                            style="color:white;">RADEELOfficiel</a></p>
-                </div>
+
+            <div class="slider">
+                <p><a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"
+                        style="color:white;">RADEEL Officiel</a></p>
+            </div>
             </li>
 
             <li class="instagram">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEELOfficiel</a></p>
+                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEEL Officiel</a></p>
                 </div>
             </li>
 
             <li class="linkdin">
                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEELOfficiel</a></p>
+                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEEL
+                            Officiel</a></p>
                 </div>
             </li>
             <li class="youtube">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEELOfficiel</a></p>
+                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEEL Officiel</a></p>
                 </div>
             </li>
         </ul>
