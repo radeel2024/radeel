@@ -1067,7 +1067,7 @@
         </div>
     @endforeach 
 
-   {{--  <div id="modalIndex" class="modal animated" style="cursor: pointer;">
+  <!--    <div id="modalIndex" class="modal animated" style="cursor: pointer;">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1079,12 +1079,12 @@
                 </a>
             </div>
         </div>
-    </div> --}}
+    </div> 
     <script>
         $(document).ready(function(){
             $('#modalIndex').modal('show');
         });
-    </script>
+    </script> -->
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
