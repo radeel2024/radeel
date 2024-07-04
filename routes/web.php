@@ -231,6 +231,8 @@ use App\Http\Controllers\RoleController;
             //Espace client communication
             Route::get('/communication', [AdminController::class, 'communication'])->name('communication');
             Route::post('/updatereclamation/{id}', [AdminController::class, 'updatereclamation'])->name('updatereclamation');
+            Route::get('/reclamationdetails/{id}', [AdminController::class, 'reclamationdetails'])->name('reclamationdetails');
+
 
 
             //Espace client commercial

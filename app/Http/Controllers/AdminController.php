@@ -1313,8 +1313,6 @@ class AdminController extends Controller
     }
     public function updatezone(Request $request,$id)
     {
-  
-  
           $annonce = zonespeciale::find($id);
           if($request->has('file')){
   
@@ -1343,6 +1341,18 @@ class AdminController extends Controller
         $communcation = reclamation::orderby('created_at','asc')->get();
         $sms = sms::orderby('created_at','asc')->get();
         return view('admin.communication',['commu'=>$communcation,'sms'=>$sms]);
+    }
+
+    public function reclamationdetails($id){
+
+        $reclamation = reclamation::find($id);
+
+        reclamation::where('id',$id)->update([
+            'status'=>'En cours',
+        ]);
+
+        return view('admin.detailreclamation',['reclamation'=>$reclamation]);
+
     }
 
     public function updatereclamation(Request $requestn,$id){

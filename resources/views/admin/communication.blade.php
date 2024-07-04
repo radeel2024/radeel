@@ -386,6 +386,7 @@
                                                         <th scope="col">Téléphone</th>
                                                         <th scope="col">Email</th>
                                                         <th>Nom</th>
+                                                        <th>Date </th>
                                                         <th>Status</th>
                                                         <th>Action</th>
                                                     </tr>
@@ -410,6 +411,7 @@
                                                                 {{ $p->email }}
                                                             </td>
                                                             <td>{{ $p->nom }}</td>
+                                                            <td>{{$p->created_at}}</td>
                                                             <td>{{ $p->status }}</td>
 
                                                             <td class="text-center">
@@ -418,8 +420,8 @@
                                                                     <i class="fas fa-edit"
                                                                         style="color: green; font-size:30px"></i>
                                                                 </a>
-                                                                <a href="#show{{ $p->id }}"
-                                                                    class="btn btn-primary" data-toggle="modal">
+                                                                <a href="{{route('reclamationdetails',$p->id)}}"
+                                                                    class="btn btn-primary" >
                                                                     <i class="fas fa-info"></i>
                                                                 </a>
                                                             </td>
@@ -433,7 +435,6 @@
                                                         overflow: hidden;
                                                         text-overflow: ellipsis;
                                                         max-width: 100px;
-                                                        /* Adjust max-width as needed */
                                                     }
                                                 </style>
 
@@ -475,6 +476,9 @@
                                                                                         <select class="form-control">
                                                                                             <option value="traiter">
                                                                                                 Traiter</option>
+                                                                                                <option value="traiter">
+                                                                                                Traiter</option>
+
                                                                                         </select>
                                                                                     </div>
                                                                                 </tbody>

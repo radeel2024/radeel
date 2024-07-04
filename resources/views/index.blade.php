@@ -551,6 +551,7 @@
                 <hr class="mx-auto" />
             </div>
             <div class="row g-5 bg-white services-inner" bis_skin_checked="1">
+
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s" bis_skin_checked="1">
                     <div class=" shadow services-item" style="background-color: #ffff;" bis_skin_checked="1">
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
@@ -579,7 +580,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s" bis_skin_checked="1">
                     <div class=" shadow services-item " style="bacskground-color: #ffff;" bis_skin_checked="1">
                         <div class="p-4 text-center services-content" bis_skin_checked="1">
@@ -592,6 +592,7 @@
                         </div>
                     </div>
                 </div>
+               
 
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s" bis_skin_checked="1">
                     <div class=" shadow services-item" style="background-color: #ffff; " bis_skin_checked="1">
@@ -632,9 +633,11 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <section class="news section-padding" id="news">
         <div class="container">
             <div class="row">
@@ -645,11 +648,77 @@
                     <hr class="mx-auto" />
                     <br>
                 </div>
-                 <div class="col-lg-6 col-12 mb-6 mb-lg-0">
+                
+                <div class="col">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:400px"
+                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:200px;width: 1080px;"
+                                class="img-fluid large-news-image news-image" alt="" >
+                        </a>
+
+                        <div class="news-text-info">
+                            <h5 class="news-title">
+                                <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link" >
+                                    {{ Illuminate\Support\Str::limit($articles[4]->title, $limit = 80, $end = '...') }}
+                                </a>
+                                <div class="news-category bg-warning text-white">Nouveau</div>
+
+                            </h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="text-muted">{{ $articles[5]->created_at }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="news-thumb" data-aos="fade-up">
+                        <a href="{{ route('details', $articles[5]->id) }}"
+                            class="news-image-hover news-image-hover-warning">
+                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:200px;width: 1080px;"
+                                class="img-fluid large-news-image news-image" alt="" >
+                        </a>
+
+                        <div class="news-text-info">
+                            <h5 class="news-title">
+                                <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link">
+                                    {{ Illuminate\Support\Str::limit($articles[5]->title, $limit = 40, $end = '...') }}
+                                </a>
+                                <div class="news-category bg-warning text-white">Nouveau</div>
+
+                            </h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="text-muted">{{ $articles[5]->created_at }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="news-thumb" data-aos="fade-up">
+                        <a href="{{ route('details', $articles[5]->id) }}"
+                            class="news-image-hover news-image-hover-warning">
+                            <img src="{{ asset('articlescopie/' . $articles[3]->image) }}" style="height:200px;width: 1080px;"
+                                class="img-fluid large-news-image news-image" alt="" >
+                        </a>
+
+                        <div class="news-text-info">
+                            <h5 class="news-title">
+                                <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link">
+                                    {{ Illuminate\Support\Str::limit($articles[5]->title, $limit = 80, $end = '...') }}
+                                </a>
+
+                            </h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="text-muted">{{ $articles[5]->created_at }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="news-thumb" data-aos="fade-up">
+                        <a href="{{ route('details', $articles[5]->id) }}"
+                            class="news-image-hover news-image-hover-warning">
+                            <img src="{{ asset('articlescopie/' . $articles[0]->image) }}" style="height:200px;width: 1080px;"
                                 class="img-fluid large-news-image news-image" alt="" >
                         </a>
 
@@ -668,7 +737,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="col-lg-6 col-12">
+                <!-- <div class="col-lg-6 col-12">
                     <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
                         <div class="news-top w-100">
                             <a href="{{ route('details', $articles[2]->id) }}"
@@ -731,7 +800,7 @@
                     #slideAvis1::after {
                         background: rgba(0, 0, 0, 0);
                     }
-                </style>
+                </style> -->
                <!--  <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('coupure') }}" class="news-image-hover news-image-hover-warning">
