@@ -34,6 +34,8 @@ use DOMDocument;
 use Spatie\Permission\Traits\HasRoles;
 use App\Models\role;
 use App\Models\vistore;
+use Barryvdh\DomPDF\Facade\Pdf;
+
 
 use Arr;
 
@@ -1371,6 +1373,13 @@ class AdminController extends Controller
         $racoredement = racordement::all();
         $resuliation = physiqueresiliation::all();
         return view('admin.commerciale',compact('abonnement','racoredement','resuliation'));
+    }
+
+    public function generatepdf(Request $request,$id)
+    { 
+        $reclamation = reclamation::find($id);
+        $pdf = Pdf::loadView('admin.generate-pdf', compact('reclamation'));
+        return $pdf->download('invoice.pdf');
     }
 
     //contact

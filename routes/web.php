@@ -248,6 +248,9 @@ use App\Http\Controllers\RoleController;
             Route::get('/statistique Achat logistique', [AdminController::class, 'statistiqueachatlo'])->name('statistiqueachatlo');
             Route::get('/statistique Ressources humaines', [AdminController::class, 'statistiquerh'])->name('statistiquerh');
 
+            //generate pdf
+            Route::get('/generate/{id}', [AdminController::class,'generatepdf'])->name('generatepdf');
+
 
             //logout
             Route::post('/logout', [AdminController::class, 'logout'])->name('logout');

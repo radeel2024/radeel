@@ -374,7 +374,7 @@
                                         @endif
 
                                         <div class="container-fluid">
-
+                                            
                                             <table class="table" style="padding: 5px">
 
                                                 <tr >
@@ -425,7 +425,15 @@
                                                     </td>
 
                                                 </tr>
-                                    
+                                                <tr>
+                                                    <td scope="col text-center" >
+                                                        <form method="get" action="{{route('generatepdf',$reclamation->id)}}">
+                                                            <button class="btn btn-primary">
+                                                                Imprimer
+                                                            </button>
+                                                        </form>
+                                                    </td>
+                                                </tr>
                                             </table>
                                         </div>
                                     </div>
