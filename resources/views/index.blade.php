@@ -649,7 +649,7 @@
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:420px"
+                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:400px"
                                 class="img-fluid large-news-image news-image" alt="" >
                         </a>
 
@@ -673,7 +673,7 @@
                         <div class="news-top w-100">
                             <a href="{{ route('details', $articles[2]->id) }}"
                                 class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[2]->image) }}" 
+                                <img src="{{ asset('articlescopie/' . $articles[2]->image) }}" style="height:250px"
                                     class="img-fluid news-image" alt="">
                             </a>
                         </div>
@@ -698,7 +698,7 @@
 
                             <a href="{{ route('details', $articles[1]->id) }}"
                                 class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[1]->image) }}"
+                                <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:250px"
                                     class="img-fluid news-image" alt="">
                             </a>
 
@@ -1309,7 +1309,7 @@
             <li class="facebook">
                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                 <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEEL Officiel</a></p>
+                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
@@ -1329,34 +1329,33 @@
                 </svg>
                 <div class="slider">
                     <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">RADEEL Officiel</a></p>
+                            style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
             <div class="slider">
                 <p><a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"
-                        style="color:white;">RADEEL Officiel</a></p>
+                        style="color:white;">RADEELOfficiel</a></p>
             </div>
             </li>
 
             <li class="instagram">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEEL Officiel</a></p>
+                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
 
             <li class="linkdin">
                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEEL
-                            Officiel</a></p>
+                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
             <li class="youtube">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
                 <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEEL Officiel</a></p>
+                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEELOfficiel</a></p>
                 </div>
             </li>
         </ul>
