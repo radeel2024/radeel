@@ -37,6 +37,7 @@ use App\Models\vistore;
 use Barryvdh\DomPDF\Facade\Pdf;
 
 
+
 use Arr;
 
 
@@ -1375,11 +1376,15 @@ class AdminController extends Controller
         return view('admin.commerciale',compact('abonnement','racoredement','resuliation'));
     }
 
-    public function generatepdf(Request $request,$id)
+    public function generatepdf(Request $request)
     { 
-        $reclamation = reclamation::find($id);
-        $pdf = Pdf::loadView('admin.generate-pdf', compact('reclamation'));
-        return $pdf->download('invoice.pdf');
+        
+        $data = [
+            'tele'=>"0644608345"
+        ];
+        $pdf = Pdf::loadView('admin.generate-pdf', $data);
+        return $pdf->download('generate.pdf');
+
     }
 
     //contact

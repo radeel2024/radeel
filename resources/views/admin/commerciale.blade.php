@@ -398,35 +398,32 @@
                                                 
                                                     <tbody>
                                                         @foreach ($abonnement as $p)
-                                                        <tr >
-                                                            <td>{{ $p->namecomplete }}</td>
+                                                            <tr>
+                                                                <td>{{ $p->namecomplete }}</td>
 
-                                                            <td class="dynamic-td " style="color:black">
-                                                                {{ $p->gerance }}</td>
-                                                            <td >
-                                                                {{ $p->typeabonnement }}
-                                                            </td>
+                                                                <td class="dynamic-td " style="color:black">
+                                                                    {{ $p->gerance }}</td>
+                                                                <td >
+                                                                    {{ $p->typeabonnement }}
+                                                                </td>
 
 
-                                                            <td>{{ $p->adressabonnement }}</td>
-                                                            <td>
-                                                                {{ $p->province }}
-                                                            </td>
-                                                            <td>{{ $p->client }}</td>
-                                                            <td>{{ $p->status }}</td>
+                                                                <td>{{ $p->adressabonnement }}</td>
+                                                                <td>
+                                                                    {{ $p->province }}
+                                                                </td>
+                                                                <td>{{ $p->client }}</td>
+                                                                <td>{{ $p->status }}</td>
 
-                                                            <td>
-                                                                <a href="#show{{ $p->id }}" class="btn btn-primary"
-                                                                    data-toggle="modal">
-                                                                    <i class="fas fa-info"></i>
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                @endforeach
+                                                                <td>
+                                                                    <a href="#show{{ $p->id }}" class="btn btn-primary"
+                                                                        data-toggle="modal">
+                                                                        <i class="fas fa-info"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        @endforeach
                                                     </tbody>
-
-                                              
-
                                             </table>
                                         </div>
 

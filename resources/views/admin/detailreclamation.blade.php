@@ -411,7 +411,7 @@
                                                     </td>
 
                                                 </tr>
-                                                <tr >
+                                                <tr>
                                                     <th scope="col" style="background-color:orange; color:white">Objet</th>
                                                     <td style="background-color:white; color:black">
                                                         {{ $reclamation->objet }}
