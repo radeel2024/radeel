@@ -480,7 +480,7 @@
 
 
         <br><br>
-            <div class="container">
+            <!-- <div class="container">
                 @foreach($galerie as $index => $album)
                     <div class="mySlides">
                         <img  src="{{ asset('albume/' . $album->image) }}"class="img-fluid" width="100%" style="height: 700px;">
@@ -527,9 +527,208 @@
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
             }
+        </script> -->
+        
+
+
+        <style>
+        .nav-item.active a {
+            background-color: red
+                /* Votre couleur préférée */
+            ;
+            border-color: red
+                /* Couleur de la bordure */
+            ;
+            color: white
+                /* Couleur du texte */
+            ;
+        }
+        #nav-link-1 .active {
+            color: #fff;
+            background-color: #fbc02d;
+            border-color: transparent;
+            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+        }
+
+        #nav-link-2 .active {
+            color: #fff;
+            background-color: #004b82;
+            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+
+        #nav-link-3 .active {
+            color: #fff;
+            background-color: #009331;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-3 a {
+            color: #009331;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-2 a {
+            color: #285AEB;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-1 a {
+            color: #fbc02d;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+       
+       
+
+    </style>
+
+
+
+    <div class="container-fluid destination py-5">
+        <div class="container py-5">
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                    <li class="nav-item" id="nav-link-3">
+                        <a class="d-flex mx-3 py-2   rounded-pill active"
+                            data-bs-toggle="pill" href="#tab-1"   >
+                            <span style="width: 150px;">Tout</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-link-1">
+                        <a class="d-flex py-2 mx-3     rounded-pill"
+                            data-bs-toggle="pill" href="#tab-2"  >
+                            <span style="width: 150px;">Galerie</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-link-2">
+                        <a class="d-flex mx-3 py-2   rounded-pill"
+                            data-bs-toggle="pill" href="#tab-3"  >
+                            <span style="width: 150px;">Audiovisual</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+
+                        <div class="row g-4">
+                            @foreach ($coupure as $c)
+                                <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                    <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                        <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
+                                            width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                            onclick="displayImage(this)">
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                       
+                        <div class="d-flex justify-content-center">
+                            {{ $coupure->links() }}
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="container">
+                @foreach($galerie as $index => $album)
+                    <div class="mySlides">
+                        <img  src="{{ asset('albume/' . $album->image) }}"class="img-fluid" width="100%" style="height: 700px;">
+                    </div>
+                @endforeach
+        
+                <a class="prev" onclick="plusSlides(-1)" style="margin-top: -95px; font-size: 30px; ">❮</a>
+                <a class="next" onclick="plusSlides(1)"  style="margin-top: -90px; font-size: 30px;">❯</a>
+        
+                <div class="row">
+                    @foreach($galerie as $index => $album)
+                        <div class="column" style="width: 10%; padding: 10px;">
+                            <img class="demo cursor" src="{{ asset('albume/' . $album->image) }}" style="width: 100%; height: auto; max-height: 200px;" onclick="currentSlide({{ $index + 1 }})">
+                        </div>
+                    @endforeach
+                </div>
+                
+            </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row img-fluid">
+                            @foreach ($coupure as $c)
+                                @if ($c->type == 'eau')
+                                    <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                        <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                            <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
+                                                width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                                onclick="displayImage(this)">
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid" alt="Modal Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Container -->
+
+
+    <!-- JavaScript to handle image display -->
+    <script>
+        function displayImage(img) {
+            var modalImage = document.getElementById("modalImage");
+            modalImage.src = img.src;
+        }
+    </script>
+
+
+<script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+        
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+        
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+        
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
         </script>
-        
-        
         <br><br>
           <!-- Footer-->
           <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">

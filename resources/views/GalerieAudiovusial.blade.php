@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <title>Radeel</title>
@@ -8,53 +9,65 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
-        rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <head>
+        <meta charset="utf-8">
+        <title>RADEEL</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+            rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+            rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <style>
-        .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('/img/agenceRadeel1.png') center center no-repeat;
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-        }
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        .nav-item.dropdown>a::after {
-            display: none !important;
-        }
-    </style>
-</head>
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            .page-headere {
+                background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(https://www.shbarcelona.fr/blog/fr/wp-content/uploads/2015/11/raccordement-eau-electricite1.jpg) center center no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+
+            .nav-item.dropdown>a::after {
+                display: none !important;
+            }
+        </style>
+    </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div class="container-fluid py-2 d-none d-md-flex" style="background: #077ec0; font-size:18px; font-family:'arial'">
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
-                    <small class=" text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com </a></small>
-                    <small class=" text-white"><i class="fas fa-map-marker-alt text-white"></i>
+                    <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
+                            href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com</a></small>
+                    <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
                         <a style="color:white;text-decoration: none;text-decoration: none;"
                             href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
-                            target="_blank" rel="noopener"> 1647, lotissement Maghreb AL JADID</a>
+                            target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
                     </small>
                 </div>
 
@@ -82,9 +95,6 @@
             </div>
         </div>
     </div>
-
-    <!-- end Spinner Start -->
-
     <style>
         #header {
             height: 70px;
@@ -121,7 +131,12 @@
             }
         }
 
-     
+        /*--------------------------------------------------------------
+            # Navigation Menu
+            --------------------------------------------------------------*/
+                    /**
+            * Desktop Navigation
+         */
         .navbar {
             padding: 0;
         }
@@ -266,7 +281,9 @@
             }
         }
 
-       
+        /**
+* Mobile Navigation
+*/
         .mobile-nav-toggle {
             color: #fff;
             cursor: pointer;
@@ -377,9 +394,8 @@
         .navbar-mobile .dropdown>.dropdown-active {
             display: block;
         }
-
-      
     </style>
+
     <!-- Navbar Start -->
     <header id="header" class="sticky-top d-flex align-items-center">
 
@@ -401,7 +417,7 @@
                 </button>
                 <ul>
                     <li><a class="nav-link scrollto " href="{{ url('../') }}">ACCEUIL</a></li>
-                    <li class="dropdown"><a href class="nav-link active"><span>RADEEL</span> <i
+                    <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
@@ -412,11 +428,12 @@
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i
+                    <li class="dropdown" style="color:black;"><a><span>ESPACE CLIENT</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
-                                    ligne</strong></a></li>
+                                    ligne</strong></a>
+                            </li>
                             <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
                             <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
                             <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
@@ -424,19 +441,19 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
+                    <li class="dropdown" style="color:black;"><a><span>ESPACE RH</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                            <!--  <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li> -->
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
-                                    recrutement</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de recrutement</a></li>
                             <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i
+                    <li class="dropdown" style="color:black;"><a><span>FOURNISSEURS</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                        <!--     <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
+
+                          <!--   <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
                                     d'offres</a></li>
                             <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
                                     d'offres</a></li> -->
@@ -445,9 +462,10 @@
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
                                     publics </a></li>
 
+
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
+                    <li class="dropdown"><a class="nav-link  active"><span>PRATIQUE</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
@@ -481,81 +499,196 @@
 
                 </ul>
 
-            </nav>
+            </nav><!-- .navbar -->
         </div>
     </header>
+
     <!-- Navbar End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Mot de Directeur Général </h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Coupure
+                l'electricité et eau</h1>
         </div>
     </div>
+    <!-- Page Header End -->
 
-   
-    <!-- Page presentation RADEEL  -->
-    <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
+
+
+    <style>
+        .nav-item.active a {
+            background-color: red
+                /* Votre couleur préférée */
+            ;
+            border-color: red
+                /* Couleur de la bordure */
+            ;
+            color: white
+                /* Couleur du texte */
+            ;
+        }
+        #nav-link-1 .active {
+            color: #fff;
+            background-color: #fbc02d;
+            border-color: transparent;
+            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+        }
+
+        #nav-link-2 .active {
+            color: #fff;
+            background-color: #004b82;
+            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+
+        #nav-link-3 .active {
+            color: #fff;
+            background-color: #009331;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-3 a {
+            color: #009331;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-2 a {
+            color: #285AEB;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-1 a {
+            color: #fbc02d;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+       
+       
+
+    </style>
+
+
+
+    <div class="container-fluid destination py-5">
         <div class="container py-5">
-            <div class="row ">
-                <div class="col-lg">
-                    <div class="section-title position-relative ">
-                        <h2 class="mb-0 text" style="color: #077ec0;"> Régie Autonome Intercommunale de Distribution
-                            d'Eau et d'Electricité de la Province de Larache </h2>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                    <li class="nav-item" id="nav-link-3">
+                        <a class="d-flex mx-3 py-2   rounded-pill active"
+                            data-bs-toggle="pill" href="#tab-1"   >
+                            <span style="width: 150px;">Tout</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-link-1">
+                        <a class="d-flex py-2 mx-3     rounded-pill"
+                            data-bs-toggle="pill" href="#tab-2"  >
+                            <span style="width: 150px;">Galerie</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-link-2">
+                        <a class="d-flex mx-3 py-2   rounded-pill"
+                            data-bs-toggle="pill" href="#tab-3"  >
+                            <span style="width: 150px;">Audiovisual</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+
+                        <div class="row g-4">
+                            @foreach ($coupure as $c)
+                                <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                    <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                        <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
+                                            width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                            onclick="displayImage(this)">
+                                    </div>
+                                </div>
+                            @endforeach
+                        </div>
+                       
+                        <div class="d-flex justify-content-center">
+                            {{ $coupure->links() }}
+                        </div>
                     </div>
-                    <br>
-                    <p >La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de Larache
-                        est un établissement public à caractère industriel et commercial doté de la responsabilité
-                        civile et de l’autonomie financière.</p>
-                    <p>Cet établissement a été crée en janvier 1996 conformément au décret n° 2-64-394 du 22 joumada I
-                        1384 (29 septembre 1964), aux délibérations du syndicat des communes et à l’arrêté de Monsieur
-                        le Ministre de l’intérieur n° 9-95-96.</p>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            @foreach ($coupure as $c)
+                                @if ($c->type == 'electricité')
+                                    <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                        <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                            <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
+                                                width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                                onclick="displayImage(this)">
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="row img-fluid">
+                            @foreach ($coupure as $c)
+                                @if ($c->type == 'eau')
+                                    <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                        <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                            <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
+                                                width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                                onclick="displayImage(this)">
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" id="motsDirecteur">
-        <div class="container ">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative">
-                        <h2 class="mb-0 text" style="color: #D1801D; ">Mot du Directeur Général Mr MOHAMED CHAOUI </h2>
-                    </div>
-                    <br>
-                    <p>Crée en janvier 1996, la régie autonome intercommunale de distribution d’eau et d’électricité de
-                        la Province de Larache est chargée d’une mission de service publique dont l’importance relève du
-                        développement économique et social de la Province.</p>
-                    <p class="mb-4">Consciente de l’importance fondamentale que revêt sa mission dans la vie
-                        quotidienne des citoyens, la RADEEL maintient sans cesse la mobilisation de son capital humain
-                        et matériel afin de relever les défis continuels auxquels elle est confrontée.</p>
-                    <p class="mb-4">Depuis la prise en charge du secteur de l’assainissement liquide en 2004,
-                        plusieurs projets ont été réalisés, à travers lesquels, la régie tient à participer activement à
-                        la généralisation de l’accès au service de l’assainissement liquide mais aussi contribuer à la
-                        protection et à la préservation de l’environnement.</p>
-                    <p class="mb-4">Parallèlement à ces activités relevant du domaine de l’eau, l’assainissement
-                        liquide et l’électricité, la régie innove assidûment les infrastructures, et ce pour satisfaire
-                        les attentes de sa clientèle.</p>
-                    <p class="mb-4">La RADEEL réaffirme sa volonté de renforcer et de moderniser ses canaux de
-                        communication déjà existants, par la création du présent site web. Nous espérons qu’à travers ce
-                        dernier, vous puissiez trouver toute l’information et l’assistance nécessaire pour vos besoins.
-                    </p>
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid" alt="Modal Image">
                 </div>
-                <div class="col-lg-5">
-                    <div class="container">
-                        <img class=" rounded wow zoomIn img-fluid" data-wow-delay="0.1s" src="img/Mohamed_Chaoui.jpg" 
-                        style="object-fit: cover; display:block; height:580px;">
-                    </div>
-                </div>
-                <br>
             </div>
         </div>
     </div>
-    <!-- Page mots de directeur general RADEEL End -->
-    <br><br><br><br><br>
+
+    <!-- Image Container -->
+
+
+    <!-- JavaScript to handle image display -->
+    <script>
+        function displayImage(img) {
+            var modalImage = document.getElementById("modalImage");
+            modalImage.src = img.src;
+        }
+    </script>
+
+
     
-    <!-- Footer Start -->
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    <!-- About Start -->
+    <br><br>
+
+    <!-- About End -->
+
+
+     {{-- footer --}}
+     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s"  style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -564,8 +697,7 @@
                             style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
-                        La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
-                        Larache</p>
+                        La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de Larache</p>
                     <div class="d-flex hightech-link">
                         <a href="https://www.facebook.com/RADEEL.Officiel/"
                             class="btn-light nav-fill btn btn-square rounded-circle me-2">
@@ -589,8 +721,7 @@
                         <a href="{{ url('../') }}#contact" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Contact</a>
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
-                            clients</a>
+                                class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces clients</a>
                         <a href="{{ url('../loi') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
@@ -610,241 +741,245 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2" style="background: #077ec0;"></i>N, BP:11,
+                                class="fas fa-map-marker-alt text me-2" ></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2" style="background: #077ec0;"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2" ></i>0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"
-                                style="background: #077ec0;"></i>
+                                ></i>
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-envelope text me-2" style="background: #077ec0;"></i>
+                                class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.com</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-home text me-2" style="background: #077ec0;"></i>Lun-Ven 8:00 -
+                                class="fas fa-home text me-2" ></i>Lun-Ven 8:00 -
                             16:30</a>
                     </div>
                 </div>
             </div>
             <hr class="text-light mt-5 mb-4">
             <div class="row">
-                <div class="col-md-6 text-center text-md-end">
-                    <a href="#" class="text-center"><i
+                <div class="col-md-6 ">
+                    <a href="#" class="text-center   text-light"><i
                         class="fas fa-copyright ">
-                        Copyright @2023</i></a>, All right reserved by Radeel</span>
+                        Copyright @2023</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
                 </div>
             </div>
         </div>
     </div>
+        <!-- Footer End -->
+    
+        <!-- Footer End -->
+     
+<style>
+    .reseau {
+        position: fixed;
+        top: 400px;
+        left: 0%;
+        transform: translate(-50%, -50%);
+    }
 
-    <style>
-        .wrapper {
-            position: fixed;
-            top: 400px;
-            left: 0%;
-            transform: translate(-50%, -50%);
-        }
+    .reseau ul {
+        list-style: none;
+    }
 
-        .wrapper ul {
-            list-style: none;
-        }
+    .reseau ul li {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        background: #e59500;
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
 
-        .wrapper ul li {
-            width: 50px;
-            height: 50px;
-            position: relative;
-            background: #e59500;
-            margin: 10px 0;
-            cursor: pointer;
-            border-radius: 3px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
+    .reseau ul li .fab {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #fff;
+    }
 
-        .wrapper ul li .fab {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px;
-            color: #fff;
-        }
+    .reseau ul li.facebook {
+        background: #39569C;
+    }
 
-        .wrapper ul li.facebook {
-            background: #39569C;
-        }
+    .reseau ul li.twitter {
+        background: #14171A;
+    }
 
-        .wrapper ul li.twitter {
-            background: #14171A;
-        }
+    .reseau ul li.instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
 
-        .wrapper ul li.instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
+    .reseau ul li.linkdin {
+        background: #39569C;
+    }
 
-        .wrapper ul li.linkdin {
-            background: #39569C;
-        }
+    .reseau ul li.youtube {
+        background-color: red;
+    }
 
-        .wrapper ul li.youtube {
-            background-color: red;
-        }
+    .reseau ul li.facebook div.slider {
+        background: #627aac;
+    }
 
-        .wrapper ul li.facebook div.slider {
-            background: #627aac;
-        }
+    .reseau ul li.twitter div.slider {
+        background: #14171A;
+    }
 
-        .wrapper ul li.twitter div.slider {
-            background: #14171A;
-        }
+    .reseau ul li.instagram div.slider {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    }
 
-        .wrapper ul li.instagram div.slider {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
+    .reseau ul li.linkdin div.slider {
+        background: #39569C;
+    }
 
-        .wrapper ul li.linkdin div.slider {
-            background: #39569C;
-        }
+    .reseau ul li.youtube div.slider {
+        background: red;
+    }
 
-        .wrapper ul li.youtube div.slider {
-            background: red;
-        }
+    .slider {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 51px;
+        width: 0px;
+        height: 50px;
+        background: #eebb5c;
+        border-radius: 3px;
+        transition: all 0.5s 0.3s ease;
+    }
 
-        .slider {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 51px;
-            width: 0px;
-            height: 50px;
-            background: #eebb5c;
-            border-radius: 3px;
-            transition: all 0.5s 0.3s ease;
-        }
+    .slider p {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        opacity: 0;
+        transition: all 0.6s ease;
+    }
 
-        .slider p {
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: 900;
-            color: #fff;
-            text-align: center;
-            line-height: 50px;
-            opacity: 0;
-            transition: all 0.6s ease;
-        }
+    .reseau ul li:hover .slider {
+        width: 180px;
+        transition: all 0.5s ease;
+    }
 
-        .wrapper ul li:hover .slider {
-            width: 180px;
-            transition: all 0.5s ease;
-        }
+    .reseau ul li:hover .slider p {
+        opacity: 1;
+        transition: all 1s 0.2s ease;
+    }
+</style>
 
-        .wrapper ul li:hover .slider p {
-            opacity: 1;
-            transition: all 1s 0.2s ease;
-        }
-    </style>
+<div class="reseau">
+    <ul>
+        <li class="facebook">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+            <div class="slider">
+                <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
+            </div>
+        </li>
 
-    <div class="wrapper">
-        <ul>
-            <li class="facebook">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
-                </div>
-            </li>
+        <style>
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+        <li class="twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
+                viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#fff"
+                    d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
+            </svg>
+            <div class="slider">
+                <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
+                        style="color:white;">twitter</a></p>
+            </div>
+        </li>
 
-            <style>
-                svg {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-            </style>
-            <li class="twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
-                    viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path fill="#fff"
-                        d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
-                </svg>
-                <div class="slider">
-                    <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">twitter</a></p>
-                </div>
-            </li>
+        <li class="instagram">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <div class="slider">
+                <p> <a href="https://www.instagram.com/p/CwSqgxHOC6d/" style="color:white;">instagram</a></p>
+            </div>
+        </li>
 
-            <li class="instagram">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.instagram.com/p/CwSqgxHOC6d/" style="color:white;">instagram</a></p>
-                </div>
-            </li>
+        <li class="linkdin">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            <div class="slider">
+                <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
+            </div>
+        </li>
+        <li class="youtube">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            <div class="slider">
+                <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
+            </div>
+        </li>
+    </ul>
+</div>
 
-            <li class="linkdin">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
-                </div>
-            </li>
-            <li class="youtube">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
-                </div>
-            </li>
-        </ul>
-    </div>
+<!-- allo Radeel -->
 
-    <!-- Footer End -->
-    <style>
-        .allo {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 24px;
-            right: 24px;
-            background-color: #f89323;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 3;
-        }
+<style>
+    .allo {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 24px;
+        right: 24px;
+        background-color: #f89323;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 24px;
+        z-index: 3;
+    }
 
-        .allo i {
-            color: white;
-            font-size: 26px;
+    .allo i {
+        color: white;
+        font-size: 26px;
 
-        }
+    }
 
-        .allo .allotext {
-            background-color: #f89323;
-            padding: 4px 8px;
-            white-space: nowrap;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            font-size: 11px;
-            position: absolute;
-            z-index: 1;
-            top: 5px;
-            right: 105%;
-        }
-    </style>
+    .allo .allotext {
+        background-color: #f89323;
+        padding: 4px 8px;
+        white-space: nowrap;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 11px;
+        position: absolute;
+        z-index: 1;
+        top: 5px;
+        right: 105%;
+    }
+</style>
 
-    <a href="tel:0801000042" class="allo">
-        <i class="fas fa-headset"></i>
-        <span class="allotext">Allo RADEEL!</span>
-    </a>
+<a href="tel:0801000042" class="allo">
+    <i class="fas fa-headset"></i>
+    <span class="allotext">Allo RADEEL</span>
+</a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -857,11 +992,31 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    
 
-    <script >
+    <script>
         jQuery(document).ready(function() {
-       $('#modalIndex').modal('show')});</script>        <!-- Footer End -->
-    </body>    
+            $('#modalIndex').modal('show')
+        });
+    </script>
 
+
+    <script>
+        jQuery(document).ready(function() {
+            $('#modalIndex').modal('show')
+        });
+    </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
 </html>

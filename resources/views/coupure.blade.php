@@ -12,7 +12,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>HighTech - IT Solutions Website Template</title>
+        <title>RADEEL</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -132,11 +132,11 @@
         }
 
         /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-        /**
-* Desktop Navigation
-*/
+            # Navigation Menu
+            --------------------------------------------------------------*/
+                    /**
+            * Desktop Navigation
+         */
         .navbar {
             padding: 0;
         }

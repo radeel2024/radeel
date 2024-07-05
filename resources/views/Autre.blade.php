@@ -588,13 +588,12 @@
                                             <i class="fas fa-tint" ></i> Surveillez votre compteur<i class="fas fa-question"></i>
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
                                         <div class="card-body">
                                             <p>Pour éviter les mauvaises surprises, regardez régulièrement votre compteur
                                             une fois par mois
                                             est la meilleure façon de se rendre compte d’une consommation excessive et
-                                            tant qu’il est encore
-                                            temps.</p>
+                                            tant qu’il est encoretemps.</p>
                                         </div>
                                     </div>
                                 </div>

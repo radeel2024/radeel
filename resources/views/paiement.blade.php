@@ -515,6 +515,8 @@
                 
                 <div class=" h-100 position-relative" >
                     <img src="img/paiement-guide.gif" class="img-fluid  rounded"  >
+                    <p style="margin:50px; text-align:center; "><a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040" class="btn btn" style='background-color:#D1801D; color: white;padding:15px;'> <i class="fas fa-credit-card" ></i>  Payer vos factures </a></p>
+               
                 </div>
                 <br><br>
                       </div>
