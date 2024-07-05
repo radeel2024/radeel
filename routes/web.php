@@ -232,6 +232,8 @@ use App\Http\Controllers\RoleController;
             //Espace client communication
             Route::get('/communication', [AdminController::class, 'communication'])->name('communication');
             Route::post('/updatereclamation/{id}', [AdminController::class, 'updatereclamation'])->name('updatereclamation');
+            Route::get('/reclamationdetails/{id}', [AdminController::class, 'reclamationdetails'])->name('reclamationdetails');
+
 
 
             //Espace client commercial
@@ -246,6 +248,9 @@ use App\Http\Controllers\RoleController;
             Route::get('/statistique Commerciale', [AdminController::class, 'statistiqueCom'])->name('statistiqueCom');
             Route::get('/statistique Achat logistique', [AdminController::class, 'statistiqueachatlo'])->name('statistiqueachatlo');
             Route::get('/statistique Ressources humaines', [AdminController::class, 'statistiquerh'])->name('statistiquerh');
+
+            //generate pdf
+            Route::get('/generate/{id}', [AdminController::class,'generatepdf'])->name('generatepdf');
 
 
             //logout

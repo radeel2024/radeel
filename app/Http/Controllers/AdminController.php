@@ -34,6 +34,9 @@ use DOMDocument;
 use Spatie\Permission\Traits\HasRoles;
 use App\Models\role;
 use App\Models\vistore;
+use Barryvdh\DomPDF\Facade\Pdf;
+
+
 
 use Arr;
 
@@ -1313,8 +1316,6 @@ class AdminController extends Controller
     }
     public function updatezone(Request $request,$id)
     {
-  
-  
           $annonce = zonespeciale::find($id);
           if($request->has('file')){
   
@@ -1345,6 +1346,18 @@ class AdminController extends Controller
         return view('admin.communication',['commu'=>$communcation,'sms'=>$sms]);
     }
 
+    public function reclamationdetails($id){
+
+        $reclamation = reclamation::find($id);
+
+        reclamation::where('id',$id)->update([
+            'status'=>'En cours',
+        ]);
+
+        return view('admin.detailreclamation',['reclamation'=>$reclamation]);
+
+    }
+
     public function updatereclamation(Request $requestn,$id){
 
         reclamation::where('id',$id)->update([
@@ -1361,6 +1374,17 @@ class AdminController extends Controller
         $racoredement = racordement::all();
         $resuliation = physiqueresiliation::all();
         return view('admin.commerciale',compact('abonnement','racoredement','resuliation'));
+    }
+
+    public function generatepdf(Request $request)
+    { 
+        
+        $data = [
+            'tele'=>"0644608345"
+        ];
+        $pdf = Pdf::loadView('admin.generate-pdf', $data);
+        return $pdf->download('generate.pdf');
+
     }
 
     //contact

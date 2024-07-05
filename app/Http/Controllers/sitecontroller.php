@@ -227,7 +227,7 @@ class sitecontroller extends Controller
         $reclamation->nom = $request['nom']; 
         $reclamation->objet = $request['objet']; 
         $reclamation->des = $request['des'];
-        $reclamation->status = "En cours";
+        $reclamation->status = "Envoyé";
         $randomNumber = $reclamation->numDossier . Carbon::now()->format('Ymd');
         $reclamation->randomnumber = $randomNumber;
         $reclamation->save();
@@ -238,9 +238,10 @@ class sitecontroller extends Controller
     }
 
     public function searchreacalamtion(Request $request){
+
         $id = $request->randomnumber;
         $rec = reclamation::where('randomnumber',$id)->where('status','traiter')->first();
-        $recole = reclamation::where('randomnumber',$id)->where('status','En cours')->first();
+        $recole = reclamation::where('randomnumber',$id)->where('status','Envoyé')->first();
 
         return redirect()->back()->with(['reco' => $rec,'recole'=>$recole, 'showModale' => true]);
     }
