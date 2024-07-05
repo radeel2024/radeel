@@ -27,6 +27,7 @@ use App\Http\Controllers\RoleController;
 
 
     Route::get('/', [sitecontroller::class, 'index'])->name('index');
+    // Route::get('/galerieAudiovisual', [sitecontroller::class, 'galerieAudiovisual'])->name('GalerieAudiovusial');
     Route::post('/contact', [sitecontroller::class, 'contact'])->name('addcontact');
     Route::post('/addReclamation', [sitecontroller::class, 'addReclamation'])->name('addReclamation');
     Route::post('/searchreacalamtion', [sitecontroller::class, 'searchreacalamtion'])->name('searchreacalamtion');

@@ -624,10 +624,6 @@
                                                 style="width: 31px;">Date de concour</th>
                                             <th class="sorting" tabindex="0" aria-controls="dataTable"
                                                 rowspan="1" colspan="1"
-                                                aria-label="Age: activate to sort column ascending"
-                                                style="width: 31px;">Date de concour</th>
-                                            <th class="sorting" tabindex="0" aria-controls="dataTable"
-                                                rowspan="1" colspan="1"
                                                 aria-label="Start date: activate to sort column ascending"
                                                 style="width: 72px;">Candidats convoqués pour l'ecrit</th>
                                             <th class="sorting" tabindex="0" aria-controls="dataTable"
@@ -651,8 +647,6 @@
                                                 </td>
                                                 <td> {{ $r->titre }}</td>
                                                 <td> {{ $r->dateconcour }}</td>
-                                                <td> {{ $r->dateexpiration }}</td>
-
                                                 <td>
                                                     @if (isset($r->ecrit))
                                                         <a href="{{ asset('ecrit/' . $r->ecrit) }}" target="_blank ">

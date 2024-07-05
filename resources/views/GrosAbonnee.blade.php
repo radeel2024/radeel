@@ -838,7 +838,7 @@
                                             Raccordement au réseau d'eau potable
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Vous avez un projet (unité industrielle, hôtel, bain ou douche

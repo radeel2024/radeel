@@ -413,15 +413,15 @@
                     data-src="https://www.google.com/maps/place/Agence+Centrale+RADEEL/@35.1949436,-6.1486976,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc8d6963947b3:0x31f7172908884126!8m2!3d35.1949392!4d-6.1465089"
                     data-bs-target="#mapsModel1">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color:#077ec0">Agence centrale</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>1, rue
                                 oujda<br>
-                                <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -429,15 +429,15 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal"
                     data-src="" data-bs-target="#mapsModel">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color:#077ec0">Agence siége</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Agence
                                 siége<br>
-                                <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -449,15 +449,15 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel2">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color:#077ec0">Agence Assalam</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Lotissement
                                 Assalam<br>
-                                <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -472,15 +472,15 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel3">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color:#077ec0">Agence smara</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Lotissement
                                 smara<br>
-                                <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -503,17 +503,17 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel4">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence centrale</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Route
                                 de
                                 Rabat<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -523,16 +523,16 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel5">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Attallah</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2"
                                     style="color: rgb(155,187,89);"></i>Lotissement Attallah<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -542,16 +542,16 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel6">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Assalam</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2"
                                     style="color: rgb(155,187,89);"></i>Lotissement Bouchouika<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -567,17 +567,17 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel7">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);D1801D">Agence Oulad Hmaid </h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Agence
                                 Oulad
                                 Hmaid <br>
-                                <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -587,16 +587,16 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel8">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Ourouba </h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Agence
                                 Ourouba<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -620,15 +620,15 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel9">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: #D1801D">Agence Khémis SAHEL</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i>Route nationale
                                 vers Tanger-Tétouan<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="color: #D1801D"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -638,15 +638,15 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel10">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: #D1801D">Agence Aouamra</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i>Route nationale
                                 Larache vers Ksar EL KEBIR<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="color: #D1801D"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -656,14 +656,14 @@
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel11">
                     <div class="service-item rounded overflow-hidden">
-                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px;">
+                        <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: #D1801D"> Ksar BJIR</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i> Ksar BJIR<br>
-                                <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
+                                <!-- <i class="fas fa-phone-alt text me-2" style="color: #D1801D"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="color: #D1801D;"></i>
-                                reclamation@radeel.com
+                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>

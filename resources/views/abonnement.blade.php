@@ -640,7 +640,7 @@
                                             Branchement Neuf
                                         </div>
                                     </a>
-                                    <div id="collapseOne1" class="collapse show" data-bs-parent="#accordion">
+                                    <div id="collapseOne1" class="collapse " data-bs-parent="#accordion">
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Si votre habitation n’a jamais été branchée aux réseaux d’eau
@@ -897,7 +897,7 @@
                                             Abonnement suite à un nouveau branchement
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion1">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion1">
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Après paiement du branchement définitif de votre habitation,
@@ -1003,7 +1003,7 @@
                                             Le relevé de votre Consommation
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion2">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion2">
                                         <div class="card-body">
                                             <p
                                                 style="font-size:20px; font-weight:border; color:#7DB41E; text-decoration: underline;padding-left:30px;">

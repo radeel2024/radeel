@@ -136,9 +136,9 @@
 </head>
 
 <body>
-
-    <!-- Spinner Start -->
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+    
+       <!-- Spinner Start -->
+       <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
@@ -176,7 +176,6 @@
             </div>
         </div>
     </div>
-
     <!-- end Spinner Start -->
 
     <style>
@@ -242,7 +241,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 12px 0;
-            font-size: 14px;
+            font-size: 15px;
             color: rgba(255, 255, 255, 0.8);
             white-space: nowrap;
             transition: 0.3s;
@@ -253,7 +252,7 @@
 
         .navbar a i,
         .navbar a:focus i {
-            font-size: 12px;
+            font-size: 13px;
             line-height: 0;
             margin-left: 5px;
             color: black;

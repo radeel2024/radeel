@@ -593,7 +593,7 @@
                     </a>
                 </br>
                     <a href="#exampleModalCenter" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
-                        style="font-size: 26px; color:#D1801D"><i class="fas fa-times-circle"
+                        style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
                             style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
                             class="text-center">Réclamation en ligne
                         </strong></a>
