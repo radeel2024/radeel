@@ -1376,11 +1376,11 @@ class AdminController extends Controller
         return view('admin.commerciale',compact('abonnement','racoredement','resuliation'));
     }
 
-    public function generatepdf(Request $request)
+    public function generatepdf(Request $request,$id)
     { 
-        
+        $reclamation = reclamation::find($id);
         $data = [
-            'tele'=>"0644608345"
+            'rec'=>$reclamation
         ];
         $pdf = Pdf::loadView('admin.generate-pdf', $data);
         return $pdf->download('generate.pdf');

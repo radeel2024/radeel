@@ -168,8 +168,7 @@
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Pages</span>
                 </a>
-                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
-                    data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         @can('acceuil')
                             <a class="collapse-item " href="{{ route('Acceuil') }}"><strong>Acceuil</strong></a>
@@ -374,65 +373,79 @@
                                         @endif
 
                                         <div class="container-fluid">
-                                            
+
                                             <table class="table" style="padding: 5px">
 
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">N ° Réclamation</th>
-                                                    <td scope="col" style="color:black">{{ $reclamation->numDossier }}</td>
+                                                <tr>
+                                                    <th scope="col" style="background-color:orange; color:white">N °
+                                                        Réclamation</th>
+                                                    <td scope="col" style="color:black">{{ $reclamation->numDossier }}
+                                                    </td>
 
 
                                                 </tr>
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">N ° Dossier</th>
+                                                <tr>
+                                                    <th scope="col" style="background-color:orange; color:white">N °
+                                                        Dossier</th>
                                                     <td style="background-color:white; color:black">
                                                         {{ $reclamation->randomnumber }}
                                                     </td>
 
                                                 </tr>
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">Telephone</th>
+                                                <tr>
+                                                    <th scope="col" style="background-color:orange; color:white">
+                                                        Telephone</th>
                                                     <td style="background-color:white; color:black">
                                                         {{ $reclamation->tele }}
                                                     </td>
 
                                                 </tr>
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">Email</th>
+                                                <tr>
+                                                    <th scope="col" style="background-color:orange; color:white">Email
+                                                    </th>
                                                     <td style="background-color:white; color:black">
                                                         {{ $reclamation->email }}
                                                     </td>
 
                                                 </tr>
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">Nom</th>
+                                                <tr>
+                                                    <th scope="col" style="background-color:orange; color:white">Nom
+                                                    </th>
                                                     <td style="background-color:white; color:black">
                                                         {{ $reclamation->nom }}
                                                     </td>
 
                                                 </tr>
                                                 <tr>
-                                                    <th scope="col" style="background-color:orange; color:white">Objet</th>
+                                                    <th scope="col" style="background-color:orange; color:white">Objet
+                                                    </th>
                                                     <td style="background-color:white; color:black">
-                                                        {{ $reclamation->objet }}
-                                                    </td>
+                                                        {{ Illuminate\Support\Str::limit($reclamation->objet, $limit = 30, $end = '...') }}
 
-                                                </tr>
-                                                <tr >
-                                                    <th scope="col" style="background-color:orange; color:white">Description</th>
-                                                    <td style="background-color:white; color:black">
-                                                        {{ $reclamation->des }}
                                                     </td>
 
                                                 </tr>
                                                 <tr>
-                                                    <td scope="col text-center" >
-                                                        <form method="get" action="{{route('generatepdf',$reclamation->id)}}">
-                                                            <button class="btn btn-primary">
-                                                                Imprimer
-                                                            </button>
-                                                        </form>
+                                                    <th scope="col" style="background-color:orange; color:white">
+                                                        Description</th>
+                                                    <td style="background-color: white; color: black;" scope="col">
+                                                        {{ Illuminate\Support\Str::limit($reclamation->des, $limit = 30, $end = '...') }}
                                                     </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <br>
+                                                    <div class="d-flex justify-content-center">
+                                                        <td></td>
+                                                        <td scope="col text-center">
+                                                            <form method="get"
+                                                                action="{{route('generatepdf', $reclamation->id)}}">
+                                                                <button class="btn btn-primary">
+                                                                    Imprimer
+                                                                </button>
+                                                            </form>
+                                                        </td>
+                                                    </div>
                                                 </tr>
                                             </table>
                                         </div>
