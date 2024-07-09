@@ -238,9 +238,9 @@ class sitecontroller extends Controller
         $numeroreclamation  =  $reclamation->randomnumber;
 
 
-        Mail::to($reclamation->email)->send( new Myemail("imad"));
+        Mail::to($reclamation->email)->send( new Myemail());
         
-        Mail::to('radeelreclamation@gmail.com')->send( new Myemail("imad"));
+        //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
 
         // Redirect back with a success message and the numDossier for modal display
         return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true,'success' => "Votre reclamation $randomNumber est ajoutée avec succès "]);
