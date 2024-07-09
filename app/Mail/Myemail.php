@@ -31,7 +31,8 @@ class Myemail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Myemail',
+            subject: 'Réclamation',
+            from: 'reclamation@radeel.com'
         );
     }
 
@@ -43,7 +44,7 @@ class Myemail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.send',
+            view: 'send',
         );
     }
 

@@ -420,7 +420,7 @@
                                 style="height: 200px;">
                             <div class="position-relative p-4 pt-0">
                                 <br>
-                                <h4 class="mb-3"> {{ $e->title }} </h4>
+                                <h6 class="mb-3"> {{ $e->title }} </h6>
 
                                 <a class="small fw-medium" href="{{ route('details', $e->id) }}">Lire plus ...<i
                                         class="fa fa-arrow-right ms-2"></i></a>

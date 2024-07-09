@@ -1137,7 +1137,7 @@
                                             Résiliation
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion">
                                         <div class="accordion-body">
                                             <p class="text-start">
                                                 Si vous voulez résilier votre contrat d’abonnement moyenne
@@ -1183,7 +1183,7 @@
                                             La relevé de votre consommation
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion22">
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion22">
                                         <div class="accordion-body">
                                             <p class="text-start">
                                                 Si vous voulez résilier votre contrat d’abonnement moyenne

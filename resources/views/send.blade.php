@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radeel</title>
+  <style>
+    /* CSS to center the image */
+    .center {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello</h1>
+  <!-- Centered image -->
+  <div class="center">
+    <a href="{{ route('index') }}">
+      <!-- <img src="../images/reclamation.png" alt="Radeel Logo"> -->
+      <img src="https://i.ibb.co/Zz38N3N/reclamation.png" alt="Radeel Logo"> 
+    </a>
+  </div>
 </body>
 </html>

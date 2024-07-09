@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\sitecontroller;
+use App\Mail\Myemail;
 use App\Models\appel_offre;
 use App\Models\avis_offre;
 use App\Models\resultatappeloffer;
@@ -25,6 +26,9 @@ use App\Http\Controllers\RoleController;
 
    
 
+    Route::get('/send', function () {
+        Mail::to('radeelprojet@gmail.com')->send( new Myemail("imad"));
+    });
 
     Route::get('/', [sitecontroller::class, 'index'])->name('index');
     // Route::get('/galerieAudiovisual', [sitecontroller::class, 'galerieAudiovisual'])->name('GalerieAudiovusial');
@@ -45,7 +49,6 @@ use App\Http\Controllers\RoleController;
     Route::get('/details/{id}', [sitecontroller::class, 'details'])->name('details');
 
     Route::get('/Afficher/{id}', [sitecontroller::class, 'Afficher'])->name('Afficher');
-
     
     Route::get('/stage', [sitecontroller::class, 'stage'])->name('stage');
     Route::post('/addstage', [sitecontroller::class, 'addstage'])->name('addstage');

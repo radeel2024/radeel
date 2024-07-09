@@ -25,6 +25,9 @@ use Illuminate\Http\Request;
 use DB;
 use Carbon\Carbon;
 use Jenssegers\Agent\Agent;
+use Mail;
+use App\Mail\Myemail;
+
 
 
 
@@ -231,6 +234,13 @@ class sitecontroller extends Controller
         $randomNumber = $reclamation->numDossier . Carbon::now()->format('Ymd');
         $reclamation->randomnumber = $randomNumber;
         $reclamation->save();
+
+        $numeroreclamation  =  $reclamation->randomnumber;
+
+
+        Mail::to($reclamation->email)->send( new Myemail("imad"));
+        
+        Mail::to('radeelreclamation@gmail.com')->send( new Myemail("imad"));
 
         // Redirect back with a success message and the numDossier for modal display
         return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true,'success' => "Votre reclamation $randomNumber est ajoutée avec succès "]);

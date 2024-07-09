@@ -652,7 +652,7 @@
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:200px;width: 1080px;"
+                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:500px;width: 1080px;"
                                 class="img-fluid large-news-image news-image" alt="" >
                         </a>
 
@@ -670,14 +670,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col">    
+                    <div class="row">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:200px;width: 1080px;"
-                                class="img-fluid large-news-image news-image" alt="" >
+                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:100px;width: 1000px;"
+                                class="img-fluid large-news-image news-image" alt="">
                         </a>
-
                         <div class="news-text-info">
                             <h5 class="news-title">
                                 <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link">
@@ -713,7 +713,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                </div>
+                <!-- <div class="col">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
@@ -734,7 +735,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <br>
                 <!-- <div class="col-lg-6 col-12">
                     <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">

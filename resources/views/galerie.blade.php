@@ -475,122 +475,61 @@
         </div>
         <!-- Page Header End -->
 
-
-
-
-
-        <br><br>
-            <!-- <div class="container">
-                @foreach($galerie as $index => $album)
-                    <div class="mySlides">
-                        <img  src="{{ asset('albume/' . $album->image) }}"class="img-fluid" width="100%" style="height: 700px;">
-                    </div>
-                @endforeach
-        
-                <a class="prev" onclick="plusSlides(-1)" style="margin-top: -95px; font-size: 30px; ">❮</a>
-                <a class="next" onclick="plusSlides(1)"  style="margin-top: -90px; font-size: 30px;">❯</a>
-        
-                <div class="row">
-                    @foreach($galerie as $index => $album)
-                        <div class="column" style="width: 10%; padding: 10px;">
-                            <img class="demo cursor" src="{{ asset('albume/' . $album->image) }}" style="width: 100%; height: auto; max-height: 200px;" onclick="currentSlide({{ $index + 1 }})">
-                        </div>
-                    @endforeach
-                </div>
-                
-            </div>
-        
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-        
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-        
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-        
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-            }
-        </script> -->
-        
-
-
         <style>
-        .nav-item.active a {
-            background-color: red
-                /* Votre couleur préférée */
-            ;
-            border-color: red
-                /* Couleur de la bordure */
-            ;
-            color: white
-                /* Couleur du texte */
-            ;
-        }
-        #nav-link-1 .active {
-            color: #fff;
-            background-color: #fbc02d;
-            border-color: transparent;
-            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
-        }
+            .nav-item.active a {
+                background-color: red
+                    /* Votre couleur préférée */
+                ;
+                border-color: red
+                    /* Couleur de la bordure */
+                ;
+                color: white
+                    /* Couleur du texte */
+                ;
+            }
+            #nav-link-1 .active {
+                color: #fff;
+                background-color: #fbc02d;
+                border-color: transparent;
+                box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+            }
 
-        #nav-link-2 .active {
-            color: #fff;
-            background-color: #004b82;
-            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
+            #nav-link-2 .active {
+                color: #fff;
+                background-color: #004b82;
+                box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+            }
 
-        #nav-link-3 .active {
-            color: #fff;
-            background-color: #009331;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-        #nav-link-3 a {
-            color: #009331;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-        #nav-link-2 a {
-            color: #285AEB;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-        #nav-link-1 a {
-            color: #fbc02d;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-       
-       
-
+            #nav-link-3 .active {
+                color: #fff;
+                background-color: #009331;
+                box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+            }
+            #nav-link-3 a {
+                color: #009331;
+                background-color: #fff;
+                padding: 30px;
+                font-size: 19px;
+                margin: 20px;
+                box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+            }
+            #nav-link-2 a {
+                color: #285AEB;
+                background-color: #fff;
+                padding: 30px;
+                font-size: 19px;
+                margin: 20px;
+                box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+            }
+            #nav-link-1 a {
+                color: #fbc02d;
+                background-color: #fff;
+                padding: 30px;
+                font-size: 19px;
+                margin: 20px;
+                box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+            }
     </style>
-
-
 
     <div class="container-fluid destination py-5">
         <div class="container py-5">
@@ -617,25 +556,68 @@
                 </ul>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <section class="section bg-light">
+		<div class="container">
+			<div class="row align-items-stretch retro-layout">
+				<div class="col-md-4">
+					<a href="single.html" class="h-entry mb-30 v-height gradient">
 
-                        <div class="row g-4">
-                            @foreach ($coupure as $c)
-                                <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
-                                    <div class="service-item rounded overflow-hidden" style="height: 500px;">
-                                        <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
-                                            width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
-                                            onclick="displayImage(this)">
-                                    </div>
-                                </div>
-                            @endforeach
-                        </div>
-                       
-                        <div class="d-flex justify-content-center">
-                            {{ $coupure->links() }}
-                        </div>
+						<div class="" style="background-image: url('img/map.png');"></div>
+
+						<div class="text">
+							<span class="date">Apr. 14th, 2022</span>
+							<h2>AI can now kill those annoying cookie pop-ups</h2>
+						</div>
+					</a>
+					<a href="single.html" class="h-entry v-height gradient">
+
+						<div class="" style="background-image: url('img/sms2.jpg');"></div>
+
+						<div class="text">
+							<span class="date">Apr. 14th, 2022</span>
+							<h2>Don’t assume your user data in the cloud is safe</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="single.html" class="h-entry img-5 h-100 gradient">
+
+						<div class="featured-img" style="background-image: url('img/sms2.jpg');"></div>
+
+						<div class="text">
+							<span class="date">Apr. 14th, 2022</span>
+							<h2>Why is my internet so slow?</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="single.html" class="h-entry mb-30 v-height gradient">
+
+						<div class="featured-img" style="background-image: url('img/sms2.jpg');"></div>
+
+						<div class="text">
+							<span class="date">Apr. 14th, 2022</span>
+							<h2>Startup vs corporate: What job suits you best?</h2>
+						</div>
+					</a>
+					<a href="single.html" class="h-entry v-height gradient">
+
+						<div class="featured-img" style="background-image: url('img/sms2.jpg');"></div>
+
+						<div class="text">
+							<span class="date">Apr. 14th, 2022</span>
+							<h2>Thought you loved Python? Wait until you meet Rust</h2>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
                     </div>
                     <div id="tab-2" class="tab-pane fade show p-0">
-                    <div class="container">
+                        <div class="row g-4">
+                                    <div  data-wow-delay="0.1s">
+                                    <div class="container">
                 @foreach($galerie as $index => $album)
                     <div class="mySlides">
                         <img  src="{{ asset('albume/' . $album->image) }}"class="img-fluid" width="100%" style="height: 700px;">
@@ -654,54 +636,27 @@
                 </div>
                 
             </div>
+        
+
+                                    </div>
+                              
+                        </div>
                     </div>
                     <div id="tab-3" class="tab-pane fade show p-0">
                         <div class="row img-fluid">
-                            @foreach ($coupure as $c)
-                                @if ($c->type == 'eau')
-                                    <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
-                                        <div class="service-item rounded overflow-hidden" style="height: 500px;">
-                                            <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid"
-                                                width="100%" data-bs-toggle="modal" data-bs-target="#imageModal"
-                                                onclick="displayImage(this)">
-                                        </div>
+                              <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
+                                    <div class="service-item rounded overflow-hidden" style="height: 500px;">
+                                        <img  class="img-fluid" width="100%" data-bs-toggle="modal" data-bs-target="#imageModal">
                                     </div>
-                                @endif
-                            @endforeach
+                                </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Image Modal -->
-    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <img id="modalImage" src="" class="img-fluid" alt="Modal Image">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Image Container -->
-
-
-    <!-- JavaScript to handle image display -->
     <script>
-        function displayImage(img) {
-            var modalImage = document.getElementById("modalImage");
-            modalImage.src = img.src;
-        }
-    </script>
-
-
-<script>
             var slideIndex = 1;
             showSlides(slideIndex);
         
@@ -729,7 +684,7 @@
                 dots[slideIndex - 1].className += " active";
             }
         </script>
-        <br><br>
+        
           <!-- Footer-->
           <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
             <div class="container pt-5 pb-4">
@@ -1087,6 +1042,7 @@
               captionText.innerHTML = dots[slideIndex-1].alt;
             }
             </script>
-    </body>
+   
+</body>
 
 </html>
