@@ -233,16 +233,28 @@ class sitecontroller extends Controller
         $reclamation->status = "Envoyé";
         $randomNumber = $reclamation->numDossier . Carbon::now()->format('Ymd');
         $reclamation->randomnumber = $randomNumber;
-        $reclamation->save();
-
-        $numeroreclamation  =  $reclamation->randomnumber;
+        $reclamation->save(); 
 
 
-        Mail::to($reclamation->email)->send( new Myemail());
+        // Data for the second email
+        $randomNumberdata = [
+            'randomNumber' => $reclamation->id,
+        ];
+
+        $randomNumberdata2 = [
+            'randomNumber2' => ".",
+        ];
+
+          // Send first email
+          Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2 ));
+
+          // Send second email
+          Mail::to("radeelprojet@gmail.com")->send(new Myemail('send2', $randomNumberdata));
+
         
         //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
 
-        // Redirect back with a success message and the numDossier for modal display
+        //Redirect back with a success message and the numDossier for modal display
         return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true,'success' => "Votre reclamation $randomNumber est ajoutée avec succès "]);
         
     }

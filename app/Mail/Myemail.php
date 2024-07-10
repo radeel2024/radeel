@@ -13,14 +13,18 @@ class Myemail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $viewName;
+    public $data;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($viewName, $data)
     {
-        //
+        $this->viewName = $viewName;
+        $this->data = $data;
     }
 
     /**
@@ -44,7 +48,8 @@ class Myemail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'send',
+            view: $this->viewName,
+            with: $this->data
         );
     }
 

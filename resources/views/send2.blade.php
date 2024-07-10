@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,8 +14,8 @@
 <body>
   <!-- Centered image -->
   <div class="center">
-    <a href="{{ route('index') }}">
-      <img src="https://i.ibb.co/Zz38N3N/reclamation.png" alt="Radeel Logo"> 
+    <a href="{{route('reclamationdetails',$randomNumber)}}">
+      <img src="https://i.ibb.co/C0g9MLQ/not.png" alt="Radeel Logo"> 
     </a>
   </div>
   
