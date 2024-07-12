@@ -85,11 +85,12 @@
             overflow-x: hidden;
         }
     </style>
-    
+
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0; font-size:18px; font-family:'arial'">
+    <div class="container-fluid  py-2 d-none d-md-flex"
+        style="background: #077ec0; font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
@@ -474,8 +475,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <!-- <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li> -->
                             <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
@@ -483,10 +483,9 @@
                             <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                          <!--   <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
+                            <!--   <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
                                     d'offres</a></li>
                             <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
                                     d'offres</a></li> -->
@@ -497,8 +496,7 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
@@ -549,7 +547,7 @@
         <script>
             swal("Message", "{{ Session::get('success') }}", 'success', {
                 button: true,
-                button: "OK"
+                button: "OK",
             });
         </script>
     @endif
@@ -557,22 +555,25 @@
     <div class="container py-5">
         <div class="row">
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
-                 margin-top:20px;"
-                bis_skin_checked="1">
+                 margin-top:20px;" bis_skin_checked="1">
                 <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
-                    ou demander des informations, prière de nous contacter sur :<br>
-                    {{--   <i class="fa fa-check  me-3"
+                    ou demander des informations, prière de nous contacter sur :
+                         
+
+                    <br>
+                    {{-- <i class="fa fa-check  me-3"
                         style="color:green; padding-left:20px; display:inline-block;"></i><span
                         style="color:green; font-weight:200;">le numéro économique suivant</span> <br>
-                    <i class="fa fa-check  me-3 text-primary" style="padding-left:20px;"
-                        display:inline-block;></i><span class="text-primary" style=" font-weight:200;">Vous pouvez
+                    <i class="fa fa-check  me-3 text-primary" style="padding-left:20px;" display:inline-block;></i><span
+                        class="text-primary" style=" font-weight:200;">Vous pouvez
                         désormais envoyer vos réclamations par courrier électronique à l'adresse email suivante</span>
                     <br>
                     <i class="fa fa-check  me-3"
                         style=" color:#D1801D;padding-left:20px;display:inline-block; "></i><span
-                        style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span> --}}
+                        style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span>
+                    --}}
                 </p>
 
                 <div class="row">
@@ -583,7 +584,7 @@
                             Eco:
                             0801.000.042 <br></strong>
                     </a>
-                </br>
+                    </br>
 
                     <a href="mailto:reclamation@radeel.ma" style="font-size: 26px;">
                         <i class="fas fa-envelope-open-text"
@@ -591,7 +592,7 @@
 
                         <strong class="text-center" style="color:#077ec0">reclamation@radeel.ma<br></strong>
                     </a>
-                </br>
+                    </br>
                     <a href="#exampleModalCenter" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
                         style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
                             style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
@@ -599,12 +600,9 @@
                         </strong></a>
                 </div>
             </div>
-            <div class="col wow fadeInUp" data-wow-delay="0.2s"
-                style="visibility: visible; animation-delay: 0.2s;
-                animation-name: fadeInUp;"
-                bis_skin_checked="1">
-                <img src="https://f.hubspotusercontent10.net/hubfs/2302063/VISU-RECLAMATION-BLOG.jpg"
-                    class="img-fluid">
+            <div class="col wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;
+                animation-name: fadeInUp;" bis_skin_checked="1">
+                <img src="https://f.hubspotusercontent10.net/hubfs/2302063/VISU-RECLAMATION-BLOG.jpg" class="img-fluid">
             </div>
         </div>
     </div>
@@ -645,14 +643,13 @@
                             </a>
                         </li>
                     </ul>
-                   <br>
-                   <style>
-                        label{
-                            font-size:18px;
+                    <br>
+                    <style>
+                        label {
+                            font-size: 18px;
                             line-height: 20px;
                             color: darkgray;
                         }
-                        
                     </style>
                     <!-- content -->
                     <div class="tab-content" id="pills-tabContent p-3">
@@ -668,36 +665,39 @@
                                                 <label for="exampleFormControlInput1" class="form-label">Numéro
                                                     dossier<span style="color:red;">*</span>
                                                 </label>
-                                                <input type="number" name="numdossier" class="form-control"
-                                                    id="numD" required>
+                                                <input type="number" name="numdossier" class="form-control" id="numD"
+                                                    required>
                                             </div>
 
                                             <div class="mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Numéro
                                                     Téléphone<span style="color:red;">*</span>
                                                 </label>
-                                                <input type="number" name="tele" class="form-control"
-                                                    id="numTel" placeholder="0600000000" maxlength="10"
-                                                    oninput="" required>
+                                                <input type="number" name="tele" class="form-control" id="numTel"
+                                                    placeholder="0600000000" maxlength="10" oninput="" required>
                                             </div>
                                             <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Email <span style="color:red;">*</span></label>
-                                                <input type="email" name="email" class="form-control"
-                                                    id="numD" placeholder="name@example.com" required>
+                                                <label for="exampleFormControlInput1" class="form-label">Email <span
+                                                        style="color:red;">*</span></label>
+                                                <input type="email" name="email" class="form-control" id="numD"
+                                                    placeholder="name@example.com" required>
                                             </div>
                                             <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Nom <span style="color:red;">*</span></label>
+                                                <label for="exampleFormControlInput1" class="form-label">Nom <span
+                                                        style="color:red;">*</span></label>
                                                 <input type="text" class="form-control" name="nom" required>
                                             </div>
                                             <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Objet <span style="color:red;">*</span></label>
+                                                <label for="exampleFormControlInput1" class="form-label">Objet <span
+                                                        style="color:red;">*</span></label>
                                                 <input type="text" name="objet" class="form-control" required>
                                             </div>
                                             <div class="mb-3">
-                                                <label for="exampleFormControlInput1"
-                                                    class="form-label">Description <span style="color:red;">*</span></label>
-                                                <textarea class="form-control  mb-3" rows="4" cols="10" name="des" placeholder="Votre Message"
-                                                    style="border: 1px solid #666;" required></textarea>
+                                                <label for="exampleFormControlInput1" class="form-label">Description
+                                                    <span style="color:red;">*</span></label>
+                                                <textarea class="form-control  mb-3" rows="4" cols="10" name="des"
+                                                    placeholder="Votre Message" style="border: 1px solid #666;"
+                                                    required></textarea>
                                             </div>
                                             <div class="mb-3">
                                                 <input type="submit" class="form-control"
@@ -724,8 +724,8 @@
                                                     Numéro
                                                     Réclamation
                                                 </label>
-                                                <input type="number" name="randomnumber" class="form-control"
-                                                    id="numD" required>
+                                                <input type="number" name="randomnumber" class="form-control" id="numD"
+                                                    required>
                                             </div>
 
 
@@ -773,15 +773,15 @@
                                                     Numéro
                                                     Réclamation
                                                 </label>
-                                                <input type="number" name="randomnumber" class="form-control"
+                                                <input type="number" name="reclamationumero" class="form-control"
                                                     id="numD" required>
                                             </div>
 
 
                                             <div class="mb-3">
                                                 <input type="submit" class="form-control"
-                                                    style="background-color:#077ec0;color: white;" id="numD"
-                                                    name="ok" value="Validé">
+                                                    style="background-color:#077ec0;color: white;" id="numD" name="ok"
+                                                    value="Validé">
                                             </div>
 
                                         </div>
@@ -798,20 +798,19 @@
     </div>
 
     <!-- Reclamation Found -->
-     {{-- <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
+    {{-- <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="container">
                         <div class="row" style="margin: 20px">
-                           <h1>hello</h1>
+                            <h1>hello</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>   --}}
-
+    </div> --}}
     <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal2">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -819,11 +818,19 @@
                     <div class="container">
                         <div class="row" style="margin: 20px">
                             <div class="col ">
+                                
                                 <div class="p-2">
                                     @if (session('reco'))
                                         <div>
                                             <img src="images/Capture2.PNG" class="img-fluid">
                                         </div>
+                                        <div>
+                                            <form method="get" action="{{route('generatepdf',session('numero'))}}">
+                                                <button class="btn btn-primary">
+                                                    Imprimer 
+                                                </button>
+                                            </form>
+                                        </div> 
                                     @elseif(session('recole'))
                                         <div>
                                             <img src="images/Capture.PNG" class="img-fluid">
@@ -853,14 +860,14 @@
     <script>
         // Check if showModal is set in the session and is true
         @if (session('showModal') && session('showModal') === true)
-            $(document).ready(function() {
+            $(document).ready(function () {
                 // Show the modal
                 $('#exampleModal').modal('show');
             });
         @endif
 
         @if (session('showModale') && session('showModale') === true)
-            $(document).ready(function() {
+            $(document).ready(function () {
                 // Show the modal
                 $('#exampleModal2').modal('show');
             });
@@ -878,8 +885,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png"
-                            style="height: 130px; width=90px;">
+                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -902,15 +908,15 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
                     <div class="mt-4 d-flex flex-column short-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color: white;"></i>RADEEL</a>
+                        <a href="{{ url('../') }}" class="mb-2 text-white"><i class="fas fa-angle-right text me-2"
+                                style="color: white;"></i>RADEEL</a>
                         <a href="{{ url('../') }}#contact" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Contact</a>
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                                style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -918,8 +924,8 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="h3 text-white">Liens utiles</a>
                     <div class="mt-4 d-flex flex-column help-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color:white;"></i>Mentions
+                        <a href="{{ url('../') }}" class="mb-2 text-white"><i class="fas fa-angle-right text me-2"
+                                style="color:white;"></i>Mentions
                             légales</a>
                     </div>
                 </div>
@@ -1181,7 +1187,7 @@
 
 
     <script>
-        jQuery(document).ready(function() {
+        jQuery(document).ready(function () {
             $('#modalIndex').modal('show')
         });
     </script>

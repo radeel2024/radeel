@@ -255,9 +255,25 @@ class sitecontroller extends Controller
         //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
 
         //Redirect back with a success message and the numDossier for modal display
-        return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true,'success' => "Votre reclamation $randomNumber est ajoutée avec succès "]);
+        return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true,'success' => "Votre reclamation $randomNumber est ajoutée avec succèss voila votre id $reclamation->id","id"=>$reclamation->id]);
         
     }
+
+  /*   public function searchreacalamtion(Request $request){
+
+        $reclamation = $request->reclamationumero;
+        $rec    = reclamation::where('randomnumber',$reclamation)->where('status','traiter')->count();
+        $recole = reclamation::where('randomnumber',$reclamation)->where('status','Envoyé')->count();
+
+        $ido = reclamation::where('randomnumber', $reclamation)
+        ->where('status', 'traiter')
+        ->select('id')
+        ->first();
+
+
+
+        return redirect()->back()->with(['reco' => $rec,'recole'=>$recole, 'showModale' => true]);
+    } */
 
     public function searchreacalamtion(Request $request){
 
@@ -265,7 +281,7 @@ class sitecontroller extends Controller
         $rec = reclamation::where('randomnumber',$id)->where('status','traiter')->first();
         $recole = reclamation::where('randomnumber',$id)->where('status','Envoyé')->first();
 
-        return redirect()->back()->with(['reco' => $rec,'recole'=>$recole, 'showModale' => true]);
+        return redirect()->back()->with(['reco' => $rec,'recole'=>$recole, 'showModale' => true,'numero'=>$rec->id]);
     }
 
     //sms

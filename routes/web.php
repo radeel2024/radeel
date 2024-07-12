@@ -10,6 +10,8 @@ use App\Models\rhappele;
 use App\Models\RHAvisrec;
 use App\Models\RHresultat;
 use Illuminate\Support\Facades\Route;
+use App\Models\reclamation;
+
 use App\Http\Controllers\RoleController;
 
 
@@ -106,6 +108,8 @@ use App\Http\Controllers\RoleController;
         return view('GrosAbonnee');
     });
     Route::get('/reclamation', function () {
+
+       
         return view('reclamation');
     })->name('reclamation');
     

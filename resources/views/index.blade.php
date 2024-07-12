@@ -675,7 +675,7 @@
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('details', $articles[5]->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:100px;width: 1000px;"
+                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:100px;width: 1080px;"
                                 class="img-fluid large-news-image news-image" alt="">
                         </a>
                         <div class="news-text-info">
