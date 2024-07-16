@@ -545,12 +545,33 @@
 
     @if (Session::has('success'))
         <script>
-            swal("Message", "{{ Session::get('success') }}", 'success', {
-                button: true,
-                button: "OK",
+            swal({
+                title: "Message",
+                text: "{{ Session::get('success') }}",
+                icon: 'success',
+                buttons: {
+                    confirm: {
+                        text: "OK",
+                        value: true,
+                        visible: true,
+                        className: "btn btn-success",
+                        closeModal: true
+                    },
+                    print: {
+                        text: "Imprimer reçu",
+                        value: "print",
+                        className: "btn btn-primary",
+                        closeModal: true
+                    }
+                }
+            }).then((value) => {
+                if (value === "print") {
+                    window.location.href = "{{ route('generatepdf', session('idox')) }}";
+                }
             });
         </script>
     @endif
+
 
     <div class="container py-5">
         <div class="row">
@@ -560,7 +581,7 @@
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
                     ou demander des informations, prière de nous contacter sur :
-                         
+
 
                     <br>
                     {{-- <i class="fa fa-check  me-3"
@@ -584,15 +605,13 @@
                             Eco:
                             0801.000.042 <br></strong>
                     </a>
-                    </br>
-
-                    <a href="mailto:reclamation@radeel.ma" style="font-size: 26px;">
-                        <i class="fas fa-envelope-open-text"
+                    <br><br>
+                    <!--  <a href="mailto:reclamation@radeel.ma" style="font-size: 26px;">
+                      <i class="fas fa-envelope-open-text"
                             style=" color:#077ec0;padding-left:20px;display:inline-block; "></i>
 
                         <strong class="text-center" style="color:#077ec0">reclamation@radeel.ma<br></strong>
-                    </a>
-                    </br>
+                    </a> -->
                     <a href="#exampleModalCenter" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
                         style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
                             style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
@@ -818,23 +837,47 @@
                     <div class="container">
                         <div class="row" style="margin: 20px">
                             <div class="col ">
-                                
+
                                 <div class="p-2">
                                     @if (session('reco'))
+
                                         <div>
                                             <img src="images/Capture2.PNG" class="img-fluid">
                                         </div>
                                         <div>
-                                            <form method="get" action="{{route('generatepdf',session('numero'))}}">
+                                            <form method="get" action="{{route('generatepdf', session('numero'))}}">
                                                 <button class="btn btn-primary">
-                                                    Imprimer 
+                                                    Imprimer traiter
                                                 </button>
                                             </form>
-                                        </div> 
-                                    @elseif(session('recole'))
+                                        </div>
+
+                                    @elseif(session('recoles'))
+
                                         <div>
                                             <img src="images/Capture.PNG" class="img-fluid">
                                         </div>
+                                       <!--  <div>
+                                            <form method="get" action="{{route('generatepdf', session('numero3'))}}">
+                                                <button class="btn btn-primary">
+                                                    Imprimer En cours
+                                                </button>
+                                            </form>
+                                        </div>
+ -->
+                                    @elseif(session('recole'))
+
+                                        <div>
+                                            <img src="images/Capture.PNG" class="img-fluid">
+                                        </div>
+                                        <div>
+                                            <form method="get" action="{{route('generatepdf', session('numero2'))}}">
+                                                <button class="btn btn-primary">
+                                                    Imprimer Envoyé
+                                                </button>
+                                            </form>
+                                        </div>
+
                                     @else
                                         <div>
                                             <button class="px-4 btn btn-warning rounded-pill"
