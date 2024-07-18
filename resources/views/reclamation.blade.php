@@ -844,10 +844,11 @@
                                         <div>
                                             <img src="images/Capture2.PNG" class="img-fluid">
                                         </div>
-                                        <div>
+                                        <br>
+                                        <div class="text-center">
                                             <form method="get" action="{{route('generatepdf', session('numero'))}}">
                                                 <button class="btn btn-primary">
-                                                    Imprimer traiter
+                                                    Imprimer 
                                                 </button>
                                             </form>
                                         </div>
@@ -855,25 +856,26 @@
                                     @elseif(session('recoles'))
 
                                         <div>
-                                            <img src="images/Capture.PNG" class="img-fluid">
+                                            <img src="images/Capture1.PNG" class="img-fluid">
                                         </div>
-                                       <!--  <div>
+                                        <br>
+                                         <div class="text-center">
                                             <form method="get" action="{{route('generatepdf', session('numero3'))}}">
                                                 <button class="btn btn-primary">
-                                                    Imprimer En cours
+                                                    Imprimer
                                                 </button>
                                             </form>
                                         </div>
- -->
                                     @elseif(session('recole'))
 
                                         <div>
                                             <img src="images/Capture.PNG" class="img-fluid">
                                         </div>
-                                        <div>
+                                        <br>
+                                        <div class="text-center">
                                             <form method="get" action="{{route('generatepdf', session('numero2'))}}">
                                                 <button class="btn btn-primary">
-                                                    Imprimer Envoyé
+                                                    Imprimer 
                                                 </button>
                                             </form>
                                         </div>
