@@ -800,7 +800,6 @@
                         </div>
 
                         <div class="step step-3">
-                            <p>Votre demande est validé !</p>
                             <!-- Step 3 form fields here -->
                             <div class="thanks-message text-center" id="text-message">
                                 <button type="submit" class="btn btn-primary">Envoyé</button>
