@@ -570,9 +570,7 @@ class AdminController extends Controller
 
 
     public function updateslide(Request $request,$id){
-
-       
-            
+   
         // Check if the classment already exists
         $existingPublication = sliders::where('classment', $request->classment)->count();
         $startingClassment = $request->classment;  

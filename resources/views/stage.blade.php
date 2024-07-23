@@ -1124,7 +1124,7 @@
     </script>
     <script>
         var currentStep = 1;
-        var updateProgressBar;
+        var updateProgressBar ;
 
         function displayStep(stepNumber) {
             if (stepNumber >= 1 && stepNumber <= 3) {
