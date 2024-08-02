@@ -369,7 +369,7 @@
                                                                 <th>Profile demandé</th>
                                                                 <th>Fichier</th>
                                                                 <th>Date de concour</th>
-                                                                <th>Date limide de dépot</th>
+                                                                <th>Date limite de dépot</th>
                                                                 <th>Status</th>
                                                                 <th>Action</th>
                                                             </tr>
@@ -699,6 +699,7 @@
                                                                 <th scope="col">Candidats convoques aux orale
                                                                 </th>
                                                                 <th scope="col">Candidats admis</th>
+                                                                <td>Date</td>
                                                                 <th scope="col">Action</th>
                                                             </tr>
                                                         </thead>
@@ -740,6 +741,7 @@
                                                                             <h3>-</h3>
                                                                         @endif
                                                                     </td>
+                                                                    <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                                     <td class="text-center">
                                                                         <a href="#Edite{{ $p->id }}"
                                                                             target="_blank" class="btn"
@@ -987,6 +989,7 @@
                                                         <th scope="col">Email</th>
                                                         <th scope="col">Tele</th>
                                                         <th scope="col">Service</th>
+                                                        <th>Date</th>
                                                         <th scope="col">Action</th>
                                                     </tr>
                                                 </thead>
@@ -998,6 +1001,7 @@
                                                             <td>{{ substr($s->email, 0, 5) }}</td>
                                                             <td>{{ $s->tele }}</td>
                                                             <td>{{ $s->service }}</td>
+                                                            <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                             <td><a href="#show{{ $s->id }}"
                                                                     class="btn btn-primary" data-toggle="modal">
                                                                     <i class="fas fa-info"></i>

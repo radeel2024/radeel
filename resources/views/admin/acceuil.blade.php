@@ -389,15 +389,19 @@
                                                                         style="color: black; margin-top: 10px; ">
                                                                         {{ $p->titre }}
                                                                     </h1>
+                                                                    
 
                                                                     <p id="displayedDescription"
                                                                         style="color: black; margin-top: 10px; ">
                                                                         {{ $p->des }}
                                                                     </p>
+                                                                    
                                                                     <img src="{{ asset('annonce/' . $p->imageannonce) }}"
                                                                         id="selectedImage"
                                                                         style="max-width: 100%; margin-top: 10px;"
                                                                         class="img-fluid">
+
+                                                                        
 
                                                                 </div>
                                                             </div>
@@ -646,6 +650,7 @@
                                                         <th scope="col">Titre</th>
                                                         <th scope="col">Status</th>
                                                         <th scope="col">Images</th>
+                                                        <th scope="col">Date</th>
                                                         <th scope="col">Action</th>
                                                     </tr>
                                                 </thead>
@@ -666,6 +671,9 @@
                                                             <img class="img-profile"
                                                                 src="{{ asset('articlescopie/' . $e->image) }}"
                                                                 width="70">
+                                                        </td>
+                                                        <td>
+                                                        {{ Carbon\Carbon::parse($e->created_at)->format('Y-m-d') }}
                                                         </td>
                                                         <td>
                                                             <a href="#editeartcile{{ $e->id }}" class="btn"
@@ -929,6 +937,7 @@
                                                                         <th scope="col">Titre</th>
                                                                         <th scope="col">Image</th>
                                                                         <th scope="col">Classement</th>
+                                                                        <th scope="col">Date</th>
                                                                         <th scope="col">Action</th>
                                                                     </tr>
                                                                 </thead>
@@ -956,6 +965,10 @@
                                                                                     {{ $p->classment }}
                                                                                 </td>
                                                                             @endif
+                                                                            <td>
+                                                                            {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}
+
+                                                                            </td>
                                                                             <td>
                                                                                 <a href="#Editslider{{ $p->id }}"
                                                                                     class="btn"

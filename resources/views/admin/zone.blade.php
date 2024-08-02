@@ -372,6 +372,7 @@
                                                                 <thead>
                                                                     <tr style="background-color:orange; color:white">
                                                                         <th scope="col">Image</th>
+                                                                        <th>Date</th>
                                                                         <th scope="col">Action</th>
                                                                     </tr>
                                                                 </thead>
@@ -383,7 +384,7 @@
                                                                                 <img src="{{ asset('zone/' . $p->image) }}"
                                                                                     width="80">
                                                                             </td>
-
+                                                                            <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                                             <td>
                                                                                 <a href="#Edit{{ $p->id }}"
                                                                                     class="btn"

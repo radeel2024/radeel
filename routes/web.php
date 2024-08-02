@@ -155,7 +155,7 @@ use App\Http\Controllers\RoleController;
         return view('Autre');
     });
 
-    Route::prefix('admin')->middleware(['guest:web', 'PreventBackHistory'])->group(function () {
+    Route::prefix('admin')->middleware(['guest:web','PreventBackHistory','CheckIp'])->group(function () {
         //check admin
         Route::get('/login',[AdminController::class,'login'])->name('login');
         Route::post('/login',[AdminController::class,'checkadmin'])->name('checkadmin');

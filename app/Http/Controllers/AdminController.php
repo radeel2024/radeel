@@ -303,12 +303,15 @@ class AdminController extends Controller
       }
     //login admin
     public function login(){
+        
         return view('admin.login');
     }
     public function checkadmin(Request $request){
-
+            
+       
         $user = User::where('email', $request->email)
             ->first();
+
 
         if ($user)
             if (Hash::check($request->password, $user->password)) {

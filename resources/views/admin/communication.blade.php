@@ -30,16 +30,16 @@
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+        </script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        </script>
 
 
 
 
-<link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
 
 
@@ -123,7 +123,7 @@
             }
         }
 
-        thead{
+        thead {
             text-align: center;
         }
 
@@ -210,30 +210,30 @@
                 </a>
                 <div id="collapsefoure" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                    
+
                         @can('role')
-                        <a class="collapse-item" href="{{ route('statistique') }}"><strong>Admin</strong></a>
-                    @endcan
+                            <a class="collapse-item" href="{{ route('statistique') }}"><strong>Admin</strong></a>
+                        @endcan
 
-                    @can('communication')
-                        <a class="collapse-item " href="{{ route('statistiqueC') }}"><strong>
-                                Communication</strong></a>
-                    @endcan
+                        @can('communication')
+                            <a class="collapse-item " href="{{ route('statistiqueC') }}"><strong>
+                                    Communication</strong></a>
+                        @endcan
 
-                    @can('commerciale')
-                        <a class="collapse-item " href="{{ route('statistiqueCom') }}"><strong> Commercial</strong></a>
-                    @endcan
+                        @can('commerciale')
+                            <a class="collapse-item " href="{{ route('statistiqueCom') }}"><strong> Commercial</strong></a>
+                        @endcan
 
-                    @can('ressources-humaines')
-                        <a class="collapse-item" href="{{ route('statistiquerh') }}"><strong> Ressources
-                                Humaines</strong></a>
-                    @endcan
+                        @can('ressources-humaines')
+                            <a class="collapse-item" href="{{ route('statistiquerh') }}"><strong> Ressources
+                                    Humaines</strong></a>
+                        @endcan
 
-                    @can('achat-Logistique')
-                        <a class="collapse-item" href="{{ route('statistiqueachatlo') }}"><strong>Achat et
-                                Logistique</strong></a>
-                    @endcan
-                      
+                        @can('achat-Logistique')
+                            <a class="collapse-item" href="{{ route('statistiqueachatlo') }}"><strong>Achat et
+                                    Logistique</strong></a>
+                        @endcan
+
                     </div>
                 </div>
             </li>
@@ -242,8 +242,8 @@
                 <hr class="sidebar-divider">
                 <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsethree"
-                        aria-expanded="true" aria-controls="collapsethree">
+                    <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsethree" aria-expanded="true"
+                        aria-controls="collapsethree">
                         <i class="fas fa-fw fa-cog"></i>
                         <span>Controle</span>
                     </a>
@@ -324,8 +324,7 @@
                                     </a>
                                 </form>
 
-                                {{-- <a class="dropdown-item"  data-toggle="modal"
-                                    data-target="#logoutModal">
+                                {{-- <a class="dropdown-item" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a> --}}
@@ -350,16 +349,15 @@
                                     </li>
 
 
-                                    <li role="presentation"><a href="#Section3" aria-controls="messages"
-                                            role="tab" data-toggle="tab"><strong>Sms info</strong></a>
+                                    <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab"
+                                            data-toggle="tab"><strong>Sms info</strong></a>
                                     </li>
 
                                 </ul>
                                 <div class="tab-content">
 
-                                    {{--  Avis Recrutement  --}}
-                                    <div role="tabpanel" style="margin:20px;" class="tab-pane active"
-                                        id="Section1">
+                                    {{-- Avis Recrutement --}}
+                                    <div role="tabpanel" style="margin:20px;" class="tab-pane active" id="Section1">
 
                                         @if (Session::has('success'))
                                             <script>
@@ -379,7 +377,8 @@
 
                                         <div class="container-fluid">
 
-                                            <table class="table table-bordered dataTable text-center" style="padding: 5px">
+                                            <table class="table table-bordered dataTable text-center"
+                                                style="padding: 5px">
                                                 <thead class="text-center">
                                                     <tr style="background-color:orange; color:white">
                                                         <th scope="col">N ° Réclamation</th>
@@ -411,17 +410,17 @@
                                                                 {{ $p->email }}
                                                             </td>
                                                             <td>{{ $p->nom }}</td>
-                                                            <td>{{$p->created_at}}</td>
+                                                            <td>{{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}
+                                                            </td>
                                                             <td>{{ $p->status }}</td>
 
                                                             <td class="text-center">
-                                                                <a href="#Edit{{ $p->id }}" class="btn"
-                                                                    data-toggle="modal">
+                                                                <a href="#Edit{{ $p->id }}" class="btn" data-toggle="modal">
                                                                     <i class="fas fa-edit"
                                                                         style="color: green; font-size:30px"></i>
                                                                 </a>
-                                                                <a href="{{route('reclamationdetails',$p->id)}}"
-                                                                    class="btn btn-primary" >
+                                                                <a href="{{route('reclamationdetails', $p->id)}}"
+                                                                    class="btn btn-primary">
                                                                     <i class="fas fa-info"></i>
                                                                 </a>
                                                             </td>
@@ -453,8 +452,8 @@
                                                             <h5 class="modal-title" style="color:black"
                                                                 id="exampleModalLabel"><strong>Reclamation</strong>
                                                             </h5>
-                                                            <button type="button" class="close"
-                                                                data-dismiss="modal" aria-label="Close">
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
                                                                 <span aria-hidden="true">&times;</span>
                                                             </button>
                                                         </div>
@@ -470,13 +469,12 @@
                                                                             <table class="table table-bordered">
                                                                                 <tbody>
                                                                                     <div>
-                                                                                        <label
-                                                                                            style="color: black">Status
+                                                                                        <label style="color: black">Status
                                                                                         </label>
                                                                                         <select class="form-control">
                                                                                             <option value="traiter">
                                                                                                 Traiter</option>
-                                                                                                <option value="traiter">
+                                                                                            <option value="traiter">
                                                                                                 Traiter</option>
 
                                                                                         </select>
@@ -489,8 +487,7 @@
                                                                                     Modifier
                                                                                 </button>
 
-                                                                                <button type="button"
-                                                                                    class="btn btn-danger"
+                                                                                <button type="button" class="btn btn-danger"
                                                                                     data-dismiss="modal">Fermer
                                                                                 </button>
 
@@ -514,10 +511,10 @@
                                                                 data-dismiss="modal">&times;</button>
                                                         </div>
                                                         <style>
-                                                            th{
+                                                            th {
                                                                 text-align: start;
                                                             }
-                                                            </style>
+                                                        </style>
                                                         <div class="modal-body">
                                                             <table class="table ">
                                                                 <tbody>
@@ -539,23 +536,23 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Email</th>
-                                                                        <td id="email">{{ $f->email }}</td> 
+                                                                        <td id="email">{{ $f->email }}</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Nom</th>
-                                                                        <td id="nom">{{ $f->nom }}</td> 
+                                                                        <td id="nom">{{ $f->nom }}</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Objet</th>
-                                                                    <td id="objet">{{ $f->objet }}
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <th>Description</th>
-                                                                    <td id="des">{{ $f->des }}
-                                                                    </td>
-                                                                </tr>
-                                                                
+                                                                        <td id="objet">{{ $f->objet }}
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th>Description</th>
+                                                                        <td id="des">{{ $f->des }}
+                                                                        </td>
+                                                                    </tr>
+
                                                                 </tbody>
                                                             </table>
                                                         </div>
@@ -580,6 +577,7 @@
                                                             <th scope="col">N ° dossier</th>
                                                             <th scope="col">Téléphone</th>
                                                             <th scope="col">Email</th>
+                                                            <th scope="col">Date</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -588,6 +586,7 @@
                                                                 <td class="dynamic-td">{{ $p->numDossier }}</td>
                                                                 <td class="dynamic-td">{{ $p->numtele }}</td>
                                                                 <td class="dynamic-td">{{ $p->email }}</td>
+                                                                <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                             </tr>
                                                         @endforeach
                                                     </tbody>
@@ -655,11 +654,11 @@
     <!-- Page level custom scripts -->
     <script src="../js/demo/chart-area-demo.js"></script>
     <script src="../js/demo/chart-pie-demo.js"></script>
-    {{--  --}}
+    {{-- --}}
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
-    </script>
+        </script>
 
 
     <!-- Core plugin JavaScript-->

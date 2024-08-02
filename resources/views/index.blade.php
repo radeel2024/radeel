@@ -144,10 +144,10 @@
             <div class="d-flex justify-content-between topbar">
                 <div class="top-info">
                     <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white;  font-size:17px;">
+                            href="mailto:info@Radeel.com" style="color:white;">
                             reclamation@radeel.com</a></small>
                     <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
-                        <a style="color:white;text-decoration: none;text-decoration: none;  font-size:17px;"
+                        <a style="color:white; text-decoration: none; text-decoration: none;"
                             href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
                             target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
                     </small>
@@ -166,151 +166,18 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
     <!-- end Spinner Start -->
-
-    <style>
-        #header {
-            height: 70px;
-            transition: all 0.5s;
-            z-index: 997;
-            background: white;
-            color: black;
-        }
-
-        #header .logo h1 {
-            margin: 0;
-            padding: 6px 0;
-            line-height: 1;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        #header .logo h1 a,
-        #header .logo h1 a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        #header .logo img {
-            padding: 0;
-            margin: 0;
-            max-height: 40px;
-        }
-
-        @media (max-width: 992px) {
-            #header {
-                height: 60px;
-            }
-        }
-
-        /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-        /**
-* Desktop Navigation
-*/
-
-        .navbar li {
-            font-family: Arial;
-            position: relative;
-            color: #616A6B;
-            font-size: 22;
-            font-weight: bolder;
-        }
-
-        .navbar>ul>li+li {
-            margin-left: 30px;
-            color: #616A6B;
-
-        }
-
-        .navbar a,
-        .navbar a:focus {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px 0;
-            font-size: 15px;
-            color: rgba(255, 255, 255, 0.8);
-            white-space: nowrap;
-            transition: 0.3s;
-            position: relative;
-            color: black;
-
-        }
-
-        .navbar a i,
-        .navbar a:focus i {
-            font-size: 13px;
-            line-height: 0;
-            margin-left: 5px;
-            color: black;
-
-        }
-
-        .navbar>ul>li>a:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            bottom: 3px;
-            left: 0;
-            background-color: #7DB41E;
-            visibility: hidden;
-            width: 0px;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
-        .navbar a:hover:before,
-        .navbar li:hover>a:before,
-        .navbar .active:before {
-            visibility: visible;
-            width: 100%;
-        }
-
-        .navbar a:hover,
-        .navbar .active,
-        .navbar .active:focus,
-        .navbar li:hover>a {
-            color: black;
-        }
-
-        .navbar .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar .dropdown ul a {
-            padding: 10px 20px;
-            font-size: 14px;
-            text-transform: none;
-            font-weight: 500;
-            color: black;
-        }
-
-        .navbar .dropdown ul a i {
-            font-size: 12px;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown ul a:hover,
-        .navbar .dropdown ul .active:hover,
-        .navbar .dropdown ul li:hover>a {
-            color: #7DB41E;
-            font-weight: bolder;
-        }
-    </style>
 
     <!-- Navbar Start -->
     <header id="header" class="sticky-top d-flex align-items-center">

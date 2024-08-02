@@ -390,6 +390,7 @@
                                                         <th>province</th>
                                                         <th>client</th>
                                                         <th>Status</th>
+                                                        <th>Date</th>
                                                         <th>Action</th>
 
                                                     </tr>
@@ -414,7 +415,7 @@
                                                                 </td>
                                                                 <td>{{ $p->client }}</td>
                                                                 <td>{{ $p->status }}</td>
-
+                                                                <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                                 <td>
                                                                     <a href="#show{{ $p->id }}" class="btn btn-primary"
                                                                         data-toggle="modal">
@@ -643,6 +644,7 @@
                                                         <th>province</th>
                                                         <th>client</th>
                                                         <th>Status</th>
+                                                        <th>Date</th>
                                                         <th>Action</th>
 
                                                     </tr>
@@ -666,7 +668,7 @@
                                                             </td>
                                                             <td>{{ $p->client }}</td>
                                                             <td>{{ $p->status }}</td>
-
+                                                            <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                             <td>
                                                                 <a href="#show2{{ $p->id }}" class="btn btn-primary"
                                                                     data-toggle="modal">
@@ -914,6 +916,7 @@
                                                         <th>Province</th>
                                                         <th>Client</th>
                                                         <th>Status</th>
+                                                        <th>Date</th>
                                                         <th>Action</th>
                                                     </tr>
                                                 </thead>
@@ -931,7 +934,7 @@
                                                             </td>
                                                             <td>{{ $p->client }}</td>
                                                             <td>{{ $p->status }}</td>
-
+                                                            <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
                                                             <td>
                                                                 <a href="#show3{{ $p->id }}" class="btn btn-primary"
                                                                     data-toggle="modal">

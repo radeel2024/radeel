@@ -361,6 +361,7 @@
                                                         <th scope="col">Prenom</th>
                                                         <th scope="col">Objet</th>
                                                         <th scope="col">Email</th>
+                                                        <th>Date</th>
                                                         <th scope="col">Message</th>
 
                                                     </tr>
@@ -373,6 +374,7 @@
                                                         <td>{{ $s->prenom }}</td>
                                                         <td>{{ $s->objet }}</td>
                                                         <td>{{ $s->email }}</td>
+                                                        <td> {{ Carbon\Carbon::parse($s->created_at)->format('Y-m-d') }}</td>
                                                         <td>{{ $s->message }}</td>
                                                     </tr>
                                                     @endforeach

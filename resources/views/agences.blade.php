@@ -520,7 +520,7 @@
                     data-src="https://www.google.com/maps/place/Agence+Centrale+RADEEL/@35.1949436,-6.1486976,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc8d6963947b3:0x31f7172908884126!8m2!3d35.1949392!4d-6.1465089"
                     data-bs-target="#mapsModel1" >
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-dangereux " style="border:solid 1px #F5F5F5;">
-                    <div style="position:absolute;top:0px; left:0px; background-color:red; color:white; padding:10px; border-radius: 10px 50px 30px 5px;">  <span>Open</span></div>
+                    <div style="position:absolute;top:0px; left:0px; background-color:#36F446; color:white; padding:10px; border-radius: 10px 50px 30px 5px;">  <span>Ouvert</span></div>
                         <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                            
@@ -531,7 +531,7 @@
                                 <i class="fas fa-clock" style="COLOR: #077ec0;"></i> Lun-Ven 8:00 -
                                 16:30 
                                 <br>
-                                <i class="fas fa-clock" style="COLOR:white"></i> <span style="font-weight: bold; color:red;">Samedi 8:00 - 12:30</span>
+                                <i class="fas fa-clock" style="COLOR:white"></i> <span style="font-weight: bold; color:#36F446;">Samedi 8:00 - 12:30</span>
                                 <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
                                 <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
                                 reclamation@radeel.com -->
