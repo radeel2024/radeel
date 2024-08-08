@@ -660,12 +660,13 @@
                                                             <td>{{ strlen($e->title) > 50 ? substr($e->title, 0, 50) . '...' : $e->title }} --}}
                                                         <td style="color:black">{{ $e->title }}</td>
                                                         <td>
-                                                            @if ($e->status == 'oui')
-                                                                <button class="btn"
-                                                                    style="background-color:green;color:white">Activer</button>
-                                                            @else
-                                                                <button class="btn btn-danger">Désactiver</button>
-                                                            @endif
+                                                                @if ($e->status == 'oui')
+                                                                            <i class="fas fa-toggle-on"
+                                                                                style="color:green;font-size:30px;"></i>
+                                                                @else
+                                                                            <i class="fas fa-toggle-off"
+                                                                                style="color:red;font-size:30px;"></i>
+                                                                @endif
                                                         </td>
                                                         <td>
                                                             <img class="img-profile"
@@ -675,6 +676,7 @@
                                                         <td>
                                                         {{ Carbon\Carbon::parse($e->created_at)->format('Y-m-d') }}
                                                         </td>
+                                                        
                                                         <td>
                                                             <a href="#editeartcile{{ $e->id }}" class="btn"
                                                                 data-toggle="modal">
@@ -958,11 +960,12 @@
                                                                             </td>
                                                                             @if (empty($p->classment))
                                                                                 <td style="margin:10px">
-                                                                                    Aucun
+                                                                                   <b>Aucun</b> 
                                                                                 </td>
                                                                             @else
                                                                                 <td style="margin:10px">
-                                                                                    {{ $p->classment }}
+                                                                                   <b> {{ $p->classment }}</b>
+                                                                                   
                                                                                 </td>
                                                                             @endif
                                                                             <td>

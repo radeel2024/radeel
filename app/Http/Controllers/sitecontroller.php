@@ -27,6 +27,8 @@ use Carbon\Carbon;
 use Jenssegers\Agent\Agent;
 use Mail;
 use App\Mail\Myemail;
+use Stevebauman\Location\Facades\Location;
+
 
 
 
@@ -133,7 +135,7 @@ class sitecontroller extends Controller
 
     }
 
-    public function index()
+    public function index(Request $request)
     {
 
         $now = now();
@@ -167,10 +169,21 @@ class sitecontroller extends Controller
         $agent = new Agent();
         $deviceType = $agent->isMobile() ? 'Mobile' : 'Desktop'; // Detect device type
 
-        $visit = new vistore();
-        $visit->device = $deviceType;
-        $visit->nbviste += 1;
-        $visit->save();
+        $position = Location::get($request->ip());
+        if($position){
+            $visit = new vistore();
+            $visit->ip = $position->ip;
+            $visit->device = $deviceType;
+            $visit->nbviste += 1;
+            $visit->save();
+        }else{
+            $visit = new vistore();
+            $visit->ip = $request->ip();
+            $visit->device = $deviceType;
+            $visit->nbviste += 1;
+            $visit->save();  
+        }
+        
 
 
         return view('index', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup'));
@@ -182,7 +195,7 @@ class sitecontroller extends Controller
         $avisrec = RHAvisrec::find($id);
         $resultcon = RHresultat::find($id);
         $appel = rhappele::find($id);
-        ;
+        
         return view('Afficher', compact('avisrec', 'resultcon', 'appel'));
     }
 

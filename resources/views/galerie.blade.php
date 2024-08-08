@@ -684,8 +684,110 @@
                     <div id="tab-1" class="tab-pane show p-0 active">
                         <div class="row g-4">
 
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[1]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[1]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 400px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/NpXv5g4BMSI">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[2]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[2]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 400px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/iUs7NN9Qx4s">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[3]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[3]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 400px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/zLvQZ0MGPyw">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[4]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[4]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 400px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/7zvzf7OJPzk">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[5]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[5]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 400px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- desplay the image that selected -->
+                            <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="modalImage2" src="" class="img-fluid" alt="Selected Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JavaScript to handle image click and modal display -->
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function () {
+                                    var imageModal = document.getElementById('imageModal2');
+                                    imageModal.addEventListener('show.bs.modal', function (event) {
+                                        var button = event.relatedTarget;
+                                        var imageSrc = button.getAttribute('data-src');
+                                        var modalImage = document.getElementById('modalImage2');
+                                        modalImage.src = imageSrc;
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+
                             @foreach($galerie as $index => $album)
-                                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="col-md-6 col-lg-4 ">
                                     <div class="service-item rounded overflow-hidden">
                                         <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal"
                                             data-src="{{ asset('albume/' . $album->image) }}">
@@ -724,19 +826,85 @@
                                     });
                                 });
                             </script>
-
-
-
-
                         </div>
                     </div>
-                    <div id="tab-2" class="tab-pane fade show p-0">
-                       Galeire
-                    </div>
                     <div id="tab-3" class="tab-pane fade show p-0">
-                        Audiovisual
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/IDfIr4jnP5s">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/NpXv5g4BMSI">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/iUs7NN9Qx4s">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/zLvQZ0MGPyw">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/YXJTb0oST_M">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/BVfTACQBqIk">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/fPFAjpdyB_s">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/q7iODUb4ZTU">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/4hxZGWISi2w">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/QvrcPnfL82g">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/gBv0-oOa9tY">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/h6tq0xp_ZBs">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
