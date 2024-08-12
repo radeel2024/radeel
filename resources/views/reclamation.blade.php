@@ -842,7 +842,7 @@
                                     @if (session('reco'))
 
                                         <div>
-                                            <img src="images/Capture2.PNG" class="img-fluid">
+                                            <img src="images/traiter.PNG" class="img-fluid" width="100%" style="height: 400;">
                                         </div>
                                         <br>
                                         <div class="text-center">
@@ -856,7 +856,7 @@
                                     @elseif(session('recoles'))
 
                                         <div>
-                                            <img src="images/Capture1.PNG" class="img-fluid">
+                                            <img src="images/encours.PNG" class="img-fluid">
                                         </div>
                                         <br>
                                          <div class="text-center">
@@ -869,7 +869,7 @@
                                     @elseif(session('recole'))
 
                                         <div>
-                                            <img src="images/Capture.PNG" class="img-fluid">
+                                            <img src="images/envoye.PNG" class="img-fluid">
                                         </div>
                                         <br>
                                         <div class="text-center">
