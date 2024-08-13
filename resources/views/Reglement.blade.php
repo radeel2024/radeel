@@ -548,13 +548,12 @@
     <!-- End Contenu -->
 
  <!-- footer-->
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+ <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png"
-                            style="height: 130px; width=90px;">
+                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -577,15 +576,15 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
                     <div class="mt-4 d-flex flex-column short-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color: white;"></i>RADEEL</a>
+                        <a href="{{ url('../') }}" class="mb-2 text-white"><i class="fas fa-angle-right text me-2"
+                                style="color: white;"></i>RADEEL</a>
                         <a href="{{ url('../') }}#contact" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Contact</a>
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                                style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -593,9 +592,9 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="h3 text-white">Liens utiles</a>
                     <div class="mt-4 d-flex flex-column help-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text me-2" style="color:white;"></i>Mentions
-                            légales</a>
+                        <a href="{{ url('../ActiviteRadeel') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text me-2" style="color:white;"></i>
+                            Activité RADEEL</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -603,29 +602,27 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2" style="background: #077ec0;"></i>N, BP:11,
+                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2" style="background: #077ec0;"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2"></i>0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
-                            <i class="fas fa-fax" class="fas fa-phone-alt text me-2"
-                                style="background: #077ec0;"></i>
+                            <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-envelope text me-2" style="background: #077ec0;"></i>
+                                class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.com</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-home text me-2" style="background: #077ec0;"></i>Lun-Ven 8:00 -
+                                class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>
                     </div>
                 </div>
             </div>
             <hr class="text-light mt-5 mb-4">
             <div class="row">
-                <div class="col-md-6 text-center text-md-end">
-                    <a href="#" class="text-center"><i
-                        class="fas fa-copyright ">
-                        Copyright @2023</i></a>, All right reserved by Radeel</span>
+                <div class="col-md-6 ">
+                    <a href="#" class="text-center   text-light"><i class="fas fa-copyright ">
+                            Copyright @2023</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
                 </div>
             </div>
         </div>
