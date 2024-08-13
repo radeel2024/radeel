@@ -47,12 +47,12 @@
                                 @csrf
                                 <div class="form-group first">
                                     <label for="username"> Email</label>
-                                    <input type="text" class="form-control" placeholder="your-email@gmail.com"
+                                    <input type="text" class="form-control" 
                                         name="email">
                                 </div>
                                 <div class="form-group last mb-3">
                                     <label for="password">Password</label>
-                                    <input type="password" class="form-control" placeholder="Your Password"
+                                    <input type="password" class="form-control" 
                                         name="password">
                                 </div>
 

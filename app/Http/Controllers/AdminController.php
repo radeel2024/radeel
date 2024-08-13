@@ -316,7 +316,7 @@ class AdminController extends Controller
         if ($user)
             if (Hash::check($request->password, $user->password)) {
                 Auth::guard('web')->login($user);
-                return redirect()->route('profile')->with(
+                return redirect()->route('statistique')->with(
                     [
                         'succes' => 'Authentication successful'
                     ]
