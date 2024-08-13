@@ -1064,7 +1064,7 @@
                                 class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.03.25</a>
@@ -1251,7 +1251,7 @@
         </ul>
     </div>
 
-    <!-- allo Radeel -->
+    <!-- Allo Radeel -->
 
     <style>
         .allo {
@@ -1300,7 +1300,7 @@
 
     <a href="tel:0801000042" class="allo">
         <i class="fas fa-headset"></i>
-        <span class="allotext">Allo RADEEL</span>
+        <span class="allotext">AllO RADEEL</span>
     </a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -1319,7 +1319,6 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/teste.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
 
@@ -1329,7 +1328,8 @@
     {{-- Alert --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
         integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
     @if (Session::has('success'))
         <script>

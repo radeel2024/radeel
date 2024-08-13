@@ -510,75 +510,7 @@
                                                 aria-valuemax="100"></div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <!-- Color System -->
-                                <div class="row">
-                                    <div class="col-lg-6 mb-4" style="background:#F8F9FC">
-                                        <div class=" " style="background:#F8F9FC">
-                                            <div class="card-body">
-
-                                                <div class="text-white-50 small" style="background:#F8F9FC"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class=" " style="background:#F8F9FC">
-                                            <div class="card-body">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class=" " style="background:#F8F9FC">
-                                            <div class="card-body">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class=" " style="background:#F8F9FC">
-                                            <div class="card-body">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4" style="background:#F8F9FC">
-                                        <div class="  ">
-                                            <div class="">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="   ">
-                                            <div class="card" style="background:#F8F9FC">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="   ">
-                                            <div class="card-body" style="background:#F8F9FC">
-
-                                                <div class="text-black-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mb-4">
-                                        <div class="   ">
-                                            <div class="card-body" style="background:#F8F9FC">
-
-                                                <div class="text-white-50 small"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                             
 
                             </div>
 
@@ -619,7 +551,7 @@
                                         <p style="color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Ullam soluta, eum illum, dicta ab alias necessitatibus voluptas repellat
                                             dolorem vitae doloremque, laudantium eveniet consectetur dignissimos
-                                            numquam. Voluptatem vel dolorem quaerat.cfgffffffghf</p>
+                                            numquam. Voluptatem vel dolorem quaerat.</p>
 
                                     </div>
                                 </div>
