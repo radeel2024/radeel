@@ -25,7 +25,7 @@
 
     <div class="d-md-flex half">
         <div class="bg"
-            style="background-image: url('https://www.azergo.fr/wp-content/uploads/2016/12/Visuel-article-pc-portable.jpg');">
+            style="background-image: url('https://us.123rf.com/450wm/dragoscondrea/dragoscondrea2302/dragoscondrea230200805/198595101-office-worker-typing-financial-information-on-computer-working-with-research-plan-and-economy.jpg?ver=6');">
         </div>
         <div class="contents">
 
