@@ -35,10 +35,63 @@ use Stevebauman\Location\Facades\Location;
 
 class sitecontroller extends Controller
 {
-   /*  public function reloadcaptcha()
+    /*  public function reloadcaptcha()
+     {
+         return response()->json(['captcha' => captcha_img('match')]);
+     } */
+
+    public function index2(Request $request)
     {
-        return response()->json(['captcha' => captcha_img('match')]);
-    } */
+        $now = now();
+        $slider = DB::table('sliders')
+            ->join('articles', 'sliders.articles_id', '=', 'articles.id')
+            ->select('sliders.*', 'articles.title', 'articles.image as image', 'articles.des', 'articles.id as id')
+            ->where('articles.status', 'oui')
+            ->orderBy('sliders.classment', 'asc')
+            ->get();
+
+        $chiffre1 = chiffre::where('id', 5)->first();
+        $chiffre2 = chiffre::where('id', 6)->first();
+        $chiffre3 = chiffre::where('id', 7)->first();
+        $chiffre4 = chiffre::where('id', 8)->first();
+
+        $zone = zonespeciale::all();
+
+        $modal = annonce::where('db', '<=', $now)
+            ->where('df', '>=', $now)
+            ->get();
+
+
+        $articles = article::orderBy('created_at', 'desc')->get();
+
+        $avis = aviscoupure::all();
+
+        $poup = annonce::where('db', '<=', $now)
+            ->where('df', '>=', $now)
+            ->get();
+
+        $agent = new Agent();
+        $deviceType = $agent->isMobile() ? 'Mobile' : 'Desktop'; // Detect device type
+
+        $position = Location::get($request->ip());
+        if ($position) {
+            $visit = new vistore();
+            $visit->ip = $position->ip;
+            $visit->device = $deviceType;
+            $visit->nbviste += 1;
+            $visit->save();
+        } else {
+            $visit = new vistore();
+            $visit->ip = $request->ip();
+            $visit->device = $deviceType;
+            $visit->nbviste += 1;
+            $visit->save();
+        }
+
+
+
+        return view('index2', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup'));
+    }
     public function addraccoredement(Request $request)
     {
 
@@ -170,20 +223,20 @@ class sitecontroller extends Controller
         $deviceType = $agent->isMobile() ? 'Mobile' : 'Desktop'; // Detect device type
 
         $position = Location::get($request->ip());
-        if($position){
+        if ($position) {
             $visit = new vistore();
             $visit->ip = $position->ip;
             $visit->device = $deviceType;
             $visit->nbviste += 1;
             $visit->save();
-        }else{
+        } else {
             $visit = new vistore();
             $visit->ip = $request->ip();
             $visit->device = $deviceType;
             $visit->nbviste += 1;
-            $visit->save();  
+            $visit->save();
         }
-        
+
 
 
         return view('index', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup'));
@@ -195,7 +248,7 @@ class sitecontroller extends Controller
         $avisrec = RHAvisrec::find($id);
         $resultcon = RHresultat::find($id);
         $appel = rhappele::find($id);
-        
+
         return view('Afficher', compact('avisrec', 'resultcon', 'appel'));
     }
 
@@ -322,7 +375,7 @@ class sitecontroller extends Controller
         // Check if $rec and $recole are not null before accessing their properties
         $recId = $rec ? $rec->id : null;
         $recoleId = $recole ? $recole->id : null;
-        $recoles= $recole1 ? $recole1->id : null;
+        $recoles = $recole1 ? $recole1->id : null;
 
         return redirect()->back()->with([
             'reco' => $rec,
@@ -331,7 +384,7 @@ class sitecontroller extends Controller
             'showModale' => true,
             'numero' => $recId,
             'numero2' => $recoleId,
-            'numero3'=>$recoles
+            'numero3' => $recoles
         ]);
     }
 

@@ -33,6 +33,9 @@ use App\Http\Controllers\RoleController;
     });
 
     Route::get('/', [sitecontroller::class, 'index'])->name('index');
+    //page 2
+    Route::get('/index2', [sitecontroller::class, 'index2'])->name('index2');
+
     // Route::get('/galerieAudiovisual', [sitecontroller::class, 'galerieAudiovisual'])->name('GalerieAudiovusial');
     Route::post('/contact', [sitecontroller::class, 'contact'])->name('addcontact');
     Route::post('/addReclamation', [sitecontroller::class, 'addReclamation'])->name('addReclamation');
