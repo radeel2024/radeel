@@ -499,21 +499,20 @@
                 <li><a class="nav-link scrollto" href="{{url('../')}}#contact">CONTACT</a></li>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="dropdown">
-                    <img src="img/france.png" width="20" height="20">
-                    <ul>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="img/france.png" width="20" height="20">Français
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item">
-                                <img src="img/maroc.png" width="20" height="20">Arabe
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
+                        <strong>Fr</strong>
+                        <ul>
+                            <li>
+                                <a href="#" class="dropdown-item">
+                                    Fr
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item">
+                                    Ar
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
             </ul>
 
