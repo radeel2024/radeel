@@ -669,8 +669,8 @@
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel6">
-                    <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-dangereux">
-                    <div style="position:absolute;top:0px; left:0px; background-color:red; color:white; padding:10px; border-radius: 10px 50px 30px 5px;">  <span>Open</span></div>
+                    <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
+                 <!--    <div style="position:absolute;top:0px; left:0px; background-color:red; color:white; padding:10px; border-radius: 10px 50px 30px 5px;">  <span>Open</span></div> -->
                         <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;">
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Assalam</h5>
@@ -679,7 +679,7 @@
                                     style="color: rgb(155,187,89);"></i>Lotissement Bouchouika<br>
                                     <i class="fas fa-clock" style="color: rgb(155,187,89);"></i> Lun-Ven 8:00 -
                             16:30  <br>
-                            <i class="fas fa-clock" style="COLOR:white"></i> <span style="font-weight: bold; color:red;">Samedi 8:00 - 12:30</span>
+                            <i class="fas fa-clock" style="COLOR:white"></i> <!-- <span style="font-weight: bold; color:red;">Samedi 8:00 - 12:30</span> -->
                                 <!-- <i class="fas fa-phone-alt text me-2" style="color: rgb(155,187,89);"></i>0801 000 042
                                 <br>
                                 <i class="fas fa-envelope text me-2" style="color: rgb(155,187,89);"></i>
