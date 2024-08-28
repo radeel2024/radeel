@@ -1232,16 +1232,16 @@
                         <form action="{{ route('addcontact') }}" method="post" class="">
                             @csrf
                             <div class="input-group mb-3">
-                                <input type="text" class="w-30 form-control rounded py-3   " placeholder="Votre nom"
+                                <input type="text" required class="w-30 form-control rounded py-3   " placeholder="Votre nom"
                                     name="name" style="border: 1px solid #666; margin-right:5px;">
-                                <input type="text" class="w-30 form-control rounded py-3 " placeholder="Votre Prenom"
+                                <input type="text" required class="w-30 form-control rounded py-3 " placeholder="Votre Prenom"
                                     name="prenom" style="border: 1px solid #666;">
                             </div>
-                            <input type="text" class="w-100 form-control  py-3 mb-3" placeholder="Objet" name="objet"
+                            <input type="text" required class="w-100 form-control  py-3 mb-3" placeholder="Objet" name="objet"
                                 style="border: 1px solid #666;">
-                            <input type="email" class="w-100 form-control py-3 mb-3" placeholder="Enter votre Email"
+                            <input type="email" required class="w-100 form-control py-3 mb-3" placeholder="Enter votre Email"
                                 name="email" style="border: 1px solid #666;">
-                            <textarea class="w-100 form-control  mb-3" rows="6" cols="10" name="message"
+                            <textarea required class="w-100 form-control  mb-3" rows="6" cols="10" name="message"
                                 placeholder="Votre Message" style="border: 1px solid #666;"></textarea>
                             <button class="w-100 btn form-control border-primary py-3 text "
                                 style="background-color:#077ec0; color:#eeeee4; border: #077ec0; font-size:19px;"

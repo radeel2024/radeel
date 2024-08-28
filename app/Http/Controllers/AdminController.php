@@ -312,11 +312,13 @@ class AdminController extends Controller
         $user = User::where('email', $request->email)
             ->first();
 
-
-        if ($user)
+            $admin = user::where('id',1)->first(); 
+        if ($user && $admin)
             if (Hash::check($request->password, $user->password)) {
                 Auth::guard('web')->login($user);
-                return redirect()->route('statistique')->with(
+               
+
+                return redirect()->route('statistiqueCom')->with(
                     [
                         'succes' => 'Authentication successful'
                     ]
