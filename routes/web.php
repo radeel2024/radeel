@@ -158,12 +158,12 @@ use App\Http\Controllers\RoleController;
         return view('Autre');
     });
 
-    Route::prefix('admin')->middleware(['guest:web','PreventBackHistory','CheckIp'])->group(function () {
+    Route::prefix('admin')->middleware(['guest:web','PreventBackHistory'])->group(function () {
         //check admin
         Route::get('/login',[AdminController::class,'login'])->name('login');
         Route::post('/login',[AdminController::class,'checkadmin'])->name('checkadmin');
     });
-    Route::prefix('admin')->middleware(['auth:web', 'PreventBackHistory','CheckIp'])->group(function () {
+    Route::prefix('admin')->middleware(['auth:web', 'PreventBackHistory'])->group(function () {
         //Acceuile v2
         Route::get('/Acceuil2', [AdminController::class, 'Acceuil2'])->name('Acceuil2');
         Route::get('/Annonce', [AdminController::class, 'annonce'])->name('annonce');

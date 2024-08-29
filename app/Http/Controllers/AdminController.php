@@ -334,13 +334,9 @@ class AdminController extends Controller
         $user = User::where('email', $request->email)
             ->first();
 
-        $admin = role::where('id', 1)->first();
-        $admincommerciale = role::where('id', 11)->first();
-        $adminachat = role::where('id', 12)->first();
-        $admincommunication = role::where('id', 13)->first();
-        $adminrh = role::where('id', 14)->first();
+       
 
-        if ($user )
+        if ($user)
         {
             if($user->email =="admin@gmail.com"){
                 if (Hash::check($request->password, $user->password)) {
@@ -359,7 +355,7 @@ class AdminController extends Controller
                 }
             }
 
-            else if($user->email =="comer@gmail.com"){
+            else if($user->email =="oumaima@gmaim.com"){
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiqueCom')->with(
