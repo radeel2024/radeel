@@ -62,7 +62,7 @@ class sitecontroller extends Controller
             ->get();
 
 
-        $articles = article::orderBy('created_at', 'desc')->get();
+        $articles = article::all();
 
         $avis = aviscoupure::all();
 
@@ -92,6 +92,16 @@ class sitecontroller extends Controller
 
         return view('index2', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup'));
     }
+
+    public function stress(){
+        $galerie = album::all();
+        return view('stress',compact('galerie'));
+    }
+
+    public function nosvaleurrh(){
+        return view('nosvaleur');
+    }
+
     public function addraccoredement(Request $request)
     {
 
@@ -211,7 +221,21 @@ class sitecontroller extends Controller
             ->get();
 
 
-        $articles = article::orderBy('created_at', 'desc')->get();
+        //$articles = article::orderby('created_at','desc')->limit(3)->get();
+        //$artcilesone = article::whereNotIn($articles);
+
+        // Fetch the last 3 articles
+        //$articles = article::orderby('created_at', 'desc')->limit(3)->pulk(1);
+
+        // Fetch one article that is not in the last 3 articles
+        //$articleOne = article::whereNotIn('id', $articles)->first();
+
+
+        $articles = article::orderby('created_at', 'desc')->limit(3)->get();
+
+        // Fetch one article that is not in the last 3 articles
+        $articlesIds = $articles->pluck('id');
+        $articleone = article::orderby('created_at', 'desc')->whereNotIn('id', $articlesIds)->first();
 
         $avis = aviscoupure::all();
 
@@ -239,7 +263,7 @@ class sitecontroller extends Controller
 
 
 
-        return view('index', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup'));
+        return view('index', compact('slider', 'chiffre1', 'chiffre2', 'chiffre3', 'chiffre4', 'zone', 'modal', 'avis', 'articles', 'poup','articleone'));
     }
 
 

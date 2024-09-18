@@ -48,7 +48,7 @@
     <div class="container-fluid py-2 d-none d-md-flex" style="background: #077ec0; font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <div class="top-info">
+                <!-- <div class="top-info">
                     <small class=" text-white"><i class="fas fa-envelope text-white"></i><a
                             href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com </a></small>
                     <small class=" text-white"><i class="fas fa-map-marker-alt text-white"></i>
@@ -56,11 +56,11 @@
                             href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
                             target="_blank" rel="noopener"> 1647, lotissement Maghreb AL JADID</a>
                     </small>
-                </div>
+                </div> -->
 
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">ALLO Radeel 08 01 00 00
-                            42</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                    8:00 A 16:30</a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -401,7 +401,7 @@
                 </button>
                 <ul>
                     <li><a class="nav-link scrollto " href="{{ url('../') }}">ACCEUIL</a></li>
-                    <li class="dropdown"><a href class="nav-link active"><span>RADEEL</span> <i
+                    <li class="dropdown"><a href class="nav-link "><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
@@ -424,10 +424,10 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
+                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE RH</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <!--  <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li> -->
+                            <li ><a href="" class="dropdown-item">Nos valeur</a></li> 
                             <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
                                     recrutement</a></li>
                             <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
@@ -488,7 +488,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Mot de Directeur Général </h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Nos Valeur</h1>
         </div>
     </div>
 
@@ -514,52 +514,7 @@
         </div>
     </div>
 
-    <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" id="motsDirecteur">
-        <div class="container ">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative">
-                        <h2 class="mb-0 text" style="color: #D1801D; ">Mot du Directeur Général Mr MOHAMED CHAOUI </h2>
-                    </div>
-                    <br><br><br><br><br>
-                    <p class="mb-4">
-                    La RADEEL s’érige en acteur incontournable du développement durable de la Province de Larache, en assurant une distribution fiable, continue et sécurisée de l’eau potable et de l’électricité, ainsi qu’un service d’assainissement liquide de qualité supérieure.  
-                    </p>
-                    <p class="mb-4">
-                    Notre mission réside dans l’amélioration des conditions de vie de nos concitoyens, à travers la fourniture de services d’excellence, accessibles à tous, répondant avec efficacité, transparence et équité aux besoins et attentes de notre clientèle.
-                    </p>
-                    <p class="mb-4">
-                    Profondément ancrée dans une démarche de protection environnementale, la RADEEL a élaboré un plan d’investissement ambitieux pour la période 2024-2028. Ce plan inclut un vaste programme de dépollution des villes de Larache et Ksar Kébir, doté d’une enveloppe budgétaire avoisinant un milliard de dirhams. Cet engagement reflète notre détermination à préserver les ressources naturelles au bénéfice des générations futures.
-                    </p>
-                    <p class="mb-4">
-                    La gestion du stress hydrique constitue également un pilier central de notre stratégie. Nous mettons en œuvre des actions visant à optimiser les performances de notre réseau d’eau potable et à en garantir une gestion durable. Parallèlement, nous déployons des initiatives de sensibilisation pour inciter notre clientèle à adopter des comportements responsables en matière de consommation d’eau.
-                    </p>
-                    <p class="mb-4">
-                    Le client demeure au cœur de notre stratégie. Nous nous attachons à développer et maintenir une relation de confiance et de proximité avec chacun de nos clients, en adoptant une politique résolument orientée vers la satisfaction de leurs attentes, dans les conditions et délais les plus favorables.
-                    </p>
-                    <p class="mb-4">
-                    Par ailleurs, la RADEEL accorde une importance primordiale au développement des compétences de son personnel, reconnaissant en ses collaborateurs un levier fondamental de la réussite et du développement de la régie. Nous investissons dans la formation continue et l’épanouissement au travail, afin de créer un environnement propice à l’innovation, à la performance et au bien-être, tout en soutenant la progression professionnelle de chacun.
-                    </p>
-                    <p class="mb-4">
-                    Inscrite pleinement dans la politique nationale de digitalisation et de dématérialisation des procédures, la RADEEL s’engage à moderniser ses processus de gestion, en adoptant des normes et standards de pointe. Cette modernisation vise notamment à améliorer les services offerts à notre clientèle, ainsi qu’à intégrer les technologies innovantes pour la digitalisation de nos processus métiers et supports.
-                    </p>
-                    <p class="mb-4">
-                    Nous tenons à rappeler que ces réalisations et performances s’inscrivent dans le cadre de la sage politique royale, des orientations de nos instances de tutelle et bénéficient du soutien précieux des autorités locales.
-                    </p>
-                </div>
-                <div class="col-lg-5">
-                    <div class="container">
-                        <br>
-                        <img class=" rounded wow zoomIn img-fluid" data-wow-delay="0.1s" src="img/Mohamed_Chaoui.jpg" 
-                        style="object-fit: cover; display:block; height:580px;">
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
-    </div>
-    <!-- Page mots de directeur general RADEEL End -->
-    <br><br><br><br><br>
+    
     
     <!-- Footer Start -->
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
@@ -572,20 +527,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                    <div class="d-flex hightech-link">
-                        <a href="https://www.facebook.com/RADEEL.Officiel/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-facebook-f " style="color:#077ec0;"></i></a>
-                        <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-twitter " style="color:#077ec0;"></i></a>
-                        <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-instagram " style="color:#077ec0;"></i></a>
-                        <a href="https://ma.linkedin.com/company/radeelofficiel"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0">
-                            <i class="fab fa-linkedin-in " style="color:#077ec0;"></i></a>
-                    </div>
+                   
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -643,56 +585,7 @@
     </div>
    
 
-    <!-- Footer End -->
-    <style>
-        .allo {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 24px;
-            right: 24px;
-            background-color: #f89323;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 3;
-        }
-
-        .allo i {
-            color: white;
-            font-size: 26px;
-
-        }
-
-        .allo .allotext {
-            background-color: #f89323;
-            padding: 4px 8px;
-            white-space: nowrap;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            font-size: 11px;
-            position: absolute;
-            z-index: 1;
-            top: 5px;
-            right: 105%;
-        }
-    </style>
-
-    <a href="tel:0801000042" class="allo">
-        <i class="fas fa-headset"></i>
-        <span class="allotext">Allo RADEEL!</span>
-    </a>
+  
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

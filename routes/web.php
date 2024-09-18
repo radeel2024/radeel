@@ -89,7 +89,9 @@ use App\Http\Controllers\RoleController;
         return view('loiCadre');
     }); */
 
- 
+    //stress
+    Route::get('/stress', [sitecontroller::class, 'stress'])->name('stress');
+    Route::get('/nosvaleur', [sitecontroller::class, 'nosvaleurrh'])->name('nosvaleurrh');
 
     Route::get('/test', function () {
         return view('text');
@@ -99,6 +101,7 @@ use App\Http\Controllers\RoleController;
     Route::get('/teste', function () {
         return view('texte');
     });
+
 
     Route::get('/programme', function () {
         return view('Programme');
@@ -111,8 +114,6 @@ use App\Http\Controllers\RoleController;
         return view('GrosAbonnee');
     });
     Route::get('/reclamation', function () {
-
-       
         return view('reclamation');
     })->name('reclamation');
     
@@ -146,9 +147,7 @@ use App\Http\Controllers\RoleController;
             ->get();  */
 
         $avis = avis_offre::paginate(6);
-        $appels = appel_offre::get();
-
-             
+        $appels = appel_offre::get();          
         return view('AppelOffre',compact('avis','appels'));
     });
     Route::get('/Reglement', function () {
@@ -157,6 +156,7 @@ use App\Http\Controllers\RoleController;
     Route::get('/Autre', function () {
         return view('Autre');
     });
+
 
     Route::prefix('admin')->middleware(['guest:web','PreventBackHistory'])->group(function () {
         //check admin
@@ -197,20 +197,24 @@ use App\Http\Controllers\RoleController;
             Route::get('/actualités', [AdminController::class, 'actuilite'])->name('actuilite');
             Route::post('/addactuilite', [AdminController::class, 'addactuilite'])->name('addactuilite');
             Route::post('/updateact/{id}', [AdminController::class, 'updateact'])->name('updateact');
+            
             //Achat et logistique
             Route::get('/Achat', [AdminController::class, 'achat'])->name('achat');
             Route::post('/addappeloffre', [AdminController::class, 'addappeloffre'])->name('addappeloffre');
             Route::post('/updateappeloffre/{id}', [AdminController::class, 'updateappeloffre'])->name('updateappeloffre');
             Route::post('/addresultatappeloffre', [AdminController::class, 'addresultatappeloffre'])->name('addresultatappeloffre');
             Route::post('/updateresultatoffre/{id}', [AdminController::class, 'updateresultatoffre'])->name('updateresultatoffre');
+
             //Galerie
             Route::get('/album', [AdminController::class, 'album'])->name('album');
             Route::post('/album', [AdminController::class, 'addimages'])->name('addimages');
             Route::post('/updateImages/{id}', [AdminController::class, 'updateImages'])->name('updateImages');
+
             //Avis de coupure
             Route::get('/avis', [AdminController::class, 'avis'])->name('avis');
             Route::post('/addaviscoupure', [AdminController::class, 'addaviscoupure'])->name('addaviscoupure');
             Route::post('/updateaviscoupure/{id}', [AdminController::class, 'updateaviscoupure'])->name('updateaviscoupure');
+
             //Articles
             Route::post('/addarticle', [AdminController::class, 'addarticle'])->name('addarticle');
             Route::post('/updatearticle/{id}', [AdminController::class, 'updatearticle'])->name('updatearticle');
@@ -220,6 +224,7 @@ use App\Http\Controllers\RoleController;
             Route::get('/zonespeciale', [AdminController::class, 'zone'])->name('zone');
             Route::post('/addzone', [AdminController::class, 'addzone'])->name('addzone');
             Route::post('/updatezone/{id}', [AdminController::class, 'updatezone'])->name('updatezone');
+
             //controle
             Route::get('/roles', [RoleController::class, 'index'])->name('roles');
             Route::get('/createrole', [RoleController::class, 'create'])->name('createrole');
@@ -236,6 +241,7 @@ use App\Http\Controllers\RoleController;
             Route::get('/edit/{id}', [adminController::class, 'edit'])->name('edit');
             Route::post('/edit/{id}', [adminController::class, 'update'])->name('update');
             Route::delete('/edit/{id}', [adminController::class, 'destroy'])->name('delete');
+
             //acceuil(chiffre cle)
             Route::get('/chiffre', [AdminController::class, 'chiffreCle'])->name('chiffrecle');
 

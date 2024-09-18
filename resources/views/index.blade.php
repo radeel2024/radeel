@@ -137,12 +137,12 @@
 </head>
 
 <body>
-    
-       <!-- Spinner Start -->
-       <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+
+    <!-- Spinner Start -->
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <div class="top-info">
+                <!--  <div class="top-info">
                     <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
                             href="mailto:info@Radeel.com" style="color:white;">
                             reclamation@radeel.com</a></small>
@@ -151,11 +151,11 @@
                             href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
                             target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
                     </small>
-                </div>
+                </div> -->
 
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">ALLO Radeel 08 01 00 00
-                            42</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -176,7 +176,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     <!-- end Spinner Start -->
     <style>
         #header {
@@ -214,7 +214,7 @@
             }
         }
 
-     
+
         .navbar {
             padding: 0;
         }
@@ -359,7 +359,7 @@
             }
         }
 
-       
+
         .mobile-nav-toggle {
             color: #fff;
             cursor: pointer;
@@ -470,8 +470,6 @@
         .navbar-mobile .dropdown>.dropdown-active {
             display: block;
         }
-
-      
     </style>
     <!-- Navbar Start -->
     <header id="header" class="sticky-top d-flex align-items-center">
@@ -494,13 +492,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul>
-                    <li><a class="nav-link scrollto active " href="{{ url('../') }}">ACCEUIL</a></li>
+                    <li><a class="nav-link scrollto active " href="{{ url('../') }}">ACCUEIL</a></li>
                     <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
                                     Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Structure RADEEL</a>
+                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                                    RADEEL</a>
                             </li>
                             <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
@@ -519,11 +518,11 @@
 
                     <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <!--                             <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
- -->
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
-                                    recrutement</a></li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres demploi </a>
+                            </li>
+                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
+
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
@@ -550,8 +549,8 @@
 
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact">CONTACT</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="dropdown">
                         <strong>Fr</strong>
@@ -593,7 +592,7 @@
         <div class="carousel-inner">
             @foreach ($slider as $key => $slide)
                 <div class="carousel-item {{ $key === 0 ? 'active' : '' }}">
-                    <img src="{{ asset('articlescopie/' . $slide->image) }}" width="100%" style="height: 700px;"
+                    <img src="{{ asset('articlescopie/' . $slide->image) }}" width="100%" style="height: 550px;"
                         class="img-fluid" alt="slide {{ $key + 1 }}">
                     <div class="carousel-caption">
                         <div class="container carousel-content">
@@ -650,17 +649,18 @@
                             <div class=" w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center"
                                 style="background-color: #A6CCDC;">
 
-                                <h1 class="display-1 text-white mb-0" data-toggle="counter-up">{{$chiffre1->chiffre}}</h1>
+                                <h1 class="display-1 text-white mb-0" data-toggle="counter-up">{{$chiffre1->chiffre}}
+                                </h1>
                                 <small class="fs-5 text-white">{{$chiffre1->title}}</small>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4" style='color:#077ec0;'>Qui sommes-nous ?</h1>
+                    <!-- <h1 class="display-6 mb-4" style='color:#077ec0;'>Qui sommes-nous ?</h1>
                     <p class="mb-4">RADEEL est La régie autonome intercommunale de distribution d'eau et
                         d'électricité
-                        de la Province de Larache</p>
+                        de la Province de Larache</p> -->
                     <div class="row g-4 g-sm-5 justify-content-center">
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle ms-sm-auto"
@@ -688,7 +688,6 @@
             </div>
         </div>
     </div>
-
     <!-- chiffre cle END -->
 
     <!-- annance fix start-->
@@ -696,8 +695,12 @@
         @foreach($zone as $z)
             <img src="{{ asset('zone/' . $z->image) }}" width="100%" class="img-fluid">
         @endforeach
+        <br><br>
+        <div>
+            <button style="float: right;background-color:#077ec0;color:white" class="btn">Plus info</button>
+        </div>
     </div>
-    <!-- annance fix end-->
+    <br><br>
 
 
     <!-- Nos services   -->
@@ -751,7 +754,7 @@
                         </div>
                     </div>
                 </div>
-               
+
 
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s" bis_skin_checked="1">
                     <div class=" shadow services-item" style="background-color: #ffff; " bis_skin_checked="1">
@@ -807,117 +810,69 @@
                     <hr class="mx-auto" />
                     <br>
                 </div>
-    
+
                 <div class="col-lg-8 col-12 mb-5 mb-lg-0">
                     <div class="news-thumb" data-aos="fade-up">
-                        <a href="{{ route('details', $articles[5]->id) }}"
+                        <a href="{{ route('details', $articleone->id) }}"
                             class="news-image-hover news-image-hover-warning">
-                            <img src="{{ asset('articlescopie/' . $articles[5]->image) }}" style="height:650px"
-                                class="img-fluid large-news-image news-image" alt="" >
+                            <img src="{{ asset('articlescopie/' . $articleone->image) }}" style="width: 100%;"
+                                class="img-fluid large-news-image news-image">
                         </a>
 
                         <div class="news-text-info">
                             <h5 class="news-title">
-                                <a href="{{ route('details', $articles[5]->id) }}" class="news-title-link">
-                                    {{ Illuminate\Support\Str::limit($articles[5]->title, $limit = 90, $end = '...') }}
+                                <a href="{{ route('details', $articleone->id) }}" class="news-title-link">
+                                    {{ Illuminate\Support\Str::limit($articleone->title, $limit = 90, $end = '...') }}
                                 </a>
                                 <div class="news-category bg-warning text-white">Nouveau</div>
-
                             </h5>
                             <div class="d-flex flex-wrap">
-                                <span class="text-muted">{{ $articles[5]->created_at }}</span>
+                                <span class="text-muted">{{ $articleone->created_at }}</span>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
+
                 <br>
                 <div class="col-lg-4 col-12 mb-5 mb-lg-0">
-
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100">
-                            <a href="{{ route('details', $articles[4]->id) }}"
-                                class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[4]->image) }}" style="height:190px" width="100%"
-                                    class="img-fluid news-image" alt="">
-                            </a>
-                            <div class="news-category text-white" style="background-color:red; color:#eeeee4;">Nouveau</div>
-                        </div>
-                        <div class="news-bottom w-130">
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[4]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[4]->title, $limit = 40, $end = '...') }}
-                                    </a>
-                                    <div class="news-category bg-primary text-white">Nouveau</div>
-                                </h5>
-                                <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[4]->created_at }}</span>
+                    @foreach($articles as $a)
+                        <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
+                            <div class="news-top w-100">
+                                <a href="{{ route('details', $a->id) }}" class="news-image-hover news-image-hover-primary">
+                                    <img src="{{ asset('articlescopie/' . $a->image) }}"
+                                        style="width: 200px;background-size: contain;" class="img-fluid news-image" alt="">
+                                </a>
+                                <div class="news-category bg-primary text-white">Nouveau</div>
+                            </div>
+                            <div class="news-bottom">
+                                <div class="news-text-info">
+                                    <h5 class="news-title">
+                                        <a href="{{ route('details', $a->id) }}" class="news-title-link">
+                                            {{ Illuminate\Support\Str::limit($a->title, $limit = 40, $end = '...') }}
+                                        </a>
+                                        <div class="news-category bg-primary text-white">Nouveau</div>
+                                    </h5>
+                                    <div class="d-flex flex-wrap">
+                                        <span class="text-muted">{{ $a->created_at }}</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100">
-                            <a href="{{ route('details', $articles[3]->id) }}"
-                                class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[3]->image) }}" style="height:190px"
-                                    class="img-fluid news-image" alt="">
-                            </a>
-                            <div class="news-category bg-primary text-white">Nouveau</div>
-                        </div>
-                        <div class="news-bottom w-130">
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[3]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[3]->title, $limit = 40, $end = '...') }}
-                                    </a>
-                                    <div class="news-category bg-primary text-white">Nouveau</div>
-                                </h5>
-
-                                <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[3]->created_at }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100">
-                            <a href="{{ route('details', $articles[1]->id) }}"
-                                class="news-image-hover news-image-hover-primary">
-                                <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" style="height:190px;"
-                                    class="img-fluid news-image" alt="">
-                            </a>
-                            <div class="news-category bg-primary text-white">Nouveau</div>
-                        </div>
-                        <div class="news-bottom w-130">
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[1]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[1]->title, $limit = 40, $end = '...') }}
-                                    </a>
-
-                                    </a>
-                                    <div class="news-category bg-primary text-white">Nouveau</div>
-
-                                </h5>
-
-                                <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[1]->created_at }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                     <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
                         <div class="news-top w-100" data-aos="fade-up">
                             <a href="{{ route('Actualite') }}">
                                 <button class="w-100 btn form-control border py-3"
                                     style="background-color:#077ec0; color:#eeeee4; border: #077ec0; margin-top:12px;"
-                                    type="submit">PLUS INFO </button></a>
+                                    type="submit">
+                                    PLUS INFO
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
-                
-                 <!-- <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+
+                <!-- <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                     <div class="news-thumb" data-aos="fade-up">
                         <a href="{{ route('coupure') }}" class="news-image-hover news-image-hover-warning">
                             <div id="test" class="carousel slide" data-bs-ride="carousel">
@@ -945,123 +900,11 @@
                     </div>
                 </div> -->
 
-                <!-- <div class="col-lg-6 col-12">
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100">
 
-                            <a href="{{ route('details', $articles[2]->id) }}"
-                                class="news-image-hover news-image-hover-success">
-                                <img src="{{ asset('articlescopie/' . $articles[2]->image) }}"
-                                    class="img-fluid news-image" alt="">
-                            </a>
-
-                            <div class="news-category bg-success text-white"></div>
-                        </div>
-
-                        <div class="news-bottom w-100">
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[2]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[2]->title, $limit = 20, $end = '...') }}
-                                    </a>
-                                    </a>
-                                    <div class="news-category bg-success text-white">Nouveau</div>
-
-                                </h5>
-
-                                <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[2]->created_at }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100">
-
-                            <a href="{{ route('details', $articles[3]->id) }}"
-                                class="news-image-hover news-image-hover-success">
-                                <img src="{{ asset('articlescopie/' . $articles[3]->image) }}"
-                                    class="img-fluid news-image" alt="">
-                            </a>
-
-                            <div class="news-category bg-success text-white"></div>
-                        </div>
-
-                        <div class="news-bottom w-100">
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="{{ route('details', $articles[3]->id) }}" class="news-title-link">
-                                        {{ Illuminate\Support\Str::limit($articles[3]->title, $limit = 100, $end = '...') }}
-                                    </a>
-                                    </a>
-                                    <div class="news-category bg-success text-white">Nouveau</div>
-
-                                </h5>
-
-                                <div class="d-flex flex-wrap">
-                                    <span class="text-muted">{{ $articles[3]->created_at }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                        <div class="news-top w-100" data-aos="fade-up">
-                            <a href="{{ route('Actualite') }}">
-                                <button class="w-100 btn form-control border py-3"
-                                    style="background-color:#077ec0; color:#eeeee4; border: #077ec0; margin-top:12px;"
-                                    type="submit">PLUS INFO </button></a>
-                        </div>
-                    </div>
-                </div> -->
             </div>
     </section>
     <br><br><br>
-    <!-- <div class="container-fluid project py-5 mb-5">
-        <div class="container">
-           
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img src="{{ asset('articlescopie/' . $articles[1]->image) }}" class="img-fluid w-100 rounded" alt="">
-                            <div class="project-content">
-                                <a href="#" class="text-center">
-                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[1]->title, $limit = 20, $end = '...') }}</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img src="{{ asset('articlescopie/' . $articles[2]->image) }}" class="img-fluid w-100 rounded" alt="">
-                            <div class="project-content">
-                                <a href="#" class="text-center">
-                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[2]->title, $limit = 20, $end = '...') }}</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                    <div class="project-item">
-                        <div class="project-img">
-                            <img src="{{ asset('articlescopie/' . $articles[3]->image) }}" class="img-fluid w-100 rounded" alt="">
-                            <div class="project-content">
-                                <a href="#" class="text-center">
-                                    <h4 class="text-secondary">{{ Illuminate\Support\Str::limit($articles[3]->title, $limit = 20, $end = '...') }}</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             
-                
-            </div>
-        </div>
-    </div> -->
+
     <style>
         .btn-play {
             width: 40px;
@@ -1099,6 +942,7 @@
     <div class="media-block py-5" style="background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
             url('https://images.pexels.com/photos/7358746/pexels-photo-7358746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center center no-repeat;
         background-size: cover;" id="AudioVisual">
+        <!-- <div class="media-block py-5" style="background: blue;" id="AudioVisual"> -->
         <div class="container">
             <h4 class="text-white text-center mb-3">Audiovisuel</h4>
             <div class="row gx-md-5">
@@ -1110,6 +954,7 @@
                         </button>
                     </div>
                 </div>
+                <br><br> <br><br> <br><br><br><br>
                 <div class="col-12 col-md-4 mb-md-5">
                     <div class="ratio ratio-16x9" id="G2">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
@@ -1118,6 +963,7 @@
                         </button>
                     </div>
                 </div>
+                <br><br> <br><br> <br><br><br><br>
                 <div class="col-12 col-md-4 mb-md-5">
                     <div class="ratio ratio-16x9" id="G3">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
@@ -1125,6 +971,13 @@
                             <i class="fas fa-play" style="color:white;"></i>
                         </button>
                     </div>
+                </div>
+                <div>
+                    <button style="float: right;background-color:#077ec0;color:white" class="btn">
+                        <a href="{{route('galerie')}}" style="color:white">
+                            Plus info
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -1232,15 +1085,16 @@
                         <form action="{{ route('addcontact') }}" method="post" class="">
                             @csrf
                             <div class="input-group mb-3">
-                                <input type="text" required class="w-30 form-control rounded py-3   " placeholder="Votre nom"
-                                    name="name" style="border: 1px solid #666; margin-right:5px;">
-                                <input type="text" required class="w-30 form-control rounded py-3 " placeholder="Votre Prenom"
-                                    name="prenom" style="border: 1px solid #666;">
+                                <input type="text" required class="w-30 form-control rounded py-3   "
+                                    placeholder="Votre nom" name="name"
+                                    style="border: 1px solid #666; margin-right:5px;">
+                                <input type="text" required class="w-30 form-control rounded py-3 "
+                                    placeholder="Votre Prenom" name="prenom" style="border: 1px solid #666;">
                             </div>
-                            <input type="text" required class="w-100 form-control  py-3 mb-3" placeholder="Objet" name="objet"
-                                style="border: 1px solid #666;">
-                            <input type="email" required class="w-100 form-control py-3 mb-3" placeholder="Enter votre Email"
-                                name="email" style="border: 1px solid #666;">
+                            <input type="text" required class="w-100 form-control  py-3 mb-3" placeholder="Objet"
+                                name="objet" style="border: 1px solid #666;">
+                            <input type="email" required class="w-100 form-control py-3 mb-3"
+                                placeholder="Enter votre Email" name="email" style="border: 1px solid #666;">
                             <textarea required class="w-100 form-control  mb-3" rows="6" cols="10" name="message"
                                 placeholder="Votre Message" style="border: 1px solid #666;"></textarea>
                             <button class="w-100 btn form-control border-primary py-3 text "
@@ -1254,7 +1108,7 @@
     </div>
     </div>
     <br><br><br>
-  
+
     @foreach ($poup as $p)
         <div id="modalIndex" class="modal animated " style="cursor: pointer;">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -1310,20 +1164,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                    <div class="d-flex hightech-link">
-                        <a href="https://www.facebook.com/RADEEL.Officiel/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-facebook-f " style="color:#077ec0;"></i></a>
-                        <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-twitter " style="color:#077ec0;"></i></a>
-                        <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-instagram " style="color:#077ec0;"></i></a>
-                        <a href="https://ma.linkedin.com/company/radeelofficiel"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0">
-                            <i class="fab fa-linkedin-in " style="color:#077ec0;"></i></a>
-                    </div>
+                   
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -1381,220 +1222,19 @@
     </div>
 
 
-    <style>
-        .reseau {
-            position: fixed;
-            top: 400px;
-            left: 0%;
-            transform: translate(-50%, -50%);
-        }
-
-        .reseau ul {
-            list-style: none;
-        }
-
-        .reseau ul li {
-            width: 50px;
-            height: 50px;
-            position: relative;
-            background: #e59500;
-            margin: 10px 0;
-            cursor: pointer;
-            border-radius: 3px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .reseau ul li .fab {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px;
-            color: #fff;
-        }
-
-        .reseau ul li.facebook {
-            background: #39569C;
-        }
-
-        .reseau ul li.twitter {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube {
-            background-color: red;
-        }
-
-        .reseau ul li.facebook div.slider {
-            background: #627aac;
-        }
-
-        .reseau ul li.twitter div.slider {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram div.slider {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin div.slider {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube div.slider {
-            background: red;
-        }
-
-        .slider {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 51px;
-            width: 0px;
-            height: 50px;
-            background: #eebb5c;
-            border-radius: 3px;
-            transition: all 0.5s 0.3s ease;
-        }
-
-        .slider p {
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: 900;
-            color: #fff;
-            text-align: center;
-            line-height: 50px;
-            opacity: 0;
-            transition: all 0.6s ease;
-        }
-
-        .reseau ul li:hover .slider {
-            width: 180px;
-            transition: all 0.5s ease;
-        }
-
-        .reseau ul li:hover .slider p {
-            opacity: 1;
-            transition: all 1s 0.2s ease;
-        }
-    </style>
-
-    <div class="reseau">
-        <ul>
-            <li class="facebook">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">RADEELOfficiel</a></p>
-                </div>
-            </li>
-
-            <style>
-                svg {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-            </style>
-            <li class="twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
-                    viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path fill="#fff"
-                        d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
-                </svg>
-                <div class="slider">
-                    <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">RADEELOfficiel</a></p>
-                </div>
-            </li>
-
-            <div class="slider">
-                <p><a href="https://x.com/i/flow/login?redirect_after_login=%2Fi%2Fflow%2Flogin"
-                        style="color:white;">RADEELOfficiel</a></p>
-            </div>
-            </li>
-
-            <li class="instagram">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.instagram.com/radeelofficiel/" style="color:white;">RADEELOfficiel</a></p>
-                </div>
-            </li>
-
-            <li class="linkdin">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">RADEELOfficiel</a></p>
-                </div>
-            </li>
-            <li class="youtube">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">RADEELOfficiel</a></p>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <!-- Allo Radeel -->
-
-    <style>
-        .allo {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 24px;
-            right: 24px;
-            background-color: #f89323;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 3;
-        }
-
-        .allo i {
-            color: white;
-            font-size: 26px;
-
-        }
-
-        .allo .allotext {
-            background-color: #f89323;
-            padding: 4px 8px;
-            white-space: nowrap;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            font-size: 11px;
-            position: absolute;
-            z-index: 1;
-            top: 5px;
-            right: 105%;
-        }
-    </style>
-
-    <a href="tel:0801000042" class="allo">
-        <i class="fas fa-headset"></i>
-        <span class="allotext">AllO RADEEL</span>
-    </a>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1622,7 +1262,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
         integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+        </script>
 
     @if (Session::has('success'))
         <script>

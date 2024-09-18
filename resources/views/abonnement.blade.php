@@ -1198,7 +1198,7 @@
                             <div class="mb-3">
                                 <label class="form-label">Gérance <span style="color:red;">*</span>
                                 </label>
-                                <select class="form-select" aria-label="Default select example" name="gerance"
+                                <select class="form-select" aria-label="Default select example" name="gerance" required
                                     id="geranceAbon">
                                     <option value="eau" selected>Eau</option>
                                     <option value="électricité">électricité</option>
@@ -1208,7 +1208,7 @@
                             <div class="mb-3">
                                 <label class="form-label">Type abonnement<span style="color:red;">*</span>
                                 </label>
-                                <select class="form-select" aria-label="Default select example" id="type-abon"
+                                <select class="form-select" aria-label="Default select example" id="type-abon" required
                                     name="typeabonnement">
                                     <option selected disabled>Sélectionner une valeur
                                     </option>
@@ -1221,7 +1221,7 @@
                                 <label class="form-label">Adresse d'abonnement demandé <span
                                         style="color:red;">*</span>
                                 </label>
-                                <input type="text" class="form-control" name="adressabonnement"><br>
+                                <input type="text" class="form-control" name="adressabonnement" required><br>
                                 <select class="form-select" aria-label="Default select example" name="province">
                                     <option selected value="Larach">Larache
                                     </option>

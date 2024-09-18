@@ -505,7 +505,9 @@
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s"><br>
                         <!-- <h1 class="mb-4" style="color:#077ec0">Paiement en ligne </h1> -->
-                        <p>RADEEL met à votre disposition le service de paiement en ligne qui vous permet de régler vos factures d'électricité, eau et assainissement en ligne par votre carte bancaire en toute sécurité où que vous soyez : 24h/24, 7j/7 sur votre ordinateur ou téléphone mobile.</p>
+                        <p>
+                            Le service de paiement en ligne vous permet de régler vos factures d'eau et d'électricité en tête sublicité et sécurité : 24h/24 et 7j/7 depris votre ordinateur ou téléphone mobile .
+                        </p>
                        <p><a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040" class="btn btn" style='background-color:#D1801D; color: white;padding:15px;'> <i class="fas fa-credit-card" ></i>  Payer vos factures </a></p>
                         
                       </div>
@@ -528,8 +530,8 @@
 
 
         
-     {{-- footer --}}
-     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s"  style="background: #077ec0;">
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s"  style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -613,8 +615,8 @@
     </div>
         <!-- Footer End -->
     
-      <!-- Footer End -->
-      <style>
+    <!-- Footer End -->
+    <style>
         .wrapper {
             position: fixed;
             top: 400px;
