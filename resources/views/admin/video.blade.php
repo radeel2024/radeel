@@ -162,9 +162,9 @@
                         @can('ressources-humaines')
                             <a class="collapse-item " href="{{ route('rh') }}"><strong> Ressources humaines</strong></a>
                         @endcan
-                        @can('achat-Logistique')
+                       <!--  @can('achat-Logistique')
                             <a class="collapse-item" href="{{ route('achat') }}"><strong>Achat et Logistique</strong></a>
-                        @endcan
+                        @endcan -->
                         @can('galerie')
                             <a class="collapse-item active" href="{{ route('album') }}"><strong>Galerie</strong></a>
                         @endcan

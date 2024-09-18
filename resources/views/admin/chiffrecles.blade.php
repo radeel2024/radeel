@@ -258,10 +258,10 @@
                                 Humaines</strong></a>
                     @endcan
 
-                    @can('achat-Logistique')
+                 <!--    @can('achat-Logistique')
                         <a class="collapse-item" href="{{ route('statistiqueachatlo') }}"><strong>Achat et
                                 Logistique</strong></a>
-                    @endcan
+                    @endcan -->
 
                     </div>
                 </div>
