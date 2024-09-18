@@ -433,7 +433,6 @@
 
                                             <div class="col-lg-8 shadow-sm" bis_skin_checked="1">
                                                 <div class="card-body text-center" bis_skin_checked="1">
-
                                                     <form method="post" action="{{ route('addannonce') }}"
                                                         enctype="multipart/form-data">
                                                         @csrf
@@ -543,14 +542,11 @@
                                                             </tr>
                                                         @endforeach
                                                     </tbody>
-
                                                 </table>
-
-
                                             </div>
                                         </div>
-
                                     </div>
+
                                     <script>
                                         function displaySelectedImage(input) {
                                             var selectedImage = document.getElementById('selectedImage');
@@ -569,6 +565,7 @@
                                             }
                                         }
                                     </script>
+                                    
                                     <script>
                                         function displayInput(inputId, displayId) {
                                             var inputElement = document.getElementById(inputId);
