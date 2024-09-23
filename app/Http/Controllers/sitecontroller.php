@@ -98,6 +98,10 @@ class sitecontroller extends Controller
         return view('stress',compact('galerie'));
     }
 
+    public function about(){
+        return view('about');
+    }
+
     public function nosvaleurrh(){
         return view('nosvaleur');
     }

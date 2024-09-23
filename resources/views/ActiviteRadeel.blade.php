@@ -33,12 +33,12 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://i.ibb.co/PZjP8dD/head.png) center center no-repeat;
+       .page-headere {
+            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cover1.png) center center no-repeat;
             background-size: cover;
+            background-position: center;
             width: 100%;
         }
-
         body {
             margin: 0;
             font-family: "Montserrat", sans-serif;
@@ -57,19 +57,10 @@
         style="background: #077ec0; font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <div class="top-info">
-                    <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com</a></small>
-                    <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
-                        <a style="color:white;text-decoration: none;text-decoration: none;"
-                            href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
-                            target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
-                    </small>
-                </div>
 
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">ALLO Radeel 08 01 00 00
-                            42</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMME OUVERT DE 8:00
+                            A 16:30</a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -91,215 +82,7 @@
             </div>
         </div>
     </div>
-    <style>
-        .reseau {
-            position: fixed;
-            top: 400px;
-            left: 0%;
-            transform: translate(-50%, -50%);
-        }
-
-        .reseau ul {
-            list-style: none;
-        }
-
-        .reseau ul li {
-            width: 50px;
-            height: 50px;
-            position: relative;
-            background: #e59500;
-            margin: 10px 0;
-            cursor: pointer;
-            border-radius: 3px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .reseau ul li .fab {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px;
-            color: #fff;
-        }
-
-        .reseau ul li.facebook {
-            background: #39569C;
-        }
-
-        .reseau ul li.twitter {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube {
-            background-color: red;
-        }
-
-        .reseau ul li.facebook div.slider {
-            background: #627aac;
-        }
-
-        .reseau ul li.twitter div.slider {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram div.slider {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin div.slider {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube div.slider {
-            background: red;
-        }
-
-        .slider {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 51px;
-            width: 0px;
-            height: 50px;
-            background: #eebb5c;
-            border-radius: 3px;
-            transition: all 0.5s 0.3s ease;
-        }
-
-        .slider p {
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: 900;
-            color: #fff;
-            text-align: center;
-            line-height: 50px;
-            opacity: 0;
-            transition: all 0.6s ease;
-        }
-
-        .reseau ul li:hover .slider {
-            width: 180px;
-            transition: all 0.5s ease;
-        }
-
-        .reseau ul li:hover .slider p {
-            opacity: 1;
-            transition: all 1s 0.2s ease;
-        }
-    </style>
-
-    <div class="reseau">
-        <ul>
-            <li class="facebook">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
-                </div>
-            </li>
-
-            <style>
-                svg {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-            </style>
-            <li class="twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
-                    viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path fill="#fff"
-                        d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
-                </svg>
-                <div class="slider">
-                    <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">twitter</a></p>
-                </div>
-            </li>
-
-            <li class="instagram">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.instagram.com/p/CwSqgxHOC6d/" style="color:white;">instagram</a></p>
-                </div>
-            </li>
-
-            <li class="linkdin">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
-                </div>
-            </li>
-            <li class="youtube">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <!-- allo Radeel -->
-
-    <style>
-        .allo {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 24px;
-            right: 24px;
-            background-color: #f89323;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 3;
-        }
-
-        .allo i {
-            color: white;
-            font-size: 26px;
-
-        }
-
-        .allo .allotext {
-            background-color: #f89323;
-            padding: 4px 8px;
-            white-space: nowrap;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            font-size: 11px;
-            position: absolute;
-            z-index: 1;
-            top: 5px;
-            right: 105%;
-        }
-    </style>
-
-    <a href="tel:0801000042" class="allo">
-        <i class="fas fa-headset"></i>
-        <span class="allotext">Allo RADEEL</span>
-    </a>
-
+  
 
     <!-- end Spinner Start -->
 
@@ -619,18 +402,21 @@
 
 
             <nav id="navbarNav navbar-expand-sm " class="navbar ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul>
-                    <li><a class="nav-link scrollto " href="{{ url('../') }}">ACCEUIL</a></li>
-                    <li class="dropdown"><a href class="nav-link active"><span>RADEEL</span> <i
+                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
+                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
                                     Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Structure RADEEL</a>
+                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                                    RADEEL</a>
                             </li>
                             <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
@@ -638,66 +424,66 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a>
-                            </li>
-                            <li><a href="{{url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{url('../Autre') }}" class="dropdown-item">Guide client </a></li>
+                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a></li>
+                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
+                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
+                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
+                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <!--                         <li><a href="{{url('../loi') }}" class="dropdown-item">Loi cadre</a></li>
- -->
-                            <li><a href="{{url('../Avis recrutement') }}" class="dropdown-item">Avis de recrutement</a>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
+                                </a>
                             </li>
-                            <li><a href="{{url('../stage') }}" class="dropdown-item">Stages </a></li>
+                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
+
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <!--   <li><a href=" {{url('../AppelOffre') }}" class="dropdown-item">Avis des appels d'offres</a></li>
-                        <li><a href="{{url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels d'offres</a></li> -->
-                            <li><a href="{{url('../programme') }}" class="dropdown-item">Programme prévisionnel</a></li>
-                            <li><a href="{{url('../Reglement') }}" class="dropdown-item"> Réglement des marchés publics
-                                </a></li>
+                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </li>
+                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
+                                    publics </a></li>
 
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a></li>
+                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                            </li>
                             <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
                             </li>
-                            <li><a href="{{url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
+                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
+                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
 
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto" href="{{url('../')}}#contact">CONTACT</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <li class="dropdown">
-                        <strong>Fr</strong>
-                        <ul>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Fr
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Ar
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                    <!--    <li class="dropdown">
+        <strong>Fr</strong>
+        <ul>
+            <li>
+                <a href="#" class="dropdown-item">
+                    Fr
+                </a>
+            </li>
+            <li>
+                <a href="#" class="dropdown-item">
+                    Ar
+                </a>
+            </li>
+        </ul>
+    </li> -->
 
                 </ul>
 
-            </nav><!-- .navbar -->
+            </nav>
         </div>
     </header><!-- End Header -->
     <!-- Navbar End -->
@@ -981,31 +767,13 @@
                                     <div class="row ">
                                         <div class="">
                                             <div class="text-center">
-                                                <h2 style="color:#f89323;">REALISATIONS D’ELECTRICITE 2017</h2>
-                                                <p class="text-start">
-                                                    Le budget d’investissement alloué à la distribution Electricité est
-                                                    de 20,45 Mdhs.
-                                                    Les réalisations ont atteint un total de 13,86 Mdhs soit un taux de
-                                                    réalisation de
-                                                    68 %. <br>
-                                                    Les réalisations par chapitre se présentent comme suit : <br>
-                                                <div class="text-center">
-                                                    <img src="img/elec.png" alt="" class="img-fluid "
-                                                        style="margin:5px; width:550px">
-                                                    <img src="img/elec1.png" alt="" class="img-fluid "
-                                                        style="margin:5px;">
-                                                </div>
-                                                </p>
+                                                <h2 style="color:#f89323;">REALISATIONS D’ELECTRICITE 2024</h2>
                                                 <ul class="text-start">
-                                                    <p> La RADEEL a réalisé en 2017 plusieurs projets s’inscrivant dans
-                                                        le
-                                                        cadre de :</p>
                                                     <section id="why-us" class="why-us">
                                                         <div class="container-fluid aos-init aos-animate"
                                                             data-aos="fade-up">
                                                             <div class="row">
-                                                                <div
-                                                                    class=" justify-content-center align-items-stretch  ">
+                                                                <div class=" justify-content-center align-items-stretch  ">
                                                                     <div class="accordion-list">
                                                                         <ul>
                                                                             <li>
@@ -1013,51 +781,16 @@
                                                                                     class="collapse collapsed"
                                                                                     data-bs-target="#accordion-list-1"
                                                                                     aria-expanded="false"><span>01</span>
-                                                                                    <h3 style="color:#f89323"><u>
-                                                                                            Ouvrages électriques postes
-                                                                                            sources
-                                                                                            et
-                                                                                            répartiteurs </u></h3>
+                                                                                    <h3 style="color:#f89323">
+                                                                                        <u>Zone d’action </u>
+                                                                                    </h3>
                                                                                 </a>
                                                                                 <div id="accordion-list-1"
                                                                                     class="collapse"
                                                                                     data-bs-parent=".accordion-list">
-                                                                                    <p>L’achèvement des travaux de
-                                                                                        renouvellement de deux jeux
-                                                                                        de
-                                                                                        combinés de
-                                                                                        mesure TT-TC dans le cadre
-                                                                                        du
-                                                                                        marché 15/E/2014 :
-                                                                                        Fourniture
-                                                                                        et mise en
-                                                                                        service des combinés de
-                                                                                        mesure
-                                                                                        TC-TT 72,5KV au poste source
-                                                                                        Ksar El Kébir.</p>
-                                                                                    <p>Réalisation des travaux de
-                                                                                        maintenance et d’entretien
-                                                                                        de
-                                                                                        tous les postes
-                                                                                        répartiteurs de la RADEEL
-                                                                                        dans
-                                                                                        le cadre du marché 15/E/2017
-                                                                                        : Maintenance et
-                                                                                        diagnostic des cellules
-                                                                                        disjoncteurs MT des postes
-                                                                                        source et
-                                                                                        poste
-                                                                                        répartiteurs de la RADEEL.
-                                                                                    <p>
-
-                                                                                    <div class="text-center">
-                                                                                        <img src="img/elec2.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px;">
-                                                                                        <img src="img/elc4.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px;">
-                                                                                    </div>
+                                                                                    <p> La RADEEL (Régie Autonome de Distribution d&#39;Eau et d&#39;Électricité de Larache) assure l&#39;alimentation en énergie
+électrique des villes de Larache, Ksar Kébir, et des communes rurales Aouamra, Sahel, Zouada, Oulad Ouchih et Ksar
+Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                 </div>
                                                                             </li>
 
@@ -1440,7 +1173,8 @@
                                                                                 style="display:inline-block; color:#077ec0;">
                                                                                 <u>Au niveau
                                                                                     de
-                                                                                    l’Infrastructure</u> </h3>
+                                                                                    l’Infrastructure</u>
+                                                                            </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
                                                                                 class="bx bx-chevron-up icon-close"></i>
@@ -1585,7 +1319,8 @@
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#077ec0;">
                                                                                 <u>Au
-                                                                                    niveau de la distribution</u></h3>
+                                                                                    niveau de la distribution</u>
+                                                                            </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
                                                                                 class="bx bx-chevron-up icon-close"></i>
@@ -1914,8 +1649,8 @@
                                                     aria-expanded="false"><span>01</span>
                                                     <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
                                                         <u>Au
-                                                            niveau de la distribution</u> </h3><i
-                                                        class="bx bx-chevron-down icon-show"></i><i
+                                                            niveau de la distribution</u>
+                                                    </h3><i class="bx bx-chevron-down icon-show"></i><i
                                                         class="bx bx-chevron-up icon-close"></i>
                                                 </a>
                                                 <div id="accordion-list-1" class="collapse"
@@ -2157,8 +1892,8 @@
                                                         <u> Au
                                                             niveau d’entretien et curage du réseau et
                                                             ouvrages d’assainissement
-                                                            liquide </u></h3> <i
-                                                        class="bx bx-chevron-down icon-show"></i><i
+                                                            liquide </u>
+                                                    </h3> <i class="bx bx-chevron-down icon-show"></i><i
                                                         class="bx bx-chevron-up icon-close"></i>
                                                 </a>
                                                 <div id="accordion-list-2" class="collapse"
@@ -2270,8 +2005,8 @@
                                                     class="collapsed" aria-expanded="false"><span>03</span>
                                                     <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
                                                         <u>Au
-                                                            niveau des travaux avec participation</u> </h3><i
-                                                        class="bx bx-chevron-down icon-show"></i><i
+                                                            niveau des travaux avec participation</u>
+                                                    </h3><i class="bx bx-chevron-down icon-show"></i><i
                                                         class="bx bx-chevron-up icon-close"></i>
                                                 </a>
                                                 <div id="accordion-list-3" class="collapse"
@@ -2328,16 +2063,7 @@
                                         </p>
                 </ul>
             </div>
-            </li>
-
         </div>
-
-    </div>
-
-    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate" data-aos="zoom-in"
-        data-aos-delay="150">&nbsp;</div>
-    </div>
-
     </div>
     </section>
     </ul>
@@ -2353,6 +2079,13 @@
 
     </div>
     </div>
+    </div>
+
+    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate" data-aos="zoom-in"
+        data-aos-delay="150">&nbsp;</div>
+    </div>
+
+
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
@@ -2365,20 +2098,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                    <div class="d-flex hightech-link">
-                        <a href="https://www.facebook.com/RADEEL.Officiel/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-facebook-f " style="color:#077ec0;"></i></a>
-                        <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-twitter " style="color:#077ec0;"></i></a>
-                        <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-instagram " style="color:#077ec0;"></i></a>
-                        <a href="https://ma.linkedin.com/company/radeelofficiel"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0">
-                            <i class="fab fa-linkedin-in " style="color:#077ec0;"></i></a>
-                    </div>
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -2392,7 +2112,7 @@
                             clients</a>
                         <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
                                 style="color: white;"></i>Espaces RH</a>
-                        <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
+                        <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
                 </div>
@@ -2429,7 +2149,7 @@
             <div class="row">
                 <div class="col-md-6 ">
                     <a href="#" class="text-center   text-light"><i class="fas fa-copyright ">
-                            Copyright @2023</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
+                            Copyright @2024</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
                 </div>
             </div>
         </div>
@@ -2446,7 +2166,19 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
-
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
     <!-- jQuery -->
 
     <!-- Bootstrap js -->

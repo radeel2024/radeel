@@ -30,18 +30,18 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-   
+
 
     {{-- Alert --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
         integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+        </script>
 
     <style>
         .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/abon.jpg) center center no-repeat;
-             background-size: cover;
+            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cover2.png) center center no-repeat;
+            background-size: cover;
         }
 
         .nav-item.dropdown>a::after {
@@ -197,124 +197,31 @@
         }
     </style>
 
-    <div class="wrapper">
-        <ul>
-            <li class="facebook">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <div class="slider">
-                    <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
-                </div>
-            </li>
+  
 
-            <style>
-                svg {
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-            </style>
-            <li class="twitter">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
-                    viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path fill="#fff"
-                        d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
-                </svg>
-                <div class="slider">
-                    <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            style="color:white;">twitter</a></p>
-                </div>
-            </li>
+   <!--Start of Tawk.to Script-->
+   <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-            <li class="instagram">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.instagram.com/p/CwSqgxHOC6d/" style="color:white;">instagram</a></p>
-                </div>
-            </li>
 
-            <li class="linkdin">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
-                </div>
-            </li>
-            <li class="youtube">
-                <i class="fab fa-youtube" aria-hidden="true"></i>
-                <div class="slider">
-                    <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
-                </div>
-            </li>
-        </ul>
-    </div>
+  
 
-    <!-- allo Radeel -->
-
-    <style>
-        .allo {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 24px;
-            right: 24px;
-            background-color: #f89323;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            font-size: 24px;
-            z-index: 3;
-        }
-
-        .allo i {
-            color: white;
-            font-size: 26px;
-
-        }
-
-        .allo .allotext {
-            background-color: #f89323;
-            padding: 4px 8px;
-            white-space: nowrap;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            font-size: 11px;
-            position: absolute;
-            z-index: 1;
-            top: 5px;
-            right: 105%;
-        }
-    </style>
-
-    <a href="tel:0801000042" class="allo">
-        <i class="fas fa-headset"></i>
-        <span class="allotext">Allo RADEEL</span>
-    </a>
+   
     <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <div class="top-info">
-                    <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com</a></small>
-                    <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
-                        <a style="color:white;text-decoration: none;text-decoration: none;"
-                            href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
-                            target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
-                    </small>
-                </div>
-
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">ALLO Radeel 08 01 00 00
-                            42</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE 8:00 A 16:30</a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -647,31 +554,31 @@
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
-
             <nav id="navbarNav navbar-expand-sm " class="navbar ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul>
-                    <li><a class="nav-link scrollto " href="{{ url('../') }}">ACCEUIL</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}">ACCUEIL</a></li>
                     <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
                                     Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Structure RADEEL</a>
+                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                                    RADEEL</a>
                             </li>
                             <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown" style="color:black;"><a class="nav-link active"><span>ESPACE CLIENT</span>
-                            <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
-                                    ligne</strong></a>
-                            </li>
+                                    ligne</strong></a></li>
                             <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
                             <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
                             <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
@@ -679,34 +586,26 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           <!--  <li><a href="{{ url('../loi') }}" class="dropdown-item">Loi cadre</a></li> -->
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Avis de
-                                    recrutement</a>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
+                                </a>
                             </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item">Stages </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <!-- <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
-                                    d'offres</a>
-                            </li>
-                            <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
-                                    d'offres</a></li> -->
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics
-                                </a></li>
+                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </li>
+                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
+                                    publics </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
@@ -717,28 +616,16 @@
 
                         </ul>
                     </li>
-
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact">CONTACT</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <li class="dropdown">
-                        <strong>Fr</strong>
-                        <ul>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Fr
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Ar
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                 
 
                 </ul>
 
-            </nav><!-- .navbar -->
+            </nav>
+
+
         </div>
     </header>
 
@@ -752,7 +639,7 @@
     </div>
 
     <!-- contente  -->
-      <style>
+    <style>
         .bd-callout {
             padding: 1.25rem;
             margin-top: 1.25rem;
@@ -804,7 +691,7 @@
             color: #077ec0;
             color: white;
             text-align: center;
-            font-size:20px;
+            font-size: 20px;
             line-height: 30px;
         }
     </style>
@@ -814,15 +701,15 @@
             <div class="col-md-4 py-5">
                 <div class="nav flex-column nav-pills vertical-tabs" id="v-pills-tab" role="tablist"
                     aria-orientation="vertical">
-                    <button class="nav-link active justifay-content-center" id="v-pills-home-tab"
-                        data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
-                        aria-controls="v-pills-home" aria-selected="true">Raccordement</button>
+                    <button class="nav-link active justifay-content-center" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">Raccordement</button>
                     <button class="nav-link justiy-content-center" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab"
-                        aria-controls="v-pills-profile" aria-selected="false">Résiliation</button>
+                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                        aria-selected="false">Résiliation</button>
                     <button class="nav-link justify-content-center" id="v-pills-messages-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-messages" type="button" role="tab"
-                        aria-controls="v-pills-messages" aria-selected="false">Factures</button>
+                        data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                        aria-selected="false">Factures</button>
                 </div>
             </div>
             <div class="col-md-8 py-5">
@@ -1310,7 +1197,8 @@
                         <div class="step-circle" onclick="displayStep(3)">3</div>
                     </div>
 
-                    <form method="POST" action="{{ route('addraccoredement') }}" enctype="multipart/form-data"  id="multi-step-form1" style="Padding:30px;">
+                    <form method="POST" action="{{ route('addraccoredement') }}" enctype="multipart/form-data"
+                        id="multi-step-form1" style="Padding:30px;">
                         @csrf
                         @if (Session::has('success'))
                             <script>
@@ -1354,8 +1242,7 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Adresse d'abonnement demandé <span
-                                        style="color:red;">*</span>
+                                <label class="form-label">Adresse d'abonnement demandé <span style="color:red;">*</span>
                                 </label>
                                 <input type="text" class="form-control" name="adressabonnement"><br>
                                 <select class="form-select" aria-label="Default select example" name="province">
@@ -1444,8 +1331,7 @@
                                 </label>
                                 <input class="form-control form-control" type="text" placeholder="addresse"
                                     name="adresscorresp"><br>
-                                <input class="form-control form-control" type="text" placeholder="ville"
-                                    name="ville">
+                                <input class="form-control form-control" type="text" placeholder="ville" name="ville">
                             </div>
                             <!-- recaptcha -->
                             <!-- <div class="mb-3">
@@ -1471,8 +1357,7 @@
                             <div class="mb-3" id="cinRac">
                                 <label class="form-label">CIN <span style="color:red;">*</span>
                                 </label>
-                                <input class="form-control form-control" id="formFileLg" type="file"
-                                    name="cinfile">
+                                <input class="form-control form-control" id="formFileLg" type="file" name="cinfile">
                             </div>
                             <div class="mb-3" id="cinGRac">
                                 <label class="form-label">CIN de Gérant <span style="color:red;">*</span>
@@ -1488,8 +1373,7 @@
                                     name="recudevisfile">
                             </div>
                             <div class="mb-3" id="AttesRac">
-                                <label class="form-label">Attestation de construction <span
-                                        style="color:red;">*</span>
+                                <label class="form-label">Attestation de construction <span style="color:red;">*</span>
                                 </label>
                                 <input class="form-control form-control" id="formFileLg" type="file"
                                     aria-multiselectable="" name="Attestationconstruction">
@@ -1504,8 +1388,7 @@
                             <div class="mb-3" id="croquisRac">
                                 <label class="form-label">Croquis <span style="color:red;">*</span>
                                 </label>
-                                <input class="form-control form-control" id="formFileLg" type="file"
-                                    name="croquisfile">
+                                <input class="form-control form-control" id="formFileLg" type="file" name="croquisfile">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Justification d'occupation du local<span
@@ -1571,7 +1454,7 @@
                             </div>
                         </div>
                         <div class="step step-3">
-                           {{--  <div class="mb-3">
+                            {{-- <div class="mb-3">
                                 <div class="captcha">
                                     <span>{!! captcha_img() !!}</span>&nbsp;&nbsp;
                                     <button class="btn btn-danger reload" type="button" id="reload">
@@ -1581,12 +1464,11 @@
 
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" name="captcha"
-                                    placeholder="Entrer le captcha">
+                                <input type="text" class="form-control" name="captcha" placeholder="Entrer le captcha">
                                 @if ($errors->has('captcha'))
-                                    <div class="alert alert-danger">
-                                        {{ $errors->first('captcha') }}
-                                    </div>
+                                <div class="alert alert-danger">
+                                    {{ $errors->first('captcha') }}
+                                </div>
                                 @endif
                             </div> --}}
                             <br>
@@ -1602,11 +1484,11 @@
     </div>
 
     <script>
-        $('#reload').click(function() {
+        $('#reload').click(function () {
             $.ajax({
                 type: 'GET',
                 url: 'reload-captcha',
-                success: function(data) {
+                success: function (data) {
                     $(".captcha span").html(data.captcha)
                 }
             });
@@ -1616,8 +1498,7 @@
 
 
 
-    <!-- Footer Start -->
-
+    {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
@@ -1628,20 +1509,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                    <div class="d-flex hightech-link">
-                        <a href="https://www.facebook.com/RADEEL.Officiel/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-facebook-f " style="color:#077ec0;"></i></a>
-                        <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-twitter " style="color:#077ec0;"></i></a>
-                        <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-instagram " style="color:#077ec0;"></i></a>
-                        <a href="https://ma.linkedin.com/company/radeelofficiel"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0">
-                            <i class="fab fa-linkedin-in " style="color:#077ec0;"></i></a>
-                    </div>
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -1653,9 +1521,9 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
                                 style="color: white;"></i>Espaces RH</a>
-                        <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
+                        <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
                 </div>
@@ -1675,7 +1543,7 @@
                                 class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.03.25</a>
@@ -1692,12 +1560,15 @@
             <div class="row">
                 <div class="col-md-6 ">
                     <a href="#" class="text-center   text-light"><i class="fas fa-copyright ">
-                            Copyright @2023</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
+                            Copyright @2024</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+
+
+
+
 
 
 
@@ -1715,14 +1586,14 @@
 
 
     <script>
-        $("#type-abonRacc").change(function() {
+        $("#type-abonRacc").change(function () {
             if ($(this).val() === "AugmentationRac") {
                 $("#recuRac").show();
             } else {
                 $("#recuRac").hide();
             }
         });
-        $("#phy").change(function() {
+        $("#phy").change(function () {
             if ($(this).val() === "LocataireRac") {
                 $("#AttesRac").show();
                 $("#RacMorale1").show();
@@ -1747,7 +1618,7 @@
             }
 
         });
-        $("#personne2").change(function() {
+        $("#personne2").change(function () {
             if ($(this).val() === "PersonnePhysiqueRac") {
                 $("#cinGRac").hide();
                 $("#cinRac").show();
@@ -1784,7 +1655,7 @@
             }
         }
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#croquisRac").hide();
             $("#AttesMulRac").hide();
             $("#AttesRac").hide();
@@ -1800,11 +1671,11 @@
             $("#RacMorale").hide();
             $('#multi-step-form1').find('.step').slice(1).hide();
 
-            $(".next-step").click(function() {
+            $(".next-step").click(function () {
                 if (currentStep < 3) {
                     $(".step-" + currentStep).addClass("animate__animated animate__fadeOutLeft");
                     currentStep++;
-                    setTimeout(function() {
+                    setTimeout(function () {
                         $(".step").removeClass("animate__animated animate__fadeOutLeft").hide();
                         $(".step-" + currentStep).show().addClass(
                             "animate__animated animate__fadeInRight");
@@ -1813,11 +1684,11 @@
                 }
             });
 
-            $(".prev-step").click(function() {
+            $(".prev-step").click(function () {
                 if (currentStep > 1) {
                     $(".step-" + currentStep).addClass("animate__animated animate__fadeOutRight");
                     currentStep--;
-                    setTimeout(function() {
+                    setTimeout(function () {
                         $(".step").removeClass("animate__animated animate__fadeOutRight").hide();
                         $(".step-" + currentStep).show().addClass(
                             "animate__animated animate__fadeInLeft");
@@ -1826,7 +1697,7 @@
                 }
             });
 
-            updateProgressBar = function() {
+            updateProgressBar = function () {
                 var progressPercentage = ((currentStep - 1) / 2) * 100;
                 $(".progress-bar").css("width", progressPercentage + "%");
             }

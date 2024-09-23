@@ -85,14 +85,15 @@ use App\Http\Controllers\RoleController;
 
 
 
-    /* Route::get('/loi', function () {
+     Route::get('/loi', function () {
         return view('loiCadre');
-    }); */
+    }); 
 
     //stress
     Route::get('/stress', [sitecontroller::class, 'stress'])->name('stress');
     Route::get('/nosvaleur', [sitecontroller::class, 'nosvaleurrh'])->name('nosvaleurrh');
-
+    //about
+    Route::get('/Quisommenous', [sitecontroller::class, 'about'])->name('about');
     Route::get('/test', function () {
         return view('text');
     });

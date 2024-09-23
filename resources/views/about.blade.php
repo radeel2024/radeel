@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>RADEEL</title>
+    <title>Radeel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -43,8 +43,8 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex"
-        style="background: #077ec0;font-size:18px; color:#4d4D4D;font-family:arial;">
+    <!-- Spinner Start -->
+    <div class="container-fluid py-2 d-none d-md-flex" style="background: #077ec0; font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
@@ -54,23 +54,28 @@
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-facebook-f" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
+                        <i class="fab fa-facebook-f" style="color: #077ec0;"></i></a>
+                    &nbsp;&nbsp;
                     <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
+                        <i class="fab fa-twitter" style="color: #077ec0;"></i></a>
+                    &nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
                         <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
-                    </a>&nbsp;&nbsp;
+                    </a>
+                    &nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
+                        <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>
+                    &nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- end Spinner Start -->
 
     <style>
@@ -109,12 +114,7 @@
             }
         }
 
-        /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-        /**
-* Desktop Navigation
-*/
+
         .navbar {
             padding: 0;
         }
@@ -259,9 +259,7 @@
             }
         }
 
-        /**
-* Mobile Navigation
-*/
+
         .mobile-nav-toggle {
             color: #fff;
             cursor: pointer;
@@ -373,7 +371,6 @@
             display: block;
         }
     </style>
-
     <!-- Navbar Start -->
     <header id="header" class="sticky-top d-flex align-items-center">
 
@@ -387,7 +384,6 @@
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
-
             <nav id="navbarNav navbar-expand-sm " class="navbar ">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -396,7 +392,7 @@
                 </button>
                 <ul>
                     <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
+                    <li class="dropdown"><a class="nav-link active"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
@@ -477,34 +473,67 @@
 
             </nav>
 
+
         </div>
-    </header><!-- End Header -->
+    </header>
     <!-- Navbar End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Structure R.A.D.E.E.L</h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Qui sommes-nous</h1>
         </div>
     </div>
 
-    <!-- Page Header End -->
+
     <!-- Page presentation RADEEL  -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s" id="Structure">
+    <div class="container-fluid py-4 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row ">
                 <div class="col-lg">
-                    <p class="section-body position-relative pb-3 mb-5">La RADEEL est administrée par un Conseil
-                        d’Administration et un comité de Direction. L’ensemble des services est géré par le Directeur
-                        Général.</p>
-                    <img src="https://www.radeel.ma/images/radeel-images/organigramme.png" width="100%"
-                        class="img-fluid">
+                    <div class="section-title position-relative ">
+                        <h2 class="mb-0 text" style="color: #077ec0;"> Régie Autonome Intercommunale de Distribution
+                            d'Eau et d'Electricité de la Province de Larache </h2>
+                    </div>
+                    <br>
+                    <p>La Régie Autonome intercommunale de Distribution d&#39;Eau et d&#39;Electricité de la Province de
+                        Larache (RADEEL) est un établissement public à caractère industriel et commercial, doté de
+                        la personnalité morale et de l’autonomie financière, placé sous la tutelle du Ministère de
+                        l’Intérieur et assujetti au contrôle des finances de l’Etat.</p>
+                    <br>
+                    <p>La RADEEL a été créée en janvier 1996 suite à l’arrêté du Ministre de l’Intérieur N° 96 du 21
+                        Septembre 1995, approuvant les délibérations des Communes : Larache, Ksar El Kébir,
+                        Zouada, Aouamra, Boujedian, Tatoft, Oulad Ouchih, Ksar Bjir, Souaken, Souk Tolbat, Sahel,
+                        Rissana Nord, et Rissana Sud, relatives à la création d’une Régie Autonome de Distribution
+                        d’Eau et d’Electricité à la Province de Larache.</p>
+                    <br>
+                    <p>
+                        La Régie assure le service public de distribution d’eau et d’électricité et le service de
+                        l’assainissement liquide dans la Province de Larache comme suit :
+                    <ul>
+                        <li>Distribution de l’électricite : villes de Larache de Ksar Kébir et Communes rurales
+                            Aoumara, Zouada, Khmiss Sahel, Ksar Bjir et Oulad Ouchih.</li>
+                        <li>Distribution de l’eau potable et service de l’assainissement liquide : villes de Larache
+                            et Ksar Kébir et centres de Aouamra, Zouada et Khmiss Sahel.</li>
+                    </ul>
+                    </p>
+                    <br>
+                    <strong>Notre mission :</strong>
+                    <p>
+                        Améliorer les conditions de vie de nos concitoyens à travers distribution fiable, continue et
+                        sécurisée de l’eau potable et de l’électricité ainsi qu’un service d’assainissement liquide
+                        qualité supérieure.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page mots de directeur general RADEEL End -->
 
+
+    <!-- Page mots de directeur general RADEEL End -->
+    <br><br><br><br><br>
+
+    <!-- Footer Start -->
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
@@ -515,7 +544,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-              
+                   
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -571,11 +600,7 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
-   
 
-   
-    
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
@@ -590,7 +615,7 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
-    
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
