@@ -142,17 +142,6 @@
     <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <!--  <div class="top-info">
-                    <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white;">
-                            reclamation@radeel.com</a></small>
-                    <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
-                        <a style="color:white; text-decoration: none; text-decoration: none;"
-                            href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
-                            target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
-                    </small>
-                </div> -->
-
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
                     <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
                             8:00 A 16:30 </a></small>
@@ -472,113 +461,40 @@
         }
     </style>
     <!-- Navbar Start -->
-    <header id="header" class="sticky-top d-flex align-items-center">
-
-        <div class="container d-flex justify-content-between">
-
-            <div class="logo">
-                <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-black fw-bold d-block">Rad<span class="text-secondary">eel</span> </h1>
                 </a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                <button type="button" class="navbar-toggler me-0 collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul>
-                    <li><a class="nav-link scrollto active " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
-                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
-                                    Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
-                                    RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
-                                    ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi </a>
-                            </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <!--  <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
-                                    d'offres</a></li>
-                            <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
-                                    d'offres</a></li> -->
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
-                            </li>
-                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                            </li>
-                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
-
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                 <!--    <li class="dropdown">
-                        <strong>Fr</strong>
-                        <ul>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Fr
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Ar
-                                </a>
-                            </li>
-                        </ul>
-                    </li> -->
-
-                </ul>
-
+                <div class="navbar-collapse bg-transparent collapse" id="navbarCollapse" style="">
+                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                        <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu rounded">
+                                <a href="blog.html" class="dropdown-item">Our Blog</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+                
             </nav>
-
         </div>
-    </header><!-- End Header -->
-
-    <!-- Navbar End -->
+    </div>
 
 
-    <!-- header -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             @foreach ($slider as $key => $slide)
@@ -621,7 +537,6 @@
         </button>
     </div>
 
-    <!-- SLIDE END -->
 
 
 
@@ -973,7 +888,7 @@
                 <div>
                     <button style="float: right;background-color:#077ec0;color:white" class="btn">
                         <a href="{{route('galerie')}}" style="color:white">
-                            En savoir plus 
+                            En savoir plus
                         </a>
                     </button>
                 </div>
@@ -1174,8 +1089,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1240,36 +1155,9 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://www.radeef.ma/assetsFront/js/vendor/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/teste.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-    {{-- Alert --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
-        integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
-
-    @if (Session::has('success'))
-        <script>
-            swal("Message", "{{ Session::get('success') }}", 'success', {
-                button: true,
-                button: "OK"
-            });
-        </script>
-    @endif
 
 
 </body>

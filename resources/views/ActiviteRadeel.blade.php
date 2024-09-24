@@ -767,7 +767,7 @@
                                     <div class="row ">
                                         <div class="">
                                             <div class="text-center">
-                                                <h2 style="color:#f89323;">REALISATIONS D’ELECTRICITE 2024</h2>
+                                                <h2 style="color:#f89323;">REALISATIONS D’ELECTRICITE 2023</h2>
                                                 <ul class="text-start">
                                                     <section id="why-us" class="why-us">
                                                         <div class="container-fluid aos-init aos-animate"
@@ -788,9 +788,7 @@
                                                                                 <div id="accordion-list-1"
                                                                                     class="collapse"
                                                                                     data-bs-parent=".accordion-list">
-                                                                                    <p> La RADEEL (Régie Autonome de Distribution d&#39;Eau et d&#39;Électricité de Larache) assure l&#39;alimentation en énergie
-électrique des villes de Larache, Ksar Kébir, et des communes rurales Aouamra, Sahel, Zouada, Oulad Ouchih et Ksar
-Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
+                                                                                    <p> La RADEEL (Régie Autonome de Distribution d&#39;Eau et d&#39;Électricité de Larache) assure l&#39;alimentation en énergie Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                 </div>
                                                                             </li>
 
@@ -799,94 +797,19 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                     data-bs-target="#accordion-list-2"
                                                                                     class="collapsed"
                                                                                     aria-expanded="false"><span>02</span>
-                                                                                    <h3 style="color:#f89323"><u>Travaux
-                                                                                            sur les réseaux Moyenne
-                                                                                            Tension</u></h3>
+                                                                                    <h3 style="color:#f89323"><u>Système d&#39;alimentation électrique</u></h3>
                                                                                     <i
                                                                                         class="bx bx-chevron-down icon-show"></i><i
                                                                                         class="bx bx-chevron-up icon-close"></i>
                                                                                 </a>
                                                                                 <div id="accordion-list-2"
                                                                                     class="collapse"
-                                                                                    data-bs-parent=".accordion-list"
-                                                                                    style="">
-                                                                                    <div class="row">
-                                                                                        <div class="col text-center">
-                                                                                            <br>
-                                                                                            <img src="img/elec8.jpg"
-                                                                                                class="img-fluid"
-                                                                                                width="200px">
-                                                                                        </div>
-                                                                                        <div class="col">
-                                                                                            <p class=""
-                                                                                                style="display:inline-block">
-                                                                                                Ces travaux ont été
-                                                                                                réalisés
-                                                                                                suite aux études du
-                                                                                                Schéma
-                                                                                                Directeur
-                                                                                                d’Electricité, de
-                                                                                                raccordement des
-                                                                                                nouveaux
-                                                                                                postes préfabriqués
-                                                                                                à
-                                                                                                LARACHE et KSAR EL KEBIR
-                                                                                                et
-                                                                                                dans le cadre de la
-                                                                                                normalisation
-                                                                                                des lignes
-                                                                                                MT aériennes et création
-                                                                                                de
-                                                                                                la sécurisation par
-                                                                                                des boucles de
-                                                                                                part et
-                                                                                                d’autres. Parmi ces
-                                                                                                travaux
-                                                                                                nous citons :
-                                                                                            </p>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <p>Le déplacement et le
-                                                                                        renforcement de la ligne
-                                                                                        aérienne MT 20kV du
-                                                                                        Douar Krimda, d’une longueur
-                                                                                        de
-                                                                                        3.77Km-Tri-filaire.</p>
-                                                                                    <p>La réalisation de
-                                                                                        l’extension de
-                                                                                        la ligne MT 20kV,
-                                                                                        pour
-                                                                                        l’alimentation du quartier
-                                                                                        Ghdira.</p>
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/elec9.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px; width:100% "
-                                                                                            alt="">
-                                                                                    </div>
-                                                                                    <p> Le renouvellement des
-                                                                                        réseaux
-                                                                                        MT de câble S22-95
-                                                                                        mm2 vétuste en
-                                                                                        câble 240 mm² Alu S26 au
-                                                                                        niveau
-                                                                                        du tronçon liant les
-                                                                                        postes Oulad
-                                                                                        Hmaid et Abattoirs, soit une
-                                                                                        longueur de 1
-                                                                                        510m-tri-filaire posée.</p>
-                                                                                    <p>La mise en souterrain de la
-                                                                                        ligne aérienne «
-                                                                                        Larache1 », Pose de
-                                                                                        1614 m-trifilaire du câble
-                                                                                        PRC
-                                                                                        S26-240mm².</p>
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/elec10.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px; width:100% "
-                                                                                            alt="">
-                                                                                    </div>
+                                                                                    data-bs-parent=".accordion-list" style="">
+                                                                                        <p> 
+                                                                                        L’alimentation en énergie électrique du réseau de la RADEEL est assurée par deux postes sources de la RADEEL et
+                                                                                        deux postes sources de L’ONEE, à travers un réseau Moyenne Tension totalement souterrain en milieu urbain et aérien
+                                                                                        en milieu rural.
+                                                                                        </p>
                                                                                 </div>
                                                                             </li>
 
@@ -895,8 +818,7 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                     data-bs-target="#accordion-list-3"
                                                                                     class="collapsed"
                                                                                     aria-expanded="false"><span>03</span>
-                                                                                    <h3 style="color:#f89323"><u>Les
-                                                                                            Postes MT/BT</u></h3>
+                                                                                    <h3 style="color:#f89323"><u>Nos indicateurs 2023</u></h3>
                                                                                     <i
                                                                                         class="bx bx-chevron-down icon-show"></i><i
                                                                                         class="bx bx-chevron-up icon-close"></i>
@@ -906,231 +828,80 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                     data-bs-parent=".accordion-list"
                                                                                     style="">
                                                                                     <ul>
-                                                                                        Acquisition et installation
-                                                                                        -
-                                                                                        dans le cadre du
-                                                                                        marché 04/E/2017 - de
-                                                                                        5 postes MT/BT préfabriqués
-                                                                                        bas
-                                                                                        de poteau 250 KVA
-                                                                                        dans différents
-                                                                                        quartiers de la ville de
-                                                                                        Larache
-                                                                                        et Ksar Kébir, et
-                                                                                        ce pour
-                                                                                        satisfaire les besoins en
-                                                                                        électricité de plusieurs
-                                                                                        abonnés qui ont
-                                                                                        connu un développement
-                                                                                        urbanistique et des
-                                                                                        extensions importantes
-                                                                                        ces dernières années.
-                                                                                        <br>
-
-                                                                                        <div
-                                                                                            class="bd-callout bd-callout-info">
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Krimda<br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Rkada<br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Amgala<br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>Oudiniyine<br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Khyayta
-                                                                                        </div>
-                                                                                        <p>Réalisation des travaux de
-                                                                                            normalisation des postes
-                                                                                            MT/BT dans le
-                                                                                            cadre du marché 05/E/2017
-                                                                                            dans
-                                                                                            l’objectif de
-                                                                                            nnormalisation et mise
-                                                                                            à niveau des équipements
-                                                                                            électriques et du GC des
-                                                                                            postes MT/BT en
-                                                                                            exploitation (TUR, terres
-                                                                                            techniques etc.) avec
-                                                                                            optimisation de la
-                                                                                            puissance installée.</p>
-                                                                                        <p>Renouvellement et
-                                                                                            installation
-                                                                                            de tableau MT étanche
-                                                                                            au niveau du
-                                                                                            poste MT/BT Dior Houata.</p>
+                                                                                       <p>La RADEEL œuvre pour assurer</p>
+                                                                                        <ol>
+                                                                                        La Sécurité et la continuité d’alimentation en énergie électrique.
+                                                                                        </ol>
+                                                                                        <ol>L’Amélioration du rendement du réseau électrique.</ol>
+                                                                                        <ol>L’Amélioration de la qualité de service pour la clientèle.</ol>
+                                                                                        <ol>L’Amélioration des performances techniques du réseau.</ol>
+                                                                                        <ol>La Généralisation de l’accès à l’électricité</ol>
+                                                                                        <ol>La Modernisation de la gestion, dématérialisation des procédures et digitalisation des services</ol>
+                                                                                        <ol>La Sécurisation de l’alimentation de son périmètre d’action</ol>
+                                                                                        <ol>L’Accompagnement de l’évolution des besoins énergétiques via l’augmentation de la
+                                                                                        puissance installée et la puissance garantie</ol>
+                                                                                        <ol>La RADEEL a réalisé Les travaux d’une 3eme Travée
+                                                                                            transformateur 60/20KV-36MVA y compris
+                                                                                            L’Installation d’un transformateur de puissance
+                                                                                            36MVA – 60/20KV au niveau du Poste Source
+                                                                                            Beggara <br>
+                                                                                            L’extension du dit poste a permis :
+                                                                                            <ul>
+                                                                                                <li>D’augmenter la puissance installée de 72MVA à 108MVA</li>
+                                                                                                <li> D’augmenter la puissance garantie de 36MVA à72MVA</li>
+                                                                                                <li> De réduire le taux d’utilisation de la puissance garantie</li>   
+                                                                                            </ul>
+                                                                                        </ol>
+                                                                                        <ol>La RADEEL est encours de réaliser une 3eme travée transformateur 60/20kV au poste source 60/20kV KsarKébir, L’action permettra
+                                                                                            <ul>
+                                                                                                <li>D’augmenter la puissance installée de 72MVA à
+                                                                                                108MVA</li>
+                                                                                                <li>D’augmenter la puissance garantie de 36MVA à
+                                                                                                72MVA</li>
+                                                                                                <li>De réduire le taux d’utilisation de la puissance garantie</li>
+                                                                                            </ul>
+                                                                                        </ol>
+                                                                                        <ol>
+                                                                                        Dans le cadre de la modernisation de ses Equipements la RADEEL a procédé au Remplacement du système
+                                                                                            consignateur d’état du poste source 60/20kV Beggara par un système de contrôle de commande numérique
+                                                                                            « Pacis » de marque Schneider Electric, L’opération a favorisé la supervision, la gestion et la commande de
+                                                                                            l’ensemble des équipements du poste : (les transformateurs de puissance 60/20kV, Les Disjoncteurs HT, Les
+                                                                                            Cellules disjoncteurs MT, Les services auxiliaires 220/127/48 ..)
+                                                                                        </ol> 
+                                                                                        
+                                                                                        <ol>La modernisation des équipements du poste source Beggara a été complétée par la numérisation des tranches
+électrostatiques de la salle de relayages et son intégration au système
+contrôle de commande (PACIS).</ol>
+                                                                                        <ol>Dans le cadre de la mise en œuvre des actions menées en matière de la Transformation digitale, L’Opération
+de la télé-relève a été entamé par L’installation des compteurs numériques communicants 3G/GPRS au niveau
+des clients MT et éclairage public </br>
+L’action permet d’assurer :
+        <ul>
+            <li>La relève à distance des index et des éléments de facturation des compteurs clients MT et éclairage
+            Public</li>
+            <li>La lecture à distance des évènements enregistrés par les compteurs numériques</li>
+            <li>La Configuration à distance des compteurs numériques</li>
+        </ul>
+</ol>
+<ol>Pour Accompagner les projets économiques structurants initiés par l’Autorité Locale, et dans le cadre de sa mission de
+supervision et d’assistance technique, la RADEEL assure le suivi et le contrôle d’exécution des travaux d’équipement
+des projets suivants :
+<ul>
+    <li><strong >L’Agropole Loukous :</strong> Travaux d’équipement en réseau Electricité in-site de la 1ère Tranche de l’Agropole
+    Loukous (Réseau Mt+ Réseau BT, 4 postes HTA/BT)</li>
+    <li><strong >Projet d&#39;Aménagement du Polygone Industriel de Larache « PIL » :</strong> Réalisation des travaux d’équipement
+    en réseau Electricité (Réseau Mt+ Réseau BT postes MT/BT)</li>
+    <li><strong> d’Aménagement in site d’une zone d’activités de ksar bjir (Srima) :</strong> Electrification en réseau BT
+    et MT au niveau de la zone industrielle SRIMA sise à la commune rurale Ksar Bjir.</li>
+</ul>
+</ol>
                                                                                     </ul>
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/elec15.jpg"
-                                                                                            style="width:100%; height:350px"
-                                                                                            class="img-fluid ">
-                                                                                    </div>
                                                                                 </div>
                                                                             </li>
-
-                                                                            <li>
-                                                                                <a data-bs-toggle="collapse"
-                                                                                    data-bs-target="#accordion-list-4"
-                                                                                    class="collapsed"
-                                                                                    aria-expanded="false"><span>04</span>
-                                                                                    <h3 style="color:#f89323"><u>Travaux
-                                                                                            sur les
-                                                                                            Réseaux Basse Tension </u>
-                                                                                    </h3>
-                                                                                    <i
-                                                                                        class="bx bx-chevron-down icon-show"></i><i
-                                                                                        class="bx bx-chevron-up icon-close"></i>
-                                                                                </a>
-                                                                                <div id="accordion-list-4"
-                                                                                    class="collapse"
-                                                                                    data-bs-parent=".accordion-list"
-                                                                                    style="">
-                                                                                    <ul>
-                                                                                        <p>Ces travaux visent
-                                                                                            l’amélioration de la qualité
-                                                                                            de
-                                                                                            la desserte chez
-                                                                                            les clients BT (continuité
-                                                                                            de service, élimination
-                                                                                            des chutes de
-                                                                                            tension, structuration des
-                                                                                            réseaux et répartition
-                                                                                            des charges).</p>
-                                                                                        <p>Renouvellement et de
-                                                                                            renforcement des réseaux BT
-                                                                                            sur façade des
-                                                                                            différents quartiers des
-                                                                                            villes de Larache et Ksar
-                                                                                            El Kébir dans le
-                                                                                            cadre du marché 13/E/2015.
-                                                                                        </p>
-
-                                                                                        <div class="text-center py-4">
-                                                                                            <img src="img/elec17.jpg"
-                                                                                                class="img-fluid "
-                                                                                                style="width:100%; height:350px">
-                                                                                        </div>
-                                                                                        <p>Renouvellement et de
-                                                                                            renforcement des réseaux BT
-                                                                                            sur poteau dans le
-                                                                                            cadre du marché 15/E/2016,
-                                                                                            au niveau des Douars
-                                                                                            suivants :</p>
-                                                                                        <div
-                                                                                            class="bd-callout bd-callout-info">
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Krimda</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Rihiyine</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Zrarka
-                                                                                        </div>
-                                                                                        <!-- <img src="img/ELC23.jpg" class="img-fluid " alt=""> -->
-
-                                                                                        <p>Renouvellement et
-                                                                                            normalisation des
-                                                                                            branchements BT
-                                                                                            dans le cadre
-                                                                                            du marché 03/E/2017, au
-                                                                                            niveau des Douars suivants :
-                                                                                        </p>
-                                                                                        <div
-                                                                                            class="bd-callout bd-callout-info">
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Ghdira Riyah</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Hraksa</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Oulad Hamou Smid Lma</br>
-
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>
-                                                                                            Bargha
-                                                                                        </div>
-
-                                                                                        <ul>
-                                                                                            <p>
-                                                                                                Au niveau des travaux
-                                                                                                avec participation</p>
-
-                                                                                            <p>
-                                                                                                Etudes et suivi des
-                                                                                                travaux d’électricité
-                                                                                                des
-                                                                                                lotissements MANAR
-                                                                                                1 extension et MANAR
-                                                                                                III. <br>
-                                                                                                Le tableau ci-dessous
-                                                                                                récapitule le linéaire
-                                                                                                du
-                                                                                                réseau MT et BT
-                                                                                                :
-                                                                                            <div
-                                                                                                class="text-center py-4">
-                                                                                                <img src="img/ELE1.png"
-                                                                                                    class="img-fluid "
-                                                                                                    style="width:80%; height:350px">
-                                                                                                <br>
-                                                                                            </div>
-                                                                                            <p> Le tableau ci-dessous
-                                                                                                récapitule ces
-                                                                                                réalisations :
-                                                                                            </p>
-                                                                                            <div
-                                                                                                class="text-center py-4">
-                                                                                                <img src="img/ELE2.png"
-                                                                                                    class="img-fluid "
-                                                                                                    style="width:80%; height:350px">
-                                                                                            </div>
-                                                                                            <p> Marché achevé dans
-                                                                                                l’attente de la
-                                                                                                validation des
-                                                                                                rapports
-                                                                                                provisoires.</p>
-                                                                                            <p>Le volume total des
-                                                                                                investissements en
-                                                                                                électricité réalisé
-                                                                                                pour la période de 2013
-                                                                                                à 2017 est de 72 993
-                                                                                                Kdhs réparti
-                                                                                                comme suit :</p>
-                                                                                            <div
-                                                                                                class="text-center py-4">
-                                                                                                <img src="img/ELE3.png"
-                                                                                                    class="img-fluid "
-                                                                                                    style="width:80%; height:350px margin:3px"
-                                                                                                    alt=""><br>
-                                                                                                <img src="img/elec23.png"
-                                                                                                    class="img-fluid "
-                                                                                                    style="width:80%; height:350px"
-                                                                                                    alt="">
-                                                                                            </div>
-                                                                                            </p>
-                                                                                        </ul>
-                                                                                    </ul>
-
-                                                                            </li>
-
                                                                         </ul>
                                                                     </div>
-
-                                                                </div>
-
-                                                                <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate"
-                                                                    data-aos="zoom-in" data-aos-delay="150">&nbsp;
                                                                 </div>
                                                             </div>
-
                                                         </div>
                                                     </section>
                                                 </ul>
@@ -1143,19 +914,11 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                     aria-labelledby="pills-second-tab">
 
                                     <div class="row justify-content-center">
-                                        <h2 class="text-center" style="color: #077ec0;">REALISATIONS D’EAU 2017</h2>
+                                        <h2 class="text-center" style="color: #077ec0;">REALISATIONS D’EAU 2023</h2>
                                         <p class="text-start">
-                                            Les investissements de l’année 2017 ont atteint un montant de 9,35 Mdhs,
-                                            soit un
-                                            taux de réalisation de 48 %, réparti comme suit :
-                                        <div class="text-center">
-                                            <img src="img/EAU1.gif" alt="" class="img-fluid " style="margin:10px;">
-                                            <img src="img/EAU2.gif" alt="" class="img-fluid ">
-                                        </div>
-
+                                        La RADEEL assure la distribution d’eau potable au niveau de la ville de Larache, Ksar El Kébir, et les
+                                        centres ruraux de Sahel, Aouamra, et Zouada soit une population desservie d’environ 293 900 habitants.
                                         </p>
-                                        <p class="text-start">Les principales réalisations de la RADEEL en matière de
-                                            l’eau potable 2017 ont porté sur :</p>
                                         <ul>
                                             <section id="why-us" class="why-us ">
                                                 <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
@@ -1171,9 +934,7 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                             <span>01</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#077ec0;">
-                                                                                <u>Au niveau
-                                                                                    de
-                                                                                    l’Infrastructure</u>
+                                                                                <u>Systèmes d&#39;alimentation en eau :</u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
@@ -1185,127 +946,71 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                 <ul>
                                                                                     <li class="text-reset"
                                                                                         style="color:gray; font-weight:bold; font-size:20px;">
-                                                                                        a)
-                                                                                        Etude du
-                                                                                        schéma
-                                                                                        directeur d’alimentation en eau
-                                                                                        potable :</li>
-                                                                                    <p>Cette étude consiste en la
-                                                                                        réalisation d’une étude du
-                                                                                        Schéma
-                                                                                        Directeur
-                                                                                        d’alimentation en eau potable
-                                                                                        des villes de LARACHE et KSAR EL
-                                                                                        KEBIR et
-                                                                                        des
-                                                                                        centres des Communes Sahel et
-                                                                                        Aouamra via le marché n°
-                                                                                        08/O/2015
-                                                                                        d’un
-                                                                                        montant de 2 389 320,00 DH TTC.
+                                                                                        a)La Ville de Larache :
+                                                                                       </li>
+                                                                                    <p>
+                                                                                        <ul>
+                                                                                            <li>L’alimentation en eau potable de la ville de Larache est assurée en totalité par les ouvrages de production
+                                                                                                de l’Office Nationale de l’Electricité et de l’Eau potable (ONEE-Branche Eau), à partir des forages et de
+                                                                                                la station de traitement de Loukkous sur le barrage Oued El Makhazine
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                La Capacité de stockage à Larache : 32 600 m³
+                                                                                            </li>
+                                                                                        </ul>
                                                                                     </p>
                                                                                     <li class="text-reset"
                                                                                         style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        b)
-                                                                                        Renforcement
-                                                                                        de
-                                                                                        l’alimentation en eau potable de
-                                                                                        Khemis Sahel :</li>
-                                                                                    <p>Le renforcement de l’alimentation
-                                                                                        en eau potable de Khemis Sahel
-                                                                                        dans le
-                                                                                        cadre des marchés N°05/O/2016 et
-                                                                                        N°08/O/2016 pour un montant de
-                                                                                        3 448
-                                                                                        035,34
-                                                                                        DH TTC, les travaux sont
-                                                                                        terminés et réceptionnés.</p>
-                                                                                    <ul>
-                                                                                        <p>Dans le cadre du marché n°
-                                                                                            05/O/2016, ces travaux ont
-                                                                                            consisté
-                                                                                            globalement :</p>
-                                                                                        <ul>
-                                                                                            <p>-La pose d’environ 4 680
-                                                                                                ml des conduites en PVC
-                                                                                                DN 200
-                                                                                                mm PN 25
-                                                                                                bar à emboitement.</p>
-                                                                                            <p>-Equipements complets de
-                                                                                                cinq points bas en
-                                                                                                vidanges DN
-                                                                                                100 sur
-                                                                                                conduites en PVC DN 200
-                                                                                                PN 25 bar.</p>
-                                                                                            <p> -Equipements complets de
-                                                                                                cinq points hauts en
-                                                                                                vidanges
-                                                                                                DN 100
-                                                                                                sur
-                                                                                                conduites en PVC DN 200
-                                                                                                PN 25 bar.</p>
-                                                                                            <p>-stallation de robinet
-                                                                                                vanne de sectionnement
-                                                                                                DN 200 mm.
-                                                                                            </p>
-                                                                                            <div
-                                                                                                class="text-center justifiy-centent-center">
-                                                                                                <img src="img/EAU3.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU4.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt=""><br>
-                                                                                                <img src="img/EAU5.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU6.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                            </div>
-                                                                                        </ul>
-                                                                                        <p> Dans le cadre du marché n°
-                                                                                            08/O/2016, ces travaux ont
-                                                                                            consisté
-                                                                                            globalement :</p>
-                                                                                        <ul>
-                                                                                            <p>-La construction du génie
-                                                                                                civil de la station de
-                                                                                                pompage
-                                                                                                au site
-                                                                                                du réservoir de la zone
-                                                                                                touristique.</p>
-                                                                                            <p> -Equipement hydraulique
-                                                                                                et électrique de la
-                                                                                                station de
-                                                                                                pompage.
-                                                                                            </p>
-                                                                                            <div
-                                                                                                class="text-center justifiy-centent-center">
-                                                                                                <img src="img/EAU7.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU8.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt=""><br>
-                                                                                                <img src="img/EAU9.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU10.jpg"
-                                                                                                    class="img-fluid"
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
+                                                                                        b)Centre Rural Khemis Sahel :
+                                                                                    </li>
+                                                                                        <p>
+                                                                                            <ul>
+                                                                                                <li>L’alimentation en eau potable du centre Khemis Sahel est assurée par :
+                                                                                                    <ul>
+                                                                                                        <li>L’Exploitation de quatre forages de la RADEEL, d’un débit global de 7 l/s environ, situés au douar
+                                                                                                        Krimda à 3 Km du centre vers Tanger.</li>
+                                                                                                        <li>L’Alimentation à partir du réservoir semi-enterré (2 X 2300 m3) sis à la zone touristique via une station
+                                                                                                            de pompage équipée de 3 groupes multicellulaires de 8 l/s, (soit un débit global de 24 l/s) ; et une
+                                                                                                            conduite de refoulement en PVC Bi-orientée DN 200 mm de longueur 4 680 ml.
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                    La Capacité de stockage à Larache : 500 m³
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </p>
+                                                                                        <li class="text-reset"
+                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
+                                                                                        c)Ville de Ksar El Kébir :</li>
+                                                                                        <p>
+                                                                                            <ul>
+                                                                                                <li>L’alimentation en eau potable de la ville de ksar el Kébir est assurée par :
+                                                                                                    <ul>
+                                                                                                        <li>L’exploitation de Onze (11) forages RADEEL situés au territoire de la commune l’Aoumara.</li>
+                                                                                                        <li>Le système de production de l&#39;ONEE
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                <li>
+                                                                                                     La Capacité de stockage est de : 22 000 m³
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </p>
 
-                                                                                            </div>
-                                                                                        </ul>
-                                                                                    </ul>
+                                                                                        </li>
+                                                                                        <li class="text-reset"
+                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
+                                                                                        d)Centre Rural Aouamra :</li>
+                                                                                        <p>
+                                                                                            <ul>
+                                                                                                <li>L’Alimentation est assurée par l’exploitation d’un forage RADEEL et un By-Pass pour garantir une
+                                                                                                alimentation continue en cas de coupure d&#39;électricité.
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </p>
+
+                                                                                        </li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
@@ -1318,8 +1023,7 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                             aria-expanded="false"><span>02</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#077ec0;">
-                                                                                <u>Au
-                                                                                    niveau de la distribution</u>
+                                                                                <u>NOS INDICATEURS 2023</u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
@@ -1331,20 +1035,35 @@ Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
                                                                                 <ul>
                                                                                     <li class="text-reset"
                                                                                         style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        a)
-                                                                                        Réalisation
-                                                                                        des travaux de renouvellement du
-                                                                                        réseau de l’eau potable
+                                                                                        La RADEEL œuvre au quotidien pour :
                                                                                     </li>
-                                                                                    <p>Le présent projet a pour objet le
-                                                                                        renouvellement des réseaux
-                                                                                        d’eau
-                                                                                        potable
-                                                                                        fuyards et vétustes sises dans
-                                                                                        le périmètre de distribution de
-                                                                                        la
-                                                                                        RADEEL.
-                                                                                    </p>
+                                                                                    <div>
+                                                                                        <ul>
+                                                                                            <li>Assurer l’alimentation en eau potable et assurer la continuité de service.</li>
+                                                                                            <li>Améliorer le rendement</li>
+                                                                                            <li>Préserver la qualité de l’eau</li>
+                                                                                            <li>Accompagner le développement de la province et Généraliser l’accès à l’eau potable</li>
+                                                                                            <li>Préserver la ressource en luttant contre les fuites d’eau potable</li>
+                                                                                            <li>Répondre aux attentes de la clientèle en ce qui concerne la qualité de service</li>
+                                                                                            
+                                                                                        </ul>
+                                                                                    <p>Pour atteindre ces objectifs, plusieurs actions sont entreprises tant au niveau de l’exploitation du réseau qu’au niveau
+                                                                                    des investissements</p>
+                                                                                    <ul>
+                                                                                        <li>Construction et équipement d’un réservoir semi-enterré 7000 m3 à Zouada</li>
+                                                                                        <p>
+                                                                                        Pour faire face aux besoins en eau qui ne cessent d’augmenter suite au développement urbain soutenu de la ville de
+                                                                                        Ksar El Kebir et conformément aux études du schéma Directeur d’eau potable et afin d’assurer la sécurité et la
+                                                                                        régulation de la distribution d’eau potable, la RADEEL a achevé le 11/03/2021 les travaux de construction et
+                                                                                        d’équipement d’un réservoir semi-enterré de capacité 7000 m3 à Zouada. <br>
+                                                                                        La capacité de stikage a atteint 55100 (m 3 ) <br>
+                                                                                        L’Autonomie de stockage a atteint 31 (heures) au lieu de 23 Heures.
+                                                                                        </p>
+                                                                                        <li> <strong>Réalisation des forages :</strong>renforcer son autoproduction </li>
+                                                                                    </ul>
+
+
+    </div>
                                                                                     <p class="text-decoration-underline"
                                                                                         style="color:gray; padding:30px; font-weight:bold">
                                                                                         Pour la

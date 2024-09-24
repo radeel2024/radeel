@@ -472,8 +472,7 @@
         }
 
         .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(img/lolo.png) center center no-repeat;
-
+            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cove4.png) center center no-repeat;
             background-size: cover;
             background-position: center;
             width: 100%;
@@ -492,7 +491,6 @@
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
-
             <nav id="navbarNav navbar-expand-sm " class="navbar ">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -500,10 +498,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}">ACCUEIL</a></li>
+                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
                     <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
+                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
                                     Général</a></li>
                             <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
@@ -527,7 +526,8 @@
                     <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres demploi </a>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
+                                </a>
                             </li>
                             <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
 
@@ -535,10 +535,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <!--  <li><a href=" {{ url('../AppelOffre') }}" class="dropdown-item">Avis des appels
-                                    d'offres</a></li>
-                            <li><a href="{{ url('../ResultatOffre') }}" class="dropdown-item">Résultat d'appels
-                                    d'offres</a></li> -->
+                           
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -557,32 +554,11 @@
 
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto active" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a>
-                    </li>
+                    <li><a class="nav-link scrollto active" href="{{ url('../stress') }}" > STRESS HYDRIQUE </a></li>
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <li class="dropdown">
-                        <strong>Fr</strong>
-                        <ul>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Fr
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="dropdown-item">
-                                    Ar
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
                 </ul>
-
             </nav>
-
-
-
         </div>
     </header><!-- End Header -->
 
@@ -630,7 +606,7 @@
                                 </a>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
@@ -706,17 +682,6 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
@@ -728,20 +693,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                    <div class="d-flex hightech-link">
-                        <a href="https://www.facebook.com/RADEEL.Officiel/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-facebook-f " style="color:#077ec0;"></i></a>
-                        <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-twitter " style="color:#077ec0;"></i></a>
-                        <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-2">
-                            <i class="fab fa-instagram " style="color:#077ec0;"></i></a>
-                        <a href="https://ma.linkedin.com/company/radeelofficiel"
-                            class="btn-light nav-fill btn btn-square rounded-circle me-0">
-                            <i class="fab fa-linkedin-in " style="color:#077ec0;"></i></a>
-                    </div>
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -753,9 +705,9 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
-                        <a href="{{ url('../ResultatOffre') }}" class="mb-2 text-white"><i
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
                 </div>
@@ -768,7 +720,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="#" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
@@ -792,7 +744,7 @@
             <div class="row">
                 <div class="col-md-6 ">
                     <a href="#" class="text-center   text-light"><i class="fas fa-copyright ">
-                            Copyright @2023</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
+                            Copyright @2024</i></a>,<SPAN class=" text-light"> All right reserved by Radeel</span>
                 </div>
             </div>
         </div>
