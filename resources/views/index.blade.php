@@ -461,38 +461,82 @@
         }
     </style>
     <!-- Navbar Start -->
-    <div class="container-fluid bg-white">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg py-0">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-black fw-bold d-block">Rad<span class="text-secondary">eel</span> </h1>
+    <header id="header" class="sticky-top d-flex align-items-center">
+        <div class="container d-flex justify-content-between">
+            <div class="logo">
+                <a href="{{ url('../') }}" class="navbar-brand">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px;">
                 </a>
-                <button type="button" class="navbar-toggler me-0 collapsed" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-expanded="false">
+            </div>
+            <nav id="navbarNav navbar-expand-sm " class="navbar ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse bg-transparent collapse" id="navbarCollapse" style="">
-                    <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                        <a href="index.html" class="nav-item nav-link active text-secondary">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="project.html" class="nav-item nav-link">Projects</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu rounded">
-                                <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
-                
+                <ul>
+                    <li><a class="nav-link scrollto active" href="{{ url('../') }}">ACCUEIL</a></li>
+                    <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
+                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
+                                    Général</a></li>
+                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                                    RADEEL</a>
+                            </li>
+                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
+                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
+                                    ligne</strong></a></li>
+                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
+                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
+                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
+                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
+                                </a>
+                            </li>
+                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </li>
+                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
+                                    publics </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                            </li>
+                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                            </li>
+                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
+                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
+
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
             </nav>
         </div>
-    </div>
+    </header>
 
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
