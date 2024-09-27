@@ -525,8 +525,7 @@
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
-                        Larache
-                    </p>
+                        Larache</p>
 
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -567,7 +566,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>

@@ -694,7 +694,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="h3 text-white">Contacter nous</a>
+                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
@@ -707,7 +707,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>

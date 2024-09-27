@@ -386,115 +386,7 @@
             display: block;
         }
     </style>
-
-    <!-- Navbar Start -->
-    <header id="header" class="sticky-top d-flex align-items-center">
-
-        <div class="container d-flex justify-content-between">
-
-            <div class="logo">
-                <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
-                </a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <ul>
-                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
-                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
-                                    Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
-                                    RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
-                                </a>
-                            </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
-                            </li>
-                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                            </li>
-                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
-
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <!--    <li class="dropdown">
-        <strong>Fr</strong>
-        <ul>
-            <li>
-                <a href="#" class="dropdown-item">
-                    Fr
-                </a>
-            </li>
-            <li>
-                <a href="#" class="dropdown-item">
-                    Ar
-                </a>
-            </li>
-        </ul>
-    </li> -->
-
-                </ul>
-
-            </nav>
-        </div>
-    </header><!-- End Header -->
-    <!-- Navbar End -->
-    <div class="container-fluid page-headere py-5">
-        <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Nos Activités</h1>
-        </div>
-    </div>
-
-
-    <style>
+  <style>
         #nav-link-1 .active {
             color: #fff;
             background-color: #fbc02d;
@@ -732,6 +624,113 @@
         }
     </style>
 
+    <!-- Navbar Start -->
+    <header id="header" class="sticky-top d-flex align-items-center">
+
+        <div class="container d-flex justify-content-between">
+
+            <div class="logo">
+                <a href="{{ url('../') }}" class="navbar-brand">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                </a>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+
+            <nav id="navbarNav navbar-expand-sm " class="navbar ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul>
+                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
+                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
+                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
+                                    Général</a></li>
+                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                                    RADEEL</a>
+                            </li>
+                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
+                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a></li>
+                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
+                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
+                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
+                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
+                                </a>
+                            </li>
+                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </li>
+                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
+                                    publics </a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                            </li>
+                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                            </li>
+                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
+                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
+
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <!--    <li class="dropdown">
+        <strong>Fr</strong>
+        <ul>
+            <li>
+                <a href="#" class="dropdown-item">
+                    Fr
+                </a>
+            </li>
+            <li>
+                <a href="#" class="dropdown-item">
+                    Ar
+                </a>
+            </li>
+        </ul>
+    </li> -->
+
+                </ul>
+
+            </nav>
+        </div>
+    </header><!-- End Header -->
+
+    <!-- Navbar End -->
+    <div class="container-fluid page-headere py-5">
+        <div class="container text-center py-5">
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Nos Activités</h1>
+        </div>
+    </div>
+
     <div class="section py-5">
         <div class="container">
             <div class="section w-100  my-4">
@@ -762,8 +761,8 @@
                             </ul>
 
                             <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade active show" id="pills-first" role="tabpanel"
-                                    aria-labelledby="pills-first-tab">
+                                <!-- electricité -->
+                                <div class="tab-pane fade active show" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
                                     <div class="row ">
                                         <div class="">
                                             <div class="text-center">
@@ -870,31 +869,31 @@
                                                                                         </ol> 
                                                                                         
                                                                                         <ol>La modernisation des équipements du poste source Beggara a été complétée par la numérisation des tranches
-électrostatiques de la salle de relayages et son intégration au système
-contrôle de commande (PACIS).</ol>
-                                                                                        <ol>Dans le cadre de la mise en œuvre des actions menées en matière de la Transformation digitale, L’Opération
-de la télé-relève a été entamé par L’installation des compteurs numériques communicants 3G/GPRS au niveau
-des clients MT et éclairage public </br>
-L’action permet d’assurer :
-        <ul>
-            <li>La relève à distance des index et des éléments de facturation des compteurs clients MT et éclairage
-            Public</li>
-            <li>La lecture à distance des évènements enregistrés par les compteurs numériques</li>
-            <li>La Configuration à distance des compteurs numériques</li>
-        </ul>
-</ol>
-<ol>Pour Accompagner les projets économiques structurants initiés par l’Autorité Locale, et dans le cadre de sa mission de
-supervision et d’assistance technique, la RADEEL assure le suivi et le contrôle d’exécution des travaux d’équipement
-des projets suivants :
-<ul>
-    <li><strong >L’Agropole Loukous :</strong> Travaux d’équipement en réseau Electricité in-site de la 1ère Tranche de l’Agropole
-    Loukous (Réseau Mt+ Réseau BT, 4 postes HTA/BT)</li>
-    <li><strong >Projet d&#39;Aménagement du Polygone Industriel de Larache « PIL » :</strong> Réalisation des travaux d’équipement
-    en réseau Electricité (Réseau Mt+ Réseau BT postes MT/BT)</li>
-    <li><strong> d’Aménagement in site d’une zone d’activités de ksar bjir (Srima) :</strong> Electrification en réseau BT
-    et MT au niveau de la zone industrielle SRIMA sise à la commune rurale Ksar Bjir.</li>
-</ul>
-</ol>
+                                                                                            électrostatiques de la salle de relayages et son intégration au système
+                                                                                            contrôle de commande (PACIS).</ol>
+                                                                                                                                                                                    <ol>Dans le cadre de la mise en œuvre des actions menées en matière de la Transformation digitale, L’Opération
+                                                                                            de la télé-relève a été entamé par L’installation des compteurs numériques communicants 3G/GPRS au niveau
+                                                                                            des clients MT et éclairage public </br>
+                                                                                            L’action permet d’assurer :
+                                                                                                    <ul>
+                                                                                                        <li>La relève à distance des index et des éléments de facturation des compteurs clients MT et éclairage
+                                                                                                        Public</li>
+                                                                                                        <li>La lecture à distance des évènements enregistrés par les compteurs numériques</li>
+                                                                                                        <li>La Configuration à distance des compteurs numériques</li>
+                                                                                                    </ul>
+                                                                                            </ol>
+                                                                                            <ol>Pour Accompagner les projets économiques structurants initiés par l’Autorité Locale, et dans le cadre de sa mission de
+                                                                                            supervision et d’assistance technique, la RADEEL assure le suivi et le contrôle d’exécution des travaux d’équipement
+                                                                                            des projets suivants :
+                                                                                            <ul>
+                                                                                                <li><strong >L’Agropole Loukous :</strong> Travaux d’équipement en réseau Electricité in-site de la 1ère Tranche de l’Agropole
+                                                                                                Loukous (Réseau Mt+ Réseau BT, 4 postes HTA/BT)</li>
+                                                                                                <li><strong >Projet d&#39;Aménagement du Polygone Industriel de Larache « PIL » :</strong> Réalisation des travaux d’équipement
+                                                                                                en réseau Electricité (Réseau Mt+ Réseau BT postes MT/BT)</li>
+                                                                                                <li><strong> d’Aménagement in site d’une zone d’activités de ksar bjir (Srima) :</strong> Electrification en réseau BT
+                                                                                                et MT au niveau de la zone industrielle SRIMA sise à la commune rurale Ksar Bjir.</li>
+                                                                                            </ul>
+                                                                                            </ol>
                                                                                     </ul>
                                                                                 </div>
                                                                             </li>
@@ -913,444 +912,28 @@ des projets suivants :
                                 <div class="tab-pane fade" id="pills-second" role="tabpanel"
                                     aria-labelledby="pills-second-tab">
 
-                                    <div class="row justify-content-center">
-                                        <h2 class="text-center" style="color: #077ec0;">REALISATIONS D’EAU 2023</h2>
-                                        <p class="text-start">
-                                        La RADEEL assure la distribution d’eau potable au niveau de la ville de Larache, Ksar El Kébir, et les
-                                        centres ruraux de Sahel, Aouamra, et Zouada soit une population desservie d’environ 293 900 habitants.
-                                        </p>
-                                        <ul>
-                                            <section id="why-us" class="why-us ">
-                                                <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
-                                                    <div class="row">
-                                                        <div class=" justify-content-center align-items-stretch  ">
-                                                            <div class="accordion-listP">
-                                                                <ul>
-                                                                    <li>
-                                                                        <a data-bs-toggle="collapse"
-                                                                            class="collapse collapsed"
-                                                                            data-bs-target="#accordion-list-10"
-                                                                            aria-expanded="false">
-                                                                            <span>01</span>
-                                                                            <h3 class=""
-                                                                                style="display:inline-block; color:#077ec0;">
-                                                                                <u>Systèmes d&#39;alimentation en eau :</u>
-                                                                            </h3>
-                                                                            <i
-                                                                                class="bx bx-chevron-down icon-show"></i><i
-                                                                                class="bx bx-chevron-up icon-close"></i>
-                                                                        </a>
-                                                                        <div id="accordion-list-10" class="collapse"
-                                                                            data-bs-parent=".accordion-listP" style="">
-                                                                            <div class="container AuNiveauEau1">
-                                                                                <ul>
-                                                                                    <li class="text-reset"
-                                                                                        style="color:gray; font-weight:bold; font-size:20px;">
-                                                                                        a)La Ville de Larache :
-                                                                                       </li>
-                                                                                    <p>
-                                                                                        <ul>
-                                                                                            <li>L’alimentation en eau potable de la ville de Larache est assurée en totalité par les ouvrages de production
-                                                                                                de l’Office Nationale de l’Electricité et de l’Eau potable (ONEE-Branche Eau), à partir des forages et de
-                                                                                                la station de traitement de Loukkous sur le barrage Oued El Makhazine
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                La Capacité de stockage à Larache : 32 600 m³
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                    </p>
-                                                                                    <li class="text-reset"
-                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        b)Centre Rural Khemis Sahel :
-                                                                                    </li>
-                                                                                        <p>
-                                                                                            <ul>
-                                                                                                <li>L’alimentation en eau potable du centre Khemis Sahel est assurée par :
-                                                                                                    <ul>
-                                                                                                        <li>L’Exploitation de quatre forages de la RADEEL, d’un débit global de 7 l/s environ, situés au douar
-                                                                                                        Krimda à 3 Km du centre vers Tanger.</li>
-                                                                                                        <li>L’Alimentation à partir du réservoir semi-enterré (2 X 2300 m3) sis à la zone touristique via une station
-                                                                                                            de pompage équipée de 3 groupes multicellulaires de 8 l/s, (soit un débit global de 24 l/s) ; et une
-                                                                                                            conduite de refoulement en PVC Bi-orientée DN 200 mm de longueur 4 680 ml.
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li>
-                                                                                                    La Capacité de stockage à Larache : 500 m³
-                                                                                                </li>
-                                                                                            </ul>
-                                                                                        </p>
-                                                                                        <li class="text-reset"
-                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        c)Ville de Ksar El Kébir :</li>
-                                                                                        <p>
-                                                                                            <ul>
-                                                                                                <li>L’alimentation en eau potable de la ville de ksar el Kébir est assurée par :
-                                                                                                    <ul>
-                                                                                                        <li>L’exploitation de Onze (11) forages RADEEL situés au territoire de la commune l’Aoumara.</li>
-                                                                                                        <li>Le système de production de l&#39;ONEE
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li>
-                                                                                                     La Capacité de stockage est de : 22 000 m³
-                                                                                                </li>
-                                                                                            </ul>
-                                                                                        </p>
-
-                                                                                        </li>
-                                                                                        <li class="text-reset"
-                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        d)Centre Rural Aouamra :</li>
-                                                                                        <p>
-                                                                                            <ul>
-                                                                                                <li>L’Alimentation est assurée par l’exploitation d’un forage RADEEL et un By-Pass pour garantir une
-                                                                                                alimentation continue en cas de coupure d&#39;électricité.
-                                                                                                </li>
-                                                                                            </ul>
-                                                                                        </p>
-
-                                                                                        </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <a data-bs-toggle="collapse"
-                                                                            data-bs-target="#accordion-list-12"
-                                                                            class="collapsed"
-                                                                            aria-expanded="false"><span>02</span>
-                                                                            <h3 class=""
-                                                                                style="display:inline-block; color:#077ec0;">
-                                                                                <u>NOS INDICATEURS 2023</u>
-                                                                            </h3>
-                                                                            <i
-                                                                                class="bx bx-chevron-down icon-show"></i><i
-                                                                                class="bx bx-chevron-up icon-close"></i>
-                                                                        </a>
-                                                                        <div id="accordion-list-12" class="collapse"
-                                                                            data-bs-parent=".accordion-listP" style="">
-                                                                            <div class="container AuNiveauEau2">
-                                                                                <ul>
-                                                                                    <li class="text-reset"
-                                                                                        style="color:gray; font-weight:bold;font-size:20px;">
-                                                                                        La RADEEL œuvre au quotidien pour :
-                                                                                    </li>
-                                                                                    <div>
-                                                                                        <ul>
-                                                                                            <li>Assurer l’alimentation en eau potable et assurer la continuité de service.</li>
-                                                                                            <li>Améliorer le rendement</li>
-                                                                                            <li>Préserver la qualité de l’eau</li>
-                                                                                            <li>Accompagner le développement de la province et Généraliser l’accès à l’eau potable</li>
-                                                                                            <li>Préserver la ressource en luttant contre les fuites d’eau potable</li>
-                                                                                            <li>Répondre aux attentes de la clientèle en ce qui concerne la qualité de service</li>
-                                                                                            
-                                                                                        </ul>
-                                                                                    <p>Pour atteindre ces objectifs, plusieurs actions sont entreprises tant au niveau de l’exploitation du réseau qu’au niveau
-                                                                                    des investissements</p>
-                                                                                    <ul>
-                                                                                        <li>Construction et équipement d’un réservoir semi-enterré 7000 m3 à Zouada</li>
-                                                                                        <p>
-                                                                                        Pour faire face aux besoins en eau qui ne cessent d’augmenter suite au développement urbain soutenu de la ville de
-                                                                                        Ksar El Kebir et conformément aux études du schéma Directeur d’eau potable et afin d’assurer la sécurité et la
-                                                                                        régulation de la distribution d’eau potable, la RADEEL a achevé le 11/03/2021 les travaux de construction et
-                                                                                        d’équipement d’un réservoir semi-enterré de capacité 7000 m3 à Zouada. <br>
-                                                                                        La capacité de stikage a atteint 55100 (m 3 ) <br>
-                                                                                        L’Autonomie de stockage a atteint 31 (heures) au lieu de 23 Heures.
-                                                                                        </p>
-                                                                                        <li> <strong>Réalisation des forages :</strong>renforcer son autoproduction </li>
-                                                                                    </ul>
-
-
-    </div>
-                                                                                    <p class="text-decoration-underline"
-                                                                                        style="color:gray; padding:30px; font-weight:bold">
-                                                                                        Pour la
-                                                                                        ville de
-                                                                                        Larache
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU11.jpg"
-                                                                                            class="img-fluid" alt="">
-                                                                                    </div>
-                                                                                    </p>
-                                                                                    <p class="text-decoration-underline"
-                                                                                        style=" padding:30px;color:gray; font-weight:bold">
-                                                                                        Linéaire du
-                                                                                        réseau
-                                                                                        par
-                                                                                        diamètre
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU12.jpg"
-                                                                                            class="img-fluid" alt="">
-                                                                                    </div>
-                                                                                    </p>
-                                                                                    <li class="text-decoration-underline"
-                                                                                        style="color:gray;font-weight:bold">
-                                                                                        Liste des
-                                                                                        Quartiers :
-                                                                                    </li>
-                                                                                    <ul>
-                                                                                        <div
-                                                                                            class="bd-callout bd-callout-info">
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>-Lotissement
-                                                                                            Chaabane I</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>-Quartier
-                                                                                            El Ouafae</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>-Lotissement
-                                                                                            Kenza II</br>
-                                                                                            <i class="fa fa-check  me-3"
-                                                                                                style="color:#285AEB;padding-left:20px;"></i>-Av.
-                                                                                            Omar Ibn Abdelaziz (rue
-                                                                                            lycée My Mohamed ben
-                                                                                            Abdellah)
-
-                                                                                    </ul>
-                                                                                    <p>Les travaux de renouvellement de
-                                                                                        réseau d’eau potable ont permis
-                                                                                        l’amélioration de rendement en
-                                                                                        termes de réduction des débits
-                                                                                        nocturnes
-                                                                                        (débits de fuites).
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU13.jpg"
-                                                                                            class="img-fluid" alt="">
-                                                                                    </div>
-                                                                                    </p>
-                                                                                    <p class="text-decoration-underline"
-                                                                                        style="color:gray; padding:30px; font-weight:bold">
-                                                                                        Pour la
-                                                                                        ville de Ksar
-                                                                                        El
-                                                                                        Kébir
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU14.jpg"
-                                                                                            class="img-fluid" alt="">
-                                                                                    </div>
-                                                                                    </p>
-                                                                                    <p class="text-decoration-underline"
-                                                                                        style="color:gray; padding:30px; font-weight:bold">
-                                                                                        Linéaire du
-                                                                                        réseau
-                                                                                        par
-                                                                                        diamètre :
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU15.jpg"
-                                                                                            class="img-fluid" alt="">
-                                                                                    </div>
-                                                                                    </p>
-
-                                                                                    <div class="text-center">
-                                                                                        <img src="img/EAU16.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px;" alt=""
-                                                                                            alt="">
-                                                                                        <img src="img/EAU17.jpg"
-                                                                                            class="img-fluid"
-                                                                                            style="margin:5px;" alt=""
-                                                                                            alt="">
-                                                                                    </div>
-                                                                                    <li class="text"
-                                                                                        style="color:gray; padding:30px; font-weight:bold; font-size:20px;">
-                                                                                        b)
-                                                                                        Travaux
-                                                                                        de réparation des fuites,
-                                                                                        d’entretien du réseau et
-                                                                                        ouvrages
-                                                                                        d’eau
-                                                                                        potable :</li>
-                                                                                    <p>Afin d’assurer la continuité de
-                                                                                        l’alimentation en eau potable en
-                                                                                        terme de
-                                                                                        débit et pression dans des
-                                                                                        meilleures conditions et de
-                                                                                        réduire
-                                                                                        le temps
-                                                                                        d’intervention de nos équipes,
-                                                                                        la RADEEL a réalisé en 2017 de
-                                                                                        multiples
-                                                                                        travaux d’entretien et de
-                                                                                        maintenance des réseaux et
-                                                                                        ouvrages
-                                                                                        d’eau
-                                                                                        potable
-                                                                                        :
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU18.jpg"
-                                                                                            class="img-fluid">
-                                                                                    </div>
-                                                                                    </p>
-                                                                                    <li class=" text"
-                                                                                        style="color:gray; padding:30px; font-weight:bold;font-size:20px;">
-                                                                                        c)
-                                                                                        Travaux
-                                                                                        de réparation de fuites</li>
-                                                                                    <div class="text-center py-4">
-                                                                                        <img src="img/EAU19.jpg"
-                                                                                            class="img-fluid "
-                                                                                            style="margin:5px; ">
-                                                                                        <img src="img/EAU20.gif"
-                                                                                            class="img-fluid  "
-                                                                                            style="margin:5px; height:430px; ">
-                                                                                    </div>
-                                                                                    <li class="text"
-                                                                                        style="color:gray;  font-weight:bold; font-size:20px;">
-                                                                                        d)
-                                                                                        Travaux
-                                                                                        d’entretien :</li>
-                                                                                    <p>
-                                                                                        Les travaux d’entretien
-                                                                                        consistent à :
-                                                                                    <ul>
-                                                                                        <p> -Travaux de réhabilitation
-                                                                                            et pose de 2936 mètres
-                                                                                            linéaires
-                                                                                            de
-                                                                                            conduites
-                                                                                            en PVC de DN 160, 110 et 63
-                                                                                            mm.</p>
-                                                                                        <p>Travaux de normalisation
-                                                                                            d’environ 299 branchements
-                                                                                            et
-                                                                                            niches ;
-                                                                                        </p>
-                                                                                        <p> -Les travaux de remise en
-                                                                                            état (nettoyage et
-                                                                                            réfections des
-                                                                                            chantiers...) ;</p>
-                                                                                        <p> -Les travaux d’entretien et
-                                                                                            mise à niveau de 24 regards
-                                                                                            et
-                                                                                            construction
-                                                                                            de 68 nouveaux regards pour
-                                                                                            vanne et pièces spéciales
-                                                                                            (nettoyage,
-                                                                                            scellement des tampons, mise
-                                                                                            à niveau...) ;</p>
-                                                                                        <p> -Les travaux de mise à
-                                                                                            niveau d’environ 674 bouches
-                                                                                            à clé ;
-                                                                                        </p>
-                                                                                        <p>
-                                                                                            - Les travaux d’entretien
-                                                                                            concernent l’ensemble des
-                                                                                            ouvrages
-                                                                                            d’eau :
-                                                                                        <ul>
-                                                                                            <p>-Rinçage et
-                                                                                                désinfection des
-                                                                                                réservoirs et
-                                                                                                château
-                                                                                                d’eau,
-                                                                                            </p>
-                                                                                            <p> -Entretien de
-                                                                                                l’entourage des
-                                                                                                réservoirs, station
-                                                                                                de
-                                                                                                pompage,
-                                                                                                Sources et
-                                                                                                dés-sableur.</p>
-                                                                                            <p>-Peinture et
-                                                                                                badigeonnage des
-                                                                                                ouvrages d’eau :
-                                                                                                Réservoirs,
-                                                                                                forages et stations
-                                                                                                de pompages. </p>
-                                                                                            <div class="text-center">
-                                                                                                <img src="img/EAU21.jpg"
-                                                                                                    class="img-fluid "
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU22.gif"
-                                                                                                    class="img-fluid "
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                                <img src="img/EAU23.gif"
-                                                                                                    class="img-fluid "
-                                                                                                    style="margin:5px;"
-                                                                                                    alt="">
-                                                                                            </div>
-                                                                                        </ul>
-                                                                    </li>
-
-                                                                </ul>
-                                                                </p>
-
-                                        </ul>
-                                    </div>
                                 </div>
-                                </li>
-
-                                <li>
-                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-13" class="collapsed"
-                                        aria-expanded="false"><span>03</span>
-                                        <h3 class="" style="display:inline-block; color:#077ec0;"><u> Au
-                                                niveau des travaux avec participation </u></h3> <i
-                                            class="bx bx-chevron-down icon-show"></i><i
-                                            class="bx bx-chevron-up icon-close"></i>
-                                    </a>
-                                    <div id="accordion-list-13" class="collapse" data-bs-parent=".accordion-listP"
-                                        style="">
-                                        <div class="container AuNiveauEau3">
-                                            <p>Etudes et suivi des travaux
-                                                d’équipement d’AEP des lotissements
-                                                MANAR 1
-                                                extension
-                                                et MANAR III.
-                                                Le tableau ci-dessous récapitule le
-                                                linéaire du réseau posé par
-                                                diamètre de
-                                                conduite :</p>
-                                            <img src="img/EAU24.jpg" class="img-fluid mx-auto d-block"
-                                                style="margin:5px;width:100%; height:400px;"></br>
-                                            <p>Le tableau ci-dessous récapitule ces
-                                                réalisations:</p>
-                                            <img src="img/EAU25.gif" class="img-fluid mx-auto d-block"
-                                                style="margin:5px; width:100%; height:400px; "></br>
-                                            <p> Le volume total des investissements
-                                                en eau potable réalisé pour la
-                                                période de 2013 à 2017 est de 62,13
-                                                Mdhs réparti comme suit :</p>
-                                            <div class="text-center">
-                                                <img src="img/EAU26.gif" class="img-fluid mx-auto "
-                                                    style="margin:5px; width:100%">
-                                                <img src="img/EAU27.gif" class="img-fluid mx-auto "
-                                                    style="margin:5px; width:100%">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-
-                                </ul>
                             </div>
-
-                        </div>
 
                         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate"
                             data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-                    </div>
+                        </div>
 
-                </div>
-                </section>
 
 
                 </ul>
             </div>
-
-
         </div>
+
+
+        <!-- assainissement -->
         <div class="tab-pane fade " id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab">
             <div class="row justify-content-center">
-                <h2 class="text-center" style="color: rgb(155,187,89);">REALISATIONS D’ASSAINISSEMENT 2017</h2>
+                <h2 class="text-center" style="color: rgb(155,187,89);">REALISATIONS D’ASSAINISSEMENT 2023</h2>
                 <p>
-                    Les réalisations de l’année 2017 ont atteint un volume de 17,31 Mdhs,
-                    représentant
-                    40 % du budget de l’assainissement liquide qui est de 43,77 Mdhs. <br>
-                    Les investissements de l’assainissement liquide se présentent comme suit :
-                    <br>
+                La RADEEL a pris en charge la gestion de l’assainissement liquide de la ville de Larache en 2004.  Puis elle a été chargée d’assurer ce service aux communes rurales d’Aouamra et Khmis Sahel et à la ville de Ksar Kébir en 2013 et 2014 respectivement. 
+                La RADEEL dispose d’un système d’assainissement de type unitaire. La topographie du terrain est telle que l’écoulement est gravitaire. 
+                Le linéaire total du réseau est de 815 kilomètres. La majeure partie du réseau sont des canalisations circulaires de diamètre inférieur ou égal à 800 mm, la plupart des collecteurs tertiaires étant de 400 mm.    
                 <div class="text-center py-4">
                     <img src="img/A2.gif" class="img-fluid ">
                 </div>
@@ -1367,8 +950,7 @@ des projets suivants :
                                                     data-bs-target="#accordion-list-1"
                                                     aria-expanded="false"><span>01</span>
                                                     <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
-                                                        <u>Au
-                                                            niveau de la distribution</u>
+                                                        <u>Au niveau de la distribution</u>
                                                     </h3><i class="bx bx-chevron-down icon-show"></i><i
                                                         class="bx bx-chevron-up icon-close"></i>
                                                 </a>
@@ -1386,8 +968,7 @@ des projets suivants :
                                                         : marché n° 01/A/2016 d’un montant de 1
                                                         599 480,00 DH TTC.</p>
                                                     <ol>
-                                                        <li style="color:gray;font-weight:bold;font-size:20px;">Pour la
-                                                            ville de LARACHE :</li>
+                                                        <li style="color:gray;font-weight:bold;font-size:20px;">Pour la ville de LARACHE :</li>
                                                         <p>
                                                             Les travaux de Réhabilitation et
                                                             renouvellement du réseau
@@ -1418,8 +999,7 @@ des projets suivants :
                                                             illustrés dans le tableau
                                                             suivant :
                                                         <div class="text-center py-4">
-                                                            <img src="img/A3.png" class="img-fluid" style="width:100%"
-                                                                alt="">
+                                                            <img src="img/A3.png" class="img-fluid" style="width:100%" alt="">
                                                         </div>
                                                         <div>
                                                             <div class="text-center py-4">
@@ -1429,16 +1009,12 @@ des projets suivants :
                                                                 <img src="img/A7.gif" alt="">
                                                             </div>
                                                         </div>
-                                                        Linéaire du réseau in site par diamètre
-                                                        posé en 2017 :
+                                                        Linéaire du réseau in site par diamètre posé en 2017 :
                                                         <div class="text-center py-4">
                                                             <img src="img/A8.png" class="img-fluid">
                                                         </div>
                                                         <h5 style="color:gray; padding:30px; font-weight:bold">
-                                                            Liste des
-                                                            quartiers
-                                                            ciblés par le programme de
-                                                            renouvellement :</h5>
+                                                            Liste des quartiers ciblés par le programme de renouvellement :</h5>
                                                         <ul>
                                                             <div class="bd-callout bd-callout-info">
                                                                 <i class="fa fa-check  me-3"
@@ -1608,10 +1184,7 @@ des projets suivants :
                                                 <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
                                                     class="collapsed" aria-expanded="false"><span>02</span>
                                                     <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
-                                                        <u> Au
-                                                            niveau d’entretien et curage du réseau et
-                                                            ouvrages d’assainissement
-                                                            liquide </u>
+                                                        <u> Au niveau d’entretien et curage du réseau et ouvrages d’assainissement liquide </u>
                                                     </h3> <i class="bx bx-chevron-down icon-show"></i><i
                                                         class="bx bx-chevron-up icon-close"></i>
                                                 </a>
@@ -1829,7 +1402,7 @@ des projets suivants :
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
                                 style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
@@ -1851,13 +1424,13 @@ des projets suivants :
                                 class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>
@@ -1873,6 +1446,8 @@ des projets suivants :
             </div>
         </div>
     </div>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>

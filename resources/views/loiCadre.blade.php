@@ -520,7 +520,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-                   
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -532,7 +532,7 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../loi') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
                                 style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
@@ -554,13 +554,13 @@
                                 class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
                             1647 Lotisment larache</a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
-                                class="fas fa-phone-alt text me-2"></i>0801 000 042 </a>
+                                class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>

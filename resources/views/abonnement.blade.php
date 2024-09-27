@@ -768,7 +768,7 @@
                             <div id="accordion1">
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                                        <div class="card-header" style="background-color:#077ec0; color:white;">
+                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
                                             Abonnement
                                         </div>
                                     </a>
@@ -817,7 +817,7 @@
                                         href="#exampleModalCenter" data-bs-toggle="modal"
                                         data-bs-target="#exampleModalCenter" aria-expanded="false"
                                         aria-controls="collapseFour"
-                                        style="background-color:#077ec0; color:white; width:98%; margin: 10px;">
+                                        style="background-color:#7DB41E; color:white; width:98%; margin: 10px;">
                                         Demande en ligne
                                     </a>
                                 </div>
@@ -831,7 +831,7 @@
                         <div id="accordion2">
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                                        <div class="card-header" style="background-color:#077ec0; color:white;">
+                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
                                             Le relevé de votre Consommation
                                         </div>
                                     </a>
@@ -896,7 +896,7 @@
                                 </div>
                                 <div class="card">
                                     <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                                        <div class="card-header" style="background-color:#077ec0; color:white;">
+                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
                                             Réglement de vos factures
                                         </div>
                                     </a>
@@ -961,7 +961,7 @@
     </style>
 
     <!-- prompt formulaire Branchement -->
-    <div class="modal fade" id="exampleModalCenter" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+    <div class="modal fade " id="exampleModalCenter" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div id="container" class="container mt-5">
@@ -1109,11 +1109,7 @@
                                     name="adresscorresp"><br>
                                 <input class="form-control form-control" type="text" placeholder="ville" name="ville">
                             </div>
-                            <!-- recaptcha -->
-                            <!-- <div class="mb-3">
-
-                                    <div class="g-recaptcha" data-sitekey="6LdVbykpAAAAAHkzC8BgWCLQ9p3ghZiZnKxRKck0"></div>
-                                </div> -->
+                        
                             <div class="mb-3">
                                 <button type="button" class="btn next-step"
                                     style="background-color:#077ec0;color:white; ">Continuer</button>
@@ -1239,7 +1235,7 @@
 
     <!-- prompt formulaire Raccordement -->
     <div class="modal fade" id="exampleModalCenter1" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div id="container" class="container mt-5">
                     <div class="progress px-1" style="height: 3px;">
@@ -1586,7 +1582,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>
@@ -1611,7 +1607,8 @@
     {{-- Alert --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
         integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

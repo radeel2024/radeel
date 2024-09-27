@@ -37,10 +37,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <style>
-       .page-headere {
+        .page-headere {
             background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cov3.png) center center no-repeat;
             background-size: cover;
         }
+
         .nav-item.dropdown>a::after {
             display: none !important;
         }
@@ -489,7 +490,7 @@
 
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}"> STRESS HYDRIQUE </a></li>
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
@@ -683,35 +684,88 @@
                             <!-- Step 1 form fields here -->
                             <h3>Information Personnel : </h3>
                             <div class="mb-3">
-                                <label class="form-label">Nom
+                                <label class="form-label">Nom &nbsp;<span style="color:red">*</span>
                                 </label>
                                 <input type="text" name="name" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Prénom
+                                <label class="form-label">Prénom&nbsp;<span style="color:red">*</span>
                                 </label>
                                 <input type="text" name="prenom" class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Email</label>
+                                <label class="form-label">Email&nbsp;<span style="color:red">*</span></label>
                                 <input type="email" name="email" class="form-control" id="numD"
                                     placeholder="name@example.com" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Numéro de téléphone
+                                <label class="form-label">Numéro de téléphone&nbsp;<span style="color:red">*</span>
                                 </label>
                                 <input type="tel" name="tele" class="form-control" id="numTel" placeholder="0600000000"
-                                    maxlength="10" oninput="" required="required">
+                                    maxlength="10" oninput="" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Services
+                                <label class="form-label">&nbsp;Services<span style="color:red">*</span>
                                 </label>
                                 <select class="form-select" name="service" aria-label="Default select example" required>
-                                    <option selected disabled>Sélectionner votre services
-                                    </option>
-                                    <option value="Services Informatique">Services Informatique</option>
-                                    <option value="Service Comptabilité">Service Comptabilité</option>
-                                    <option value="Services Achat et logistique">Services Achat et logistique</option>
+                                    <option selected disabled>Sélectionner votre service</option>
+                                    <!-- Division: Ingénierie & Investissements -->
+                                    <optgroup label="Ingénierie & Investissements">
+                                        <option value="Service Etude et Planification">Service Etude et Planification
+                                        </option>
+                                        <option value="Service Equipement en Réseau">Service Equipement en Réseau
+                                        </option>
+                                        <option value="Service Grands Travaux">Service Grands Travaux</option>
+                                        <option value="Service S.I.G & Patrimoine">Service S.I.G & Patrimoine</option>
+                                    </optgroup>
+                                    <!-- Division: Exploitation Électricité -->
+                                    <optgroup label="Exploitation Électricité">
+                                        <option value="Service Exploitation Électricité Larache">Service Exploitation
+                                            Électricité Larache</option>
+                                        <option value="Service Exploitation Électricité Ksar El Kébir">Service
+                                            Exploitation Électricité Ksar El Kébir</option>
+                                        <option value="Service Mesures et Protection">Service Mesures et Protection
+                                        </option>
+                                    </optgroup>
+                                    <!-- Division: Exploitation Eau et Assainissement -->
+                                    <optgroup label="Exploitation Eau et Assainissement">
+                                        <option value="Service Exploitation Eau et Assainissement Larache">Service
+                                            Exploitation Eau et Assainissement Larache</option>
+                                        <option value="Service Exploitation Eau et Assainissement Ksar El Kébir">Service
+                                            Exploitation Eau et Assainissement Ksar El Kébir</option>
+                                        <option value="Service Production Eau">Service Production Eau</option>
+                                        <option value="Service Rendement">Service Rendement</option>
+                                        <option value="Service Dépollution et Grands Ouvrages">Service Dépollution et
+                                            Grands Ouvrages</option>
+                                    </optgroup>
+                                    <!-- Division: Commerciale & Clientèle -->
+                                    <optgroup label="Commerciale & Clientèle">
+                                        <option value="Service Développement Clientèle">Service Développement Clientèle
+                                        </option>
+                                        <option value="Service Facturation">Service Facturation</option>
+                                        <option value="Service Recouvrement">Service Recouvrement</option>
+                                        <option value="Service Comptage">Service Comptage</option>
+                                    </optgroup>
+                                    <!-- Division: Support -->
+                                    <optgroup label="Support">
+                                        <option value="Service Achat et Logistique">Service Achat et Logistique</option>
+                                        <option value="Service Comptabilité & Finances">Service Comptabilité & Finances
+                                        </option>
+                                    </optgroup>
+                                    <!-- Services Généraux -->
+                                    <optgroup label="Services Généraux">
+                                        <option value="Service Système d’Information">Service Système d’Information
+                                        </option>
+                                        <option value="Service Gestion des Ressources Humaines">Service Gestion des
+                                            Ressources Humaines</option>
+                                        <option value="Service Audit Interne">Service Audit Interne</option>
+                                        <option value="Service Communication">Service Communication</option>
+                                        <option value="Service Contrôle de Gestion">Service Contrôle de Gestion</option>
+                                        <option value="Service Qualité Sécurité et Environnement">Service Qualité
+                                            Sécurité et Environnement</option>
+                                        <option value="Service Juridique et Assurances">Service Juridique et Assurances
+                                        </option>
+                                    </optgroup>
                                 </select>
                             </div>
                             <button type="button" class="btn btn-primary next-step">Suivre</button>
@@ -747,20 +801,20 @@
                                     required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label"> Pass sanitaire
+                                <label class="form-label"> Etrangé file
                                 </label>
                                 <input class="form-control form-control" id="formFileLg" name="passsanitaire"
                                     type="file" required>
                             </div>
                             <!-- recaptcha -->
-                            <!-- <div class="mb-3">
+                            <!-- 
+                            <div class="mb-3">
 
                                 <div class="g-recaptcha" data-sitekey="6LdVbykpAAAAAHkzC8BgWCLQ9p3ghZiZnKxRKck0"></div>
-                            </div> -->
-
+                            </div>
+                             -->
                             <div class="mb-3">
                                 <button type="button" class="btn btn-primary next-step">Suivre</button>
-
                             </div>
                         </div>
 
@@ -768,7 +822,6 @@
                             <!-- Step 3 form fields here -->
                             <div class="thanks-message text-center" id="text-message">
                                 <button type="submit" class="btn btn-primary">Envoyé</button>
-
                             </div>
                         </div>
                     </form>
@@ -789,7 +842,6 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
-
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -801,8 +853,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -816,7 +868,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="#" class="h3 text-white">Contacté nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
@@ -829,7 +881,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>
@@ -845,7 +897,7 @@
             </div>
         </div>
     </div>
-
+    <!-- footer -->
 
 
 
@@ -987,11 +1039,123 @@
 
 
     <script>
-        jQuery(document).ready(function () {
-            $('#modalIndex').modal('show')
+        // Fonction pour afficher une étape spécifique
+        function displayStep(stepNumber) {
+            document.querySelectorAll('.step').forEach((step) => {
+                step.style.display = 'none';
+            });
+            document.querySelector('.step-' + stepNumber).style.display = 'block';
+        }
+
+        // Fonction pour valider la première étape
+        function validateStep1() {
+            let valid = true;
+
+            // Récupérer les champs du formulaire de la première étape
+            const name = document.querySelector('input[name="name"]');
+            const prenom = document.querySelector('input[name="prenom"]');
+            const email = document.querySelector('input[name="email"]');
+            const tele = document.querySelector('input[name="tele"]');
+            const service = document.querySelector('select[name="service"]');
+
+            // Vérification des champs obligatoires
+            if (name.value.trim() === "") {
+                valid = false;
+                alert('le Nom est requis');
+            }
+            if (prenom.value.trim() === "") {
+                valid = false;
+                alert('le Prénom est requis');
+            }
+            if (email.value.trim() === "") {
+                valid = false;
+                alert('le Email est requis');
+            }
+            if (tele.value.trim() === "" || tele.value.length !== 10) {
+                valid = false;
+                alert('Le numéro de téléphone doit contenir 10 chiffres');
+            }
+            if (service.value === "Sélectionner votre service") {
+                valid = false;
+                alert('Veuillez sélectionner un service');
+            }
+
+            // Si tous les champs sont valides, on passe à l'étape suivante
+            if (valid) {
+                displayStep(2);
+                updateProgressBar(2);
+            }
+        }
+
+        // Fonction pour valider la deuxième étape
+        function validateStep2() {
+            let valid = true;
+
+            // Récupérer les champs de fichiers de la deuxième étape
+            const cv = document.querySelector('input[name="cv"]');
+            const demande = document.querySelector('input[name="demande"]');
+            const assurance = document.querySelector('input[name="assurance"]');
+            const cin = document.querySelector('input[name="cin"]');
+            const passsanitaire = document.querySelector('input[name="passsanitaire"]');
+
+            // Vérification des fichiers obligatoires
+            if (cv.files.length === 0) {
+                valid = false;
+                alert('Le CV est requis');
+            }
+            if (demande.files.length === 0) {
+                valid = false;
+                alert('La demande de stage est requise');
+            }
+            if (assurance.files.length === 0) {
+                valid = false;
+                alert('L\'assurance est requise');
+            }
+            if (cin.files.length === 0) {
+                valid = false;
+                alert('La copie de la CIN est requise');
+            }
+            if (passsanitaire.files.length === 0) {
+                valid = false;
+                alert('Le pass sanitaire est requis');
+            }
+
+            // Si tous les fichiers sont fournis, on passe à l'étape suivante
+            if (valid) {
+                displayStep(3);
+                updateProgressBar(3);
+            }
+        }
+
+        // Mettre à jour la barre de progression
+        function updateProgressBar(stepNumber) {
+            const progressBar = document.querySelector('.progress-bar');
+            let progressPercentage = (stepNumber - 1) * 50; // 0% for step 1, 50% for step 2, 100% for step 3
+            progressBar.style.width = progressPercentage + '%';
+            progressBar.setAttribute('aria-valuenow', progressPercentage);
+        }
+
+        // Script pour gérer la navigation entre les étapes
+        document.addEventListener('DOMContentLoaded', function () {
+            // Afficher la première étape par défaut
+            displayStep(1);
+
+            // Écouteur pour le bouton "Suivre" de la première étape
+            document.querySelector('.step-1 .next-step').addEventListener('click', function (e) {
+                e.preventDefault();
+                validateStep1(); // Valider et aller à l'étape 2 si validé
+            });
+
+            // Écouteur pour le bouton "Suivre" de la deuxième étape
+            document.querySelector('.step-2 .next-step').addEventListener('click', function (e) {
+                e.preventDefault();
+                validateStep2(); // Valider et aller à l'étape 3 si validé
+            });
         });
     </script>
-    <script>
+
+
+    <!--   <script>
         var currentStep = 1;
         var updateProgressBar;
 
@@ -1038,8 +1202,9 @@
                 $(".progress-bar").css("width", progressPercentage + "%");
             }
         });
-    </script>
-    <!-- Footer End -->
+    </script> 
+    -->
+
 
 
 

@@ -661,7 +661,7 @@
             border: 1px solid #e9ecef;
             border-left-width: 0.25rem;
             border-radius: 0.25rem;
-            border-left-color: #7DB41E;
+            border-left-color: #D1801D;
         }
 
         .vertical-tabs .nav-link.active {
@@ -682,7 +682,7 @@
 
             font-size: 20px;
             width: 93%;
-            color: #077ec0;
+            color: #7DB41E;
             font-size: 19px;
             /* Optional: Adjust margin between tabs */
         }
@@ -1549,7 +1549,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>

@@ -468,7 +468,7 @@
                     <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px;">
                 </a>
             </div>
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
+            <nav id="navbarNav navbar-expand-sm " class="navbar">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
@@ -1091,15 +1091,14 @@
         </div>
     @endforeach
 
-    <!--    <div id="modalIndex" class="modal animated" style="cursor: pointer;">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div id="modalIndex" class="modal animated" style="cursor: pointer;">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-               
-                <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040"><img
-                        src="img/pai.png" style="width: 100%;">
+                </div>             
+                <a href="#">
+                    <img src="img/p3.png" style="width: 100%;">
                 </a>
             </div>
         </div>
@@ -1108,7 +1107,7 @@
         $(document).ready(function(){
             $('#modalIndex').modal('show');
         });
-    </script> -->
+    </script> 
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
@@ -1133,8 +1132,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                                style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1161,7 +1160,7 @@
                             +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
-                            reclamation@radeel.com</a>
+                            reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
                             16:30</a>
