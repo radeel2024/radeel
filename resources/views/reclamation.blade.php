@@ -553,14 +553,15 @@
         <div class="row">
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
                  margin-top:20px;" bis_skin_checked="1">
+                 <br>
                 <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
                     ou demander des informations, prière de nous contacter sur :
 
 
-                    <br>
-                    {{-- <i class="fa fa-check  me-3"
+                    <br><br>
+                   <!--   <i class="fa fa-check  me-3"
                         style="color:green; padding-left:20px; display:inline-block;"></i><span
                         style="color:green; font-weight:200;">le numéro économique suivant</span> <br>
                     <i class="fa fa-check  me-3 text-primary" style="padding-left:20px;" display:inline-block;></i><span
@@ -569,8 +570,8 @@
                     <br>
                     <i class="fa fa-check  me-3"
                         style=" color:#D1801D;padding-left:20px;display:inline-block; "></i><span
-                        style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span>
-                    --}}
+                        style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span> -->
+                   
                 </p>
 
                 <div class="row">
@@ -597,7 +598,7 @@
             </div>
             <div class="col wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;
                 animation-name: fadeInUp;" bis_skin_checked="1">
-                <img src="https://f.hubspotusercontent10.net/hubfs/2302063/VISU-RECLAMATION-BLOG.jpg" class="img-fluid">
+                <img src="img/satisef.png" class="img-fluid">
             </div>
         </div>
     </div>
@@ -752,8 +753,8 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body py-0">
                     <div class="d-flex main-content">
-                        <div class="bg-image promo-img mr-3"
-                            style="background-image: url('https://www.visiativ.com/wp-content/uploads/2022/03/2167666-suivi-de-projet-suivi-des-objectifs-achevement-des-taches-ou-liste-de-controle-pour-rappeler-l-avancement-du-projet-gestion-chronologie-vectoriel-e1683189296301.jpg');">
+                        <div class="bg-image promo-img mr-3">
+                            
                         </div>
                         <div class="content-text p-6" style="padding:10px;">
                             <h1 style="color:#077ec0; text-align:center;">Suivi de réclamation </h1>

@@ -1097,8 +1097,8 @@
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>             
-                <a href="#">
-                    <img src="img/fe.png" style="width: 100%;">
+                <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">
+                    <img src="img/sate.png" style="width: 100%;">
                 </a>
             </div>
         </div>
