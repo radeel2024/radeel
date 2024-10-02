@@ -920,7 +920,7 @@
                         </button>
                     </div>
                 </div>
-                <br><br> <br><br> <br><br><br><br>
+                <br><br> <br><br><br><br><br><br>
                 <div class="col-12 col-md-4 mb-md-5">
                     <div class="ratio ratio-16x9" id="G3">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
@@ -929,6 +929,7 @@
                         </button>
                     </div>
                 </div>
+                
                 <div>
                     <button style="float: right;background-color:#077ec0;color:white" class="btn">
                         <a href="{{route('galerie')}}" style="color:white">
