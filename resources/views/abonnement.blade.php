@@ -100,7 +100,8 @@
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT A 8:00 DE 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT A 8:00
+                            DE 16:30</a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -462,7 +463,8 @@
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</strong></a></li>
@@ -485,7 +487,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                          
+
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -828,7 +830,7 @@
                     <div class="tab-pane fade" id="v-pills-message" role="tabpanel1"
                         aria-labelledby="v-pills-message-tab">
                         <div class="container mt-3">
-                        <div id="accordion2">
+                            <div id="accordion2">
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
                                         <div class="card-header" style="background-color:#7DB41E; color:white;">
@@ -885,10 +887,10 @@
                                                 compteur est normal et vous contestez le résultat de cette
                                                 vérification.</br>
                                             </div>
-                                           <p> Pour procéder à l’étalonnage du compteur, adressez nous une demande
-                                            légalisée. Les frais de l’étalonnage seront à votre charge, si le
-                                            fonctionnement normal du compteur est confirmé.
-                                        </p>
+                                            <p> Pour procéder à l’étalonnage du compteur, adressez nous une demande
+                                                légalisée. Les frais de l’étalonnage seront à votre charge, si le
+                                                fonctionnement normal du compteur est confirmé.
+                                            </p>
                                             </p>
 
                                         </div>
@@ -903,41 +905,54 @@
                                     <div id="collapseTwo" class="collapse" data-bs-parent="#accordion2">
                                         <div class="card-body">
 
-                                          <p> Votre consommation est égale à la diffirence entre le dernier index releve et l'index de le reléve précédente .</p> 
+                                            <p> Votre consommation est égale à la diffirence entre le dernier index
+                                                releve et l'index de le reléve précédente .</p>
                                             <p class="text-start">
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
                                                 En agence: </p>
                                             <p>
-                                              Vous pouvez reglez vos facture de consommation dans n'importe quelle agence commerciale parmi les 11 agences de la RADEEL situées à Larache ,Ksar kebir et Sahel
+                                                Vous pouvez reglez vos facture de consommation dans n'importe quelle
+                                                agence commerciale parmi les 11 agences de la RADEEL situées à Larache
+                                                ,Ksar kebir et Sahel
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
                                                 Aux point de vente : </p>
                                             <p>
-                                                Vous pouvez régler vos facture de consommaion en toute sécurité au niveau de point de vente le plus proche de vous .veuiller à prendre votre reçu de paiement.
+                                                Vous pouvez régler vos facture de consommaion en toute sécurité au
+                                                niveau de point de vente le plus proche de vous .veuiller à prendre
+                                                votre reçu de paiement.
                                             </p>
-             
+
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
                                                 En ligne:</p>
                                             <p>
-                                                RADEEL met à votre disposition une service de paiment en ligne gratuit et sécurisé via notre site , via le siteweb de votre banque ou l'application mobile de votre banque .
-                                                Payer en ligne vos factures sur le site web <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">Fatourati</a>
+                                                RADEEL met à votre disposition une service de paiment en ligne gratuit
+                                                et sécurisé via notre site , via le siteweb de votre banque ou
+                                                l'application mobile de votre banque .
+                                                Payer en ligne vos factures sur le site web <a
+                                                    href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">Fatourati</a>
                                             </p>
                                             <p
                                                 style="font-size:20px;padding-left:20px; font-weight:border; color:#7DB41E; text-decoration: underline;">
-                                                Par prélevement  automatique sur votre compte </p>
+                                                Par prélevement automatique sur votre compte </p>
                                             <p>
-                                                RADEEL peut suit à votre demendes procéder au prélévement automatique de montant de votre facture de consomation sur votre compte bancaire
+                                                RADEEL peut suit à votre demendes procéder au prélévement automatique de
+                                                montant de votre facture de consomation sur votre compte bancaire
                                             </p>
                                             <p
                                                 style="font-size:20px;padding-left:20px; font-weight:border; color:#7DB41E; text-decoration: underline;">
                                                 Par avence / consommation : </p>
                                             <p>
-                                               Si vous maitriser votre consommation mensuelle,vous pouvez deposer une somme d'argent comme avance . RADEEL déduit le montant de facture mensuelle de la somme déposée + cette solution est plus adapté aux clients ne habit pas au maroc dont la consommation est généralement trés fiable .
-                                           
+                                                Si vous maitriser votre consommation mensuelle,vous pouvez deposer une
+                                                somme d'argent comme avance . RADEEL déduit le montant de facture
+                                                mensuelle de la somme déposée + cette solution est plus adapté aux
+                                                clients ne habit pas au maroc dont la consommation est généralement trés
+                                                fiable .
+
                                             </p>
-                                        </p>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -963,7 +978,10 @@
     <!-- prompt formulaire Branchement -->
     <div class="modal fade " id="exampleModalCenter" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
+            <div class="modal-content" style="background-image: url(img/202.png);">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div id="container" class="container mt-5">
                     <div class="progress px-1" style="height: 3px;">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
@@ -1109,7 +1127,7 @@
                                     name="adresscorresp"><br>
                                 <input class="form-control form-control" type="text" placeholder="ville" name="ville">
                             </div>
-                        
+
                             <div class="mb-3">
                                 <button type="button" class="btn next-step"
                                     style="background-color:#077ec0;color:white; ">Continuer</button>
@@ -1235,8 +1253,11 @@
 
     <!-- prompt formulaire Raccordement -->
     <div class="modal fade" id="exampleModalCenter1" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="background-image: url(img/202.png);">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div id="container" class="container mt-5">
                     <div class="progress px-1" style="height: 3px;">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
@@ -1554,8 +1575,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1603,12 +1624,12 @@
 
 
 
-   
+
     {{-- Alert --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
         integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+        </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

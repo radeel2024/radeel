@@ -95,9 +95,10 @@
         style="background: #077ec0; font-size:18px; font-family:'arial'">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                
+
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE 8:00 A 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30</a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -458,7 +459,8 @@
                             <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</strong></a></li>
@@ -481,7 +483,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           
+
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -553,7 +555,7 @@
         <div class="row">
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
                  margin-top:20px;" bis_skin_checked="1">
-                 <br>
+                <br>
                 <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
@@ -561,7 +563,7 @@
 
 
                     <br><br>
-                   <!--   <i class="fa fa-check  me-3"
+                    <!--   <i class="fa fa-check  me-3"
                         style="color:green; padding-left:20px; display:inline-block;"></i><span
                         style="color:green; font-weight:200;">le numéro économique suivant</span> <br>
                     <i class="fa fa-check  me-3 text-primary" style="padding-left:20px;" display:inline-block;></i><span
@@ -571,7 +573,7 @@
                     <i class="fa fa-check  me-3"
                         style=" color:#D1801D;padding-left:20px;display:inline-block; "></i><span
                         style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span> -->
-                   
+
                 </p>
 
                 <div class="row">
@@ -589,10 +591,17 @@
 
                         <strong class="text-center" style="color:#077ec0">reclamation@radeel.ma<br></strong>
                     </a> -->
-                    <a href="#exampleModalCenter" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
+                    <a href="#reclamation" data-bs-toggle="modal" data-bs-target="#reclamation"
                         style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
                             style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
-                            class="text-center">Réclamation en ligne
+                            class="text-center">Déposer votre reclamation
+                        </strong>
+                    </a>
+                    <br><br>
+                    <a href="#suivi" data-bs-toggle="modal" data-bs-target="#suivi"
+                        style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
+                            style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
+                            class="text-center">Suivez votre reclamation
                         </strong></a>
                 </div>
             </div>
@@ -603,143 +612,161 @@
         </div>
     </div>
 
+    <style>
+        .form-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
 
+            border-radius: 15px;
+            /*  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+            position: relative;
+            max-height: 3000px;
+        }
+
+        .form-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('background-form.png');
+            /* Image de fond */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+        }
+
+        .form-control {
+            padding: 10px;
+            font-size: 16px;
+            border: 4px solid #99CE3A;
+            /* Bordure épaisse verte */
+            background-color: white;
+            /* Fond blanc */
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Ombre ajoutée */
+        }
+
+        .form-control:focus {
+            outline: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Ombre persistante au focus */
+        }
+
+        .form-label span {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Button Nouvelle Réclamation */
+        .button-container {
+            width: fit-content;
+            margin: 0 auto 20px;
+        }
+
+        .reclamation-button {
+            background-color: #37B6D8;
+            /* Fond bleu */
+            color: white;
+            /* Texte blanc */
+            padding: 15px 30px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 8px;
+            border: 4px solid #99CE3A;
+            /* Bordure verte */
+            text-align: center;
+
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Ombre légère */
+        }
+
+        .btn-submit {
+            background-color: #37B6D8;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            border: none;
+            padding: 15px;
+
+            margin: 0 auto 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            /* Ombre sur le bouton */
+        }
+
+        .btn-submit:hover {
+            background-color: #2fa1c1;
+        }
+    </style>
 
     <!-- Modal add reclamation -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog" role="document">
-            <div class="modal-content">
-
-                <div class=" card shadow-sm d-flex justify-content">
-
-                    <!-- nav options -->
-                    <style>
-                        .nav-pills .nav-link.active {
-                            background-color: #077ec0;
-                            color: #fff;
-
-                        }
-                    </style>
-                    <ul class="nav nav-pills " id="pills-tab" role="tablist" style="width: 100%">
-
-                        <li style="width:50%;">
-                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
-                                role="tab" aria-controls="pills-home" aria-selected="true"
-                                style="height:70px; text-align: center; padding: 15px;font-size: 25px;"><strong>Nouvelle
-                                    Réclamation</strong>
-                            </a>
-                        </li>
-
-                        <li style="width: 50%;">
-                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
-                                role="tab" aria-controls="pills-profile" aria-selected="false"
-                                style="height:70px;text-align:center;padding:15px;font-size:25px;"><strong>Suivre
-                                    votre Réclamation</strong>
-                            </a>
-                        </li>
-                    </ul>
-                    <br>
-                    <style>
-                        label {
-                            font-size: 18px;
-                            line-height: 20px;
-                            color: darkgray;
-                        }
-                    </style>
-                    <!-- content -->
-                    <div class="tab-content" id="pills-tabContent p-3">
-                        <!-- 1st card -->
-                        <div class="tab-pane fade show active " id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab">
-                            <form method="POST" action="{{ route('addReclamation') }}">
-                                @csrf
-                                <div class="container">
-                                    <div class="row ">
-                                        <div class="col">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Numéro
-                                                    dossier<span style="color:red;">*</span>
-                                                </label>
-                                                <input type="number" name="numdossier" class="form-control" id="numD"
-                                                    required>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Numéro
-                                                    Téléphone<span style="color:red;">*</span>
-                                                </label>
-                                                <input type="number" name="tele" class="form-control" id="numTel"
-                                                    placeholder="0600000000" maxlength="10" oninput="" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Email <span
-                                                        style="color:red;">*</span></label>
-                                                <input type="email" name="email" class="form-control" id="numD"
-                                                    placeholder="name@example.com" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Nom <span
-                                                        style="color:red;">*</span></label>
-                                                <input type="text" class="form-control" name="nom" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Objet <span
-                                                        style="color:red;">*</span></label>
-                                                <input type="text" name="objet" class="form-control" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Description
-                                                    <span style="color:red;">*</span></label>
-                                                <textarea class="form-control  mb-3" rows="4" cols="10" name="des"
-                                                    placeholder="Votre Message" style="border: 1px solid #666;"
-                                                    required></textarea>
-                                            </div>
-                                            <div class="mb-3">
-                                                <input type="submit" class="form-control"
-                                                    style="background-color:#077ec0;color: white; height:60px; font-size:20px;"
-                                                    id="numD" name="ok" value="Validé">
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </form>
+    <div class="modal fade" id="reclamation" tabindex="-1" role="dialog" aria-labelledby="reclamation"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl  " role="document">
+            <div class="modal-content" style="background-image: url(img/test.png);width: 100%;">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container form-container">
+                    <div class="button-container">
+                        <div class="reclamation-button">
+                            NOUVELLE RECLAMATION
                         </div>
-                        <!-- 2nd card -->
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab">
-                            <form method="POST" action="{{ route('searchreacalamtion') }}">
-                                @csrf
-                                <div class="container">
-                                    <div class="row ">
-                                        <div class="col">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">
-                                                    Numéro
-                                                    Réclamation
-                                                </label>
-                                                <input type="number" name="randomnumber" class="form-control" id="numD"
-                                                    required>
-                                            </div>
-
-
-                                            <div class="mb-3">
-                                                <input type="submit" class="form-control"
-                                                    style="background-color:#077ec0;color: white; height:50px;font-weight: bolder"
-                                                    id="numD" name="ok" value="Validé">
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </form>
-                        </div>
-                        <!-- 3nd card -->
-
                     </div>
+                    <br><br>
+                    <form method="POST" action="{{ route('addReclamation') }}">
+                        @csrf
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="dossier" class="form-label"><strong>Numéro de dossier :
+                                        <span>*</span></strong></label>
+                                <input type="text" class="form-control" id="dossier" name="numdossier" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="telephone" class="form-label"><strong> Numéro de téléphone :
+                                        <span>*</span></strong></label>
+                                <input type="text" class="form-control" id="telephone" name="tele" required>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="email" class="form-label"><strong>Email : <span>*</span></strong></label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="nom" class="form-label"><strong> Nom et Prénom :
+                                        <span>*</span></strong></label>
+                                <input type="text" class="form-control" id="nom" name="nom" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="objet" class="form-label"><strong> Objet : <span>*</span></strong></label>
+                            <input type="text" class="form-control" id="objet" name="objet" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="description" class="form-label"><strong> Description :
+                                    <span>*</span></strong></label>
+                            <textarea class="form-control" id="description" name="des" required rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-submit d-flex justify-content-around">ENVOYER</button>
+
+                    </form>
                 </div>
             </div>
         </div>
@@ -749,46 +776,40 @@
     <!-- Modal Suivi reclamation -->
     <div class="modal fade" id="suivi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-            <div class="modal-content rounded-0">
-                <div class="modal-body py-0">
-                    <div class="d-flex main-content">
-                        <div class="bg-image promo-img mr-3">
-                            
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content rounded-0 " style="background-image: url(img/test.png);">
+                <div class="modal-content" style="background-image: url(img/test.png);">
+                    <div class="container form-container">
+                        <div class="button-container">
+                            <div class="reclamation-button">
+                                SUIVI DE RECLAMATION
+                            </div>
                         </div>
-                        <div class="content-text p-6" style="padding:10px;">
-                            <h1 style="color:#077ec0; text-align:center;">Suivi de réclamation </h1>
+                        <br>
+                        <fieldset class="shadow-lg p-3 mb-5  rounded" style="background:transparent">
+                            <div class="d-flex justify-content-center">
+                                <img src="img/logo.png" width="80">
+                            </div>
+                            <br>
 
                             <form method="POST" action="{{ route('searchreacalamtion') }}">
+
                                 @csrf
-                                <div class="container">
-                                    <div class="row ">
-                                        <div class="col">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">
-                                                    Numéro
-                                                    Réclamation
-                                                </label>
-                                                <input type="number" name="reclamationumero" class="form-control"
-                                                    id="numD" required>
-                                            </div>
-
-
-                                            <div class="mb-3">
-                                                <input type="submit" class="form-control"
-                                                    style="background-color:#077ec0;color: white;" id="numD" name="ok"
-                                                    value="Validé">
-                                            </div>
-
-                                        </div>
+                                <div class="row mb-3 d-flex justify-content-around">
+                                    <div class="col-md-6 ">
+                                        <label for="dossier" class="form-label"><strong>Numéro de dossier :
+                                                <span>*</span></strong></label>
+                                        <input type="text" class="form-control" id="dossier" name="numdossier" required>
                                     </div>
 
                                 </div>
+                                <br>
+                                <button type="submit"
+                                    class="btn btn-submit d-flex justify-content-around">CHERCHER</button>
                             </form>
-                        </div>
+                        </fieldset>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -925,8 +946,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
