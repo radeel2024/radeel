@@ -1259,10 +1259,12 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div id="container" class="container mt-5">
+
                     <div class="progress px-1" style="height: 3px;">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+
                     <div class="step-container d-flex justify-content-between">
                         <div class="step-circle" onclick="displayStep(1)">1</div>
                         <div class="step-circle" onclick="displayStep(2)">2</div>
@@ -1287,6 +1289,7 @@
                                 });
                             </script>
                         @endif
+
                         <div class="step step-1">
                             <!-- Step 1 form fields here -->
                             <h3>Les informations de la demande de raccordement : </h3>
@@ -1530,8 +1533,8 @@
                             <button type="submit" class="btn "
                                 style="background-color:#077ec0;color:white; margin-left: 200px">Envoyé</button>
                         </div>
-
                     </form>
+                    
                 </div>
             </div>
         </div>

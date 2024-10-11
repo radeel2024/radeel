@@ -556,7 +556,8 @@
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
                  margin-top:20px;" bis_skin_checked="1">
                 <br>
-                <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
+                <p> 
+                    Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
                     ou demander des informations, prière de nous contacter sur :
@@ -575,35 +576,14 @@
                         style="color:#D1801D;  font-weight:200;">Vous pouvez déposer votre réclamation en ligne </span> -->
 
                 </p>
-
                 <div class="row">
+                <div class="col"><a href="tel:0801 000 042"><img src="img/2p.png" width="180" class="rounded-circle shadow-lg"></a></div>
 
-                    <a href="tel:0801 000 042" style="color:#7DB41E;font-size: 26px;;">
-                        <i class="fas fa-phone-square-alt"
-                            style=" color:#7DB41E;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong>N°
-                            Eco:
-                            0801.000.042 <br></strong>
-                    </a>
-                    <br><br>
-                    <!--  <a href="mailto:reclamation@radeel.ma" style="font-size: 26px;">
-                      <i class="fas fa-envelope-open-text"
-                            style=" color:#077ec0;padding-left:20px;display:inline-block; "></i>
-
-                        <strong class="text-center" style="color:#077ec0">reclamation@radeel.ma<br></strong>
-                    </a> -->
-                    <a href="#reclamation" data-bs-toggle="modal" data-bs-target="#reclamation"
-                        style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
-                            style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
-                            class="text-center">Déposer votre reclamation
-                        </strong>
-                    </a>
-                    <br><br>
-                    <a href="#suivi" data-bs-toggle="modal" data-bs-target="#suivi"
-                        style="font-size: 26px; color:#D1801D"><i class="fab fa-wpforms"
-                            style=" color:#D1801D;padding-left:20px;display:inline-block; "></i>&nbsp;&nbsp;<strong
-                            class="text-center">Suivez votre reclamation
-                        </strong></a>
+                    <div class="col rounded"><a href="#reclamation" data-bs-toggle="modal" data-bs-target="#reclamation"><img src="img/1p.png" width="180" class="rounded-circle shadow-lg"></a></div>
+                    <div class="col"><a href="#suivi" data-bs-toggle="modal" data-bs-target="#suivi"><img src="img/3p.png" width="180" class="rounded-circle shadow-lg"></a></div>
                 </div>
+                 
+                
             </div>
             <div class="col wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;
                 animation-name: fadeInUp;" bis_skin_checked="1">
