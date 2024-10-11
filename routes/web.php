@@ -158,6 +158,10 @@ use App\Http\Controllers\RoleController;
         return view('Autre');
     });
 
+    
+    //generate pdf
+    Route::get('/generate/{id}', [AdminController::class,'generatepdf'])->name('generatepdf');
+
 
     Route::prefix('admin')->middleware(['guest:web','PreventBackHistory'])->group(function () {
         //check admin
@@ -266,8 +270,6 @@ use App\Http\Controllers\RoleController;
             Route::get('/statistique Achat logistique', [AdminController::class, 'statistiqueachatlo'])->name('statistiqueachatlo');
             Route::get('/statistique Ressources humaines', [AdminController::class, 'statistiquerh'])->name('statistiquerh');
 
-            //generate pdf
-            Route::get('/generate/{id}', [AdminController::class,'generatepdf'])->name('generatepdf');
 
 
             //logout

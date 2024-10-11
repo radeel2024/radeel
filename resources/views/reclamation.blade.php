@@ -556,8 +556,7 @@
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
                  margin-top:20px;" bis_skin_checked="1">
                 <br>
-                <p> 
-                    Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
+                <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
                     réclamations
                     ou demander des informations, prière de nous contacter sur :
@@ -577,13 +576,17 @@
 
                 </p>
                 <div class="row">
-                <div class="col"><a href="tel:0801 000 042"><img src="img/2p.png" width="180" class="rounded-circle shadow-lg"></a></div>
+                    <div class="col"><a href="tel:0801 000 042"><img src="img/2p.png" width="180"
+                                class="rounded-circle shadow-lg"></a></div>
 
-                    <div class="col rounded"><a href="#reclamation" data-bs-toggle="modal" data-bs-target="#reclamation"><img src="img/1p.png" width="180" class="rounded-circle shadow-lg"></a></div>
-                    <div class="col"><a href="#suivi" data-bs-toggle="modal" data-bs-target="#suivi"><img src="img/3p.png" width="180" class="rounded-circle shadow-lg"></a></div>
+                    <div class="col rounded"><a href="#reclamation" data-bs-toggle="modal"
+                            data-bs-target="#reclamation"><img src="img/1p.png" width="180"
+                                class="rounded-circle shadow-lg"></a></div>
+                    <div class="col"><a href="#suivi" data-bs-toggle="modal" data-bs-target="#suivi"><img
+                                src="img/3p.png" width="180" class="rounded-circle shadow-lg"></a></div>
                 </div>
-                 
-                
+
+
             </div>
             <div class="col wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;
                 animation-name: fadeInUp;" bis_skin_checked="1">
@@ -781,7 +784,6 @@
                                                 <span>*</span></strong></label>
                                         <input type="text" class="form-control" id="dossier" name="numdossier" required>
                                     </div>
-
                                 </div>
                                 <br>
                                 <button type="submit"
@@ -808,6 +810,7 @@
             </div>
         </div>
     </div> --}}
+
     <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal2">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -815,61 +818,16 @@
                     <div class="container">
                         <div class="row" style="margin: 20px">
                             <div class="col ">
-
                                 <div class="p-2">
-                                    @if (session('reco'))
-
+                                    @if(session('traiter') == 1)
                                         <div>
-                                            <img src="images/traiter.PNG" class="img-fluid" width="100%"
-                                                style="height: 400;">
+                                            traiter
+                                            <img src="images/traiter.PNG" class="img-fluid" width="100%" style="height: 400;"> 
                                         </div>
                                         <br>
-                                        <div class="text-center">
-                                            <form method="get" action="{{route('generatepdf', session('numero'))}}">
-                                                <button class="btn btn-primary">
-                                                    Imprimer
-                                                </button>
-                                            </form>
-                                        </div>
-
-                                    @elseif(session('recoles'))
-
-                                        <div>
-                                            <img src="images/encours.PNG" class="img-fluid">
-                                        </div>
-                                        <br>
-                                        <div class="text-center">
-                                            <form method="get" action="{{route('generatepdf', session('numero3'))}}">
-                                                <button class="btn btn-primary">
-                                                    Imprimer
-                                                </button>
-                                            </form>
-                                        </div>
-                                    @elseif(session('recole'))
-
-                                        <div>
-                                            <img src="images/envoye.PNG" class="img-fluid">
-                                        </div>
-                                        <br>
-                                        <div class="text-center">
-                                            <form method="get" action="{{route('generatepdf', session('numero2'))}}">
-                                                <button class="btn btn-primary">
-                                                    Imprimer
-                                                </button>
-                                            </form>
-                                        </div>
-
-                                    @else
-                                        <div>
-                                            <button class="px-4 btn btn-warning rounded-pill"
-                                                style="color:white;text-align: center">N'existe pas
-                                            </button>
-                                        </div>
                                     @endif
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -885,14 +843,12 @@
         // Check if showModal is set in the session and is true
         @if (session('showModal') && session('showModal') === true)
             $(document).ready(function () {
-                // Show the modal
                 $('#exampleModal').modal('show');
             });
         @endif
 
         @if (session('showModale') && session('showModale') === true)
             $(document).ready(function () {
-                // Show the modal
                 $('#exampleModal2').modal('show');
             });
         @endif

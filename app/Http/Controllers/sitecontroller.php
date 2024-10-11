@@ -388,31 +388,49 @@ class sitecontroller extends Controller
 
     public function searchreacalamtion(Request $request)
     {
-        $rec = reclamation::where('randomnumber', $request->randomnumber)
-            ->where('status', 'traiter')
-            ->first();
+        $traiter = reclamation::where('randomnumber', $request->randomnumber)
+                    ->where('status', 'traiter')
+                    ->count();
 
-        $recole = reclamation::where('randomnumber', $request->randomnumber)
+       /*  $recole = reclamation::where('randomnumber', $request->randomnumber)
             ->where('status', 'Envoyé')
             ->first();
 
         $recole1 = reclamation::where('randomnumber', $request->randomnumber)
             ->where('status', 'En cours')
-            ->first();
+            ->first(); */
 
-        // Check if $rec and $recole are not null before accessing their properties
-        $recId = $rec ? $rec->id : null;
-        $recoleId = $recole ? $recole->id : null;
-        $recoles = $recole1 ? $recole1->id : null;
+        
+      
+        
+            
+      /* 
+        if ($recole) {
+            $recoleId = $recole->id;
+        } else {
+            $recoleId = null;
+        }
+            
+        if ($recole1) {
+            $recolesId = $recole1->id;
+        } else {
+            $recolesId = null;
+        }
+         */
+    
 
         return redirect()->back()->with([
-            'reco' => $rec,
-            'recole' => $recole,
-            'recoles' => $recole1,
+            'traiter' => 1,
+           /*
+           'recole' => $recole,
+            'recoles' => $recole1, 
+            */
             'showModale' => true,
-            'numero' => $recId,
+            /*
+             'numero' => $recId,
             'numero2' => $recoleId,
-            'numero3' => $recoles
+             */
+            
         ]);
     }
 
