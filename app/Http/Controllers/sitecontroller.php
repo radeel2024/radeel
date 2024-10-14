@@ -349,13 +349,13 @@ class sitecontroller extends Controller
         ];
 
         // Send first email
-        Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2));
+        //Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2));
 
         // Send second email
         Mail::to("radeelprojet@gmail.com")->send(new Myemail('send2', $randomNumberdata));
 
 
-        //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
+        Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
 
         //Redirect back with a success message and the numDossier for modal display
         return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true, 'success' => "Votre reclamation $randomNumber est ajoutée avec succèss", 'idox' => $reclamation->id]);
@@ -388,50 +388,41 @@ class sitecontroller extends Controller
 
     public function searchreacalamtion(Request $request)
     {
-        $traiter = reclamation::where('randomnumber', $request->randomnumber)
+      /*   $traiter = reclamation::where('randomnumber', $request->randomnumber)
                     ->where('status', 'traiter')
-                    ->count();
+                    ->first();
 
-       /*  $recole = reclamation::where('randomnumber', $request->randomnumber)
+         $envoyer = reclamation::where('randomnumber', $request->randomnumber)
             ->where('status', 'Envoyé')
             ->first();
 
-        $recole1 = reclamation::where('randomnumber', $request->randomnumber)
+        $encours = reclamation::where('randomnumber', $request->randomnumber)
             ->where('status', 'En cours')
-            ->first(); */
+            ->first(); 
+ */
+        
+            $traiter = reclamation::where('randomnumber', $request->randomnumber)
+            ->where('status', 'traiter')
+            ->count();
+
+            $envoyer = reclamation::where('randomnumber', $request->randomnumber)
+            ->where('status', 'Envoyé')
+            ->count();
+
+            $encours = reclamation::where('randomnumber', $request->randomnumber)
+            ->where('status', 'En cours')
+            ->count(); 
 
         
-      
-        
-            
-      /* 
-        if ($recole) {
-            $recoleId = $recole->id;
-        } else {
-            $recoleId = null;
-        }
-            
-        if ($recole1) {
-            $recolesId = $recole1->id;
-        } else {
-            $recolesId = null;
-        }
-         */
-    
 
         return redirect()->back()->with([
-            'traiter' => 1,
-           /*
-           'recole' => $recole,
-            'recoles' => $recole1, 
-            */
-            'showModale' => true,
-            /*
-             'numero' => $recId,
-            'numero2' => $recoleId,
-             */
-            
-        ]);
+            'traiter' => $traiter,
+            'envoyer' => $envoyer,
+            'encours' => $encours, 
+            'showModale' => true,  
+        ]); 
+
+        
     }
 
 

@@ -471,7 +471,8 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
                             <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
@@ -481,7 +482,8 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
 
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
@@ -491,7 +493,8 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
@@ -554,7 +557,8 @@
     <div class="container py-5">
         <div class="row">
             <div class="col " style="visibility: visible; animation-delay: 0.1s;
-                 margin-top:20px;" bis_skin_checked="1">
+                 margin-top:20px;"
+                bis_skin_checked="1">
                 <br>
                 <p>Dans le cadre de sa nouvelle stratégie de communication envers son aimable clientèle, la RADEEL a le
                     plaisir de vous informer de la mise en oeuvre de son centre d'appels. Pour transmettre des
@@ -588,8 +592,10 @@
 
 
             </div>
-            <div class="col wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;
-                animation-name: fadeInUp;" bis_skin_checked="1">
+            <div class="col wow fadeInUp" data-wow-delay="0.2s"
+                style="visibility: visible; animation-delay: 0.2s;
+                animation-name: fadeInUp;"
+                bis_skin_checked="1">
                 <img src="img/satisef.png" class="img-fluid">
             </div>
         </div>
@@ -715,7 +721,8 @@
                             <div class="col-md-6">
                                 <label for="dossier" class="form-label"><strong>Numéro de dossier :
                                         <span>*</span></strong></label>
-                                <input type="text" class="form-control" id="dossier" name="numdossier" required>
+                                <input type="text" class="form-control" id="dossier" name="numdossier"
+                                    required>
                             </div>
                             <div class="col-md-6">
                                 <label for="telephone" class="form-label"><strong> Numéro de téléphone :
@@ -726,7 +733,8 @@
 
                         <div class="row mb-3">
                             <div class="col-md-6">
-                                <label for="email" class="form-label"><strong>Email : <span>*</span></strong></label>
+                                <label for="email" class="form-label"><strong>Email :
+                                        <span>*</span></strong></label>
                                 <input type="email" class="form-control" id="email" name="email" required>
                             </div>
                             <div class="col-md-6">
@@ -782,7 +790,8 @@
                                     <div class="col-md-6 ">
                                         <label for="dossier" class="form-label"><strong>Numéro de dossier :
                                                 <span>*</span></strong></label>
-                                        <input type="text" class="form-control" id="dossier" name="numdossier" required>
+                                        <input type="text" class="form-control" id="dossier"
+                                            name="randomnumber" required>
                                     </div>
                                 </div>
                                 <br>
@@ -819,13 +828,22 @@
                         <div class="row" style="margin: 20px">
                             <div class="col ">
                                 <div class="p-2">
-                                    @if(session('traiter') == 1)
-                                        <div>
-                                            traiter
-                                            <img src="images/traiter.PNG" class="img-fluid" width="100%" style="height: 400;"> 
-                                        </div>
-                                        <br>
+                                    <!-- Check for reclamation statuses and display the information -->
+
+                                    @if (session('envoyer') == 1)
+                                        <img src="images/envoye.png" class="img-fluid" width="100%"
+                                            style="height: 400;">
                                     @endif
+                                    @if (session('encours') == 1)
+                                        <img src="images/encours.png" class="img-fluid" width="100%"
+                                            style="height: 400;">
+                                    @endif
+                                    @if (session('traiter') == 1)
+                                        <img src="images/traiter.png" class="img-fluid" width="100%"
+                                            style="height: 400;">
+                                    @endif
+
+                                    
                                 </div>
                             </div>
                         </div>
@@ -842,13 +860,13 @@
     <script>
         // Check if showModal is set in the session and is true
         @if (session('showModal') && session('showModal') === true)
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#exampleModal').modal('show');
             });
         @endif
 
         @if (session('showModale') && session('showModale') === true)
-            $(document).ready(function () {
+            $(document).ready(function() {
                 $('#exampleModal2').modal('show');
             });
         @endif
@@ -865,7 +883,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png"
+                            style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -875,8 +894,8 @@
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
                     <div class="mt-4 d-flex flex-column short-link">
-                        <a href="{{ url('../') }}" class="mb-2 text-white"><i class="fas fa-angle-right text me-2"
-                                style="color: white;"></i>RADEEL</a>
+                        <a href="{{ url('../') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text me-2" style="color: white;"></i>RADEEL</a>
                         <a href="{{ url('../') }}#contact" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Contact</a>
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
@@ -1039,9 +1058,11 @@
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
             s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
             s1.charset = 'UTF-8';
@@ -1066,7 +1087,7 @@
 
 
     <script>
-        jQuery(document).ready(function () {
+        jQuery(document).ready(function() {
             $('#modalIndex').modal('show')
         });
     </script>
