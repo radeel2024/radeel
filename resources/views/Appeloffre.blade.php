@@ -43,22 +43,12 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-                <div class="top-info">
-                    <small class="me-3 text-white"><i class="fas fa-envelope text-white"></i><a
-                            href="mailto:info@Radeel.com" style="color:white"> reclamation@radeel.com</a></small>
-                    <small class="me-3 text-white"><i class="fas fa-map-marker-alt text-white"></i>
-                        <a style="color:white;text-decoration: none;text-decoration: none;"
-                            href="https://www.google.com/maps/place/La+R%C3%A9gie+Autonome+Intercommunale+de+Distribution+d'Eau+et+d'Electricit%C3%A9+de+la+Province+de+LARACHE/@35.1673009,-6.1433723,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!8m2!3d35.1672965!4d-6.1411836"
-                            target="_blank" rel="noopener">1647, lotissement Maghreb AL JADID</a>
-                    </small>
-                </div>
-
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">ALLO Radeel 08 01 00 00
-                            42</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -69,18 +59,17 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- end Spinner Start -->
 
     <style>
         #header {

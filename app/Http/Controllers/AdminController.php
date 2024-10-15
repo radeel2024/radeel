@@ -780,10 +780,6 @@ class AdminController extends Controller
         ]);
 
 
-
-
-
-
         return redirect()->back()->with(
             [
                 'success' => "Article Add avec succes"

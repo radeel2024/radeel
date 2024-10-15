@@ -742,8 +742,8 @@
                                 role="tablist">
                                 <li class="nav-item" id="nav-link-1">
                                     <a class="elec btn btn-rounded active" id="pills-first-tab" data-toggle="pill"
-                                        href="#pills-first" role="tab" aria-controls="pills-first" aria-selected="true">
-                                        <i class="fas fa-bolt"></i>&nbsp;Electricité
+                                        href="#pills-first" role="tab" aria-controls="pills-first"
+                                        aria-selected="true"> <i class="fas fa-bolt"></i>&nbsp;Electricité
                                     </a>
                                 </li>
                                 <li class="nav-item" id="nav-link-2">
@@ -759,626 +759,548 @@
                                     </a>
                                 </li>
                             </ul>
-
                             <div class="tab-content" id="pills-tabContent">
-                                <!-- electricité -->
-                                <div class="tab-pane fade active show" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
+                                {{-- electricite --}}
+                                <div class="tab-pane fade active show" id="pills-first" role="tabpanel"
+                                    aria-labelledby="pills-first-tab">
                                     <div class="row ">
-                                        <div class="">
-                                            <div class="text-center">
-                                                <h2 style="color:#f89323;">REALISATIONS D’ELECTRICITE 2023</h2>
-                                                <ul class="text-start">
-                                                    <section id="why-us" class="why-us">
-                                                        <div class="container-fluid aos-init aos-animate"
-                                                            data-aos="fade-up">
-                                                            <div class="row">
-                                                                <div class=" justify-content-center align-items-stretch  ">
-                                                                    <div class="accordion-list">
-                                                                        <ul>
-                                                                            <li>
-                                                                                <a data-bs-toggle="collapse"
-                                                                                    class="collapse collapsed"
-                                                                                    data-bs-target="#accordion-list-1"
-                                                                                    aria-expanded="false"><span>01</span>
-                                                                                    <h3 style="color:#f89323">
-                                                                                        <u>Zone d’action </u>
-                                                                                    </h3>
-                                                                                </a>
-                                                                                <div id="accordion-list-1"
-                                                                                    class="collapse"
-                                                                                    data-bs-parent=".accordion-list">
-                                                                                    <p> La RADEEL (Régie Autonome de Distribution d&#39;Eau et d&#39;Électricité de Larache) assure l&#39;alimentation en énergie Bjir soit une population totale desservie d’environ 416 800 habitants.</p>
-                                                                                </div>
-                                                                            </li>
+                                        <ul class="text-start">
+                                            <section id="why-us" class="why-us">
+                                                <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                                                    <div class="row">
+                                                        <div class=" justify-content-center align-items-stretch  ">
+                                                            <div class="accordion-list">
+                                                                <ul>
+                                                                    <!-- zone d'action -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-1"
+                                                                            aria-expanded="false">
+                                                                            <span>01</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#f89323;">
+                                                                                <u> Zones d'actions : </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
 
-                                                                            <li>
-                                                                                <a data-bs-toggle="collapse"
-                                                                                    data-bs-target="#accordion-list-2"
-                                                                                    class="collapsed"
-                                                                                    aria-expanded="false"><span>02</span>
-                                                                                    <h3 style="color:#f89323"><u>Système d&#39;alimentation électrique</u></h3>
-                                                                                    <i
-                                                                                        class="bx bx-chevron-down icon-show"></i><i
-                                                                                        class="bx bx-chevron-up icon-close"></i>
-                                                                                </a>
-                                                                                <div id="accordion-list-2"
-                                                                                    class="collapse"
-                                                                                    data-bs-parent=".accordion-list" style="">
-                                                                                        <p> 
-                                                                                        L’alimentation en énergie électrique du réseau de la RADEEL est assurée par deux postes sources de la RADEEL et
-                                                                                        deux postes sources de L’ONEE, à travers un réseau Moyenne Tension totalement souterrain en milieu urbain et aérien
-                                                                                        en milieu rural.
-                                                                                        </p>
+                                                                        <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
+                                                                            <p class="text-start fs-8">
+                                                                                La RADEEL (Régie Autonome de
+                                                                                Distribution d&#39;Eau et
+                                                                                d&#39;Électricité de Larache) assure
+                                                                                l&#39;alimentation en énergie
+                                                                                électrique des villes de Larache, Ksar
+                                                                                Kébir, et des communes rurales Aouamra,
+                                                                                Sahel, Zouada, Oulad Ouchih et Ksar
+                                                                                Bjir soit une population totale
+                                                                                desservie d’environ 416 800 habitants.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                     <!--Nos indicateurs -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-2"
+                                                                            aria-expanded="false">
+                                                                            <span>02</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#f89323;">
+                                                                                <u> Nos indicateurs 2023 </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-2" class="collapse"
+                                                                            data-bs-parent=".accordion-list">
+                                                                            <div class="container mt-5">
+                                                                                <div
+                                                                                    class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                                                                                    <div class="col text-center">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white">
+                                                                                                    2</h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Poste Sources</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white  text-center">
+                                                                                                    7</h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Postes répartiteurs
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white  text-center">
+                                                                                                    180 MVA</h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Puissance Installée
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title text-center text-white">
+                                                                                                    180 MVA </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Puissance totale
+                                                                                                    grantie </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    62.16 MA </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Puissance moyenne
+                                                                                                    appelée </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    90% </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Rendement</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    1853 KM</h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Longueur de réseau
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    354,14 GWH</h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Energie achetée </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    322,58 GWH</h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Energie Vendue </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    108 072 </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Clients</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
-                                                                            </li>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                     <!-- Système d'alimentation électrique : -->
+                                                                     <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-3"
+                                                                            aria-expanded="false">
+                                                                            <span>03</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#f89323;">
+                                                                                <u> Système d'alimentation électrique : </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-3" class="collapse"
+                                                                            data-bs-parent=".accordion-list">
+                                                                            <p class="text-start fs-8">
+                                                                            L’alimentation en énergie électrique du réseau de la RADEEL est assurée par deux postes sources de la RADEEL et deux postes sources de L’ONEE, à travers un réseau Moyenne Tension totalement souterrain en milieu urbain et aérien en milieu rural.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                <ul> 
+                                                            </div> 
+                                                        </div>
+                                                    </div> 
+                                                </div> 
+                                            </section> 
+                                        </ul>
+                                </div>
+                                </div>
+                                {{-- Eau --}}
+                                <div class="tab-pane fade" id="pills-second" role="tabpanel" aria-labelledby="pills-second-tab">
+                                    <div class="row ">
+                                        <ul class="text-start">
+                                            <section id="why-us" class="why-us">
+                                                <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                                                    <div class="row">
+                                                        <div class=" justify-content-center align-items-stretch  ">
+                                                            <div class="accordion-list">
+                                                            <ul>
+                                                                    <!-- zone d'action -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-5"
+                                                                            aria-expanded="false">
+                                                                            <span>01</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#077ec0;">
+                                                                                <u> Zone d'actions : </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
 
-                                                                            <li>
-                                                                                <a data-bs-toggle="collapse"
-                                                                                    data-bs-target="#accordion-list-3"
-                                                                                    class="collapsed"
-                                                                                    aria-expanded="false"><span>03</span>
-                                                                                    <h3 style="color:#f89323"><u>Nos indicateurs 2023</u></h3>
-                                                                                    <i
-                                                                                        class="bx bx-chevron-down icon-show"></i><i
-                                                                                        class="bx bx-chevron-up icon-close"></i>
-                                                                                </a>
-                                                                                <div id="accordion-list-3"
-                                                                                    class="collapse"
-                                                                                    data-bs-parent=".accordion-list"
-                                                                                    style="">
-                                                                                    <ul>
-                                                                                       <p>La RADEEL œuvre pour assurer</p>
-                                                                                        <ol>
-                                                                                        La Sécurité et la continuité d’alimentation en énergie électrique.
-                                                                                        </ol>
-                                                                                        <ol>L’Amélioration du rendement du réseau électrique.</ol>
-                                                                                        <ol>L’Amélioration de la qualité de service pour la clientèle.</ol>
-                                                                                        <ol>L’Amélioration des performances techniques du réseau.</ol>
-                                                                                        <ol>La Généralisation de l’accès à l’électricité</ol>
-                                                                                        <ol>La Modernisation de la gestion, dématérialisation des procédures et digitalisation des services</ol>
-                                                                                        <ol>La Sécurisation de l’alimentation de son périmètre d’action</ol>
-                                                                                        <ol>L’Accompagnement de l’évolution des besoins énergétiques via l’augmentation de la
-                                                                                        puissance installée et la puissance garantie</ol>
-                                                                                        <ol>La RADEEL a réalisé Les travaux d’une 3eme Travée
-                                                                                            transformateur 60/20KV-36MVA y compris
-                                                                                            L’Installation d’un transformateur de puissance
-                                                                                            36MVA – 60/20KV au niveau du Poste Source
-                                                                                            Beggara <br>
-                                                                                            L’extension du dit poste a permis :
-                                                                                            <ul>
-                                                                                                <li>D’augmenter la puissance installée de 72MVA à 108MVA</li>
-                                                                                                <li> D’augmenter la puissance garantie de 36MVA à72MVA</li>
-                                                                                                <li> De réduire le taux d’utilisation de la puissance garantie</li>   
-                                                                                            </ul>
-                                                                                        </ol>
-                                                                                        <ol>La RADEEL est encours de réaliser une 3eme travée transformateur 60/20kV au poste source 60/20kV KsarKébir, L’action permettra
-                                                                                            <ul>
-                                                                                                <li>D’augmenter la puissance installée de 72MVA à
-                                                                                                108MVA</li>
-                                                                                                <li>D’augmenter la puissance garantie de 36MVA à
-                                                                                                72MVA</li>
-                                                                                                <li>De réduire le taux d’utilisation de la puissance garantie</li>
-                                                                                            </ul>
-                                                                                        </ol>
-                                                                                        <ol>
-                                                                                        Dans le cadre de la modernisation de ses Equipements la RADEEL a procédé au Remplacement du système
-                                                                                            consignateur d’état du poste source 60/20kV Beggara par un système de contrôle de commande numérique
-                                                                                            « Pacis » de marque Schneider Electric, L’opération a favorisé la supervision, la gestion et la commande de
-                                                                                            l’ensemble des équipements du poste : (les transformateurs de puissance 60/20kV, Les Disjoncteurs HT, Les
-                                                                                            Cellules disjoncteurs MT, Les services auxiliaires 220/127/48 ..)
-                                                                                        </ol> 
-                                                                                        
-                                                                                        <ol>La modernisation des équipements du poste source Beggara a été complétée par la numérisation des tranches
-                                                                                            électrostatiques de la salle de relayages et son intégration au système
-                                                                                            contrôle de commande (PACIS).</ol>
-                                                                                                                                                                                    <ol>Dans le cadre de la mise en œuvre des actions menées en matière de la Transformation digitale, L’Opération
-                                                                                            de la télé-relève a été entamé par L’installation des compteurs numériques communicants 3G/GPRS au niveau
-                                                                                            des clients MT et éclairage public </br>
-                                                                                            L’action permet d’assurer :
-                                                                                                    <ul>
-                                                                                                        <li>La relève à distance des index et des éléments de facturation des compteurs clients MT et éclairage
-                                                                                                        Public</li>
-                                                                                                        <li>La lecture à distance des évènements enregistrés par les compteurs numériques</li>
-                                                                                                        <li>La Configuration à distance des compteurs numériques</li>
-                                                                                                    </ul>
-                                                                                            </ol>
-                                                                                            <ol>Pour Accompagner les projets économiques structurants initiés par l’Autorité Locale, et dans le cadre de sa mission de
-                                                                                            supervision et d’assistance technique, la RADEEL assure le suivi et le contrôle d’exécution des travaux d’équipement
-                                                                                            des projets suivants :
-                                                                                            <ul>
-                                                                                                <li><strong >L’Agropole Loukous :</strong> Travaux d’équipement en réseau Electricité in-site de la 1ère Tranche de l’Agropole
-                                                                                                Loukous (Réseau Mt+ Réseau BT, 4 postes HTA/BT)</li>
-                                                                                                <li><strong >Projet d&#39;Aménagement du Polygone Industriel de Larache « PIL » :</strong> Réalisation des travaux d’équipement
-                                                                                                en réseau Electricité (Réseau Mt+ Réseau BT postes MT/BT)</li>
-                                                                                                <li><strong> d’Aménagement in site d’une zone d’activités de ksar bjir (Srima) :</strong> Electrification en réseau BT
-                                                                                                et MT au niveau de la zone industrielle SRIMA sise à la commune rurale Ksar Bjir.</li>
-                                                                                            </ul>
-                                                                                            </ol>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </li>
-                                                                        </ul>
+                                                                        <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                                                                            <p class="text-start fs-8">
+                                                                            La RADEEL assure la distribution d’eau potable au niveau de la ville de Larache, Ksar El Kébir, et les centres ruraux de Sahel, Aouamra, et Zouada soit une population desservie d’environ 293 900 habitants.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                     <!--Nos indicateurs -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-6"
+                                                                            aria-expanded="false">
+                                                                            <span>02</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#077ec0;">
+                                                                                <u> Nos indicateurs 2023 </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-6" class="collapse"
+                                                                            data-bs-parent=".accordion-list">
+                                                                            <div class="row row-cols-1 row-cols-md-3 g-4"
+                                                                style="margin-bottom: 20px;;">
+                                                                <div class="col">
+                                                                    <div class="card  fs-5"
+                                                                        style="background-color:#077ec0">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                55 100 m3</h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Capacité de stockage</p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
+                                                                <div class="col">
+                                                                    <div class="card fs-5"
+                                                                        style="background-color:#077ec0">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                876 Km</h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Longeurs Réseau</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card fs-5"
+                                                                        style="background-color:#077ec0">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                15 </h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Sources</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card fs-5"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body text-center">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                15 </h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Réservoirs </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card fs-5"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                31 </h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Pheures Autonomie de stockage</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card fs-5"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                77,93 % </h5>
+                                                                            <p
+                                                                                class="card-text  text-center text-white">
+                                                                                Rendement</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                15,34 Mm3</h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Eau Mobilisé</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                11,93 Mm3</h5>
+                                                                            <p
+                                                                                class="card-text text-center  text-white">
+                                                                                Eau Vendue </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <div class="card"
+                                                                        style="background-color: #077ec0;">
+                                                                        <div class="card-body ">
+                                                                            <h5
+                                                                                class="card-title text-center text-white">
+                                                                                77 846 </h5>
+                                                                            <p class="card-text text-center text-white">
+                                                                                Clients</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
                                                             </div>
+                                                                        </div>
+                                                                    </li>
+                                                                <ul> 
+                                                            </div> 
                                                         </div>
-                                                    </section>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                                    </div> 
+                                                </div> 
+                                            </section> 
+                                        </ul>
                                 </div>
-                                <div class="tab-pane fade" id="pills-second" role="tabpanel"
-                                    aria-labelledby="pills-second-tab">
+                                </div>
 
+                                {{-- Assainaissement --}}
+                                <div class="tab-pane fade" id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab">
+                                <div class="row ">
+                                        <ul class="text-start">
+                                            <section id="why-us" class="why-us">
+                                                <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+                                                    <div class="row">
+                                                        <div class=" justify-content-center align-items-stretch  ">
+                                                            <div class="accordion-list">
+                                                                <ul>
+                                                                    <!-- zone d'action -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-7"
+                                                                            aria-expanded="false">
+                                                                            <span>01</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:rgb(155,187,89);">
+                                                                                <u> Zonne d'action : </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+
+                                                                        <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
+                                                                            <p class="text-start fs-7">
+                                                                            La RADEEL a pris en charge la gestion de l’assainissement liquide de la ville de Larache en 2004.  Puis elle a été chargée d’assurer ce service aux communes rurales d’Aouamra et Khmis Sahel et à la ville de Ksar Kébir en 2013 et 2014 respectivement.  <br>
+                                                                            La RADEEL dispose d’un système d’assainissement de type unitaire. La topographie du terrain est telle que l’écoulement est gravitaire. <br>
+                                                                            Le linéaire total du réseau est de 815 kilomètres. La majeure partie du réseau sont des canalisations circulaires de diamètre inférieur ou égal à 800 mm, la plupart des collecteurs tertiaires étant de 400 mm.
+                                                                            </p>
+                                                                        </div>
+                                                                    </li>
+                                                                     <!--Nos indicateurs -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-2"
+                                                                            aria-expanded="false">
+                                                                            <span>02</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:rgb(155,187,89);">
+                                                                                <u> Nos indicateurs 2023 </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-2" class="collapse"
+                                                                            data-bs-parent=".accordion-list">
+                                                                            <div class="container mt-5">
+                                                                                <div
+                                                                                    class="row row-cols-1 row-cols-md-3 g-4 text-center">
+                                                                                    <div class="col text-center">
+                                                                                        <div class="card"
+                                                                                            style="background-color:rgb(155,187,89);">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white">
+                                                                                                    6 </h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Stations de Pompage</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:rgb(155,187,89);">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white  text-center">
+                                                                                                    815 km </h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Longueur réseau 
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:rgb(155,187,89);">
+                                                                                            <div
+                                                                                                class="card-body text-center">
+                                                                                                <h5
+                                                                                                    class="card-title text-white  text-center">
+                                                                                                    77 841 </h5>
+                                                                                                <p
+                                                                                                    class="card-text text-white  text-center">
+                                                                                                    Clients
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:rgb(155,187,89);">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title text-center text-white">
+                                                                                                    286 800 </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Population Desservie  </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    
+                                                                <ul> 
+                                                            </div> 
+                                                        </div>
+                                                    </div> 
+                                                </div> 
+                                            </section> 
+                                        </ul>
+                                </div>
                                 </div>
                             </div>
-
-                        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate"
-                            data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
-                        </div>
-
-
-
-                </ul>
-            </div>
-        </div>
-
-
-        <!-- assainissement -->
-        <div class="tab-pane fade " id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab">
-            <div class="row justify-content-center">
-                <h2 class="text-center" style="color: rgb(155,187,89);">REALISATIONS D’ASSAINISSEMENT 2023</h2>
-                <p>
-                La RADEEL a pris en charge la gestion de l’assainissement liquide de la ville de Larache en 2004.  Puis elle a été chargée d’assurer ce service aux communes rurales d’Aouamra et Khmis Sahel et à la ville de Ksar Kébir en 2013 et 2014 respectivement. 
-                La RADEEL dispose d’un système d’assainissement de type unitaire. La topographie du terrain est telle que l’écoulement est gravitaire. 
-                Le linéaire total du réseau est de 815 kilomètres. La majeure partie du réseau sont des canalisations circulaires de diamètre inférieur ou égal à 800 mm, la plupart des collecteurs tertiaires étant de 400 mm.    
-                <div class="text-center py-4">
-                    <img src="img/A2.gif" class="img-fluid ">
+                         </div>
+                    </div>
                 </div>
-                <ul>
-
-                    <section id="why-us" class="why-us ">
-                        <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
-                            <div class="row">
-                                <div class="justify-content-center align-items-stretch">
-                                    <div class="accordion-listPP">
-                                        <ul>
-                                            <li>
-                                                <a data-bs-toggle="collapse" class="collapse collapsed"
-                                                    data-bs-target="#accordion-list-1"
-                                                    aria-expanded="false"><span>01</span>
-                                                    <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
-                                                        <u>Au niveau de la distribution</u>
-                                                    </h3><i class="bx bx-chevron-down icon-show"></i><i
-                                                        class="bx bx-chevron-up icon-close"></i>
-                                                </a>
-                                                <div id="accordion-list-1" class="collapse"
-                                                    data-bs-parent=".accordion-listPP" style="">
-                                                    <p>Les études APD et DCE (Avant Projets
-                                                        Détaillés et Dossier de Consultation
-                                                        des
-                                                        Entreprises) des ouvrages
-                                                        d’assainissement liquide de la ville de
-                                                        Larache
-                                                        (Réseau d’interception et de transfert
-                                                        des eaux usées et la station
-                                                        d’épuration)
-                                                        : marché n° 01/A/2016 d’un montant de 1
-                                                        599 480,00 DH TTC.</p>
-                                                    <ol>
-                                                        <li style="color:gray;font-weight:bold;font-size:20px;">Pour la ville de LARACHE :</li>
-                                                        <p>
-                                                            Les travaux de Réhabilitation et
-                                                            renouvellement du réseau
-                                                            d’assainissement
-                                                            liquide à la ville de Larache : <br>
-                                                            Dans le cadre des marchés
-                                                            N°07/A/2016 et N°04/A/2017, la
-                                                            RADEEL a
-                                                            réalisé
-                                                            les travaux de renouvellement du
-                                                            réseau dans différentes zones de la
-                                                            ville
-                                                            de la Larache. Le montant des
-                                                            travaux exécutés dans les deux
-                                                            marchés
-                                                            s’élève
-                                                            à 7 711 214,04 DH TTC. La priorité a
-                                                            été accordée aux zones prévues
-                                                            par les
-                                                            programmes de mise à niveau pilotée
-                                                            par la province de Larache, de
-                                                            l’INDH et
-                                                            de revêtement de voiries par le
-                                                            service municipal et la préfecture
-                                                            de
-                                                            Larache. <br>
-                                                            Les travaux de ces deux marchés sont
-                                                            illustrés dans le tableau
-                                                            suivant :
-                                                        <div class="text-center py-4">
-                                                            <img src="img/A3.png" class="img-fluid" style="width:100%" alt="">
-                                                        </div>
-                                                        <div>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A4.jpg" alt="">
-                                                                <img src="img/A5.jpg" alt="">
-                                                                <img src="img/A6.jpg" alt="">
-                                                                <img src="img/A7.gif" alt="">
-                                                            </div>
-                                                        </div>
-                                                        Linéaire du réseau in site par diamètre posé en 2017 :
-                                                        <div class="text-center py-4">
-                                                            <img src="img/A8.png" class="img-fluid">
-                                                        </div>
-                                                        <h5 style="color:gray; padding:30px; font-weight:bold">
-                                                            Liste des quartiers ciblés par le programme de renouvellement :</h5>
-                                                        <ul>
-                                                            <div class="bd-callout bd-callout-info">
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>
-                                                                Chaâbane.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> El
-                                                                Wafae.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> Rue de
-                                                                Fès.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> Place
-                                                                de libération.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>
-                                                                Ancienne Médina.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>
-                                                                Yaâkoub El Masour.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>
-                                                                Zellaka.</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>
-                                                                Maghreb El Jadid.</p>
-                                                        </ul>
-                                                        <li
-                                                            style="color:gray; padding:10px; font-weight:bold;font-size:20px;">
-                                                            Pour la ville de KSAR EL KEBIR</li>
-                                                        <p>En 2017, la RADEEL a continué la
-                                                            réalisation, à la ville de Ksar El
-                                                            Kebir,
-                                                            des travaux d’équipement en réseau
-                                                            d’assainissement des quartiers
-                                                            non
-                                                            assainis dans le cadre du programme
-                                                            « Villes Sans Bidonvilles » et
-                                                            les
-                                                            travaux de renouvellement et
-                                                            renforcement de réseau présentant
-                                                            des
-                                                            caractéristiques mécaniques et
-                                                            hydrauliques médiocres.</p>
-                                                        <p>Suite aux réclamations des abonnés et
-                                                            un diagnostic effectué par le
-                                                            service
-                                                            exploitation d’assainissement, la
-                                                            RADEEL a procédé au renouvellement
-                                                            de
-                                                            certains collecteurs présentant des
-                                                            caractéristiques mécaniques et
-                                                            hydrauliques médiocres.</p>
-                                                        <div class="text-center py-4">
-                                                            <img src="img/A9.png" class="img-fluid" alt="">
-                                                        </div>
-                                                        <div>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A10.gif " class="img-fluid" alt="">
-                                                                <img src="img/A11.png" class="img-fluid" alt="">
-                                                            </div>
-                                                        </div>
-                                                        <p style="color:gray;font-weight:bold">
-                                                            LINEAIRE DU RESEAU IN SITE PAR
-                                                            DIAMETRE :
-                                                            <br>
-                                                            <img src="img/A12.png" class="img-fluid" alt="">
-                                                        <ul>
-                                                            <h5>Liste des quartiers concernés :
-                                                            </h5>
-                                                            <div class="bd-callout bd-callout-info">
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> Hay
-                                                                Assalam,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Enasr,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Hay El
-                                                                Jadid,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Hay
-                                                                Lamnakib,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Lamrina,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Sellalin,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Ourouba,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Oulad
-                                                                Hmaid,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Route
-                                                                de Larache (Hôpital
-                                                                Poly-disciplinaire),</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> Hay
-                                                                Enahda,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i> Dar
-                                                                Doukhan,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Gharssat
-                                                                Chaouche,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Hay Al
-                                                                Massira Al Khadra,</br>
-                                                                <i class="fa fa-check  me-3"
-                                                                    style="color:#285AEB;padding-left:20px;"></i>Jamae
-                                                                Assaida et Sadraoui.</br>
-                                                                </p>
-                                                        </ul>
-
-
-                                                        </p>
-                                                        <h5 style="color:gray; padding:30px; font-weight:bold">
-                                                            Centre AOUAMRA :</h3>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A13.jpg" class="img-fluid mx-auto "
-                                                                    alt=""><img src="img/A14.gif" class="img-fluid"
-                                                                    alt="">
-                                                            </div>
-                                                            <div>
-                                                                <div class="text-center py-4">
-                                                                    <img src="img/A15.png" class="img-fluid" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <h5 style="color:gray; font-weight:bold">
-                                                                LINEAIRE DU RESEAU IN SITE PAR
-                                                                DIAMETRE
-                                                            </h5>
-                                                            <div class="text-center ">
-                                                                <img src="img/A16.gif" class="img-fluid " alt="">
-                                                            </div>
-                                                            <li
-                                                                style="color:gray; padding:10px; font-weight:bold;font-size:20px;">
-                                                                Centre de KHMIS SAHEL :</li>
-                                                            <p>
-                                                                Pour l’équipement de ce centre, la
-                                                                RADEEL a posé un réseau
-                                                                secondaire et
-                                                                tertiaire qui se compose des
-                                                                conduites de diamètres DN 500, DN
-                                                                400,
-                                                                DN 315.
-                                                                <br>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A17.png" class="img-fluid " alt="">
-                                                            </div>
-                                                            </p>
-                                                            <p style="color:gray; font-weight:bold">
-                                                                LINEAIRE DU RESEAU IN SITE PAR
-                                                                DIAMETRE : <br>
-
-                                                            </p>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A18.gif" class="img-fluid "
-                                                                    style="width:30%" alt="">
-                                                                <img src="img/A19.jpg" class="img-fluid "
-                                                                    style="width:30%" alt="">
-                                                            </div>
-                                                    </ol>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
-                                                    class="collapsed" aria-expanded="false"><span>02</span>
-                                                    <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
-                                                        <u> Au niveau d’entretien et curage du réseau et ouvrages d’assainissement liquide </u>
-                                                    </h3> <i class="bx bx-chevron-down icon-show"></i><i
-                                                        class="bx bx-chevron-up icon-close"></i>
-                                                </a>
-                                                <div id="accordion-list-2" class="collapse"
-                                                    data-bs-parent=".accordion-listPP" style="">
-                                                    <h5 style="color:gray; padding:20px; font-weight:bold">1-
-                                                        Travaux d’entretien des réseaux
-                                                        et
-                                                        ouvrages d’assainissement liquide </h5>
-                                                    <p>
-                                                        Dans le cadre du programme de traitement
-                                                        des réclamations et résolution
-                                                        des
-                                                        problèmes apparus sur le réseau et
-                                                        ouvrages d’assainissement liquide les
-                                                        équipes
-                                                        d’exploitation ont réalisé les travaux
-                                                        d’entretien suivants :
-                                                    <ul>
-                                                        <p> Pose du réseau d’assainissement de
-                                                            DN 200 mm à DN 400 mm : 840 ml,
-                                                            </br>
-                                                            Construction des regards de visite
-                                                            : 76 u,</br>
-                                                            Construction des regards borgnes :
-                                                            53 u</br>
-                                                            Mise à niveau des regards de visite
-                                                            et bouches d’égout : 19 u,</br>
-                                                            Construction des bouches d’égout et
-                                                            regard à grille : 43 u,</br>
-                                                            Normalisation des branchements y
-                                                            compris construction des regards
-                                                            de façade
-                                                            : 118 u</br>
-                                                            Traitement des affaissements :
-                                                            environ 160 u.</br>
-
-                                                    </ul>
-                                                    <div>
-                                                        <div class="text-center py-4">
-                                                            <img src="img/A21.jpg" class="img-fluid " style="width:30%"
-                                                                alt="">
-                                                            <img src="img/A22.jpg" class="img-fluid " style="width:30%"
-                                                                alt="">
-                                                        </div>
-                                                    </div>
-                                                    <h5 style="color:gray; padding:10px; font-weight:bold">
-                                                        2 Travaux de curage des réseaux
-                                                        d’assainissement liquide :</h5>
-                                                    <ul>
-                                                        <li>
-                                                            <h6 style="color:gray; padding:5px; font-weight:bold">
-                                                                Traitement des réclamations :
-                                                            </h6>
-                                                        </li>
-                                                        <p>Les traitements réalisés par la
-                                                            RADEEL ont engendré les travaux
-                                                            suivants :
-                                                        </p>
-                                                        <ul>
-                                                            <p> Vidange d’environ 150 fosses
-                                                                septique,</br>
-                                                                Débouchage hydraulique via les
-                                                                hydro-cureuses : plus de 3 000
-                                                                interventions</br>
-                                                                Débouchage manuel via les
-                                                                tringlettes : plus de 3 500 ml.
-
-                                                        </ul>
-                                                        </p>
-                                                        <li style="color:gray; padding:5px; font-weight:bold">
-                                                            Statistiques des travaux de curage
-                                                            :</li>
-                                                        <p>Dans le cadre des travaux de
-                                                            sous-traitance de curage des réseaux
-                                                            d’assainissement liquide en 2017, la
-                                                            RADEEL a réalisé :</p>
-
-                                                        <div>
-                                                            <div class="text-center py-4">
-                                                                <img src="img/A25.jpg" class="img-fluid" alt="">
-                                                                <img src="img/A26.gif" class="img-fluid"
-                                                                    style="height:300px; width:30% ; margin:5px;"
-                                                                    alt="">
-                                                                <br>
-                                                                <img src="img/A27.png" class="img-fluid" alt="">
-                                                            </div>
-                                                        </div>
-                                                    </ul>
-                                                    <p>
-                                                        En 2017, les travaux d’entretien et de
-                                                        curage préventif des réseaux et
-                                                        ouvrages
-                                                        d’assainissement liquide ont permet :
-
-                                                        · D’éviter les inondations (aux points
-                                                        noirs),
-                                                        · Faciliter l’écoulement des eaux usées,
-                                                        · Éliminer la pulvérisation des odeurs,
-                                                        · Traiter les réclamations avec
-                                                        efficacité,
-                                                        · Améliorer le service dédié aux
-                                                        clients.
-                                                    </p>
-                                                </div>
-                                            </li>
-
-                                            <li>
-                                                <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
-                                                    class="collapsed" aria-expanded="false"><span>03</span>
-                                                    <h3 class="" style="display:inline-block; color:rgb(155,187,89);">
-                                                        <u>Au
-                                                            niveau des travaux avec participation</u>
-                                                    </h3><i class="bx bx-chevron-down icon-show"></i><i
-                                                        class="bx bx-chevron-up icon-close"></i>
-                                                </a>
-                                                <div id="accordion-list-3" class="collapse"
-                                                    data-bs-parent=".accordion-listPP" style="">
-                                                    <ul>
-                                                        <p> Signature d’une convention de
-                                                            financement entre la Régie et le
-                                                            Ministère de
-                                                            l’Intérieur pour l’équipement en
-                                                            réseau d’assainissement liquide des
-                                                            Quartiers Oulad Hmid et Blad Sarsri
-                                                            à la ville de Ksar El Kébir.
-                                                        </p>
-                                                        <p>
-                                                            La contribution en millions de
-                                                            Dirhams des différents partenaires
-                                                            est
-                                                            détaillée comme suit : </p>
-                                                        <div class="text-center py-4">
-                                                            <img src="img/A28.png" class="img-fluid" alt="">
-                                                        </div>
-
-                                                        <p>Etudes et suivi des travaux
-                                                            d’assainissement liquide des
-                                                            lotissements MANAR
-                                                            1 extension et MANAR III. Y compris
-                                                            station de relevage des eaux
-                                                            usées des
-                                                            lotissements Manar 2 et Manar 3.
-                                            </li>
-                                        </ul>
-                                        <p>
-                                            Le tableau ci-dessous récapitule le
-                                            linéaire du réseau posé par diamètre
-                                            de
-                                            conduite : <br>
-                                        <div class="text-center py-4">
-                                            <img src="img/A29.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p>
-                                            Le tableau ci-dessous récapitule ces
-                                            réalisations :</p>
-                                        <div class="text-center py-4">
-                                            <img src="img/A30.png" class="img-fluid" alt="">
-                                        </div>
-                                        <p>Le volume total des investissements en
-                                            assainissement réalisé pour la
-                                            période de
-                                            2013 à 2017 est de 72,39 Mdhs réparti comme
-                                            suit :</p>
-                                        <div class="text-center py-4">
-                                            <img src="img/A31.gif" class="img-fluid" alt="">
-                                        </div>
-                                        </p>
-                </ul>
             </div>
         </div>
     </div>
-    </section>
-    </ul>
-
-    </div>
-    </div>
-    </div>
-
-    </div>
-    </div>
-    </div>
-    </div>
-
-    </div>
-    </div>
-    </div>
-
-    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img aos-init aos-animate" data-aos="zoom-in"
-        data-aos-delay="150">&nbsp;</div>
-    </div>
-
-
-
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">

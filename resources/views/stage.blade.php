@@ -89,12 +89,12 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMME OUVERT DE 8:00
-                            A 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -105,13 +105,13 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -546,7 +546,7 @@
                         dossier et remplir le formulaire.
                         <br><br>
                         <button type="button"
-                            style="background-color:#058dd4; color:white ; font-size:18px; padding:20px;"
+                            style="background-color:#7DB41E; color:white ; font-size:18px; padding:20px;"
                             class="btn btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                             <i class="fab fa-wpforms"></i> Cliquer pour remplir le formulaire
                         </button>
@@ -557,10 +557,10 @@
                     <div class="rounded overflow-hidden" bis_skin_checked="1">
 
                         <div><img
-                                src="https://www.digitalrecruiters.com/medias/2021/09/entretien-dembauche-devenez-un-pro.jpg"
+                                src="img/stage.png"
                                 style="background-size:
                                     cover;background-repeat:
-                                    no-repeat;background-position: right;height: 400px;" width="100%">
+                                    no-repeat;background-position: right;" width="100%">
                         </div>
 
                     </div>
@@ -572,7 +572,7 @@
     <!-- prompt formulaire -->
     <div class="modal fade" id="exampleModalCenter" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
+            <div class="modal-content" style="background-image: url('img/test.png')">
                 <!-- end -->
                 <!-- <form method="POST" action="manupilation.php" onsubmit="" style="bagroundcolor:white;">
                         <div class="container">
@@ -801,7 +801,8 @@
                                     required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label"> Etrangé file
+                                <label class="form-label"> Pass sanitaire	
+
                                 </label>
                                 <input class="form-control form-control" id="formFileLg" name="passsanitaire"
                                     type="file" required>
@@ -842,6 +843,7 @@
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
                         Larache</p>
+
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <a href="#" class="h3 text-white">Pages </a>
@@ -853,8 +855,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
-                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
+                                style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -868,12 +870,11 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="#" class="h3 text-white">Contacté nous</a>
+                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
@@ -897,7 +898,6 @@
             </div>
         </div>
     </div>
-    <!-- footer -->
 
 
 

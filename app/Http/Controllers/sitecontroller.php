@@ -349,13 +349,13 @@ class sitecontroller extends Controller
         ];
 
         // Send first email
-        //Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2));
+        Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2));
 
         // Send second email
         Mail::to("radeelprojet@gmail.com")->send(new Myemail('send2', $randomNumberdata));
 
 
-        Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
+        //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
 
         //Redirect back with a success message and the numDossier for modal display
         return redirect()->back()->with(['randomNumber' => $randomNumber, 'showModal' => true, 'success' => "Votre reclamation $randomNumber est ajoutée avec succèss", 'idox' => $reclamation->id]);
@@ -388,7 +388,9 @@ class sitecontroller extends Controller
 
     public function searchreacalamtion(Request $request)
     {
-      /*   $traiter = reclamation::where('randomnumber', $request->randomnumber)
+      /*   
+       
+      $traiter = reclamation::where('randomnumber', $request->randomnumber)
                     ->where('status', 'traiter')
                     ->first();
 
@@ -690,7 +692,7 @@ class sitecontroller extends Controller
 
         $resul->save();
 
-        return redirect()->back()->with(['success' => "les document d'abonnement Envoyer avec succès"]);
+        return redirect()->back()->with(['success' => "les documents abonnement Envoyer avec succès"]);
     }
 
 }

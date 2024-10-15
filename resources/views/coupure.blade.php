@@ -57,11 +57,12 @@
     </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE 8:00 A 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -72,13 +73,13 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -656,8 +657,8 @@
 
   
 
- {{-- footer --}}
- <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+  {{-- footer --}}
+  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -698,8 +699,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
@@ -723,116 +723,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-    <style>
-        .reseau {
-            position: fixed;
-            top: 400px;
-            left: 0%;
-            transform: translate(-50%, -50%);
-        }
-
-        .reseau ul {
-            list-style: none;
-        }
-
-        .reseau ul li {
-            width: 50px;
-            height: 50px;
-            position: relative;
-            background: #e59500;
-            margin: 10px 0;
-            cursor: pointer;
-            border-radius: 3px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .reseau ul li .fab {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px;
-            color: #fff;
-        }
-
-        .reseau ul li.facebook {
-            background: #39569C;
-        }
-
-        .reseau ul li.twitter {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube {
-            background-color: red;
-        }
-
-        .reseau ul li.facebook div.slider {
-            background: #627aac;
-        }
-
-        .reseau ul li.twitter div.slider {
-            background: #14171A;
-        }
-
-        .reseau ul li.instagram div.slider {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        }
-
-        .reseau ul li.linkdin div.slider {
-            background: #39569C;
-        }
-
-        .reseau ul li.youtube div.slider {
-            background: red;
-        }
-
-        .slider {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 51px;
-            width: 0px;
-            height: 50px;
-            background: #eebb5c;
-            border-radius: 3px;
-            transition: all 0.5s 0.3s ease;
-        }
-
-        .slider p {
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: 900;
-            color: #fff;
-            text-align: center;
-            line-height: 50px;
-            opacity: 0;
-            transition: all 0.6s ease;
-        }
-
-        .reseau ul li:hover .slider {
-            width: 180px;
-            transition: all 0.5s ease;
-        }
-
-        .reseau ul li:hover .slider p {
-            opacity: 1;
-            transition: all 1s 0.2s ease;
-        }
-    </style>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">

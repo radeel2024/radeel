@@ -43,12 +43,12 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT A 8:00
-                            DE 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -59,13 +59,13 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -481,7 +481,7 @@
                 <p class="text-center">
                     <a href="https://bodigital.gov.ma/index.php?page=courrier.FormulaireDemande&idOrg=11288&lang=ar&h=46e10206f8fcbd452301311ca8a164d41ebc093eaca134b694f999ced1b39f21"
                         class="btn btn"
-                        style='background-color:#D1801D; color: white;padding:15px;text-align: center;text-decoration: underline;font-weight: bolder;'>
+                        style='background-color:#7DB41E; color: white;padding:15px;text-align: center;text-decoration: underline;font-weight: bolder;'>
                         <i class="fas fa-share-square"></i> Cliquer ici </a>
                 </p>
             </div>
@@ -491,8 +491,8 @@
 
 
 
-    {{-- footer --}}
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+   {{-- footer --}}
+   <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -533,8 +533,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

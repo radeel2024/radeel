@@ -43,14 +43,12 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
-
-
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
                     <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
-                            8:00 A 16:30</a></small>
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -61,13 +59,13 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -487,12 +485,12 @@
             <div class="  row g-5">
                 <div class=" col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                     <div class="h-100 position-relative">
-                        <img src="https://cms.weka.ch/fileadmin/_processed_/b/7/csm_Le_reglement_du_personnel_nouveau_3dfac575a7.jpg"
-                            class="img-fluid shadow-sm w-85 rounded" style="width:100%; height: 350px;"><br><br>
+                        <img src="img/rg.png"
+                            class="img-fluid shadow-sm w-85 rounded" style="width:100%;"><br><br>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s"><br>
-                    <h1 style="color:#D6821E;"> <a style="color:#D6821E;" width="100%">Règlement des marchés</a> </h1>
+                    <h1 style="color:#D6821E;"> <a style="color:#077ec0;" width="100%">Règlement des marchés</a> </h1>
                     <br>
                     <p>Conformément à l’article 14 du règlement relatif aux conditions et formes de passation des
                         marchés de la régie autonome de
@@ -500,7 +498,7 @@
                         Distribution d’Eau et d’Electricité de
                         la Province de Larache publie à titre indicatif et dans le but d’information, le programme
                         prévisionnel qu’elle envisage de lancer au titre
-                        de l’année budgétaire <a href="#detail" style="color:#D6821E;">...
+                        de l’année budgétaire <a href="#detail" style="color:#077ec0;">...
                             En savoir plus...</a>
                     </p>
                 </div>
@@ -521,8 +519,8 @@
     </div>
     <!-- End Contenu -->
 
-    {{-- footer --}}
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+  {{-- footer --}}
+  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -563,8 +561,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

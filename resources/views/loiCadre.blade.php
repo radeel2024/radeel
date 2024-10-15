@@ -44,33 +44,29 @@
 
 <body>
     <!-- Spinner Start -->
-    <div class="container-fluid py-2 d-none d-md-flex" style="background: #077ec0; font-size:18px; font-family:'arial'">
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVEERT 8:00
-                            A 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-facebook-f" style="color: #077ec0;"></i></a>
-                    &nbsp;&nbsp;
+                        <i class="fab fa-facebook-f" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-twitter" style="color: #077ec0;"></i></a>
-                    &nbsp;&nbsp;
+                        <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
-                    </a>
-                    &nbsp;&nbsp;
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
+                    </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>
-                    &nbsp;&nbsp;
+                        <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -467,7 +463,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Nos valeur</h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Nos valeurs</h1>
         </div>
     </div>
 
@@ -478,29 +474,22 @@
             <div class="row ">
                 <div class="col-lg">
                     <div class="section-title position-relative ">
-                        <h2 class="mb-0 text" style="color: #077ec0;"> Nos valeur </h2>
+                    <p>Nos valeurs fondamentales constituent la base de notre identité et guident toutes nos actions. Elles nous permettent de construire des relations solides avec nos clients, partenaires, et collaborateurs, tout en poursuivant notre engagement envers l'excellence et l'innovation. </p>
+                    <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >Culture Client </h3>
+Le client est au centre de nos orientations stratégiques. Nous nous engageons à adopter une politique de service orientée vers la satisfaction des attentes et besoins de nos clients. Écouter attentivement leurs préoccupations, et traiter leurs réclamations avec rapidité. </p>
+<h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture de Solidarité </h3>
+
+<p>Nous croyons en un dialogue constant et constructif. Notre solidarité et cohésion sociale sont la clé de notre succès, pour bâtir une agence forte dédiée à servir l’intérêt général. </p>
+<h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture du Respect  </h3>
+<p>Nous respectons la loi, les règles professionnelles et les procédures administratives, ainsi que le respect d’autrui. Ces principes forment la base de la conduite professionnelle au sein de la RADEEL. </p>
+<h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture de l'Engagement et de la Responsabilité </h3>
+
+<p>Nous assumons pleinement nos responsabilités, en accomplissant nos devoirs avec dévouement et conscience professionnelle. La RADEEL s'engage à agir avec rigueur et responsabilité dans toutes les situations. </p>
+<h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture d'Innovation </h3>
+
+<p>Nous nous efforçons de développer nos compétences professionnelles et de valoriser notre capital humain. L'innovation est au cœur de notre démarche pour offrir des services à la hauteur des attentes de nos clients, citoyens, et tous les acteurs institutionnels et économiques. </p>
+                        
                     </div>
-                    <br>
-                    <ol>
-                        <li>
-                            Culture client : la RADEEL metle client au coeur de la stratégie , elle adapte une politique
-                            orientée vers la satisfaction au ses attentes et ses besoins
-                        </li>
-                        <li>
-                            Culture de solidation
-                        </li>
-                        <li>
-                            Culture de réspet
-                        </li>
-                        <li>
-                            Culture d'engagement et de responsabilité
-                        </li>
-                        <li>
-                            Culture d'innovation
-                        </li>
-                    </ol>
-                  
-                   
                 </div>
             </div>
         </div>
@@ -509,8 +498,8 @@
 
     
 
-    <!-- Footer Start -->
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+     {{-- footer --}}
+     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -551,8 +540,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

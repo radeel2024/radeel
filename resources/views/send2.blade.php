@@ -15,7 +15,7 @@
   <!-- Centered image -->
   <div class="center">
     <a href="{{route('reclamationdetails',$randomNumber)}}">
-      <img src="https://i.ibb.co/C0g9MLQ/not.png" alt="Radeel Logo"> 
+      <img src="https://i.postimg.cc/85rjrY29/dota.png" alt="Radeel Logo"> 
     </a>
   </div>
   

@@ -103,7 +103,7 @@
         }
 
         .news-image-hover-primary::after {
-            background: #0d6efd;
+            background: #077ec0;
         }
 
         .news-image-hover-success::after {
@@ -460,6 +460,7 @@
             display: block;
         }
     </style>
+
     <!-- Navbar Start -->
     <header id="header" class="sticky-top d-flex align-items-center">
         <div class="container d-flex justify-content-between">
@@ -518,8 +519,7 @@
                                     publics </a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i
-                                class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
@@ -654,7 +654,8 @@
         @endforeach
         <br><br>
         <div>
-            <button style="float: right;background-color:#077ec0;color:white" class="btn">En savoir plus </button>
+            <button style="float: right;background-color:#077ec0;color:white" class="btn"><a
+                    href="http://172.16.1.189:8000/stress" style="color:white">En savoir plus</a> </button>
         </div>
     </div>
     <br><br>
@@ -773,7 +774,7 @@
                         <a href="{{ route('details', $articleone->id) }}"
                             class="news-image-hover news-image-hover-warning">
                             <img src="{{ asset('articlescopie/' . $articleone->image) }}" style="width: 100%;"
-                                class="img-fluid large-news-image news-image">
+                                class="img-fluid large-news-image news-image news-image-hover-primary">
                         </a>
 
                         <div class="news-text-info">
@@ -795,11 +796,11 @@
                     @foreach($articles as $a)
                         <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
                             <div class="news-top w-100">
-                                <a href="{{ route('details', $a->id) }}" class="news-image-hover news-image-hover-primary">
-                                    <img src="{{ asset('articlescopie/' . $a->image) }}"
-                                        style="width: 200px;background-size: contain;" class="img-fluid news-image" alt="">
+                                <a href="{{ route('details', $a->id) }}" class=" news-image-hover-primary">
+                                    <img src="{{ asset('articlescopie/' . $a->image) }}" style="width: 200px; "
+                                        class="img-fluid news-image" alt="">
                                 </a>
-                                <div class="news-category bg-primary text-white">Nouveau</div>
+                                <div class="news-category  text-white" style="background-color:#077ec0;">Nouveau </div>
                             </div>
                             <div class="news-bottom">
                                 <div class="news-text-info">
@@ -807,7 +808,7 @@
                                         <a href="{{ route('details', $a->id) }}" class="news-title-link">
                                             {{ Illuminate\Support\Str::limit($a->title, $limit = 40, $end = '...') }}
                                         </a>
-                                        <div class="news-category bg-primary text-white">Nouveau</div>
+                                        <div class="news-category  text-white">Nouveau</div>
                                     </h5>
                                     <div class="d-flex flex-wrap">
                                         <span class="text-muted">{{ $a->created_at }}</span>
@@ -929,7 +930,7 @@
                         </button>
                     </div>
                 </div>
-                
+
                 <div>
                     <button style="float: right;background-color:#077ec0;color:white" class="btn">
                         <a href="{{route('galerie')}}" style="color:white">
@@ -1005,7 +1006,7 @@
                             <i class="fas fa-map-marker-alt fa-2x text me-2" style="color:#077ec0 "></i>
                             <div bis_skin_checked="1">
                                 <h5>Address</h5>
-                                <p class="mb-2"> N, BP:11, 1647 Lotisment, larache </p>
+                                <p class="mb-2"> 1647, lot Maghreb Jadid , Larache</p>
                             </div>
                         </div>
                         <div class="d-flex p-2 rounded mb-2 bg-white" bis_skin_checked="1"
@@ -1067,7 +1068,7 @@
     </div>
     <br><br><br>
 
-    @foreach ($poup as $p)
+    <!--    @foreach ($poup as $p)
         <div id="modalIndex" class="modal animated " style="cursor: pointer;">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content">
@@ -1090,25 +1091,25 @@
                 </div>
             </div>
         </div>
-    @endforeach
+    @endforeach -->
 
-        <div id="modalIndex" class="modal animated" style="cursor: pointer;">
+    <div id="modalIndex" class="modal animated" style="cursor: pointer;">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>             
+                </div>
                 <a href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">
                     <img src="img/sate.png" style="width: 100%;">
                 </a>
             </div>
         </div>
-    </div> 
+    </div>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('#modalIndex').modal('show');
         });
-    </script> 
+    </script>
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
@@ -1133,8 +1134,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1152,8 +1153,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

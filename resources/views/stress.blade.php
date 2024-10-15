@@ -472,7 +472,7 @@
         }
 
         .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cove4.png) center center no-repeat;
+            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/s.png) center center no-repeat;
             background-size: cover;
             background-position: center;
             width: 100%;
@@ -535,7 +535,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                           
+
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -554,7 +554,7 @@
 
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto active" href="{{ url('../stress') }}" > STRESS HYDRIQUE </a></li>
+                    <li><a class="nav-link scrollto active" href="{{ url('../stress') }}"> STRESS HYDRIQUE </a></li>
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
@@ -582,56 +582,76 @@
                     <div class="row g-4">
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                <!--  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[1]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[1]->image) }}" class="img-fluid"
-                                        width="100%" style="height: 400px;">
-                                </a>
+                                        width="100%" style="height: 400px;"> -->
+
+                                <img src="img/stress.png" class="img-fluid" width="100%" style="height: 400px;">
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
-                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/zLvQZ0MGPyw">
+                                <iframe width="100%" height="400" src="images/v.mp4">
                                 </iframe>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                <!--   <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[2]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[2]->image) }}" class="img-fluid"
-                                        width="100%" style="height: 400px;">
-                                </a>
+                                        width="100%" style="height: 400px;"> -->
+                                <img src="img/stress2.jpg" class="img-fluid" width="100%" style="height: 400px;">
+
                             </div>
                         </div>
 
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[3]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[3]->image) }}" class="img-fluid"
                                         width="100%" style="height: 400px;">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/zLvQZ0MGPyw">
+                                </a> -->
+                                <iframe width="100%" height="400" src="images/v2.mp4">
                                 </iframe>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
-                                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
-                                    data-src="{{ asset('albume/' . $galerie[4]->image) }}">
-                                    <img src="{{ asset('albume/' . $galerie[4]->image) }}" class="img-fluid"
-                                        width="100%" style="height: 400px;">
-                                </a>
+                                <img src="img/stress3.jpg" class="img-fluid" width="100%" style="height: 400px;">
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 ">
+                            <div class="service-item rounded ">
+                                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                    data-src="{{ asset('albume/' . $galerie[4]->image) }}">
+                                    <img src="{{ asset('albume/' . $galerie[4]->image) }}" class="img-fluid"
+                                        width="100%" style="height: 400px;">
+                                </a> -->
+                                <iframe width="100%" height="400" src="images/v3.mp4">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 ">
+                            <div class="service-item rounded ">
+                                <img src="img/stress10.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 ">
+                            <div class="service-item rounded ">
+                                <img src="img/stress11.png" class="img-fluid" width="100%" style="height: 400px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 ">
+                            <div class="service-item rounded ">
+                                <img src="img/stress9.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                            </div>
+                        </div>
+                       <!--  <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
                                 <iframe width="100%" height="400" src="https://www.youtube.com/embed/7zvzf7OJPzk">
                                 </iframe>
@@ -645,7 +665,7 @@
                                         width="100%" style="height: 400px;">
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- desplay the image that selected -->
                         <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel"
                             aria-hidden="true">

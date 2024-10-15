@@ -195,7 +195,7 @@
         }
 
         .news-image-hover-primary::after {
-            background: #0d6efd;
+            background:#077ec0;
         }
 
         .news-image-hover-open::after {
@@ -234,11 +234,12 @@
 </head>
 
 <body>
-    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;font-size:18px; font-family:'arial'">
+<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
-                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE 8:00 A 16:30</a></small>
+                    <small><a href="tel:0801000042" style="color:white;text-decoration: none;">NOUS SOMMES OUVERT DE
+                            8:00 A 16:30 </a></small>
                 </div>
                 <div class="top-link">
                     <a href="https://www.facebook.com/RADEEL.Officiel/"
@@ -249,13 +250,13 @@
                         <i class="fab fa-twitter" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="https://www.instagram.com/p/CwSqgxHOC6d/"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle">
-                        <i class="fab fa-instagram" style="color: #077ec0;font-weight: 900;"></i>
+                        <i class="fab fa-instagram" style="color: #077ec0; font-weight: bold;"></i>
                     </a>&nbsp;&nbsp;
                     <a href="https://ma.linkedin.com/company/radeelofficiel"
                         class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
                         <i class="fab fa-linkedin-in" style="color: #077ec0;"></i></a>&nbsp;&nbsp;
                     <a href="tel:0801000042" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0">
-                        <i class="fas fa-headset" style="color: #077ec0;font-weight: bold;"></i></a>
+                        <i class="fas fa-headset" style="color: #077ec0; font-weight: bold;"></i></a>
                 </div>
             </div>
         </div>
@@ -483,6 +484,8 @@
         </div>
     </header><!-- End Header -->
 
+
+
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
@@ -543,14 +546,14 @@
 
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
-                    data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
+                    data-src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d709.4075679204839!2d-6.149121674453165!3d35.172302264813005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2sBahnini%20Larache%20Center!3m2!1d35.172473499999995!2d-6.149575!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2s5VC2%2BX56%20Bahnini%20Larache%20Center%2C%20Larache!3m2!1d35.172473499999995!2d-6.149575!5e1!3m2!1sen!2sma!4v1728996476425!5m2!1sen!2sma"
                     data-bs-target="#mapsModel2">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-primary">
                         <div class="position-relative p-4 pt-0">
-                            <h5 class="card-title" style="color:#077ec0">Agence Assalam</h5>
+                            <h5 class="card-title" style="color:#077ec0">Agence Bahnini</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Lotissement
-                                Assalam<br>
+                                El wafa<br>
                                 <i class="fas fa-clock" style="COLOR: #077ec0;"></i> Lun-Ven 8:00 -
                                 16:30
                                 <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
@@ -593,7 +596,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h1 class="" style="color: rgb(155,187,89);  ">Agences commerciales Ksar EL KEBIR : </h1>
+                <h1 class="" style="color: rgb(155,187,89);  ">Agences commerciales Ksar Kbir : </h1>
 
             </div>
             <div class="row g-4">
@@ -673,7 +676,7 @@
                     data-bs-target="#mapsModel7">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <div class="position-relative p-4 pt-0">
-                            <h5 class="card-title" style="color: rgb(155,187,89);D1801D">Agence Oulad Hmaid </h5>
+                            <h5 class="card-title" style="color: rgb(155,187,89);">Agence Oulad Hmaid </h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Agence
                                 Oulad
@@ -828,7 +831,7 @@
 
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.069033974693!2d-6.140128600000001!3d35.179831899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc93ace23d6cf%3A0x59c3e42c0a1f6194!2sAgence%20RADEEL%20Salam!5e0!3m2!1sfr!2sma!4v1708419134742!5m2!1sfr!2sma"
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d709.4075679204839!2d-6.149121674453165!3d35.172302264813005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2sBahnini%20Larache%20Center!3m2!1d35.172473499999995!2d-6.149575!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2s5VC2%2BX56%20Bahnini%20Larache%20Center%2C%20Larache!3m2!1d35.172473499999995!2d-6.149575!5e1!3m2!1sen!2sma!4v1728996476425!5m2!1sen!2sma"
                             style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -963,15 +966,8 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-    <!-- Footer Start -->
-    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+  {{-- footer --}}
+  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -1012,8 +1008,7 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
@@ -1037,7 +1032,6 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
 
     
 
