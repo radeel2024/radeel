@@ -483,6 +483,7 @@
                             <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
                             <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
                                     Général</a></li>
+                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
                             <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
                                     RADEEL</a>
                             </li>
@@ -503,7 +504,7 @@
 
                     <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
+
                             <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
                                 </a>
                             </li>
@@ -523,6 +524,9 @@
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
+                            <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a>
+                            </li>
+
                             <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
                             </li>
                             <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
@@ -530,7 +534,6 @@
 
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                 </ul>
@@ -619,7 +622,7 @@
                         d'électricité
                         de la Province de Larache</p> -->
                     <div class="row g-4 g-sm-5 justify-content-center">
-                        <div class="col-sm-6">
+                        <!--  <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle ms-sm-auto"
                                 style="background-color: #1481B8">
                                 <p class="text-white mb-0">{{$chiffre2->title}} </p>
@@ -633,13 +636,58 @@
                                 <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre3->chiffre}} </h1>
                             </div>
                         </div>
+
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle mx-sm-auto"
                                 style="background-color: #95D9F4;">
                                 <p class="text-white mb-0">{{$chiffre4->title}} </p>
                                 <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}} </h1>
                             </div>
+                        </div> -->
+                        <div class="container">
+                            <div class="row">
+                                <!-- First Circle (Top) -->
+                                <div class="col-12 d-flex justify-content-center">
+                                    <div class="about-fact btn-square flex-column rounded-circle"
+                                        style="background-color: #1481B8; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+                                        <p class="text-white mb-0">{{$chiffre2->title}}</p>
+                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre2->chiffre}}</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <!-- Second and Third Circles (Middle) -->
+                                <div class="col-6 d-flex justify-content-end">
+                                    <div class="about-fact btn-square flex-column rounded-circle"
+                                        style="background-color: #7DB41E; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+                                        <p class="text-white mb-0">{{$chiffre3->title}}</p>
+                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre3->chiffre}}</h1>
+                                    </div>
+                                </div>
+                                <br><br><br>
+                                <div class="col-6 d-flex justify-content-start">
+                                    <div class="about-fact btn-square flex-column rounded-circle"
+                                        style="background-color: #95D9F4; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+                                        <p class="text-white mb-0">{{$chiffre4->title}}</p>
+                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <!-- Fourth Circle (Bottom) -->
+                                <div class="col-12 d-flex justify-content-center">
+                                    <div class="about-fact btn-square flex-column rounded-circle"
+                                        style="background-color: #F4C542; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+                                        <p class="text-white mb-0">{{$chiffre4->title}}</p>
+                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}</h1>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
@@ -1105,11 +1153,11 @@
             </div>
         </div>
     </div>
-    <script>
+    <!--  <script>
         $(document).ready(function () {
             $('#modalIndex').modal('show');
         });
-    </script>
+    </script> -->
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
