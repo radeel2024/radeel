@@ -388,7 +388,7 @@ class AdminController extends Controller
                     );
                 }
             }
-            else if($user->email =="comare@gmail.com"){
+            else if($user->email =="ennassef.adam@gmail.com" || $user->email =="hadrouji.med38@gmail.com" ){
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiqueachatlo')->with(
@@ -404,6 +404,22 @@ class AdminController extends Controller
                     );
                 }
             }
+           /*  else if($user->email =="jikutyhabe@mailinator.com" ){
+                if (Hash::check($request->password, $user->password)) {
+                    Auth::guard('web')->login($user);
+                    return redirect()->route('communication')->with(
+                        [
+                            'succes' => 'Authentication successful'
+                        ]
+                    );
+                } else {
+                    return redirect()->back()->with(
+                        [
+                            'fail' => 'Vos donner incorrect'
+                        ]
+                    );
+                }
+            } */
             
             else if($user->email =="comzer@gmail.com"){
                 if (Hash::check($request->password, $user->password)) {

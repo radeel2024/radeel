@@ -1153,11 +1153,11 @@
             </div>
         </div>
     </div>
-    <!--  <script>
+      <script>
         $(document).ready(function () {
             $('#modalIndex').modal('show');
         });
-    </script> -->
+    </script>
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
