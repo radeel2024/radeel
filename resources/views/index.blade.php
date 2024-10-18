@@ -645,16 +645,7 @@
                             </div>
                         </div> -->
                         <div class="container">
-                            <div class="row">
-                                <!-- First Circle (Top) -->
-                                <div class="col-12 d-flex justify-content-center">
-                                    <div class="about-fact btn-square flex-column rounded-circle"
-                                        style="background-color: #1481B8; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                        <p class="text-white mb-0">{{$chiffre2->title}}</p>
-                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre2->chiffre}}</h1>
-                                    </div>
-                                </div>
-                            </div>
+                       
 
                             <div class="row">
                                 <!-- Second and Third Circles (Middle) -->

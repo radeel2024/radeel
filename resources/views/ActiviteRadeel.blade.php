@@ -780,7 +780,7 @@
                                                                             <span>01</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#f89323;">
-                                                                                <u> Zones d'actions : </u>
+                                                                                <u> Zones d'actions </u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
@@ -794,7 +794,7 @@
                                                                                 d&#39;Électricité de Larache) assure
                                                                                 l&#39;alimentation en énergie
                                                                                 électrique des villes de Larache, Ksar
-                                                                                Kébir, et des communes rurales Aouamra,
+                                                                                Kébir, et des communes rurales Aouamra, Kmiss
                                                                                 Sahel, Zouada, Oulad Ouchih et Ksar
                                                                                 Bjir soit une population totale
                                                                                 desservie d’environ 416 800 habitants.
@@ -926,7 +926,7 @@
                                                                                             <div class="card-body">
                                                                                                 <h5
                                                                                                     class="card-title  text-center text-white">
-                                                                                                    354,14 GWH</h5>
+                                                                                                    354 GWH</h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
                                                                                                     Energie achetée </p>
@@ -939,7 +939,7 @@
                                                                                             <div class="card-body">
                                                                                                 <h5
                                                                                                     class="card-title  text-center text-white">
-                                                                                                    322,58 GWH</h5>
+                                                                                                    323 GWH</h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
                                                                                                     Energie Vendue </p>
@@ -959,6 +959,32 @@
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                   354 GWH </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                            Energie produit</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#f89323;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                     </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -972,7 +998,7 @@
                                                                             <span>03</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#f89323;">
-                                                                                <u> Système d'alimentation électrique : </u>
+                                                                                <u> Système d'alimentation électrique  </u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i

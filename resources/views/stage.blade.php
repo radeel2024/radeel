@@ -672,9 +672,9 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="step-container d-flex justify-content-between">
-                        <div class="step-circle" onclick="displayStep(1)">1</div>
-                        <div class="step-circle" onclick="displayStep(2)">2</div>
-                        <div class="step-circle" onclick="displayStep(3)">3</div>
+                        <div class="step-circle" >1</div>
+                        <div class="step-circle" >2</div>
+                        <div class="step-circle" >3</div>
                     </div>
 
                     <form method="POST" action="{{ route('addstage') }}" id="multi-step-form" style="Padding:30px;"
@@ -786,7 +786,7 @@
                                 <input class="form-control form-control" name="demande" id="formFileLg" type="file"
                                     required>
                             </div>
-                            <div class="mb-3">
+                            <!-- <div class="mb-3">
                                 <label class="form-label"> Une assurance couvrant la période de stage
                                 </label>
                                 <input class="form-control form-control" name="assurance" id="formFileLg" type="file"
@@ -806,7 +806,7 @@
                                 </label>
                                 <input class="form-control form-control" id="formFileLg" name="passsanitaire"
                                     type="file" required>
-                            </div>
+                            </div> -->
                             <!-- recaptcha -->
                             <!-- 
                             <div class="mb-3">
@@ -1107,7 +1107,7 @@
                 valid = false;
                 alert('La demande de stage est requise');
             }
-            if (assurance.files.length === 0) {
+            /* if (assurance.files.length === 0) {
                 valid = false;
                 alert('L\'assurance est requise');
             }
@@ -1118,7 +1118,7 @@
             if (passsanitaire.files.length === 0) {
                 valid = false;
                 alert('Le pass sanitaire est requis');
-            }
+            } */
 
             // Si tous les fichiers sont fournis, on passe à l'étape suivante
             if (valid) {

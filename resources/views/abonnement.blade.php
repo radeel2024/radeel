@@ -613,7 +613,7 @@
                                     <div id="collapseOne1" class="collapse " data-bs-parent="#accordion">
                                         <div class="card-body">
                                             <p class="text-start">
-                                                Pour toute les nouvelles demande de branchement
+                                                Pour toute nouvelle demande de branchement
                                                 d’eau,
                                                 d’assainissement liquide et d’électricité, veuillez vous présenter
                                                 aux agences
@@ -629,21 +629,21 @@
                                                 physiques)</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie des status et
-                                                extrait de registre de commerce ,ICE et CIN de gerant pour les personnes
-                                                normales</br>
+                                                extrait de registre de commerce, ICE et CIN de gérant pour les personnes morales
+                                            </br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de titre de
-                                                propriété au document justifiant la propriété.</br>
+                                                propriété ou tout document justifiant la propriété.</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie des plans de
-                                                construction approuvés par l'autorité compléte.</br>
+                                                construction approuvés par les autorités compétentes</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de l'autorisation
                                                 de construction </br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie d'autorisation
-                                                spécial délivrée par l'autorité compétente si le demandeur ne dispose
-                                                pas d'une autorisation de construction et des plans .</br>
+                                                spéciale délivrée par l'autorité compétente si le demandeur ne dispose
+                                                pas de l'autorisation de construction et des plans .</br>
                                             </div>
                                             </p>
                                         </div>
@@ -697,14 +697,11 @@
                                         </div>
                                     </a>
                                     <div id="collapseThree1" class="collapse" data-bs-parent="#accordion">
-
+                                    Pièces à fournir :
                                         <div class="card-body">
 
                                             <div class="bd-callout bd-callout-info">
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Demande de
-                                                déplacement rempli <a
-                                                    href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
+                                               </br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
                                                 d’identité nationale(C.I.N)</br>
@@ -712,8 +709,8 @@
                                                     style="color:orange;padding-left:20px;"></i>Copie de titre de
                                                 propriété</br>
                                                 <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de plan
-                                                modificatifs aprovés</br>
+                                                    style="color:orange;padding-left:20px;"></i>Copie des plans
+                                                modificatifs aprouvés</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Reçu de paiement de
                                                 devis initial </br>
@@ -781,33 +778,33 @@
                                             <div class="bd-callout bd-callout-info">
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Demande d'abonnement
-                                                compléte et signée <a
+                                                complétée et signée <a
                                                     href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
-                                                d’identité (C.I.N ,Carte de séjour ou passeport)</br>
+                                                d’identité (C.I.N, Carte de séjour ou passeport)</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>En cas de personne
-                                                morale :Copie d'identité de gerant , copie de status sociaux , copie de
+                                                morale :Copie d'identité du gérant, copie des status sociaux, copie de
                                                 registre de commerce et attestation de l'I.C.E et autorisation d'exercer
                                                 délivrée par les autorités compétentes.</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Procuration légalisée ou
-                                                notaire en cas d'heties ou de copropiétaire </br>
+                                                notaire en cas des héritiers ou des copropriétaires </br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Justificatif du droit de
-                                                jouissance :Copie de titre propriété , Copie de contrat de buil a une
-                                                autorisation de proprietaire signée et légalisée(en cas de locataire
+                                                jouissance: Copie de titre propriété, Copie de contrat de bail ou 
+                                                autorisation de proprietaire signée et légalisée (en cas de locataire
                                                 ).</br>
                                             </div>
-                                            En plus, Pour un abonnement suité à une nouveau branchement :
+                                            En plus, Pour un abonnement suite à un nouveau branchement :
                                             <div class="bd-callout bd-callout-info">
                                                 <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de permis d'habité
+                                                    style="color:orange;padding-left:20px;"></i>Copie de permis d'habiter
                                                 </br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Certificat de garantie
-                                                de disjoucteur</br>
+                                                de disjoucteur (éléctricité).</br>
                                             </div>
 
                                             </p><br>
@@ -850,7 +847,7 @@
                                                 surveiller votre consommation d’eau et d’électricité.
                                                 Chaque fois qu’on ouvre un robinet, on consomme de l’eau et chaque fois
                                                 qu’on fait fonctionner un appareil électrique, on consomme du courant.
-                                                Les quantités d’eau et d’électricité ainsi consommées sont calcu
+                                                Les quantités d’eau et d’électricité ainsi consommées sont calculées.
                                                 La relève est très simple, il suffit de lire le nombre qui s’affiche sur
                                                 le compteur.
                                             </p>
@@ -859,7 +856,7 @@
                                                 Consommation</p>
                                             <p>
                                                 <span>Comment la RADEEL calcule-t-elle votre consommation d’eau et
-                                                    d’électricité ?</span>
+                                                    d’électricité ?</span><br>
                                                 La RADEEL calcule votre consommation d’eau et d’électricité en faisant
                                                 la différence entre le dernier relevé de votre compteur et le relevé
                                                 précédent.</br>
@@ -869,23 +866,16 @@
                                                 accessible à notre releveur.<br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>S’il est inaccessible,
-                                                votre consommation sera estimée sur la base de l’historique des 12
-                                                derniers mois et sera régularisée dès communication de l’index.</br>
-                                                -Votre consommation s’exprime en m3 (mètre cube) pour l’eau et en KWH
+                                                votre consommation sera estimée sur la base de votre historique de consommation et sera régularisée dès communication de l’index réel.</br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Votre consommation s’exprime en m3 (mètre cube) pour l’eau et en KWH
                                                 (kilowattheure) pour l’électricité.</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Si vous remarquez que
                                                 votre consommation est excessive, alors que vos habitudes de
-                                                consommation n’ont pas changé.</br>
-                                                -Pour vérifier votre compteur, vous pouvez nous téléphoner ou vous
-                                                présenter aux agences de la RADEEL.</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Si le fonctionnement du
-                                                compteur est anormal, la régie change le compteur.</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Si le fonctionnement du
-                                                compteur est normal et vous contestez le résultat de cette
-                                                vérification.</br>
+                                                consommation n’ont pas changé, vous pouvez demander la vérification de votre compteur en appelant notre centre de relation client (AlloRadeel) ou en contactant votre agence commerciale la plus proche. </br>
+                                               
+                                               
                                             </div>
                                             <p> Pour procéder à l’étalonnage du compteur, adressez nous une demande
                                                 légalisée. Les frais de l’étalonnage seront à votre charge, si le
@@ -904,33 +894,29 @@
                                     </a>
                                     <div id="collapseTwo" class="collapse" data-bs-parent="#accordion2">
                                         <div class="card-body">
-
-                                            <p> Votre consommation est égale à la diffirence entre le dernier index
-                                                releve et l'index de le reléve précédente .</p>
                                             <p class="text-start">
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
-                                                En agence: </p>
+                                                En agence </p>
                                             <p>
-                                                Vous pouvez reglez vos facture de consommation dans n'importe quelle
-                                                agence commerciale parmi les 11 agences de la RADEEL situées à Larache
-                                                ,Ksar kebir et Sahel
+                                                Vous pouvez regler vos factures de consommation dans n'importe quelle
+                                                agence commerciale parmi les 11 agences de la RADEEL situées à Larache, Ksar kebir, Aouamra et Khemiss Sahel.
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
-                                                Aux point de vente : </p>
+                                                Aux points de vente </p>
                                             <p>
-                                                Vous pouvez régler vos facture de consommaion en toute sécurité au
-                                                niveau de point de vente le plus proche de vous .veuiller à prendre
+                                                Vous pouvez régler vos factures de consommation en toute sécurité au
+                                                niveau du point de vente le plus proche de vous. Veillez à prendre
                                                 votre reçu de paiement.
                                             </p>
 
                                             <p
                                                 style="font-size:20px; padding-left:20px;font-weight:border; color:#7DB41E; text-decoration: underline;">
-                                                En ligne:</p>
+                                                En ligne </p>
                                             <p>
-                                                RADEEL met à votre disposition une service de paiment en ligne gratuit
-                                                et sécurisé via notre site , via le siteweb de votre banque ou
-                                                l'application mobile de votre banque .
+                                                RADEEL met à votre disposition un service de paiment en ligne gratuit
+                                                et sécurisé via notre <a href=""></a>site </a>, via le siteweb ou
+                                                l'application mobile de votre banque.
                                                 Payer en ligne vos factures sur le site web <a
                                                     href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040">Fatourati</a>
                                             </p>
@@ -938,18 +924,17 @@
                                                 style="font-size:20px;padding-left:20px; font-weight:border; color:#7DB41E; text-decoration: underline;">
                                                 Par prélevement automatique sur votre compte </p>
                                             <p>
-                                                RADEEL peut suit à votre demendes procéder au prélévement automatique de
-                                                montant de votre facture de consomation sur votre compte bancaire
+                                                RADEEL peut suite à votre demande procéder au prélévement automatique du
+                                                montant de votre facture de consomation sur votre compte bancaire.
                                             </p>
                                             <p
                                                 style="font-size:20px;padding-left:20px; font-weight:border; color:#7DB41E; text-decoration: underline;">
-                                                Par avence / consommation : </p>
+                                                Par avence / consommation </p>
                                             <p>
-                                                Si vous maitriser votre consommation mensuelle,vous pouvez deposer une
-                                                somme d'argent comme avance . RADEEL déduit le montant de facture
-                                                mensuelle de la somme déposée + cette solution est plus adapté aux
-                                                clients ne habit pas au maroc dont la consommation est généralement trés
-                                                fiable .
+                                                Si vous maîtriser votre consommation mensuelle,vous pouvez déposer une
+                                                somme d'argent comme avance. RADEEL déduit le montant de facture
+                                                mensuelle de la somme déposée. Cette solution est plus adaptée aux
+                                                clients résidents à l'étranger.
 
                                             </p>
                                             </p>
@@ -988,9 +973,9 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="step-container d-flex justify-content-between">
-                        <div class="step-circle" onclick="displayStep(1)">1</div>
-                        <div class="step-circle" onclick="displayStep(2)">2</div>
-                        <div class="step-circle" onclick="displayStep(3)">3</div>
+                        <div class="step-circle" >1</div>
+                        <div class="step-circle" >2</div>
+                        <div class="step-circle" >3</div>
                     </div>
 
                     <form method="POST" action="{{ route('addabonnement') }}" enctype="multipart/form-data"
@@ -1266,9 +1251,9 @@
                     </div>
 
                     <div class="step-container d-flex justify-content-between">
-                        <div class="step-circle" onclick="displayStep(1)">1</div>
-                        <div class="step-circle" onclick="displayStep(2)">2</div>
-                        <div class="step-circle" onclick="displayStep(3)">3</div>
+                        <div class="step-circle" >1</div>
+                        <div class="step-circle" >2</div>
+                        <div class="step-circle" >3</div>
                     </div>
 
                     <form method="POST" action="{{ route('addraccoredement') }}" enctype="multipart/form-data"

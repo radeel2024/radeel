@@ -479,9 +479,9 @@
 Le client est au centre de nos orientations stratégiques. Nous nous engageons à adopter une politique de service orientée vers la satisfaction des attentes et besoins de nos clients. Écouter attentivement leurs préoccupations, et traiter leurs réclamations avec rapidité. </p>
 <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture de Solidarité </h3>
 
-<p>Nous croyons en un dialogue constant et constructif. Notre solidarité et cohésion sociale sont la clé de notre succès, pour bâtir une agence forte dédiée à servir l’intérêt général. </p>
+<p>Nous croyons en un dialogue constant et constructif. Notre solidarité et cohésion sociale sont la clé de notre succès, pour bâtir une régie forte dédiée à servir l’intérêt général. </p>
 <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture du Respect  </h3>
-<p>Nous respectons la loi, les règles professionnelles et les procédures administratives, ainsi que le respect d’autrui. Ces principes forment la base de la conduite professionnelle au sein de la RADEEL. </p>
+<p>Nous respectons la loi, la réglementation en vigueur et les procédures administratives, ainsi que le respect d’autrui. Ces principes forment la base de la conduite professionnelle au sein de la RADEEL. </p>
 <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture de l'Engagement et de la Responsabilité </h3>
 
 <p>Nous assumons pleinement nos responsabilités, en accomplissant nos devoirs avec dévouement et conscience professionnelle. La RADEEL s'engage à agir avec rigueur et responsabilité dans toutes les situations. </p>

@@ -509,7 +509,7 @@
             <div class="row">
                 <div class="col">
                 <br><br>
-            <h1 style="color:#077ec0">Dépôt de résiliation </h1>
+            <h1 style="color:#077ec0">Résiliation suite à la demande du client </h1>
             <p>
                 Vous venez de vendre votre habitation ou de changer votre location, il est dans votre intérêt de résilier votre contrat d’abonnement. Pour procéder à la résiliation, veuillez vous rendre aux agences de la RADEEL muni des pièces suivantes :</p>
             <ul style="margin: 20px; font-size: 20px; line-height:30px; color:#4D4D4D; font-family: 'Arial';">
@@ -517,15 +517,17 @@
                  <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Dernière facture d’eau et(ou)d’électricité</br>
                 <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Contrat d’abonnement</br>
                  <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Copie de la carte d’identité nationale(C.I.N)</br>
-                 <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Résiliation d'abonnement par la régie</br>
             </ul>
-            <p>
-                Si la situation d’un client enregistre un nombre de trois quittances non payées, la RADEEL procède à la coupure d’eau et(ou)d’électricité. Dans un délai de 15 jours, si le client ne réagit pas, la régie dépose le compteur. 15 jours après, si le client ne régularise pas sa situation, la régie procède à la résiliation du contrat d’abonnement.
-            </p>
             <button type="button" style="background-color:#7DB41E; color: white;padding:15px;font-size:20px;" class="btn btn"
                 data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
                 <i class="fab fa-wpforms" ></i> Saisie votre demande de résiliation
             </button>
+            <br><br>
+            <h1 style="color:#077ec0">Résiliation par la Radeel </h1>
+            <p>
+                Si la situation d’un client enregistre un nombre de trois quittances non payées, la RADEEL procède à la coupure d’eau et(ou)d’électricité. Dans un délai de 15 jours, si le client ne réagit pas, la régie dépose le compteur. 15 jours après, si le client ne régularise pas sa situation, la régie procède à la résiliation du contrat d’abonnement.
+            </p>
+          
                 </div>
                 <div class="col">
                     <br>

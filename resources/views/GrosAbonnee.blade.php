@@ -634,7 +634,7 @@
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
             <h1 class="display-2 text-white mb-4 animated slideInDown">
-                Gros Clients
+                Grand Clients
             </h1>
         </div>
     </div>
@@ -729,10 +729,8 @@
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Vous avez un projet (unité industrielle, hôtel, bain ou douche
-                                                ….), vous souhaitez vous raccorder au réseau d’eau potable et le
-                                                compteur eau petit calibre ne peut pas satisfaire votre demande.
-                                                Nous vous proposons des branchements avec des compteurs (Ø 20,
-                                                Ø30, …).
+                                                ….), vous souhaitez vous raccorder au réseau d’eau potable.
+                                               
                                             <p class="text-start">
                                                 La première démarche à faire est de vous rendre aux agences de
                                                 la RADEEL muni des pièces suivantes :
@@ -790,7 +788,7 @@
                                                                         du compteur eau</br>
                                                                         <i class="fa fa-check  me-3"
                                                                             style="color:orange;padding-left:20px;"></i>L’éloignement
-                                                                        du poste par rapport au réseau d’eau potable
+                                                                        du local par rapport au réseau d’eau potable
                                                                         existant</br>
                                                                         <i class="fa fa-check  me-3"
                                                                             style="color:orange;padding-left:20px;"></i>Frais
@@ -804,7 +802,7 @@
                                                                     Etape 2 :</p>
                                                                 <p>Quand le client paye les frais de branchement et du
                                                                     contrat
-                                                                    d’abonnement ( la caution d’abonnement est
+                                                                    d’abonnement (la caution d’abonnement est
                                                                     proportionnelle au
                                                                     calibre du compteur), la RADEEL procède au
                                                                     raccordement et la
@@ -837,22 +835,7 @@
                                                 style="color: #D1801D; Font-size:19px; text-decoration: underline;">
                                                 Procédure du
                                                 raccordement </p>
-                                            <p class="text-start">
-                                                Le raccordement au réseau électrique moyenne tension de la
-                                                RADEEL est soumis aux raisons suivantes :</p>
-                                            <ul class="text-start">
-                                                <p>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Le réseau basse
-                                                    tension ne peut satisfaire la demande du
-                                                    client car l’ampérage dépasse 90A
-                                                    </br>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Le réseau BT
-                                                    n’existe pas à proximité du site
-                                                </p>
-                                            </ul>
-                                            <br>
+                                            
                                             <p class="text-start">Si votre site a besoin de s’approvisionner en
                                                 moyenne tension, veuillez vous rendre aux agences de la RADEEL
                                                 muni des pièces suivantes :</p>
@@ -867,9 +850,12 @@
                                                     du site à alimenter (administration,
                                                     hôtel, fabrique, ….etc.)La puissance installée du poste</br>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Copie légalisée du
-                                                    statut s’il s’agit d’une société
-                                                    </br>
+                                                    style="color:orange;padding-left:20px;"></i>Copie des status et
+                                                extrait de registre de commerce, ICE et CIN de gérant pour les personnes morales
+                                            </br>
+                                            <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Copie des plans de
+                                                construction approuvés par les autorités compétentes</br>
                                                     <i class="fa fa-check  me-3"
                                                         style="color:orange;padding-left:20px;"></i>Copie de la C.I.N
                                                     du signataire
@@ -886,8 +872,6 @@
                                             <div class="container mt-5 mb-5">
                                                 <div class="row">
                                                     <div class="col">
-                                                        <h5 style="color:#7DB41E">Les étapes de branchement
-                                                            et d’abonnement au réseau d’eau potable :</h5>
                                                         <ul class="timeline">
                                                             <li>
                                                                 <p class="text-start"
@@ -912,18 +896,15 @@
                                                                         existant</br>
                                                                         <i class="fa fa-check  me-3"
                                                                             style="color:orange;padding-left:20px;"></i>Travaux
-                                                                        de réalisation du poste
+                                                                        de réalisation du poste (*)
                                                                         </br>
                                                                         <i class="fa fa-check  me-3"
                                                                             style="color:orange;padding-left:20px;"></i>Peines
                                                                         et soins sur travaux
                                                                     </p>
                                                                 </ul>
-                                                                <p class="text-start">Les travaux de réalisation du
-                                                                    poste ne
-                                                                    figurent pas dans le devis branchement, si le client
-                                                                    désigne une
-                                                                    entreprise privée pour réaliser le nouveau poste.
+                                                                <p class="text-start"> (*) Les travaux de réalisation ne
+                                                                    sont pas facturés si le client réalise les travaux pour lui même.
                                                                 </p>
                                                                 </p>
                                                             </li>
@@ -1034,9 +1015,6 @@
                                             <ul class="text-start">
                                                 <p>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Dernière facture
-                                                    payée</br>
-                                                    <i class="fa fa-check  me-3"
                                                         style="color:orange;padding-left:20px;"></i>Original du contrat
                                                     d’abonnement</br>
                                                 </p>
@@ -1112,59 +1090,17 @@
                                     <div id="collapseOnez" class="collapse " data-bs-parent="#accordion22">
                                         <div class="accordion-body">
                                             <div class="accordion-body">
+                                            <p class="text-start">
+                                                Vous pouvez régler vos factures de consommation :
+                                                </p>
                                                 <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Comptage moyenne tension</h4>
+                                                    style="color: rgb(155,187,89);">Au niveau de nos agence    </h4>
                                                 <p class="text-start">
-                                                    Pour régler vos factures, la RADEEL dispose actuellement des
-                                                    modalités de paiement suivantes:
-                                                <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">A domicile : </h4>
-                                                <p class="text-start">Chaque mois, notre encaisseur passe chez vous
-                                                    et vous remet votre facture pour encaissement. <br>
-                                                    Si vous ne réglez pas votre facture lors du passage de
-                                                    l’encaisseur, la date d’encaissement en agence est communiquée.
+                                                    <h5>Agence Maghreb jadid à larache </h5>
+                                                    <h5>Agence Centrales à Ksar kbir </h5>
                                                 </p>
-                                                <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">En agence : </h4>
-                                                <p class="text-start">
-                                                    La RADEEL met à la disposition de ses clients 12 agences. Pour
-                                                    régler votre facture, veuillez vous rendre à l’agence de votre
-                                                    quartier.
-
-                                                    Nos agences sont ouvertes : <br>
-                                                    Du lundi au vendredi : matin et après midi pour les règlements
-                                                    de plus de deux factures
-                                                    Selon le planning de l’encaisseur communiqué aux clients pour
-                                                    les règlements d’une seule quittance.
-                                                </p>
-                                                <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Le prélèvement bancaire : </h4>
-                                                <p class="text-start">Pour choisir ce mode de paiement, il suffit de
-                                                    remplir un imprimé d’autorisation de prélèvement bancaire
-                                                    disponible dans les agences de la RADEEL <a
-                                                        href="#">(télécharger)</a>, de le signer par votre banque
-                                                    et
-                                                    de le déposer à notre siège.
-                                                </p>
-                                                <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89); ">En ligne : </h4>
-                                                <p class="text-start">
-                                                    Payer en ligne vos factures sur le site web <a
-                                                        href="https://www.fatourati.ma/FatLite/ma/MTC/formulaire?fid=1040"
-                                                        style="color:blue;"> fatourati</a>
-                                                </p>
-                                                <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Application recouvrement: </h4>
-                                                <p class="text-start">
-                                                    Dans un souci de satisfaire les besoins de proximité de notre
-                                                    clientèle, la RADEEL est entrain de développer une application
-                                                    recouvrement qui va faciliter les opérations de réglement dans
-                                                    les agences de la régie et permettre de régler les factures dans
-                                                    les agences eFloussy et M2T.<br>
-                                                    Une fois cette application démarrée, nos clients peuvent régler
-                                                    leurs factures en se présentant aux agences eFloussy et M2T les
-                                                    plus proches.
-                                                </p>
+                                                                                               <h4 class="Comptage moyenne tension text-start"
+                                                    style="color: rgb(155,187,89);">Par virement bancaire au compte RADEEL  </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1193,9 +1129,9 @@
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="step-container d-flex justify-content-between">
-                        <div class="step-circle" onclick="displayStep(1)">1</div>
-                        <div class="step-circle" onclick="displayStep(2)">2</div>
-                        <div class="step-circle" onclick="displayStep(3)">3</div>
+                        <div class="step-circle" >1</div>
+                        <div class="step-circle" >2</div>
+                        <div class="step-circle" >3</div>
                     </div>
 
                     <form method="POST" action="{{ route('addraccoredement') }}" enctype="multipart/form-data"

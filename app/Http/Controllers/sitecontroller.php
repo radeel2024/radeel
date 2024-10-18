@@ -352,7 +352,7 @@ class sitecontroller extends Controller
         Mail::to($reclamation->email)->send(new Myemail('send', $randomNumberdata2));
 
         // Send second email
-        Mail::to("radeelprojet@gmail.com")->send(new Myemail('send2', $randomNumberdata));
+        Mail::to("reclamation@radeel.ma")->send(new Myemail('send2', $randomNumberdata));
 
 
         //Mail::to('radeelreclamation@gmail.com')->send( new Myemail());
@@ -450,7 +450,8 @@ class sitecontroller extends Controller
     {
         return view('stage');
     }
-    public function addstage(Request $request)
+
+    /* public function addstage(Request $request)
     {
 
         if ($request->has('cv')) {
@@ -494,7 +495,39 @@ class sitecontroller extends Controller
         }
 
 
+    } */
+
+    public function addstage(Request $request)
+    {
+
+        if ($request->has('cv')) {
+
+            $stage = new stage();
+            $stage->name = $request['name'];
+            $stage->prenom = $request['prenom'];
+            $stage->email = $request['email'];
+            $stage->tele = $request['tele'];
+            $stage->service = $request['service'];
+
+            $cv = $request['cv'];
+            $imagecv = time() . '_' . $cv->getClientoriginalname();
+            $cv->move(public_path('cv'), $imagecv);
+
+            $de = $request['demande'];
+            $demande = time() . '_' . $de->getClientoriginalname();
+            $de->move(public_path('demandestage'), $demande);
+
+            $stage->cv = $imagecv;
+            $stage->Dstage = $demande;
+            $stage->save();
+
+            return redirect()->back()->with(['success' => "Votre demande ajoutée avec succès"]);
+
+        }
+
+
     }
+
 
     //resiliation
     public function resiliation(Request $request)
