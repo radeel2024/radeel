@@ -466,7 +466,7 @@
         <div class="container d-flex justify-content-between">
             <div class="logo">
                 <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px;">
+                    <img src="img/logo2.png" style="height: 130px;">
                 </a>
             </div>
             <nav id="navbarNav navbar-expand-sm " class="navbar">
@@ -594,15 +594,15 @@
                     <div class="row g-0">
                         <div class="col-6">
                             <img class="img-fluid"
-                                src="https://www.radeel.ma/images/radeel-images/pratique/Galerie/7.jpg">
+                                src="albume/1729327964_في إطار السياسة المولوية لصاحب الجلالة الملك محمد السادس نصره الله وأيده المتعلقة بالشق الخدمي، وتنزيلا لخطاب جلالته امام البرلما.jpg"
+                                height="300">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="img/directeur.jpg">
                         </div>
                         <div class="col-6">
                             <img class="img-fluid"
-                                src="https://www.maroc24.com/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86-%D8%A8%D9%88%D8%B9%D8%A7%D8%B5%D9%85-%D8%A7%D9%84%D9%82%D8%B5%D8%B1-%D8%A7%D9%84%D9%83%D8%A8%D9%8A%D8%B1.jpeg">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid"
-                                src="https://media.licdn.com/dms/image/sync/C5627AQG-_V0SlX6leQ/articleshare-shrink_800/0/1704019820704?e=2147483647&v=beta&t=J-GOYqlrpVcodkqM6cqc7_s6jIQb4QU9xHcnBpvEl3o">
+                                src="albume/1729328452_434126353_825121122965981_5250743959616601961_n.jpg">
                         </div>
                         <div class="col-6">
                             <div class=" w-100 h-100 mt-n5 ms-n5 d-flex flex-column align-items-center justify-content-center"
@@ -615,11 +615,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <!-- <h1 class="display-6 mb-4" style='color:#077ec0;'>Qui sommes-nous ?</h1>
-                    <p class="mb-4">RADEEL est La régie autonome intercommunale de distribution d'eau et
-                        d'électricité
-                        de la Province de Larache</p> -->
+                
+                <div class="col-lg-6 col-md-12 wow fadeIn" data-wow-delay="0.5s">
                     <div class="row g-4 g-sm-5 justify-content-center">
                         <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle ms-sm-auto"
@@ -639,7 +636,7 @@
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle mx-sm-auto"
                                 style="background-color: #95D9F4;">
                                 <p class="text-white mb-0">{{$chiffre4->title}} </p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}	&sup3;  </h1>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}} &sup3; </h1>
                             </div>
                         </div>
                     </div>
@@ -657,7 +654,8 @@
         <br><br>
         <div>
             <button style="float: right;background-color:#077ec0;color:white" class="btn"><a
-                    href="http://172.16.1.189:8000/stress" style="color:white">Voir plus</a> </button>
+                    href="http://172.16.1.189:8000/stress" style="color:white"><span>...</span>المزيد
+                </a> </button>
         </div>
     </div>
     <br><br>
@@ -780,15 +778,15 @@
                         </a>
 
                         <div class="news-text-info">
-                            <h5 class="news-title">
+                            <h4 class="news-title" style="text-align: right;">
                                 <a href="{{ route('details', $articleone->id) }}" class="news-title-link">
                                     {{ Illuminate\Support\Str::limit($articleone->title, $limit = 90, $end = '...') }}
                                 </a>
                                 <div class="news-category bg-warning text-white">Nouveau</div>
-                            </h5>
-                            <div class="d-flex flex-wrap">
+                            </h4>
+                            <!-- <div class="d-flex flex-wrap">
                                 <span class="text-muted">{{ $articleone->created_at }}</span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -806,14 +804,14 @@
                             </div>
                             <div class="news-bottom">
                                 <div class="news-text-info">
-                                    <h5 class="news-title">
+                                    <h4 class="news-title">
                                         <a href="{{ route('details', $a->id) }}" class="news-title-link">
                                             {{ Illuminate\Support\Str::limit($a->title, $limit = 40, $end = '...') }}
                                         </a>
-                                    </h5>
-                                    <div class="d-flex flex-wrap">
-                                        <span class="text-muted">{{ $a->created_at }}</span>
-                                    </div>
+                                    </h4>
+                                    <!-- <div class="d-flex flex-wrap">
+                                                <span class="text-muted">{{ $a->created_at }}</span>
+                                            </div> -->
                                 </div>
                             </div>
                         </div>
@@ -905,7 +903,7 @@
                 <div>
                     <button style="float: right;background-color:#077ec0;color:white" class="btn">
                         <a href="{{route('galerie')}}" style="color:white">
-                          Voir plus
+                            Voir plus
                         </a>
                     </button>
                 </div>
@@ -1076,7 +1074,7 @@
             </div>
         </div>
     </div>
-      <script>
+    <script>
         $(document).ready(function () {
             $('#modalIndex').modal('show');
         });
@@ -1124,7 +1122,8 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11;
+                            92000 Larache </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

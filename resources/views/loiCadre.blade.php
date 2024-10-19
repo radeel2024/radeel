@@ -158,7 +158,6 @@
             line-height: 0;
             margin-left: 5px;
             color: black;
-
         }
 
         .navbar>ul>li>a:before {
