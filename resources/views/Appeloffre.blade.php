@@ -591,8 +591,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -606,17 +606,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>N, BP:11,
-                            1647 Lotisment larache</a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
@@ -635,217 +634,7 @@
             </div>
         </div>
     </div>
-         <!-- Footer End -->
-        
-            
-<style>
-    .reseau {
-        position: fixed;
-        top: 400px;
-        left: 0%;
-        transform: translate(-50%, -50%);
-    }
 
-    .reseau ul {
-        list-style: none;
-    }
-
-    .reseau ul li {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        background: #e59500;
-        margin: 10px 0;
-        cursor: pointer;
-        border-radius: 3px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .reseau ul li .fab {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 20px;
-        color: #fff;
-    }
-
-    .reseau ul li.facebook {
-        background: #39569C;
-    }
-
-    .reseau ul li.twitter {
-        background: #14171A;
-    }
-
-    .reseau ul li.instagram {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    }
-
-    .reseau ul li.linkdin {
-        background: #39569C;
-    }
-
-    .reseau ul li.youtube {
-        background-color: red;
-    }
-
-    .reseau ul li.facebook div.slider {
-        background: #627aac;
-    }
-
-    .reseau ul li.twitter div.slider {
-        background: #14171A;
-    }
-
-    .reseau ul li.instagram div.slider {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    }
-
-    .reseau ul li.linkdin div.slider {
-        background: #39569C;
-    }
-
-    .reseau ul li.youtube div.slider {
-        background: red;
-    }
-
-    .slider {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 51px;
-        width: 0px;
-        height: 50px;
-        background: #eebb5c;
-        border-radius: 3px;
-        transition: all 0.5s 0.3s ease;
-    }
-
-    .slider p {
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 900;
-        color: #fff;
-        text-align: center;
-        line-height: 50px;
-        opacity: 0;
-        transition: all 0.6s ease;
-    }
-
-    .reseau ul li:hover .slider {
-        width: 180px;
-        transition: all 0.5s ease;
-    }
-
-    .reseau ul li:hover .slider p {
-        opacity: 1;
-        transition: all 1s 0.2s ease;
-    }
-</style>
-
-<div class="reseau">
-    <ul>
-        <li class="facebook">
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-            <div class="slider">
-                <p><a href="https://www.facebook.com/RADEEL.Officiel/" style="color:white;">facebook</a></p>
-            </div>
-        </li>
-
-        <style>
-            svg {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-        </style>
-        <li class="twitter">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
-                viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path fill="#fff"
-                    d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z" />
-            </svg>
-            <div class="slider">
-                <p><a href="https://twitter.com/RADEELOfficiel/status/1756352376523407617"
-                        style="color:white;">twitter</a></p>
-            </div>
-        </li>
-
-        <li class="instagram">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-            <div class="slider">
-                <p> <a href="https://www.instagram.com/p/CwSqgxHOC6d/" style="color:white;">instagram</a></p>
-            </div>
-        </li>
-
-        <li class="linkdin">
-            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-            <div class="slider">
-                <p> <a href="https://ma.linkedin.com/company/radeelofficiel" style="color:white;">linkdin</a></p>
-            </div>
-        </li>
-        <li class="youtube">
-            <i class="fab fa-youtube" aria-hidden="true"></i>
-            <div class="slider">
-                <p> <a href="https://www.youtube.com/@RADEELOfficiel" style="color:white;">Youtube</a></p>
-            </div>
-        </li>
-    </ul>
-</div>
-
-<!-- allo Radeel -->
-
-<style>
-    .allo {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 24px;
-        right: 24px;
-        background-color: #f89323;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.42);
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        font-size: 24px;
-        z-index: 3;
-    }
-
-    .allo i {
-        color: white;
-        font-size: 26px;
-
-    }
-
-    .allo .allotext {
-        background-color: #f89323;
-        padding: 4px 8px;
-        white-space: nowrap;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        font-size: 11px;
-        position: absolute;
-        z-index: 1;
-        top: 5px;
-        right: 105%;
-    }
-</style>
-
-<a href="tel:0801000042" class="allo">
-    <i class="fas fa-headset"></i>
-    <span class="allotext">Allo RADEEL</span>
-</a>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

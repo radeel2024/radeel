@@ -44,12 +44,13 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <style>
-             .page-headere {
-            background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cove4.png) center center no-repeat;
-            background-size: cover;
-            background-position: center;
-            width: 100%;
-        }
+            .page-headere {
+                background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cove4.png) center center no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+
             .nav-item.dropdown>a::after {
                 display: none !important;
             }
@@ -57,7 +58,7 @@
     </head>
 
 <body>
-<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
@@ -442,7 +443,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            
+
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -450,7 +451,8 @@
 
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#" class="active"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#" class="active"><span>PRATIQUE</span> <i
+                                class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                             </li>
@@ -572,7 +574,9 @@
                     <div id="tab-1" class="tab-pane fade show p-0 active">
 
                         <div class="row g-4">
+                            <?php $a1 = 1 ?>
                             @foreach ($coupure as $c)
+                                <?php    $a1 = 2 ?>
                                 <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
                                     <div class="service-item rounded overflow-hidden" style="height: 500px;">
                                         <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid" width="100%"
@@ -582,15 +586,19 @@
                                 </div>
                             @endforeach
                         </div>
-
+                        @if($a1 == 1)
+                            <h1>pas de coupure programmé</h1>
+                        @endif
                         <div class="d-flex justify-content-center">
                             {{ $coupure->links() }}
                         </div>
                     </div>
                     <div id="tab-2" class="tab-pane fade show p-0">
                         <div class="row g-4">
+                            <?php $a = 1 ?>
                             @foreach ($coupure as $c)
-                                @if ($c->type == 'electricité')
+                                @if ($c->type == 'electricité' && $c->status == "non")
+                                    <?php $a = 2 ?>
                                     <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
                                         <div class="service-item rounded overflow-hidden" style="height: 500px;">
                                             <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid" width="100%"
@@ -600,12 +608,17 @@
                                     </div>
                                 @endif
                             @endforeach
+                            @if($a == 1)
+                                <h1>pas de coupure programmé</h1>
+                            @endif
                         </div>
                     </div>
                     <div id="tab-3" class="tab-pane fade show p-0">
                         <div class="row img-fluid">
+                        <?php $a2 = 1 ?>
                             @foreach ($coupure as $c)
                                 @if ($c->type == 'eau')
+                                <?php $a2 = 2 ?>
                                     <div class="col-md-6 col-lg-4 " data-wow-delay="0.1s">
                                         <div class="service-item rounded overflow-hidden" style="height: 500px;">
                                             <img src="{{ asset('aviscoupure/' . $c->avis) }}" class="img-fluid" width="100%"
@@ -615,6 +628,9 @@
                                     </div>
                                 @endif
                             @endforeach
+                            @if($a2 == 1)
+                                <h1>pas de coupure programmé</h1>
+                            @endif
                         </div>
 
 
@@ -655,10 +671,10 @@
     <!-- About End -->
 
 
-  
 
-  {{-- footer --}}
-  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -680,8 +696,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -695,16 +711,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>

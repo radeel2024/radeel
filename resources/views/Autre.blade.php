@@ -465,7 +465,7 @@
     <!-- Navbar End -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
-            <h1 class="display-2 text-white mb-4 animated slideInDown">Guide Client</h1>
+            <h1 class="display-2 text-white mb-4 animated slideInDown">Conseils Client</h1>
         </div>
     </div>
     <br><br>
@@ -534,9 +534,6 @@
                     <button class="nav-link active justifay-content-center" id="v-pills-home-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                         aria-selected="true">Nos conseils pratiques</button>
-                    <button class="nav-link justiy-content-center" id="v-pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                        aria-selected="false">Administrations et Offices</button>
                     <button class="nav-link justify-content-center" id="v-pills-messages-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
                         aria-selected="false">Tarifs en vigueur</button>
@@ -676,8 +673,10 @@
                                                 <br>Si vous disposez de machines à laver la vaisselle et le linge, ne
                                                 les
                                                 lancez que lorsqu’elles sont pleines. <br>
-                                                Un lave-linge = 225 litres <br>
-                                                Un lave-vaisselle = 40 litres <br>
+                                                <i class="fa fa-check  me-3"
+                                                style="color:#285AEB;padding-left:20px;"></i> Un lave-linge = 225 litres <br>
+                                                <i class="fa fa-check  me-3"
+                                                style="color:#285AEB;padding-left:20px;"></i> Un lave-vaisselle = 40 litres <br>
                                                 La quantité d’eau consommée est la même quel que soit le remplissage.
                                                 <br>
                                             </p>
@@ -874,69 +873,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                        aria-labelledby="v-pills-profile-tab">
-                        <div class="item-page">
-                            <p>Dans cette rubrique, pour accompagner les administrations dans la démarche d’équipement
-                                de leurs sites
-                                et projets en eau, assainissement et électricité, nous mettons à votre disposition la
-                                procédure à suivre
-                                auprès de la RADEEL.</p>
-                            <ul>
-                                <p>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">L’administration doit formuler une demande de
-                                        branchement</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">La RADEEL établit un devis et le communique à
-                                        l’administration</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">L’administration donne son accord pour règlement et adresse à
-                                        la
-                                        régie un bon de
-                                        commande</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">La RADEEL procède à la réalisation du branchement et établit
-                                        un
-                                        contrat d’abonnement
-                                        en cinq
-                                        exemplaires. Les administrations sont exonérées de la provision</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">Après signature du contrat d’abonnement, la régie procède à la
-                                        pose du compteur</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">Avant de procéder à la coupure d’alimentation en eau ou en
-                                        électricité d’une
-                                        administration, la
-                                        régie est tenue de l’aviser par lettre de relance suivie de l’avis de coupure
-                                        après
-                                        expiration du
-                                        délai accordé</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">Le rebranchement s’effectue après règlement ou sur ordre de la
-                                        Direction Générale
-                                        lorsque
-                                        l’administration demande un délai supplémentaire</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i><span
-                                        style="font: 300">La résiliation ne se fait que sur demande écrite de
-                                        l’administration</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i><span
-                                        style="font: 300">Le règlement des factures des administrations et offices à
-                                        budget
-                                        autonome se fait
-                                        par chèque ou par
-                                        virement bancaire</span><br>
-                                    <i class="fa fa-check  me-3" style="color:orange;padding-left:20px;"></i> <span
-                                        style="font: 300">Le règlement des factures des administrations publiques et des
-                                        collectivités locales
-                                        se fait par
-                                        vignette</span><br>
-                                </p>
-                            </ul>
-                            <p>&nbsp;</p>
-
-                        </div>
-                    </div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                         aria-labelledby="v-pills-messages-tab">
                         <table style="width:80%;">
@@ -997,8 +933,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1012,16 +948,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
@@ -1040,7 +976,6 @@
             </div>
         </div>
     </div>
-
 
 
     <!--Start of Tawk.to Script-->

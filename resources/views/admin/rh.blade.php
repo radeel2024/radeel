@@ -1001,7 +1001,7 @@
                                                             <td>{{ substr($s->email, 0, 5) }}</td>
                                                             <td>{{ $s->tele }}</td>
                                                             <td>{{ $s->service }}</td>
-                                                            <td> {{ Carbon\Carbon::parse($p->created_at)->format('Y-m-d') }}</td>
+                                                            <td> {{ Carbon\Carbon::parse($s->created_at)->format('Y-m-d') }}</td>
                                                             <td><a href="#show{{ $s->id }}"
                                                                     class="btn btn-primary" data-toggle="modal">
                                                                     <i class="fas fa-info"></i>

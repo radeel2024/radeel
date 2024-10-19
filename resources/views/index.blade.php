@@ -802,7 +802,7 @@
                                     <img src="{{ asset('articlescopie/' . $a->image) }}" style="width: 200px; "
                                         class="img-fluid news-image" alt="">
                                 </a>
-                                <div class="news-category  text-white" style="background-color:#077ec0;">Nouveau </div>
+                                <div class="news-category  text-white" style="background-color:#077ec0;">Nouveau</div>
                             </div>
                             <div class="news-bottom">
                                 <div class="news-text-info">
@@ -810,7 +810,6 @@
                                         <a href="{{ route('details', $a->id) }}" class="news-title-link">
                                             {{ Illuminate\Support\Str::limit($a->title, $limit = 40, $end = '...') }}
                                         </a>
-                                        <div class="news-category  text-white">Nouveau</div>
                                     </h5>
                                     <div class="d-flex flex-wrap">
                                         <span class="text-muted">{{ $a->created_at }}</span>
@@ -831,36 +830,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                    <div class="news-thumb" data-aos="fade-up">
-                        <a href="{{ route('coupure') }}" class="news-image-hover news-image-hover-warning">
-                            <div id="test" class="carousel slide" data-bs-ride="carousel">
-
-                                <div class="carousel-indicators">
-                                    <button type="button" style="background:black;" data-bs-target="#test"
-                                        data-bs-slide-to="0" class="active"></button>
-                                    <button type="button" style="background:black;" data-bs-target="#test"
-                                        data-bs-slide-to="1"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" id="slideAvis">
-                                        <img src="{{ asset('aviscoupure/' . $avis[0]->avis) }}"
-                                            class="img-fluid large-news-image news-image" alt=""
-                                            style="height:500px; Opacity:1;" width="900px">
-                                    </div>
-                                    <div class="carousel-item" id="slideAvis1">
-                                        <img src="{{ asset('aviscoupure/' . $avis[1]->avis) }}"
-                                            class="img-fluid large-news-image news-image" alt="" style="height:500px;"
-                                            width="900px">
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div> -->
-
-
             </div>
     </section>
     <br><br><br>
@@ -1151,16 +1120,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>

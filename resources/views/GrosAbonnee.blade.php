@@ -662,7 +662,7 @@
             border: 1px solid #e9ecef;
             border-left-width: 0.25rem;
             border-radius: 0.25rem;
-            border-left-color: #077ec0;
+            border-left-color: rgb(155,187,89);
         }
 
         .vertical-tabs .nav-link.active {
@@ -715,6 +715,7 @@
             </div>
             <div class="col-md-8 py-5">
                 <div class="tab-content" id="v-pills-tabContent">
+                    <!-- raccordement -->
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                         aria-labelledby="v-pills-home-tab">
                         <div class="container mt-3">
@@ -767,57 +768,6 @@
                                             </div>
                                             </p>
 
-                                            <div class="container mt-5 mb-5">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <h5 style="color:#7DB41E">Les étapes de branchement
-                                                            et d’abonnement au réseau d’eau potable :</h5>
-                                                        <ul class="timeline">
-                                                            <li>
-                                                                <p
-                                                                    style="font-size:18px; font-weight:border; color:gray; text-decoration: underline;">
-                                                                    Etape 1 :</p>
-                                                                <p> Le service étude de la RADEEL se rend sur place et
-                                                                    établit un
-                                                                    devis de branchement du site.
-                                                                    Ce devis est subordonné à :</p>
-
-                                                                <ul class="text-start">
-                                                                    <p> <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>Calibre
-                                                                        du compteur eau</br>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>L’éloignement
-                                                                        du local par rapport au réseau d’eau potable
-                                                                        existant</br>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>Frais
-                                                                        de participation</br>
-                                                                    </p>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <p
-                                                                    style="font-size:18px; font-weight:border; color:gray; text-decoration: underline;">
-                                                                    Etape 2 :</p>
-                                                                <p>Quand le client paye les frais de branchement et du
-                                                                    contrat
-                                                                    d’abonnement (la caution d’abonnement est
-                                                                    proportionnelle au
-                                                                    calibre du compteur), la RADEEL procède au
-                                                                    raccordement et la
-                                                                    pose du compteur.</p>
-
-                                                                <p class="text-start">La pose du compteur est
-                                                                    subordonnée à la
-                                                                    normalité de l’installation du site du client.</p>
-                                                            </li>
-                                                        </ul>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -867,120 +817,6 @@
                                                     </br>
                                                 </p>
                                             </div>
-                                            <h4 class="mb-0 text-start" style="color: #D1801D;">Les étapes de
-                                                branchement et d'abonnement au réseau moyen tension</h4>
-                                            <div class="container mt-5 mb-5">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <ul class="timeline">
-                                                            <li>
-                                                                <p class="text-start"
-                                                                    style="color:gray; Font-size:20px; text-decoration: underline;">
-                                                                    Etape 1 :</p>
-                                                                <p class="text-start">
-                                                                    Le service étude de la RADEEL se rend sur place et
-                                                                    établit un
-                                                                    devis de branchement du poste.
-                                                                    <span class="text-start">Ce devis est subordonné à
-                                                                        :</span>
-                                                                <ul class="text-start">
-                                                                    <p>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>La
-                                                                        puissance installée du poste
-                                                                        </br>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>L’éloignement
-                                                                        du poste par rapport au réseau
-                                                                        moyenne tension
-                                                                        existant</br>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>Travaux
-                                                                        de réalisation du poste (*)
-                                                                        </br>
-                                                                        <i class="fa fa-check  me-3"
-                                                                            style="color:orange;padding-left:20px;"></i>Peines
-                                                                        et soins sur travaux
-                                                                    </p>
-                                                                </ul>
-                                                                <p class="text-start"> (*) Les travaux de réalisation ne
-                                                                    sont pas facturés si le client réalise les travaux pour lui même.
-                                                                </p>
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p class="text-start"
-                                                                    style="color: gray; Font-size:20px; text-decoration: underline;">
-                                                                    Etape 2 :</p>
-                                                                <p class="text-start">
-                                                                    Dans le cas ou le client a désigné la RADEEL pour
-                                                                    les travaux de
-                                                                    réalisation du poste, et après règlement du devis,
-                                                                    la Régie
-                                                                    procède aux travaux de réalisation du poste. <br>
-                                                                    Une fois, ces travaux sont terminés. Le client
-                                                                    souscrit un
-                                                                    contrat d’abonnement dont la caution est
-                                                                    proportionnelle à la
-                                                                    puissance souscrite. Frais d’abonnement réglés, la
-                                                                    RADEEL
-                                                                    procède au raccordement et à la pose du comptage
-                                                                    moyenne tension
-                                                                    dans un délai de xx jours.<br>
-                                                                    Dans le cas ou le client a désigné une entreprise
-                                                                    privée de son
-                                                                    choix pour réaliser le nouveau poste, et après
-                                                                    règlement du
-                                                                    devis branchement. Cette entreprise communique à la
-                                                                    RADEEL le
-                                                                    plan d’équipement du poste pour approbation. <br>
-                                                                    La RADEEL retourne à l’entreprise le plan du poste
-                                                                    approuvé ou
-                                                                    réclame des corrections avant son approbation. <br>
-                                                                    Après approbation des plans, l’entreprise réalise
-                                                                    les travaux du
-                                                                    nouveau poste. <br>
-                                                                    Une fois, les travaux sont achevés, l’entreprise
-                                                                    invite la
-                                                                    RADEEL en présence du client à la réception du
-                                                                    poste. La
-                                                                    réception n’a lieu qu’après règlement des frais de
-                                                                    la réception.
-                                                                    <br>
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p class="text-start"
-                                                                    style="color:gray; Font-size:20px; text-decoration: underline;">
-                                                                    Etape 3 :</p>
-                                                                <p class="text-start">
-                                                                    Après la réception du poste, le client souscrit un
-                                                                    contrat
-                                                                    d’abonnement dont la caution est proportionnelle à
-                                                                    la puissance
-                                                                    souscrite. <br>
-                                                                    Frais d’abonnement réglés, la RADEEL procède au
-                                                                    raccordement et
-                                                                    à la pose du comptage moyenne tension dans un délai
-                                                                    de xx jours.
-                                                                    <br>
-                                                                    L’opération de la mise sous tension du poste se
-                                                                    déroule en
-                                                                    présence de l’entreprise, du client et la RADEEL. Le
-                                                                    client est
-                                                                    appelé à utiliser l’énergie électrique dans la
-                                                                    limite de sa
-                                                                    puissance souscrite et conformément aux conditions
-                                                                    du contrat.
-                                                                    <br>
-                                                                </p>
-                                                            </li>
-                                                            </li>
-                                                        </ul>
-
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
 
                                     </div>
@@ -995,6 +831,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- resiliation  -->
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                         aria-labelledby="v-pills-profile-tab">
                         <div class="container mt-3">
@@ -1038,6 +876,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- factures -->
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                         aria-labelledby="v-pills-messages-tab">
                         <div class="container mt-3">
@@ -1090,16 +930,21 @@
                                     <div id="collapseOnez" class="collapse " data-bs-parent="#accordion22">
                                         <div class="accordion-body">
                                             <div class="accordion-body">
-                                            <p class="text-start">
+                                                <p class="text-start">
                                                 Vous pouvez régler vos factures de consommation :
                                                 </p>
                                                 <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Au niveau de nos agence    </h4>
-                                                <p class="text-start">
-                                                    <h5>Agence Maghreb jadid à larache </h5>
-                                                    <h5>Agence Centrales à Ksar kbir </h5>
+                                                    style="color: rgb(155,187,89);">Au niveau de nos agence </h4>
+
+                                                <ul class="text-start">
+                                                <p>
+                                                    <i class="fa fa-check  me-3"
+                                                        style="color:orange;padding-left:20px;"></i>Agence Maghreb jadid à Larache</br>
+                                                    <i class="fa fa-check  me-3"
+                                                        style="color:orange;padding-left:20px;"></i>Agence Centrales à ksar kbir</br>
                                                 </p>
-                                                                                               <h4 class="Comptage moyenne tension text-start"
+                                            </ul>
+                                                <h4 class="Comptage moyenne tension text-start"
                                                     style="color: rgb(155,187,89);">Par virement bancaire au compte RADEEL  </h4>
                                             </div>
                                         </div>
@@ -1456,8 +1301,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1471,16 +1316,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>

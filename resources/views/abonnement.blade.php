@@ -489,9 +489,6 @@
                         <ul>
 
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a></li>
 
                         </ul>
                     </li>
@@ -547,7 +544,7 @@
             border: 1px solid #e9ecef;
             border-left-width: 0.25rem;
             border-radius: 0.25rem;
-            border-left-color: #077ec0;
+            border-left-color:rgb(155,187,89);
         }
 
         .vertical-tabs .nav-link.active {
@@ -625,7 +622,7 @@
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Formulmaire de
                                                 branchement rempli<a
-                                                    href="./img/demandeBranchement.docx">(télécharger)</a></br>
+                                                    href="./img/Demande branchement.pdf" target="_blank"> (télécharger)</a></br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
                                                 d’identité (C.I.N , Carte de séjour ou pasport pour les personnes
@@ -678,7 +675,7 @@
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Autorisation du
                                                 Propriétaire signée et légalisée<a
-                                                    href="./img/Autorisation-du-Proprietaire.pdf">(télécharger)</a></br>
+                                                    href="./img/Demande-de-Branchement.pdf" target="_blank"> (télécharger)</a></br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
                                                 d’identité(C.I.N)</br>
@@ -700,9 +697,9 @@
                                         </div>
                                     </a>
                                     <div id="collapseThree1" class="collapse" data-bs-parent="#accordion">
-                                    Pièces à fournir :
+                                  
                                         <div class="card-body">
-
+                                        Pièces à fournir :
                                             <div class="bd-callout bd-callout-info">
                                                </br>
                                                 <i class="fa fa-check  me-3"
@@ -752,15 +749,15 @@
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Demande d'abonnement
                                                 complétée et signée <a
-                                                    href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
+                                                    href="./img/Demande_Abonnement.pdf" target="_blank">(télécharger)</a></br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
                                                 d’identité (C.I.N, Carte de séjour ou passeport)</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>En cas de personne
-                                                morale :Copie d'identité du gérant, copie des status sociaux, copie de
+                                                morale (Copie d'identité du gérant, copie des status sociaux, copie de
                                                 registre de commerce et attestation de l'I.C.E et autorisation d'exercer
-                                                délivrée par les autorités compétentes.</br>
+                                                délivrée par les autorités compétentes).</br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Procuration légalisée ou
                                                 notaire en cas des héritiers ou des copropriétaires </br>
@@ -802,47 +799,22 @@
                         <div class="container mt-3">
                             <div id="accordion1">
                                 <div class="card">
-                                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                    <a class="btn" data-bs-toggle="collapse" href="#collapseOnee">
                                         <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Résiliation
                                         </div>
                                     </a>
-                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion1">
+                                    <div id="collapseOnee" class="collapse " data-bs-parent="#accordion1">
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Pièces à fournir :
                                             <div class="bd-callout bd-callout-info">
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Demande d'abonnement
-                                                complétée et signée <a
-                                                    href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de la carte
-                                                d’identité (C.I.N, Carte de séjour ou passeport)</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>En cas de personne
-                                                morale :Copie d'identité du gérant, copie des status sociaux, copie de
-                                                registre de commerce et attestation de l'I.C.E et autorisation d'exercer
-                                                délivrée par les autorités compétentes.</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Procuration légalisée ou
-                                                notaire en cas des héritiers ou des copropriétaires </br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Justificatif du droit de
-                                                jouissance: Copie de titre propriété, Copie de contrat de bail ou 
-                                                autorisation de proprietaire signée et légalisée (en cas de locataire
-                                                ).</br>
+                                            <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Demande de résiliation <a href="./img/resiliation.pdf" target="_blank">(télécharger)</a></br>
+                                            <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Dernière facture d’eau et(ou)d’électricité</br>
+                                            <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Contrat d’abonnement</br>
+                                            <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Copie de la carte d’identité nationale(C.I.N)</br>
+          
                                             </div>
-                                            En plus, Pour un abonnement suite à un nouveau branchement :
-                                            <div class="bd-callout bd-callout-info">
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de permis d'habiter
-                                                </br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Certificat de garantie
-                                                de disjoucteur (éléctricité).</br>
-                                            </div>
-
                                             </p><br>
                                         </div>
                                     </div>
@@ -1565,11 +1537,7 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
-
-
-    {{-- footer --}}
-  {{-- footer --}}
-  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -1591,8 +1559,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1606,16 +1574,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
@@ -1634,7 +1602,6 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
 
 
 

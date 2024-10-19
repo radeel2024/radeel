@@ -513,7 +513,7 @@
             <p>
                 Vous venez de vendre votre habitation ou de changer votre location, il est dans votre intérêt de résilier votre contrat d’abonnement. Pour procéder à la résiliation, veuillez vous rendre aux agences de la RADEEL muni des pièces suivantes :</p>
             <ul style="margin: 20px; font-size: 20px; line-height:30px; color:#4D4D4D; font-family: 'Arial';">
-                <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Demande de résiliation <a href="./img/Demande-de-Resiliation.pdf">(télécharger)</a></br>
+                <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Demande de résiliation <a href="./img/resiliation.pdf" target="_blank">(télécharger)</a></br>
                  <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Dernière facture d’eau et(ou)d’électricité</br>
                 <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Contrat d’abonnement</br>
                  <i class="fa fa-check  me-3" style="color:#077ec0;padding-left:20px;"></i>Copie de la carte d’identité nationale(C.I.N)</br>
@@ -783,8 +783,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -798,16 +798,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
+                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.03.25</a>
+                            +212.539.52.09.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>

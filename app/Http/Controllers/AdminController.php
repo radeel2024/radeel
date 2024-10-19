@@ -334,11 +334,10 @@ class AdminController extends Controller
         $user = User::where('email', $request->email)
             ->first();
 
-       
 
-        if ($user)
-        {
-            if($user->email =="admin@gmail.com"){
+
+        if ($user) {
+            if ($user->email == "admin@gmail.com") {
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistique')->with(
@@ -353,9 +352,7 @@ class AdminController extends Controller
                         ]
                     );
                 }
-            }
-
-            else if($user->email =="oumaima@gmaim.com"){
+            } else if ($user->email == "oumaima@gmaim.com") {
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiqueCom')->with(
@@ -370,9 +367,7 @@ class AdminController extends Controller
                         ]
                     );
                 }
-            }
-
-            else if($user->email =="com@gmail.com"){
+            } else if ($user->email == "com@gmail.com") {
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiqueC')->with(
@@ -387,8 +382,7 @@ class AdminController extends Controller
                         ]
                     );
                 }
-            }
-            else if($user->email =="ennassef.adam@gmail.com" || $user->email =="hadrouji.med38@gmail.com" ){
+            } else if ($user->email == "ennassef.adam@gmail.com" || $user->email == "hadrouji.med38@gmail.com") {
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiqueachatlo')->with(
@@ -404,24 +398,22 @@ class AdminController extends Controller
                     );
                 }
             }
-           /*  else if($user->email =="jikutyhabe@mailinator.com" ){
-                if (Hash::check($request->password, $user->password)) {
-                    Auth::guard('web')->login($user);
-                    return redirect()->route('communication')->with(
-                        [
-                            'succes' => 'Authentication successful'
-                        ]
-                    );
-                } else {
-                    return redirect()->back()->with(
-                        [
-                            'fail' => 'Vos donner incorrect'
-                        ]
-                    );
-                }
-            } */
-            
-            else if($user->email =="comzer@gmail.com"){
+            /*  else if($user->email =="jikutyhabe@mailinator.com" ){
+                 if (Hash::check($request->password, $user->password)) {
+                     Auth::guard('web')->login($user);
+                     return redirect()->route('communication')->with(
+                         [
+                             'succes' => 'Authentication successful'
+                         ]
+                     );
+                 } else {
+                     return redirect()->back()->with(
+                         [
+                             'fail' => 'Vos donner incorrect'
+                         ]
+                     );
+                 }
+             } */ else if ($user->email == "comzer@gmail.com") {
                 if (Hash::check($request->password, $user->password)) {
                     Auth::guard('web')->login($user);
                     return redirect()->route('statistiquerh')->with(
@@ -438,11 +430,11 @@ class AdminController extends Controller
                 }
             }
         }
-       
-         
 
-        
-        
+
+
+
+
     }
 
     //Dashboard -- profile
@@ -604,11 +596,6 @@ class AdminController extends Controller
             ->count();
 
 
-
-
-
-
-
         if ($annoncesearchdatedebit > 0) {
             return redirect()->back()->with(['fail' => "Date debit ou date fin deja reservé par une autre annonce"]);
 
@@ -735,59 +722,130 @@ class AdminController extends Controller
     }
 
     //article
+    /*  public function addarticle(Request $request)
+     {
+
+         $description = $request->des;
+
+         $dom = new DOMDocument();
+
+       
+
+         $dom->loadHTML(mb_convert_encoding($description, 'HTML-ENTITIES', 'UTF-8'));
+
+
+
+
+         $images = $dom->getElementsByTagName('img');
+         foreach ($images as $key => $img) {
+             $srcAttribute = $img->getAttribute('src');
+
+             // Check if the src attribute exists and is not empty
+             if ($srcAttribute) {
+                 $srcParts = explode(';', $srcAttribute);
+
+                 // Check if the src attribute has the expected parts
+                 if (isset($srcParts[1])) {
+                     $data = base64_decode(explode(',', $srcParts[1])[1]);
+
+                     // Generate a unique filename
+                     $image_name = "/articles/" . time() . $key . '.png';
+
+                     // Save the decoded image data to the server
+                     file_put_contents(public_path() . $image_name, $data);
+
+                     // Remove the original src attribute
+                     $img->removeAttribute('src');
+
+                     // Set the src attribute to the new image path
+                     $img->setAttribute('src', $image_name);
+                 } else {
+                     // Handle the case where the src attribute doesn't have the expected parts
+                     // You may want to log an error or handle it based on your requirements.
+                 }
+             } else {
+                 // Handle the case where the src attribute is empty or not present
+                 // You may want to log an error or handle it based on your requirements.
+             }
+         }
+
+         $file = $request->file('file');
+         $image = time() . '_' . $file->getClientOriginalName();
+         $file->move(public_path('articlescopie'), $image);
+
+         $description = $dom->saveHTML();
+
+         article::create([
+             'title' => $request->title,
+             'status' => $request->status,
+             'image' => $image,
+             'des' => $description,
+         ]);
+
+
+         return redirect()->back()->with(
+             [
+                 'success' => "Article Add avec succes"
+             ]
+         );
+
+     }
+  */
     public function addarticle(Request $request)
     {
-
+        // Get the HTML description from the request
         $description = $request->des;
 
+        // Remove undefined namespace prefixes (like `o:`) from the HTML
+        $description = preg_replace('/\s?o:[a-zA-Z]+="[^"]*"/', '', $description);
+
+        // Create a new DOMDocument object
         $dom = new DOMDocument();
 
+        // Suppress libxml warnings and errors
+        libxml_use_internal_errors(true);
 
+        // Load the cleaned HTML into the DOMDocument
+        $dom->loadHTML(mb_convert_encoding($description, 'HTML-ENTITIES', 'UTF-8'), LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
-        $dom->loadHTML(mb_convert_encoding($description, 'HTML-ENTITIES', 'UTF-8'));
+        // Clear any libxml errors after loading
+        libxml_clear_errors();
 
-
-
-
+        // Get all <img> elements from the HTML and handle them
         $images = $dom->getElementsByTagName('img');
+
         foreach ($images as $key => $img) {
             $srcAttribute = $img->getAttribute('src');
-
-            // Check if the src attribute exists and is not empty
             if ($srcAttribute) {
                 $srcParts = explode(';', $srcAttribute);
-
-                // Check if the src attribute has the expected parts
                 if (isset($srcParts[1])) {
-                    $data = base64_decode(explode(',', $srcParts[1])[1]);
-
-                    // Generate a unique filename
-                    $image_name = "/articles/" . time() . $key . '.png';
-
-                    // Save the decoded image data to the server
-                    file_put_contents(public_path() . $image_name, $data);
-
-                    // Remove the original src attribute
-                    $img->removeAttribute('src');
-
-                    // Set the src attribute to the new image path
-                    $img->setAttribute('src', $image_name);
-                } else {
-                    // Handle the case where the src attribute doesn't have the expected parts
-                    // You may want to log an error or handle it based on your requirements.
+                    $base64Data = explode(',', $srcParts[1]);
+                    if (isset($base64Data[1])) {
+                        $imageData = base64_decode($base64Data[1]);
+                        if ($imageData !== false) {
+                            $imageName = "/articles/" . time() . $key . '.png';
+                            file_put_contents(public_path() . $imageName, $imageData);
+                            $img->removeAttribute('src');
+                            $img->setAttribute('src', $imageName);
+                        }
+                    }
                 }
-            } else {
-                // Handle the case where the src attribute is empty or not present
-                // You may want to log an error or handle it based on your requirements.
             }
         }
 
+        // Handle the uploaded file for the article
         $file = $request->file('file');
-        $image = time() . '_' . $file->getClientOriginalName();
-        $file->move(public_path('articlescopie'), $image);
+        if ($file) {
+            $image = time() . '_' . $file->getClientOriginalName();
+            $file->move(public_path('articlescopie'), $image);
+        } else {
+            $image = null;
+        }
 
+        // Save the modified HTML back to the description
         $description = $dom->saveHTML();
 
+        // Create the new article entry in the database
         article::create([
             'title' => $request->title,
             'status' => $request->status,
@@ -795,48 +853,98 @@ class AdminController extends Controller
             'des' => $description,
         ]);
 
-
-        return redirect()->back()->with(
-            [
-                'success' => "Article Add avec succes"
-            ]
-        );
-
+        // Redirect back with a success message
+        return redirect()->back()->with([
+            'success' => "Article added successfully",
+        ]);
     }
+
+
 
     public function updatearticle(Request $request, $id)
     {
-
+        // Find the article by its ID
         $post = article::find($id);
 
+        // Get the HTML description from the request
         $description = $request->des;
 
+        // Remove undefined namespace prefixes (like `o:`) from the HTML
+        $description = preg_replace('/\s?o:[a-zA-Z]+="[^"]*"/', '', $description);
+
+        // Create a new DOMDocument object
         $dom = new DOMDocument();
-        $dom->loadHTML(mb_convert_encoding($description, 'HTML-ENTITIES', 'UTF-8'));
 
+        // Suppress libxml warnings and errors
+        libxml_use_internal_errors(true);
 
+        // Load the cleaned HTML into the DOMDocument
+        $dom->loadHTML(mb_convert_encoding($description, 'HTML-ENTITIES', 'UTF-8'), LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+
+        // Clear any libxml errors after loading
+        libxml_clear_errors();
+
+        // Get all <img> elements from the HTML
         $images = $dom->getElementsByTagName('img');
 
         foreach ($images as $key => $img) {
+            $srcAttribute = $img->getAttribute('src');
 
-            // Check if the image is a new one
-            if (strpos($img->getAttribute('src'), 'data:image/') === 0) {
+            // Check if the image is a new one (base64-encoded)
+            if (strpos($srcAttribute, 'data:image/') === 0) {
+                $srcParts = explode(';', $srcAttribute);
 
-                $data = base64_decode(explode(',', explode(';', $img->getAttribute('src'))[1])[1]);
-                $image_name = "/articles/" . time() . $key . '.png';
-                file_put_contents(public_path() . $image_name, $data);
+                // Ensure we have both parts: base64 type and the actual data
+                if (isset($srcParts[1])) {
+                    $base64Data = explode(',', $srcParts[1]);
 
-                $img->removeAttribute('src');
-                $img->setAttribute('src', $image_name);
+                    if (isset($base64Data[1])) {
+                        // Decode the actual base64-encoded image content
+                        $imageData = base64_decode($base64Data[1]);
+
+                        // Check if decoding was successful
+                        if ($imageData !== false) {
+                            // Generate a unique filename for the image
+                            $imageName = "/articles/" . time() . $key . '.png';
+
+                            // Save the decoded image to the public folder
+                            file_put_contents(public_path() . $imageName, $imageData);
+
+                            // Remove the original src attribute
+                            $img->removeAttribute('src');
+
+                            // Set the src attribute to the new image path
+                            $img->setAttribute('src', $imageName);
+                        } else {
+                            // Handle base64 decoding failure (optional: log error)
+                        }
+                    }
+                }
             }
         }
+
+        // Save the modified HTML back to the description
         $description = $dom->saveHTML();
 
-        $file = $request['file'];
-        $image = time() . '_' . $file->getClientoriginalname();
-        $file->move(public_path('articlescopie'), $image);
-        unlink(public_path('articlescopie') . '/' . $post->image);
+        // Handle the uploaded file for the article
+        $file = $request->file('file');
+        if ($file) {
+            // Generate a unique name for the uploaded image
+            $image = time() . '_' . $file->getClientOriginalName();
 
+            // Move the file to the public articlescopie folder
+            $file->move(public_path('articlescopie'), $image);
+
+            // Delete the old image if it exists
+            if ($post->image && file_exists(public_path('articlescopie') . '/' . $post->image)) {
+                unlink(public_path('articlescopie') . '/' . $post->image);
+            }
+        } else {
+            // Keep the old image if no new file was uploaded
+            $image = $post->image;
+        }
+
+        // Update the article with the new data
         $post->update([
             'title' => $request->title,
             'image' => $image,
@@ -844,13 +952,12 @@ class AdminController extends Controller
             'des' => $description,
         ]);
 
-        return redirect()->back()->with(
-            [
-                'success' => "Article Update avec succes"
-            ]
-        );
-
+        // Redirect back with a success message
+        return redirect()->back()->with([
+            'success' => "Article updated successfully",
+        ]);
     }
+
 
     public function deletearticle($id)
     {
