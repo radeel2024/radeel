@@ -794,7 +794,7 @@
                                                                                 d&#39;Électricité de Larache) assure
                                                                                 l&#39;alimentation en énergie
                                                                                 électrique des villes de Larache, Ksar
-                                                                                Kébir, et des communes rurales Aouamra, Kmiss
+                                                                                Kébir, et des communes rurales Aouamra, Khemis 
                                                                                 Sahel, Zouada, Oulad Ouchih et Ksar
                                                                                 Bjir soit une population totale
                                                                                 desservie d’environ 416 800 habitants.
@@ -845,7 +845,7 @@
                                                                                                     7</h5>
                                                                                                 <p
                                                                                                     class="card-text text-white  text-center">
-                                                                                                    Postes répartiteurs
+                                                                                                    Postes Répartiteurs
                                                                                                 </p>
                                                                                             </div>
                                                                                         </div>
@@ -874,7 +874,7 @@
                                                                                                     180 MVA </h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
-                                                                                                    Puissance totale
+                                                                                                    Puissance Totale
                                                                                                     grantie </p>
                                                                                             </div>
                                                                                         </div>
@@ -885,11 +885,11 @@
                                                                                             <div class="card-body">
                                                                                                 <h5
                                                                                                     class="card-title  text-center text-white">
-                                                                                                    62.16 MA </h5>
+                                                                                                    63 MA </h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
-                                                                                                    Puissance moyenne
-                                                                                                    appelée </p>
+                                                                                                    Puissance Moyenne
+                                                                                                    Appelée </p>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -915,7 +915,7 @@
                                                                                                     1853 KM</h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
-                                                                                                    Longueur de réseau
+                                                                                                    Longueur de Réseau
                                                                                                 </p>
                                                                                             </div>
                                                                                         </div>
@@ -929,7 +929,7 @@
                                                                                                     354 GWH</h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
-                                                                                                    Energie achetée </p>
+                                                                                                    Energie Achetée </p>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -968,7 +968,7 @@
                                                                                                    354 GWH </h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
-                                                                                            Energie produit</p>
+                                                                                            Energie Achetée</p>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -978,9 +978,11 @@
                                                                                             <div class="card-body">
                                                                                                 <h5
                                                                                                     class="card-title  text-center text-white">
+                                                                                                    416 800
                                                                                                      </h5>
                                                                                                 <p
                                                                                                     class="card-text  text-center text-white">
+                                                                                                    Population Desservie
                                                                                                     </p>
                                                                                             </div>
                                                                                         </div>
@@ -1028,7 +1030,7 @@
                                                 <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
                                                     <div class="row">
                                                         <div class=" justify-content-center align-items-stretch  ">
-                                                            <div class="accordion-list">
+                                                            <div class="accordion-listP">
                                                             <ul>
                                                                     <!-- zone d'action -->
                                                                     <li>
@@ -1039,14 +1041,14 @@
                                                                             <span>01</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:#077ec0;">
-                                                                                <u> Zone d'actions : </u>
+                                                                                <u> Zone d'actions  </u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
                                                                                 class="bx bx-chevron-up icon-close"></i>
                                                                         </a>
 
-                                                                        <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-list">
+                                                                        <div id="accordion-list-5" class="collapse" data-bs-parent=".accordion-listP">
                                                                             <p class="text-start fs-8">
                                                                             La RADEEL assure la distribution d’eau potable au niveau de la ville de Larache, Ksar El Kébir, et les centres ruraux de Sahel, Aouamra, et Zouada soit une population desservie d’environ 293 900 habitants.
                                                                             </p>
@@ -1068,18 +1070,18 @@
                                                                                 class="bx bx-chevron-up icon-close"></i>
                                                                         </a>
                                                                         <div id="accordion-list-6" class="collapse"
-                                                                            data-bs-parent=".accordion-list">
+                                                                            data-bs-parent=".accordion-listP">
                                                                             <div class="row row-cols-1 row-cols-md-3 g-4"
-                                                                style="margin-bottom: 20px;;">
+                                                                style="margin-bottom: 20px;">
                                                                 <div class="col">
                                                                     <div class="card  fs-5"
                                                                         style="background-color:#077ec0">
                                                                         <div class="card-body ">
                                                                             <h5
                                                                                 class="card-title text-center text-white">
-                                                                                55 100 m3</h5>
+                                                                                55 100 m&sup3;</h5>
                                                                             <p class="card-text text-center text-white">
-                                                                                Capacité de stockage</p>
+                                                                                Capacité de Stockage</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1127,7 +1129,7 @@
                                                                                 class="card-title text-center text-white">
                                                                                 31 </h5>
                                                                             <p class="card-text text-center text-white">
-                                                                                Pheures Autonomie de stockage</p>
+                                                                                Pheures Autonomie de Stockage</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1137,7 +1139,7 @@
                                                                         <div class="card-body ">
                                                                             <h5
                                                                                 class="card-title text-center text-white">
-                                                                                77,93 % </h5>
+                                                                                78 % </h5>
                                                                             <p
                                                                                 class="card-text  text-center text-white">
                                                                                 Rendement</p>
@@ -1150,7 +1152,7 @@
                                                                         <div class="card-body ">
                                                                             <h5
                                                                                 class="card-title text-center text-white">
-                                                                                15,34 Mm3</h5>
+                                                                                15 Mm&sup3;</h5>
                                                                             <p class="card-text text-center text-white">
                                                                                 Eau Mobilisé</p>
                                                                         </div>
@@ -1162,7 +1164,7 @@
                                                                         <div class="card-body ">
                                                                             <h5
                                                                                 class="card-title text-center text-white">
-                                                                                11,93 Mm3</h5>
+                                                                                12 Mm&sup3;</h5>
                                                                             <p
                                                                                 class="card-text text-center  text-white">
                                                                                 Eau Vendue </p>
@@ -1181,8 +1183,96 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
+                                                                <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#077ec0;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                   15 Mm&sup3;</h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                            Eau Mobilisée</p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="col">
+                                                                                        <div class="card"
+                                                                                            style="background-color:#077ec0;">
+                                                                                            <div class="card-body">
+                                                                                                <h5
+                                                                                                    class="card-title  text-center text-white">
+                                                                                                    293 900
+                                                                                                     </h5>
+                                                                                                <p
+                                                                                                    class="card-text  text-center text-white">
+                                                                                                    Population Desservie
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
 
                                                             </div>
+                                                                        </div>
+                                                                    </li>
+                                                                         <!-- Système d'alimentation électrique : -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-31"
+                                                                            aria-expanded="false">
+                                                                            <span>03</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:#077ec0;">
+                                                                                <u> Système d'alimentation en eau  </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-31" class="collapse"
+                                                                            data-bs-parent=".accordion-listP">
+                                                                            <p class="text-start fs-8">
+                                                                                    <ol>
+                                                                                        <li>
+                                                                                            <h5>La ville de Larache : </h5>
+                                                                                            <ul>
+                                                                                                <li >- L’alimentation en eau potable de la ville de Larache est assurée en totalité par les ouvrages de production de l’Office Nationale de l’Electricité et de l’Eau potable (ONEE-Branche Eau), à partir des forages et de la station de traitement de Loukkous sur le barrage Oued El Makhazine</li>
+                                                                                                <li>- La Capacité de stockage à Larache : 32 600 m&sup3;</li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <h5>Centre Rural Khemis Sahel :</h5>
+                                                                                            <ul>
+                                                                                                <li>- L’alimentation en eau potable du centre Khemis Sahel est assurée par :
+                                                                                                    <ul>
+                                                                                                        <li>L’Exploitation de quatre forages de la RADEEL, d’un débit global de 7 l/s environ, situés au douar Krimda à 3 Km du centre vers Tanger.</li>
+                                                                                                        <li>L’Alimentation à partir du réservoir semi-enterré (2 X 2300 m3) sis à la zone touristique via une station de pompage équipée de 3 groupes multicellulaires de 8 l/s, (soit un débit global de 24 l/s) ; et une conduite de refoulement en PVC Bi-orientée DN 200 mm de longueur 4 680 ml.</li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                <li>- La Capacité de stockage à Larache :  500 m³ </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <h5>Ville de Ksar El Kébir :</h5>
+                                                                                            <ul>
+                                                                                                <li>- L’alimentation en eau potable de la ville de ksar el Kébir est assurée par :
+                                                                                                    <ul>
+                                                                                                        <li>L’exploitation de Onze (11) forages RADEEL situés au territoire de la commune l’Aoumara.</li>
+                                                                                                        <li>Le système de production de l'ONEE</li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                <li>- La Capacité de stockage est de : 22 000 m³ </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <h5>Centre Rural Aouamra :</h5>
+                                                                                            <ul>
+                                                                                                <li>- L’Alimentation est assurée par l’exploitation d’un forage RADEEL et un By-Pass pour garantir une alimentation continue en cas de coupure d'électricité.</li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                    </ol>
+                                                                             </p>
                                                                         </div>
                                                                     </li>
                                                                 <ul> 
@@ -1203,7 +1293,7 @@
                                                 <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
                                                     <div class="row">
                                                         <div class=" justify-content-center align-items-stretch  ">
-                                                            <div class="accordion-list">
+                                                            <div class="accordion-listPP">
                                                                 <ul>
                                                                     <!-- zone d'action -->
                                                                     <li>
@@ -1214,18 +1304,16 @@
                                                                             <span>01</span>
                                                                             <h3 class=""
                                                                                 style="display:inline-block; color:rgb(155,187,89);">
-                                                                                <u> Zonne d'action : </u>
+                                                                                <u> Zonne d'action  </u>
                                                                             </h3>
                                                                             <i
                                                                                 class="bx bx-chevron-down icon-show"></i><i
                                                                                 class="bx bx-chevron-up icon-close"></i>
                                                                         </a>
 
-                                                                        <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-list">
+                                                                        <div id="accordion-list-7" class="collapse" data-bs-parent=".accordion-listPP">
                                                                             <p class="text-start fs-7">
                                                                             La RADEEL a pris en charge la gestion de l’assainissement liquide de la ville de Larache en 2004.  Puis elle a été chargée d’assurer ce service aux communes rurales d’Aouamra et Khmis Sahel et à la ville de Ksar Kébir en 2013 et 2014 respectivement.  <br>
-                                                                            La RADEEL dispose d’un système d’assainissement de type unitaire. La topographie du terrain est telle que l’écoulement est gravitaire. <br>
-                                                                            Le linéaire total du réseau est de 815 kilomètres. La majeure partie du réseau sont des canalisations circulaires de diamètre inférieur ou égal à 800 mm, la plupart des collecteurs tertiaires étant de 400 mm.
                                                                             </p>
                                                                         </div>
                                                                     </li>
@@ -1245,7 +1333,7 @@
                                                                                 class="bx bx-chevron-up icon-close"></i>
                                                                         </a>
                                                                         <div id="accordion-list-2" class="collapse"
-                                                                            data-bs-parent=".accordion-list">
+                                                                            data-bs-parent=".accordion-listPP">
                                                                             <div class="container mt-5">
                                                                                 <div
                                                                                     class="row row-cols-1 row-cols-md-3 g-4 text-center">
@@ -1308,6 +1396,30 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
+                                                                        </div>
+                                                                    </li>
+                                                                         <!-- Système d'alimentation électrique : -->
+                                                                    <li>
+                                                                        <a data-bs-toggle="collapse"
+                                                                            class="collapse collapsed"
+                                                                            data-bs-target="#accordion-list-30"
+                                                                            aria-expanded="false">
+                                                                            <span>03</span>
+                                                                            <h3 class=""
+                                                                                style="display:inline-block; color:rgb(155,187,89);">
+                                                                                <u> Système d'assainissement liquide  </u>
+                                                                            </h3>
+                                                                            <i
+                                                                                class="bx bx-chevron-down icon-show"></i><i
+                                                                                class="bx bx-chevron-up icon-close"></i>
+                                                                        </a>
+                                                                        <div id="accordion-list-30" class="collapse"
+                                                                            data-bs-parent=".accordion-listPP">
+                                                                            <p class="text-start fs-8">
+                                                                            La RADEEL dispose d’un système d’assainissement de type unitaire. La topographie du terrain est telle que l’écoulement est gravitaire. <br>
+                                                                            Le linéaire total du réseau est de 815 kilomètres. La majeure partie du réseau sont des canalisations circulaires de diamètre inférieur ou égal à 800 mm, la plupart des collecteurs tertiaires étant de 400 mm.
+                                                                
+                                                                            </p>
                                                                         </div>
                                                                     </li>
                                                                     

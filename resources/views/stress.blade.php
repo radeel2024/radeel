@@ -572,86 +572,144 @@
         </div>
     </div>
     <!-- Page Header End -->
+    <style>
+        .nav-item.active a {
+            background-color: red
+                /* Votre couleur préférée */
+            ;
+            border-color: red
+                /* Couleur de la bordure */
+            ;
+            color: white
+                /* Couleur du texte */
+            ;
+        }
 
-    <!-- contenu -->
+        #nav-link-1 .active {
+            color: #fff;
+            background-color: #fbc02d;
+            border-color: transparent;
+            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+        }
+
+        #nav-link-2 .active {
+            color: #fff;
+            background-color: #004b82;
+            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+
+
+
+        #nav-link-2 a {
+            color: #285AEB;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+
+        #nav-link-1 a {
+            color: #fbc02d;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+    </style>
     <div class="container-fluid destination py-5">
         <div class="container py-5">
             <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+
+                    <li class="nav-item" id="nav-link-1">
+                        <a class="d-flex py-2 mx-3 rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                            <span style="width: 150px;">Sensibilisation</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-link-2">
+                        <a class="d-flex mx-3 py-2   rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                            <span style="width: 150px;">Radeel Educ</span>
+                        </a>
+                    </li>
+                </ul>
                 <div class="tab-content">
 
-                    <div class="row g-4">
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <!--  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                    <div id="tab-1" class="tab-pane show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <!--  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[1]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[1]->image) }}" class="img-fluid"
                                         width="100%" style="height: 400px;"> -->
 
-                                <img src="img/stress.png" class="img-fluid" width="100%" style="height: 400px;">
+                                    <img src="img/stress.png" class="img-fluid" width="100%" style="height: 400px;">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <iframe width="100%" height="400" src="images/v.mp4">
-                                </iframe>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <iframe width="100%" height="400" src="images/v.mp4">
+                                    </iframe>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <!--   <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <!--   <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[2]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[2]->image) }}" class="img-fluid"
                                         width="100%" style="height: 400px;"> -->
-                                <img src="img/stress2.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                                    <img src="img/stress2.jpg" class="img-fluid" width="100%" style="height: 400px;">
 
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[3]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[3]->image) }}" class="img-fluid"
                                         width="100%" style="height: 400px;">
                                 </a> -->
-                                <iframe width="100%" height="400" src="images/v2.mp4">
-                                </iframe>
+                                    <iframe width="100%" height="400" src="images/v2.mp4">
+                                    </iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <img src="img/stress3.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <img src="img/stress3.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                     data-src="{{ asset('albume/' . $galerie[4]->image) }}">
                                     <img src="{{ asset('albume/' . $galerie[4]->image) }}" class="img-fluid"
                                         width="100%" style="height: 400px;">
                                 </a> -->
-                                <iframe width="100%" height="400" src="images/v3.mp4">
-                                </iframe>
+                                    <iframe width="100%" height="400" src="images/v3.mp4">
+                                    </iframe>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <img src="img/stress10.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <img src="img/stress10.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <img src="img/stress11.png" class="img-fluid" width="100%" style="height: 400px;">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <img src="img/stress11.png" class="img-fluid" width="100%" style="height: 400px;">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="service-item rounded ">
-                                <img src="img/stress9.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded ">
+                                    <img src="img/stress9.jpg" class="img-fluid" width="100%" style="height: 400px;">
+                                </div>
                             </div>
-                        </div>
-                       <!--  <div class="col-md-6 col-lg-4 ">
+                            <!--  <div class="col-md-6 col-lg-4 ">
                             <div class="service-item rounded ">
                                 <iframe width="100%" height="400" src="https://www.youtube.com/embed/7zvzf7OJPzk">
                                 </iframe>
@@ -666,40 +724,92 @@
                                 </a>
                             </div>
                         </div> -->
-                        <!-- desplay the image that selected -->
-                        <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img id="modalImage2" src="" class="img-fluid" alt="Selected Image">
+                            <!-- desplay the image that selected -->
+                            <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="modalImage2" src="" class="img-fluid" alt="Selected Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- JavaScript to handle image click and modal display -->
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function () {
+                                    var imageModal = document.getElementById('imageModal2');
+                                    imageModal.addEventListener('show.bs.modal', function (event) {
+                                        var button = event.relatedTarget;
+                                        var imageSrc = button.getAttribute('data-src');
+                                        var modalImage = document.getElementById('modalImage2');
+                                        modalImage.src = imageSrc;
+                                    });
+                                });
+                            </script>
                         </div>
 
-                        <!-- JavaScript to handle image click and modal display -->
-                        <script>
-                            document.addEventListener('DOMContentLoaded', function () {
-                                var imageModal = document.getElementById('imageModal2');
-                                imageModal.addEventListener('show.bs.modal', function (event) {
-                                    var button = event.relatedTarget;
-                                    var imageSrc = button.getAttribute('data-src');
-                                    var modalImage = document.getElementById('modalImage2');
-                                    modalImage.src = imageSrc;
-                                });
-                            });
-                        </script>
                     </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+
+                            @foreach($galerie as $index => $album)
+                                @if($index >= 32)
+                                    <div class="col-md-6 col-lg-4 ">
+                                        <div class="service-item rounded overflow-hidden">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                                data-src="{{ asset('albume/' . $album->image) }}">
+                                                <img src="{{ asset('albume/' . $album->image) }}" class="img-fluid" width="100%"
+                                                    style="height: 400px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
+
+                            <!-- desplay the image that selected -->
+                            <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img id="modalImage" src="" class="img-fluid" alt="Selected Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JavaScript to handle image click and modal display -->
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function () {
+                                    var imageModal = document.getElementById('imageModal');
+                                    imageModal.addEventListener('show.bs.modal', function (event) {
+                                        var button = event.relatedTarget;
+                                        var imageSrc = button.getAttribute('data-src');
+                                        var modalImage = document.getElementById('modalImage');
+                                        modalImage.src = imageSrc;
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
         </div>
     </div>
+
+
 
 
     {{-- footer --}}

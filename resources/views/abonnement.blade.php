@@ -591,6 +591,9 @@
                     <button class="nav-link justiy-content-center" id="v-pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                         aria-selected="false">Abonnement</button>
+                    <button class="nav-link justiy-content-center" id="v-pills-resiliation-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-resiliation" type="button" role="tab" aria-controls="v-pills-resiliation"
+                        aria-selected="false">Résiliation</button>
                     <button class="nav-link justiy-content-center" id="v-pills-message-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-message" type="button" role="tab" aria-controls="v-pills-message"
                         aria-selected="false">Factures</button>
@@ -606,7 +609,7 @@
                                 <!-- branchement neuf -->
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne1">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Branchement neuf
                                         </div>
                                     </a>
@@ -622,7 +625,7 @@
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Formulmaire de
                                                 branchement rempli<a
-                                                    href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
+                                                    href="./img/demandeBranchement.docx">(télécharger)</a></br>
                                                 <i class="fa fa-check  me-3"
                                                     style="color:orange;padding-left:20px;"></i>Copie de la carte
                                                 d’identité (C.I.N , Carte de séjour ou pasport pour les personnes
@@ -652,7 +655,7 @@
                                 <!-- branchement provisoire -->
                                 <div class="card">
                                     <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo1">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Branchement provisoire
                                         </div>
                                     </a>
@@ -692,7 +695,7 @@
                                 <!-- Ajouter un compteur -->
                                 <div class="card">
                                     <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree1">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Ajout un compteur
                                         </div>
                                     </a>
@@ -718,40 +721,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Compteur supplémentaire  -->
-                                    <!-- <div class="card">
-                                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree11">
-                                        <div class="card-header" style="background-color:#077ec0; color:white;">
-                                           Compteur Supplémentaire 
-                                        </div>
-                                    </a>
-                                    <div id="collapseThree11" class="collapse" data-bs-parent="#accordion">
-                                        <div class="card-body">
-                                            <p class="text-start">
-                                                Votre premier branchement ne vous permet pas d’alimenter d’autres niveaux de votre habitation avec des compteurs indépendants, veuillez vous rendre aux agences de la RADEEL pour formuler une demande d’augmentation de débit.
-                                                <br>
-                                                Pièces à fournir:
-                                            <div class="bd-callout bd-callout-info">
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Une demande d’augmentation de débit dans laquelle vous précisez le nombre de compteurs supplémentaires que vous souhaitez ajouter</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de la carte d’identité nationale(C.I.N)</br>
-                                                <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie de l’acte de propriété</br>
-                                                    <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Autorisation du propriétaire signée et légalisée<a href="./img/Autorisation-du-Proprietairee.pdf">(télécharger)</a></br>
-                                                    <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Facture d’eau ou reçu de paiement du devis du premier branchement</br>
-                                               
-                                            </div>
-                                            </p><br>
-                                        </div>
-                                    </div>
-                                </div> -->
                                     <!-- en ligne -->
                                     <div class="card">
                                         <a class="collapsed btn card-header " href="#exampleModalCenter1"
-                                            data-bs-toggle="modal" data-bs-target="#exampleModalCenter1" style="background-color:#7DB41E; color:white;width:98%;
+                                            data-bs-toggle="modal" data-bs-target="#exampleModalCenter1" style="background-color:#077ec0; color:white;width:98%;
                                 margin: 10px;">
                                             Demande en ligne
                                         </a>
@@ -767,7 +740,7 @@
                             <div id="accordion1">
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Abonnement
                                         </div>
                                     </a>
@@ -816,9 +789,63 @@
                                         href="#exampleModalCenter" data-bs-toggle="modal"
                                         data-bs-target="#exampleModalCenter" aria-expanded="false"
                                         aria-controls="collapseFour"
-                                        style="background-color:#7DB41E; color:white; width:98%; margin: 10px;">
+                                        style="background-color:#077ec0; color:white; width:98%; margin: 10px;">
                                         Demande en ligne
                                     </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- resiliation -->
+                    <div class="tab-pane fade" id="v-pills-resiliation" role="tabpanel1"
+                        aria-labelledby="v-pills-resiliation-tab">
+                        <div class="container mt-3">
+                            <div id="accordion1">
+                                <div class="card">
+                                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
+                                            Résiliation
+                                        </div>
+                                    </a>
+                                    <div id="collapseOne" class="collapse " data-bs-parent="#accordion1">
+                                        <div class="card-body">
+                                            <p class="text-start">
+                                                Pièces à fournir :
+                                            <div class="bd-callout bd-callout-info">
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Demande d'abonnement
+                                                complétée et signée <a
+                                                    href="./img/Demande-de-Branchement.pdf">(télécharger)</a></br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Copie de la carte
+                                                d’identité (C.I.N, Carte de séjour ou passeport)</br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>En cas de personne
+                                                morale :Copie d'identité du gérant, copie des status sociaux, copie de
+                                                registre de commerce et attestation de l'I.C.E et autorisation d'exercer
+                                                délivrée par les autorités compétentes.</br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Procuration légalisée ou
+                                                notaire en cas des héritiers ou des copropriétaires </br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Justificatif du droit de
+                                                jouissance: Copie de titre propriété, Copie de contrat de bail ou 
+                                                autorisation de proprietaire signée et légalisée (en cas de locataire
+                                                ).</br>
+                                            </div>
+                                            En plus, Pour un abonnement suite à un nouveau branchement :
+                                            <div class="bd-callout bd-callout-info">
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Copie de permis d'habiter
+                                                </br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:orange;padding-left:20px;"></i>Certificat de garantie
+                                                de disjoucteur (éléctricité).</br>
+                                            </div>
+
+                                            </p><br>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -830,7 +857,7 @@
                             <div id="accordion2">
                                 <div class="card">
                                     <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Le relevé de votre Consommation
                                         </div>
                                     </a>
@@ -888,7 +915,7 @@
                                 </div>
                                 <div class="card">
                                     <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-                                        <div class="card-header" style="background-color:#7DB41E; color:white;">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
                                             Réglement de vos factures
                                         </div>
                                     </a>

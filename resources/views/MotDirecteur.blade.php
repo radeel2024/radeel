@@ -507,7 +507,7 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative">
-                        <h2 class="mb-0 text" style="color: #077ec0; ">Mot du Directeur Général Mr MOHAMED CHAOUI </h2>
+                        <h2 class="mb-0 text" style="color: #077ec0; ">Mot du Directeur Général Mr Mohamed CHAOUI </h2>
                     </div>
                   <br>
                     <p class="mb-4">

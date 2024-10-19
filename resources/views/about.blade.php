@@ -516,7 +516,7 @@
                     <br>
                     <strong>Notre mission :</strong>
                     <p>
-                        Améliorer les conditions de vie de nos concitoyens à travers distribution fiable, continue et
+                        Améliorer les conditions de vie de nos concitoyens à travers la distribution fiable, continue et
                         sécurisée de l’eau potable et de l’électricité ainsi qu’un service d’assainissement liquide
                         qualité supérieure.
                     </p>

@@ -259,7 +259,7 @@
 </head>
 
 <body>
-<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
@@ -595,7 +595,7 @@
             <div class="logo">
                 <a href="{{ url('../') }}" class="navbar-brand">
                     <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px;">
-                </a>          
+                </a>
             </div>
             <nav id="navbarNav navbar-expand-sm " class="navbar">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -747,17 +747,17 @@
                 <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
                     <li class="nav-item" id="nav-link-3">
                         <a class="d-flex mx-3 py-2   rounded-pill active" data-bs-toggle="pill" href="#tab-1">
-                            <span style="width: 150px;">Tout</span>
+                            <span style="width: 150px;">Nos Evénement</span>
                         </a>
                     </li>
                     <li class="nav-item" id="nav-link-1">
                         <a class="d-flex py-2 mx-3     rounded-pill" data-bs-toggle="pill" href="#tab-2">
-                            <span style="width: 150px;">Galerie</span>
+                            <span style="width: 150px;">Nos Formation</span>
                         </a>
                     </li>
                     <li class="nav-item" id="nav-link-2">
                         <a class="d-flex mx-3 py-2   rounded-pill" data-bs-toggle="pill" href="#tab-3">
-                            <span style="width: 150px;">Audiovisual</span>
+                            <span style="width: 150px;">Nos Realisation</span>
                         </a>
                     </li>
                 </ul>
@@ -771,14 +771,8 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                         data-src="{{ asset('albume/' . $galerie[1]->image) }}">
                                         <img src="{{ asset('albume/' . $galerie[1]->image) }}" class="img-fluid"
-                                            width="100%" style="height: 400px;">
+                                            width="100%" style="height: 350px;">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 ">
-                                <div class="service-item rounded overflow-hidden">
-                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/NpXv5g4BMSI">
-                                    </iframe>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 ">
@@ -786,14 +780,8 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                         data-src="{{ asset('albume/' . $galerie[2]->image) }}">
                                         <img src="{{ asset('albume/' . $galerie[2]->image) }}" class="img-fluid"
-                                            width="100%" style="height: 400px;">
+                                            width="100%" style="height: 350px;">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 ">
-                                <div class="service-item rounded overflow-hidden">
-                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/iUs7NN9Qx4s">
-                                    </iframe>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 ">
@@ -801,14 +789,8 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                         data-src="{{ asset('albume/' . $galerie[3]->image) }}">
                                         <img src="{{ asset('albume/' . $galerie[3]->image) }}" class="img-fluid"
-                                            width="100%" style="height: 400px;">
+                                            width="100%" style="height: 350px;">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 ">
-                                <div class="service-item rounded overflow-hidden">
-                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/zLvQZ0MGPyw">
-                                    </iframe>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 ">
@@ -816,14 +798,8 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                         data-src="{{ asset('albume/' . $galerie[4]->image) }}">
                                         <img src="{{ asset('albume/' . $galerie[4]->image) }}" class="img-fluid"
-                                            width="100%" style="height: 400px;">
+                                            width="100%" style="height: 350px;">
                                     </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 ">
-                                <div class="service-item rounded overflow-hidden">
-                                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/7zvzf7OJPzk">
-                                    </iframe>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4 ">
@@ -831,7 +807,97 @@
                                     <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
                                         data-src="{{ asset('albume/' . $galerie[5]->image) }}">
                                         <img src="{{ asset('albume/' . $galerie[5]->image) }}" class="img-fluid"
-                                            width="100%" style="height: 400px;">
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[6]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[6]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[7]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[7]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[8]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[8]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[9]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[9]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[10]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[10]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[11]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[11]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[12]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[12]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[13]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[13]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[14]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[14]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal2"
+                                        data-src="{{ asset('albume/' . $galerie[15]->image) }}">
+                                        <img src="{{ asset('albume/' . $galerie[15]->image) }}" class="img-fluid"
+                                            width="100%" style="height: 350px;">
                                     </a>
                                 </div>
                             </div>
@@ -869,15 +935,17 @@
                         <div class="row g-4">
 
                             @foreach($galerie as $index => $album)
-                                <div class="col-md-6 col-lg-4 ">
-                                    <div class="service-item rounded overflow-hidden">
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal"
-                                            data-src="{{ asset('albume/' . $album->image) }}">
-                                            <img src="{{ asset('albume/' . $album->image) }}" class="img-fluid" width="100%"
-                                                style="height: 400px;">
-                                        </a>
+                                @if($index >= 16)
+                                    <div class="col-md-6 col-lg-4 ">
+                                        <div class="service-item rounded overflow-hidden">
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal"
+                                                data-src="{{ asset('albume/' . $album->image) }}">
+                                                <img src="{{ asset('albume/' . $album->image) }}" class="img-fluid" width="100%"
+                                                    style="height: 400px;">
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
+                                @endif
                             @endforeach
 
                             <!-- desplay the image that selected -->
@@ -914,6 +982,30 @@
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-4 ">
                                 <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/HDWeC-onfvk">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/Dds_t1rd_lw">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/ZBhxo76NDgw">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/GxkeZbX3xmc">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
                                     <iframe width="420" height="315" src="https://www.youtube.com/embed/IDfIr4jnP5s">
                                     </iframe>
                                 </div>
@@ -942,6 +1034,25 @@
                                     </iframe>
                                 </div>
                             </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/yDcXXlltvzw">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/E3nUr_5H2eo">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="service-item rounded overflow-hidden">
+                                    <iframe width="420" height="315" src="https://www.youtube.com/embed/R5Nv9G0Q86g">
+                                    </iframe>
+                                </div>
+                            </div>
+
                             <div class="col-md-6 col-lg-4 ">
                                 <div class="service-item rounded overflow-hidden">
                                     <iframe width="420" height="315" src="https://www.youtube.com/embed/BVfTACQBqIk">
@@ -995,8 +1106,8 @@
 
 
 
-  {{-- footer --}}
-  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -1018,8 +1129,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>

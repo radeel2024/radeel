@@ -34,7 +34,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-       .page-headere {
+        .page-headere {
             background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cover1.png) center center no-repeat;
             background-size: cover;
             background-position: center;
@@ -195,7 +195,7 @@
         }
 
         .news-image-hover-primary::after {
-            background:#077ec0;
+            background: #077ec0;
         }
 
         .news-image-hover-open::after {
@@ -234,7 +234,7 @@
 </head>
 
 <body>
-<div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
+    <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
                 <div id="note" class="text-secondary d-none d-xl-flex text-white">
@@ -454,7 +454,7 @@
                     </li>
                     <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            
+
                             <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </li>
                             <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
@@ -476,7 +476,7 @@
                     <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
                     <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                
+
 
                 </ul>
 
@@ -506,7 +506,6 @@
                         <div
                             style="position:absolute;top:0px; left:0px; color:white; padding:10px; border-radius: 10px 50px 30px 5px;height: 100px;">
                         </div>
-                        <!--  <img class="img-fluid" src="https://i.ibb.co/PZjP8dD/head.png" style="height: 200px; margin-bottom:20px;"> -->
                         <div class="position-relative p-4 pt-0">
                             <h5 class="card-title" style="color:#077ec0 ;">Agence centrale</h5>
                             <p class="card-text">
@@ -514,10 +513,6 @@
                                 oujda<br>
                                 <i class="fas fa-clock" style="COLOR: #077ec0;"></i> Lun-Ven 8:00 - 16:30
                                 <br>
-                                <!--   <i class="fas fa-clock" style="COLOR:white"></i> <span style="font-weight: bold; color:#36F446;">Samedi 8:00 - 12:30</span> -->
-                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
-                                <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
@@ -532,12 +527,7 @@
                                 siége<br>
                                 <i class="fas fa-clock" style="COLOR: #077ec0;"></i> Lun-Ven 8:00 -
                                 16:30 <br>
-                                <!-- <i class=
-                                 <i
-                                class="fas fa-home text me-2"></i>Lun-Ven 8:00 -
-                            16:30"fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
-                                <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com -->
+
                             </p>
                         </div>
                     </div>
@@ -811,11 +801,11 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-
                         <iframe class="embed-responsive-item" width="100%" style="height: 100%"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.466584646334!2d-6.1490695237579!3d35.1948452565385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc8d6963947b3%3A0x31f7172908884126!2sAgence%20Centrale%20RADEEL!5e0!3m2!1sfr!2sma!4v1708418667997!5m2!1sfr!2sma"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -829,11 +819,12 @@
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
 
-
-                        <iframe
+                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
                             src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d709.4075679204839!2d-6.149121674453165!3d35.172302264813005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2sBahnini%20Larache%20Center!3m2!1d35.172473499999995!2d-6.149575!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2s5VC2%2BX56%20Bahnini%20Larache%20Center%2C%20Larache!3m2!1d35.172473499999995!2d-6.149575!5e1!3m2!1sen!2sma!4v1728996476425!5m2!1sen!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
                     </div>
                 </div>
             </div>
@@ -880,7 +871,10 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-                        <h3 class="text-center">Lotissement Attallah </h3>
+                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1634.1697288451242!2d-5.893602780522328!3d34.99820672067712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDU5JzUzLjciTiA1wrA1MyczMy4xIlc!5e0!3m2!1sfr!2sma!4v1729332748241!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -892,8 +886,10 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-                        <h3 class="text-center">Lotissement Bouchouika </h3>
-
+                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3268.136901729213!2d-5.91312242424228!3d35.00327797281373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzExLjgiTiA1wrA1NCczOC4wIlc!5e0!3m2!1sfr!2sma!4v1729333252438!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -905,8 +901,10 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-
-                        <h3 class="text-center">Oulad Hmaid </h3>
+                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.650926885701!2d-5.913544324241716!3d35.01544237280949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzU1LjYiTiA1wrA1NCczOS41Ilc!5e0!3m2!1sfr!2sma!4v1729333329084!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -919,7 +917,11 @@
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
 
-                        <h3 class="text-center">Hay Ourouba</h3>
+                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3268.1632449275853!2d-5.899803724242317!3d35.00261847281378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzA5LjQiTiA1wrA1Myc1MC4wIlc!5e0!3m2!1sfr!2sma!4v1729333374987!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
                 </div>
             </div>
@@ -934,7 +936,10 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-                        <h3 class="text-center">Agence Khémis SAHEL </h3>
+                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13032.249223709656!2d-6.0803744!3d35.2547057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc7edd9bd4fa7%3A0xa9149a1bffc736b2!2sAgence%20RADEEL%20Khemis%20Sahel!5e0!3m2!1sen!2sma!4v1729333477993!5m2!1sen!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -946,7 +951,10 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-                        <h3 class="text-center">Agence Aouamra </h3>
+                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1689.3623857198297!2d-6.0924297100979485!3d35.07110991170299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bcac85765f97f%3A0xff2056996a5d34fa!2sAgence%20RADEEL%20Aouamra!5e1!3m2!1sen!2sma!4v1729333774237!5m2!1sen!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     </div>
                 </div>
@@ -959,15 +967,18 @@
             <div class="modal-content rounded-0">
                 <div class="modal-body">
                     <div id="map" style="height: 400px; width: 100%;">
-                        <h3 class="text-center">Ksar Kbir </h3>
+                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3265.837406089072!2d-5.9369063242397635!3d35.060803972793856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAzJzM4LjkiTiA1wrA1NicwMy42Ilc!5e0!3m2!1sfr!2sma!4v1729333593763!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-  {{-- footer --}}
-  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -989,8 +1000,8 @@
                         <a href="{{ url('../Abonnement') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color:white;"></i>Espaces
                             clients</a>
-                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i class="fas fa-angle-right text- me-2"
-                                style="color: white;"></i>Espaces RH</a>
+                        <a href="{{ url('../Avis recrutement') }}" class="mb-2 text-white"><i
+                                class="fas fa-angle-right text- me-2" style="color: white;"></i>Espaces RH</a>
                         <a href="{{ url('../programme') }}" class="mb-2 text-white"><i
                                 class="fas fa-angle-right text me-2" style="color: white;"></i>Fournisseurs</a>
                     </div>
@@ -1033,11 +1044,11 @@
         </div>
     </div>
 
-    
 
 
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];

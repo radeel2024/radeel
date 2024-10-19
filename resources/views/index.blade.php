@@ -586,7 +586,6 @@
 
 
 
-
     <!-- chiffre cle start -->
     <div class="container-fluid py-5">
         <div class="container">
@@ -622,7 +621,7 @@
                         d'électricité
                         de la Province de Larache</p> -->
                     <div class="row g-4 g-sm-5 justify-content-center">
-                        <!--  <div class="col-sm-6">
+                        <div class="col-sm-6">
                             <div class="about-fact btn-square flex-column rounded-circle ms-sm-auto"
                                 style="background-color: #1481B8">
                                 <p class="text-white mb-0">{{$chiffre2->title}} </p>
@@ -636,49 +635,13 @@
                                 <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre3->chiffre}} </h1>
                             </div>
                         </div>
-
                         <div class="col-sm-6">
                             <div class="about-fact mt-n130 btn-square flex-column rounded-circle mx-sm-auto"
                                 style="background-color: #95D9F4;">
                                 <p class="text-white mb-0">{{$chiffre4->title}} </p>
-                                <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}} </h1>
-                            </div>
-                        </div> -->
-                        <div class="container">
-                       
-
-                            <div class="row">
-                                <!-- Second and Third Circles (Middle) -->
-                                <div class="col-6 d-flex justify-content-end">
-                                    <div class="about-fact btn-square flex-column rounded-circle"
-                                        style="background-color: #7DB41E; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                        <p class="text-white mb-0">{{$chiffre3->title}}</p>
-                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre3->chiffre}}</h1>
-                                    </div>
-                                </div>
-                                <br><br><br>
-                                <div class="col-6 d-flex justify-content-start">
-                                    <div class="about-fact btn-square flex-column rounded-circle"
-                                        style="background-color: #95D9F4; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                        <p class="text-white mb-0">{{$chiffre4->title}}</p>
-                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}</h1>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <!-- Fourth Circle (Bottom) -->
-                                <div class="col-12 d-flex justify-content-center">
-                                    <div class="about-fact btn-square flex-column rounded-circle"
-                                        style="background-color: #F4C542; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
-                                        <p class="text-white mb-0">{{$chiffre4->title}}</p>
-                                        <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}</h1>
-                                    </div>
-                                </div>
+                                <h1 class="text-white mb-0" data-toggle="counter-up">{{$chiffre4->chiffre}}	&sup3;  </h1>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -694,7 +657,7 @@
         <br><br>
         <div>
             <button style="float: right;background-color:#077ec0;color:white" class="btn"><a
-                    href="http://172.16.1.189:8000/stress" style="color:white">En savoir plus</a> </button>
+                    href="http://172.16.1.189:8000/stress" style="color:white">Voir plus</a> </button>
         </div>
     </div>
     <br><br>
@@ -803,7 +766,7 @@
                 <div class="text-center fh5co-recent-news wow fadeInUp" data-wow-delay="0.1s"
                     style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;" bis_skin_checked="1">
 
-                    <h1 class="" style="color:#077ec0; "> Actualité </h1>
+                    <h1 class="" style="color:#077ec0; "> Actualités </h1>
                     <hr class="mx-auto" />
                     <br>
                 </div>
@@ -862,7 +825,7 @@
                                 <button class="w-100 btn form-control border py-3"
                                     style="background-color:#077ec0; color:#eeeee4; border: #077ec0; margin-top:12px;"
                                     type="submit">
-                                    En savoir plus
+                                    Voir plus
                                 </button>
                             </a>
                         </div>
@@ -973,7 +936,7 @@
                 <div>
                     <button style="float: right;background-color:#077ec0;color:white" class="btn">
                         <a href="{{route('galerie')}}" style="color:white">
-                            En savoir plus
+                          Voir plus
                         </a>
                     </button>
                 </div>
