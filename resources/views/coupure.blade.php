@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="utf-8">
-    <title>Radeel</title>
+    <title>RADEEL</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
 
-    <head>
-        <meta charset="utf-8">
-        <title>RADEEL</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
-            rel="stylesheet">
-
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
-            rel="stylesheet">
-
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <style>
             .page-headere {
                 background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(./img/cove4.png) center center no-repeat;
@@ -83,13 +68,12 @@
         </div>
     </div>
     
-    <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
-                
+
                 <a href="{{ url('../') }}" class="navbar-brand " id="logo">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
+                    <img src="img/logo2.png" style="height: 50px; width:50px;">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -97,9 +81,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class=" navbar-nav  ms-auto">
-                        <a href="{{ url('../') }}" class="nav-item nav-link ">ACCUEIL</a>
+                        <a href="{{ url('../') }}" class="nav-item active">ACCUEIL</a>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RADEEL</a>
+                            <a href="{{ url('../') }}" class=" nav-item dropdown-toggle" data-bs-toggle="dropdown">RADEEL
+                            </a>
                             <div class="dropdown-menu  ">
                                 <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
                                 <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
@@ -110,8 +95,9 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
-                            <div class="dropdown-menu  ">
+                            <a href="{{ url('../') }}" class=" nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                                CLIENT </a>
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</a>
                                 <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
@@ -121,21 +107,25 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH</a>
-                            <div class="dropdown-menu  ">
+                            <a href="{{ url('../') }}" class=" nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                                RH</a>
+                            <div class="dropdown-menu">
                                 <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
                                 <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
                                 <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS</a>
-                            <div class="dropdown-menu  ">
+                            <a href="{{ url('../') }}" class=" nav-item dropdown-toggle"
+                                data-bs-toggle="dropdown">FOURNISSEURS </a>
+                            <div class="dropdown-menu bg-light ">
                                 <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">PRATIQUE</a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle"
+                                data-bs-toggle="dropdown">PRATIQUE </a>
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                                 <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
                                 <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
@@ -144,17 +134,13 @@
                             </div>
                         </div>
 
-                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                        <a href="{{ url('../') }}#contact" class="nav-item ">CONTACT</a>
                     </div>
-                     </div>
                 </div>
-            </nav>
         </div>
+        </nav>
     </div>
-    <!-- Navbar End -->
-
-    <!-- Navbar End -->
-
+    </div>
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
@@ -167,7 +153,7 @@
 
 
     <style>
-        .nav-item.active a {
+        .nav-item .active a {
             background-color: red
                 /* Votre couleur préférée */
             ;
@@ -225,8 +211,6 @@
             box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
         }
     </style>
-
-
 
     <div class="container-fluid destination py-5">
         <div class="container py-5">
@@ -357,7 +341,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                        <img src="img/logo2.png" style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -433,19 +417,6 @@
     <!--End of Tawk.to Script-->
 
 
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 
     <script>
         jQuery(document).ready(function () {

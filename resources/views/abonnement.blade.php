@@ -127,7 +127,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
 
                 <a href="{{ url('../') }}" class="navbar-brand " id="logo">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
+                    <img src="img/logo2.png" style="height: 50px; width:50px;">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -135,11 +135,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class=" navbar-nav  ms-auto">
-                        <a href="{{ url('../') }}" class="nav-item nav-link ">ACCUEIL</a>
+                        <a href="{{ url('../') }}" class="nav-item ">ACCUEIL</a>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                            <a href="{{ url('../') }}" class="nav-item  dropdown-toggle"
                                 data-bs-toggle="dropdown">RADEEL</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
                                 <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
                                 <a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
@@ -149,9 +149,9 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active"
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle active"
                                 data-bs-toggle="dropdown">ESPACE CLIENT</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu">
                                 <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</a>
                                 <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
@@ -161,25 +161,25 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE
                                 RH</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
                                 <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
                                 <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                            <a href="{{ url('../') }}" class=" dropdown-toggle nav-item "
                                 data-bs-toggle="dropdown">FOURNISSEURS</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                            <a href="{{ url('../') }}" class="nav-item  dropdown-toggle"
                                 data-bs-toggle="dropdown">PRATIQUE</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu">
                                 <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                                 <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
                                 <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
@@ -188,7 +188,7 @@
                             </div>
                         </div>
 
-                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">CONTACT</a>
                     </div>
                 </div>
         </div>
@@ -1224,7 +1224,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                        <img src="img/logo2.png" style="height: 130px; width=90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de

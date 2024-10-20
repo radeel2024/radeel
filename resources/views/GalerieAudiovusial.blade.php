@@ -82,9 +82,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class=" navbar-nav  ms-auto">
-                        <a href="{{ url('../') }}" class="nav-item nav-link active">ACCUEIL</a>
+                        <a href="{{ url('../') }}" class="nav-item  active">ACCUEIL</a>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RADEEL</a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">RADEEL</a>
                             <div class="dropdown-menu bg-light ">
                                 <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
                                 <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
@@ -95,8 +95,8 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
-                            <div class="dropdown-menu bg-light ">
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
+                            <div class="dropdown-menu  ">
                                 <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</a>
                                 <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
@@ -106,22 +106,22 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH</a>
-                            <div class="dropdown-menu bg-light ">
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH</a>
+                            <div class="dropdown-menu ">
                                 <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
                                 <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
                                 <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS</a>
-                            <div class="dropdown-menu bg-light ">
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS</a>
+                            <div class="dropdown-menu">
                                 <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PRATIQUE</a>
-                            <div class="dropdown-menu bg-light ">
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">PRATIQUE</a>
+                            <div class="dropdown-menu">
                                 <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                                 <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
                                 <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
 
-                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                        <a href="{{ url('../') }}#contact" class="nav-item">CONTACT</a>
                     </div>
                      </div>
                 </div>
