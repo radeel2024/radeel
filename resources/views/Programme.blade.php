@@ -134,7 +134,7 @@
                             </div>
                         </div>
 
-                        <a href="{{ url('../') }}#contact" class="nav-item ">Contact</a>
+                        <a href="{{ url('../') }}#contact" class="nav-item ">CONTACT</a>
                     </div>
                 </div>
         </div>

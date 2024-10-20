@@ -55,37 +55,20 @@ p{
         font-size: 16px;
         font-weight:550;
     }
-    .navbar .dropdown .dropdown a {
-        top: 0;
-        left: calc(100% - 30px);
-        visibility: hidden;
-    }
-    .navbar .dropdown .dropdown:hover>ul {
-        opacity: 1;
-        top: 0;
-        left: 100%;
-        visibility: visible;
-    }
+
     .navbar-nav>.dropdown>.dropdown-menu>a{
         font-size: 14px;
         margin-left: 3px;
         padding-left:5px;
+        width: 300px;
     }
     .navbar-nav>.dropdown>.dropdown-menu>a:before
     {
-                color:black;
+                color:#454545;
                 font:bolder;
                 background-color: #7DB41E;
                 transition: all 0.3s ease-in-out 0s;
 
-    }
-    .navbar-nav>.dropdown>.dropdown-menu>a:after
-    { 
-              visibility: hidden;
-    }
-    .navbar-nav>.dropdown>.dropdown-menu>a:hover
-    {
-        color: #7DB41E;
     }
     
     .navbar .navbar-nav .nav-item:hover,
