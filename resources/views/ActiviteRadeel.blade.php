@@ -3,29 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>RADEEL</title>
+    <title>Radeel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,16 +31,7 @@
             background-position: center;
             width: 100%;
         }
-        body {
-            margin: 0;
-            font-family: "Montserrat", sans-serif;
-            font-size: 1rem;
-            font-weight: 500;
-            line-height: 1.7;
-            color: #717171;
-            text-align: left;
-            background-color: #fff;
-        }
+       
     </style>
 </head>
 
@@ -85,646 +68,83 @@
   
 
     <!-- end Spinner Start -->
-
-    <style>
-        #header {
-            height: 70px;
-            transition: all 0.5s;
-            z-index: 997;
-            background: white;
-            color: black;
-        }
-
-        #header .logo h1 {
-            margin: 0;
-            padding: 6px 0;
-            line-height: 1;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        #header .logo h1 a,
-        #header .logo h1 a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        #header .logo img {
-            padding: 0;
-            margin: 0;
-            max-height: 40px;
-        }
-
-        @media (max-width: 992px) {
-            #header {
-                height: 60px;
-            }
-        }
-
-        /*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-        /**
-* Desktop Navigation
-*/
-        .navbar {
-            padding: 0;
-        }
-
-        .navbar ul {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            list-style: none;
-            align-items: center;
-            color: black;
-        }
-
-        .navbar li {
-            position: relative;
-            color: black;
-            font-size: 20;
-            font-weight: bolder;
-        }
-
-        .navbar>ul>li+li {
-            margin-left: 30px;
-            color: #616A6B;
-
-        }
-
-        .navbar a,
-        .navbar a:focus {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px 0;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.8);
-            white-space: nowrap;
-            transition: 0.3s;
-            position: relative;
-            color: black;
-
-        }
-
-        .navbar a i,
-        .navbar a:focus i {
-            font-size: 12px;
-            line-height: 0;
-            margin-left: 5px;
-            color: black;
-
-        }
-
-        .navbar>ul>li>a:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            bottom: 3px;
-            left: 0;
-            background-color: #7DB41E;
-            visibility: hidden;
-            width: 0px;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
-        .navbar a:hover:before,
-        .navbar li:hover>a:before,
-        .navbar .active:before {
-            visibility: visible;
-            width: 100%;
-        }
-
-        .navbar a:hover,
-        .navbar .active,
-        .navbar .active:focus,
-        .navbar li:hover>a {
-            color: black;
-        }
-
-        .navbar .dropdown ul {
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 100%;
-            margin: 0;
-            padding: 10px 0;
-            z-index: 99;
-            opacity: 0;
-            visibility: hidden;
-            background: #fff;
-            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-            transition: 0.3s;
-        }
-
-        .navbar .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar .dropdown ul a {
-            padding: 10px 20px;
-            font-size: 14px;
-            text-transform: none;
-            font-weight: 500;
-            color: black;
-        }
-
-        .navbar .dropdown ul a i {
-            font-size: 12px;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown ul a:hover,
-        .navbar .dropdown ul .active:hover,
-        .navbar .dropdown ul li:hover>a {
-            color: #7DB41E;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown:hover>ul {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .navbar .dropdown .dropdown ul {
-            top: 0;
-            left: calc(100% - 30px);
-            visibility: hidden;
-        }
-
-        .navbar .dropdown .dropdown:hover>ul {
-            opacity: 1;
-            top: 0;
-            left: 100%;
-            visibility: visible;
-        }
-
-        @media (max-width: 1366px) {
-            .navbar .dropdown .dropdown ul {
-                left: -90%;
-            }
-
-            .navbar .dropdown .dropdown:hover>ul {
-                left: -100%;
-            }
-        }
-
-        /**
-* Mobile Navigation
-*/
-        .mobile-nav-toggle {
-            color: #fff;
-            cursor: pointer;
-            display: none;
-            line-height: 0;
-            transition: 0.5s;
-        }
-
-        @media (max-width: 991px) {
-            .mobile-nav-toggle {
-                display: block;
-            }
-
-            .navbar ul {
-                display: none;
-            }
-        }
-
-        .navbar-mobile {
-            position: fixed;
-            overflow: hidden;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            background: rgba(16, 31, 29, 0.9);
-            transition: 0.3s;
-            z-index: 0;
-        }
-
-        .navbar-mobile .mobile-nav-toggle {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-        }
-
-        .navbar-mobile ul {
-            display: block;
-            position: absolute;
-            top: 55px;
-            right: 15px;
-            bottom: 15px;
-            left: 15px;
-            padding: 10px 0;
-            background-color: #fff;
-            overflow-y: auto;
-            transition: 0.3s;
-        }
-
-        .navbar-mobile>ul>li+li {
-            margin: 0;
-        }
-
-        .navbar-mobile a:hover:before,
-        .navbar-mobile li:hover>a:before,
-        .navbar-mobile .active:before {
-            visibility: hidden;
-        }
-
-        .navbar-mobile a,
-        .navbar-mobile a:focus {
-            padding: 10px 20px;
-            font-size: 15px;
-            color: #7DB41E;
-        }
-
-        .navbar-mobile a:hover,
-        .navbar-mobile .active,
-        .navbar-mobile li:hover>a {
-            color: #7DB41E;
-        }
-
-        .navbar-mobile .getstarted,
-        .navbar-mobile .getstarted:focus {
-            margin: 15px;
-        }
-
-        .navbar-mobile .dropdown ul {
-            position: static;
-            display: none;
-            margin: 10px 20px;
-            padding: 10px 0;
-            z-index: 99;
-            opacity: 1;
-            visibility: visible;
-            background: #fff;
-            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-        }
-
-        .navbar-mobile .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar-mobile .dropdown ul a {
-            padding: 10px 20px;
-        }
-
-        .navbar-mobile .dropdown ul a i {
-            font-size: 12px;
-        }
-
-        .navbar-mobile .dropdown ul a:hover,
-        .navbar-mobile .dropdown ul .active:hover,
-        .navbar-mobile .dropdown ul li:hover>a {
-            color: #7DB41E;
-        }
-
-        .navbar-mobile .dropdown>.dropdown-active {
-            display: block;
-        }
-    </style>
-  <style>
-        #nav-link-1 .active {
-            color: #fff;
-            background-color: #fbc02d;
-            border-color: transparent;
-            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
-        }
-
-        #nav-link-2 .active {
-            color: #fff;
-            background-color: #077ec0;
-            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-
-        #nav-link-3 .active {
-            color: #fff;
-            background-color: rgb(155, 187, 89);
-            ;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-
-        #nav-link-3 a {
-            color: rgb(155, 187, 89);
-            ;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-
-        #nav-link-2 a {
-            color: #077ec0;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-
-        #nav-link-1 a {
-            color: #fbc02d;
-            background-color: #fff;
-            padding: 30px;
-            font-size: 19px;
-            margin: 20px;
-            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
-        }
-
-
-
-
-        .bg_elect {
-            background-color: #fbc02d !important;
-            border-color: transparent;
-            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
-        }
-
-        .why-us .content {
-            padding: 60px 100px 0 100px;
-        }
-
-        .why-us .content h3 {
-            font-weight: 400;
-            font-size: 34px;
-            color: #37517e;
-        }
-
-        .why-us .content h4 {
-            font-size: 20px;
-            font-weight: 700;
-            margin-top: 5px;
-        }
-
-        .why-us .content p {
-            font-size: 15px;
-            color: #848484;
-        }
-
-        .why-us .img {
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
-
-        .why-us .accordion-list,
-        .why-us .accordion-listP,
-        .why-us .accordion-listPP {
-            padding: 0 100px 60px 100px;
-        }
-
-        .why-us .accordion-list ul,
-        .why-us .accordion-listP ul,
-        .why-us .accordion-listPP ul {
-            padding: 0;
-            list-style: none;
-        }
-
-        .why-us .accordion-list li+li,
-        .why-us .accordion-listP li+li,
-        .why-us .accordion-listPP li+li {
-            margin-top: 15px;
-        }
-
-        .why-us .accordion-list li,
-        .why-us .accordion-listP li,
-        .why-us .accordion-listPP li {
-            padding: 20px;
-            background: #fff;
-            border-radius: 4px;
-        }
-
-        .why-us .accordion-list a,
-        .why-us .accordion-listP a,
-        .why-us .accordion-listPP a {
-            display: block;
-            position: relative;
-            font-family: "Poppins", sans-serif;
-            font-size: 16px;
-            line-height: 24px;
-            font-weight: 500;
-            padding-right: 30px;
-            outline: none;
-            cursor: pointer;
-        }
-
-        .why-us .accordion-list span,
-        .why-us .accordion-listP span,
-        .why-us .accordion-listPP span {
-            color: #47b2e4;
-            font-weight: 800;
-            font-size: 19px;
-            padding-right: 10px;
-        }
-
-        .why-us .accordion-list i,
-        .why-us .accordion-listP i,
-        .why-us .accordion-listPP i {
-            font-size: 24px;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-
-        .why-us .accordion-list p,
-        .why-us .accordion-listP p,
-        .why-us .accordion-listPP p {
-            margin-bottom: 0;
-            padding: 5px 0 0 0;
-        }
-
-        .why-us .accordion-list .icon-show,
-        .why-us .accordion-listP .icon-show,
-        .why-us .accordion-listPP .icon-show {
-            display: none;
-        }
-
-        .why-us .accordion-list a.collapsed,
-        .why-us .accordion-listP a.collapsed,
-        .why-us .accordion-listPP a.collapsed {
-            color: #343a40;
-        }
-
-        .why-us .accordion-list a.collapsed:hover,
-        .why-us .accordion-listP a.collapsed:hover,
-        .why-us .accordion-listPP a.collapsed:hover {
-            color: #47b2e4;
-        }
-
-        .why-us .accordion-list a.collapsed .icon-show,
-        .why-us .accordion-listP a.collapsed .icon-show,
-        .why-us .accordion-listPP a.collapsed .icon-show {
-            display: inline-block;
-        }
-
-        .why-us .accordion-list a.collapsed .icon-close,
-        .why-us .accordion-listP a.collapsed .icon-close,
-        .why-us .accordion-listPP a.collapsed .icon-close {
-            display: none;
-        }
-
-        @media (max-width: 1024px) {
-
-            .why-us .content,
-            .why-us .accordion-list,
-            .why-us .accordion-listP,
-            .why-us .accordion-listPP {
-                padding-left: 0;
-                padding-right: 0;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .why-us .img {
-                min-height: 400px;
-            }
-
-            .why-us .content {
-                padding-top: 30px;
-            }
-
-            .why-us .accordion-list {
-                padding-bottom: 30px;
-            }
-        }
-
-        @media (max-width: 575px) {
-            .why-us .img {
-                min-height: 200px;
-            }
-        }
-
-        p {
-            font-size: 20px;
-            font-family: Arial, sans-serif;
-        }
-
-        h3 {
-            display: inline-block;
-            font-size: 20px;
-        }
-
-        ol li {
-            padding: 5px;
-
-        }
-
-        .bd-callout {
-            padding: 1.25rem;
-            margin-top: 1.25rem;
-            margin-bottom: 1.25rem;
-            border: 1px solid #e9ecef;
-            border-left-width: 0.25rem;
-            border-radius: 0.25rem;
-            border-left-color: red;
-        }
-    </style>
-
+    
     <!-- Navbar Start -->
-    <header id="header" class="sticky-top d-flex align-items-center">
-
-        <div class="container d-flex justify-content-between">
-
-            <div class="logo">
-                <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                
+                <a href="{{ url('../') }}" class="navbar-brand " id="logo">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
                 </a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul>
-                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class=" navbar-nav  ms-auto">
+                        <a href="{{ url('../') }}" class="nav-item nav-link ">ACCUEIL</a>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">RADEEL<i
                                 class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
-                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
-                                    Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
+                                <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
+                                <a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
                                     RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
+                                <a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités</a>
+                                <a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT<i
+                                class="bi bi-chevron-down"></i></a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
+                                    ligne</a>
+                                <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
+                                <a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Grand client </a>
+                                <a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a>
+                                <a href="{{ url('../Autre') }}" class="dropdown-item">Guide client</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH<i
+                                class="bi bi-chevron-down"></i></a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
+                                <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
+                                <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS<i
+                                class="bi bi-chevron-down"></i></a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PRATIQUE<i
+                                class="bi bi-chevron-down"></i></a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                                <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
+                                <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                                <a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a>
+                                <a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a>
+                            </div>
+                        </div>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
-                                </a>
-                            </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
-                            </li>
-                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                            </li>
-                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
-
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <!--    <li class="dropdown">
-        <strong>Fr</strong>
-        <ul>
-            <li>
-                <a href="#" class="dropdown-item">
-                    Fr
-                </a>
-            </li>
-            <li>
-                <a href="#" class="dropdown-item">
-                    Ar
-                </a>
-            </li>
-        </ul>
-    </li> -->
-
-                </ul>
-
+                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                     </div>
+                </div>
             </nav>
         </div>
-    </header><!-- End Header -->
-
+    </div>
     <!-- Navbar End -->
+
     <div class="container-fluid page-headere py-5">
         <div class="container text-center py-5">
             <h1 class="display-2 text-white mb-4 animated slideInDown">Nos Activités</h1>

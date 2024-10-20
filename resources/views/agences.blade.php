@@ -40,11 +40,6 @@
             background-position: center;
             width: 100%;
         }
-
-        .nav-item.dropdown>a::after {
-            display: none;
-        }
-
         .wrapper {
             height: 60px;
             width: 100%;
@@ -263,227 +258,81 @@
     </div>
     <!-- end Spinner Start -->
 
-    <style>
-        #header {
-            height: 70px;
-            transition: all 0.5s;
-            z-index: 997;
-            background: white;
-            color: black;
-        }
-
-        #header .logo h1 {
-            margin: 0;
-            padding: 6px 0;
-            line-height: 1;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        #header .logo h1 a,
-        #header .logo h1 a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        #header .logo img {
-            padding: 0;
-            margin: 0;
-            max-height: 40px;
-        }
-
-        @media (max-width: 992px) {
-            #header {
-                height: 60px;
-            }
-        }
-
-        /*--------------------------------------------------------------
-        # Navigation Menu
-        --------------------------------------------------------------*/
-        /**
-        * Desktop Navigation
-        */
-
-        .navbar li {
-            position: relative;
-            color: black;
-            font-size: 22;
-            font-weight: bolder;
-        }
-
-        .navbar>ul>li+li {
-            margin-left: 30px;
-            color: #616A6B;
-
-        }
-
-        .navbar a,
-        .navbar a:focus {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px 0;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.8);
-            white-space: nowrap;
-            transition: 0.3s;
-            position: relative;
-            color: black;
-
-        }
-
-        .navbar a i,
-        .navbar a:focus i {
-            font-size: 12px;
-            line-height: 0;
-            margin-left: 5px;
-            color: black;
-
-        }
-
-        .navbar>ul>li>a:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            bottom: 3px;
-            left: 0;
-            background-color: #7DB41E;
-            visibility: hidden;
-            width: 0px;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
-        .navbar a:hover:before,
-        .navbar li:hover>a:before,
-        .navbar .active:before {
-            visibility: visible;
-            width: 100%;
-        }
-
-        .navbar a:hover,
-        .navbar .active,
-        .navbar .active:focus,
-        .navbar li:hover>a {
-            color: black;
-        }
-
-        .navbar .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar .dropdown ul a {
-            padding: 10px 20px;
-            font-size: 14px;
-            text-transform: none;
-            font-weight: 500;
-            color: black;
-        }
-
-        .navbar .dropdown ul a i {
-            font-size: 12px;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown ul a:hover,
-        .navbar .dropdown ul .active:hover,
-        .navbar .dropdown ul li:hover>a {
-            color: #7DB41E;
-            font-weight: bolder;
-        }
-    </style>
-
-
     <!-- Navbar Start -->
-    <header id="header" class="sticky-top d-flex align-items-center">
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
 
-        <div class="container d-flex justify-content-between">
-
-            <div class="logo">
-                <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                <a href="{{ url('../') }}" class="navbar-brand " id="logo">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
                 </a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul>
-                    <li><a class="nav-link scrollto  " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}" class="nav-link active"><span>RADEEL</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
-                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
-                                    Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class=" navbar-nav  ms-auto">
+                        <a href="{{ url('../') }}" class="nav-item nav-link ">ACCUEIL</a>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown">RADEEL</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
+                                <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
+                                <a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
                                     RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
-                                    ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
+                                <a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités</a>
+                                <a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                                CLIENT</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
+                                    ligne</a>
+                                <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
+                                <a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Grand client </a>
+                                <a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a>
+                                <a href="{{ url('../Autre') }}" class="dropdown-item">Guide client</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                                RH</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
+                                <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
+                                <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">FOURNISSEURS</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">PRATIQUE</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                                <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
+                                <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                                <a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a>
+                                <a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a>
+                            </div>
+                        </div>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
-                                </a>
-                            </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
-                            </li>
-                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                            </li>
-                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
-
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                </ul>
-
-            </nav>
+                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
         </div>
-    </header><!-- End Header -->
-
+        </nav>
+    </div>
+    </div>
+    <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
@@ -783,14 +632,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe height="400px;" width="100%;" frameborder="0" scrolling="no" marginheight="0"
-                            marginwidth="0"
-                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=RADEEL,%20N,%20BP:11,%201647%20Lotissement,%20Larache+(larche%20radeel)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-                                href="https://www.maps.ie/population/">Population mapping</a></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=RADEEL,%20N,%20BP:11,%201647%20Lotissement,%20Larache+(larche%20radeel)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+             
             </div>
         </div>
     </div>
@@ -799,15 +652,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.466584646334!2d-6.1490695237579!3d35.1948452565385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc8d6963947b3%3A0x31f7172908884126!2sAgence%20Centrale%20RADEEL!5e0!3m2!1sfr!2sma!4v1708418667997!5m2!1sfr!2sma"
-                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -816,17 +672,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-
-                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d709.4075679204839!2d-6.149121674453165!3d35.172302264813005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2sBahnini%20Larache%20Center!3m2!1d35.172473499999995!2d-6.149575!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2s5VC2%2BX56%20Bahnini%20Larache%20Center%2C%20Larache!3m2!1d35.172473499999995!2d-6.149575!5e1!3m2!1sen!2sma!4v1728996476425!5m2!1sen!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -835,12 +692,16 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
-                <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
 
-                        <iframe
+
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.768189546942!2d-6.1528118!3d35.18732979999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bced4d166bced%3A0x6d750205333b0003!2sAgence%20RADEEL%20Smara!5e0!3m2!1sfr!2sma!4v1708418954159!5m2!1sfr!2sma"
-                            width="100%" style="height: 100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -854,11 +715,15 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3268.533980745791!2d-5.904061780426024!3d34.99333597926731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0a4df9de057b19%3A0x9561f12ef92b8cca!2sAgence%20Centrale%20RADEEL%20Ksar%20El%20K%C3%A9bir!5e0!3m2!1sfr!2sma!4v1708420046795!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -869,14 +734,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1634.1697288451242!2d-5.893602780522328!3d34.99820672067712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDU5JzUzLjciTiA1wrA1MyczMy4xIlc!5e0!3m2!1sfr!2sma!4v1729332748241!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -884,11 +753,15 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3268.136901729213!2d-5.91312242424228!3d35.00327797281373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzExLjgiTiA1wrA1NCczOC4wIlc!5e0!3m2!1sfr!2sma!4v1729333252438!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -899,14 +772,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                        <iframe class="embed-responsive-item" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3267.650926885701!2d-5.913544324241716!3d35.01544237280949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzU1LjYiTiA1wrA1NCczOS41Ilc!5e0!3m2!1sfr!2sma!4v1729333329084!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -914,16 +791,18 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-
-                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
-                          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3268.1632449275853!2d-5.899803724242317!3d35.00261847281378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzA5LjQiTiA1wrA1Myc1MC4wIlc!5e0!3m2!1sfr!2sma!4v1729333374987!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3268.1632449275853!2d-5.899803724242317!3d35.00261847281378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAwJzA5LjQiTiA1wrA1Myc1MC4wIlc!5e0!3m2!1sfr!2sma!4v1729333374987!5m2!1sfr!2sma"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -934,48 +813,60 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
-                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13032.249223709656!2d-6.0803744!3d35.2547057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc7edd9bd4fa7%3A0xa9149a1bffc736b2!2sAgence%20RADEEL%20Khemis%20Sahel!5e0!3m2!1sen!2sma!4v1729333477993!5m2!1sen!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13032.249223709656!2d-6.0803744!3d35.2547057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bc7edd9bd4fa7%3A0xa9149a1bffc736b2!2sAgence%20RADEEL%20Khemis%20Sahel!5e0!3m2!1sen!2sma!4v1729333477993!5m2!1sen!2sma"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="modal mapsModel fade" id="mapsModel10" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1689.3623857198297!2d-6.0924297100979485!3d35.07110991170299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bcac85765f97f%3A0xff2056996a5d34fa!2sAgence%20RADEEL%20Aouamra!5e1!3m2!1sen!2sma!4v1729333774237!5m2!1sen!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1689.3623857198297!2d-6.0924297100979485!3d35.07110991170299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bcac85765f97f%3A0xff2056996a5d34fa!2sAgence%20RADEEL%20Aouamra!5e1!3m2!1sen!2sma!4v1729333774237!5m2!1sen!2sma"
+                            style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <div class="modal mapsModel fade" id="mapsModel11" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div class="modal-body">
-                    <div id="map" style="height: 400px; width: 100%;">
-                    <iframe class="embed-responsive-item" width="100%" style="height: 100%"
-                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3265.837406089072!2d-5.9369063242397635!3d35.060803972793856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAzJzM4LjkiTiA1wrA1NicwMy42Ilc!5e0!3m2!1sfr!2sma!4v1729333593763!5m2!1sfr!2sma"
-                            style="border:0;" allowfullscreen="" loading="lazy" width="100%" style="height: 100%"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="100%" height="500px"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3265.837406089072!2d-5.9369063242397635!3d35.060803972793856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDAzJzM4LjkiTiA1wrA1NicwMy42Ilc!5e0!3m2!1sfr!2sma!4v1729333593763!5m2!1sfr!2sma"
+                            style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     {{-- footer --}}
     <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
@@ -1019,7 +910,8 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11;
+                            92000 Larache </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">

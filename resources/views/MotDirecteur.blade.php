@@ -8,10 +8,19 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,9 +35,6 @@
             width: 100%;
         }
 
-        .nav-item.dropdown>a::after {
-            display: none !important;
-        }
     </style>
 </head>
 
@@ -61,78 +67,81 @@
             </div>
         </div>
     </div>
-        <style>
-      
-        </style>
+
     <!-- end Spinner Start -->
 
-    <br>
-    <nav class="navbar navbar-expand-lg sticky-top bg-white">
-        <div class="container ">
-            <a href="{{ url('../') }}" class="navbar-brand">
-                <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" width="40" height="40">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-start" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                <ul class="navbar-nav  justify-content-end">
-                    <li class="nav-item"><a class="nav-link  active " href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">RADEEL
-                                <i class="bi bi-chevron-down"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('../Quisommenous') }}" >Qui sommes-nous</a></li>
-                            <li><a class="dropdown-item" ref="{{ url('../MotDirecteur') }}" >Mot du Directeur
-                                    Général</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../StructureRadeel') }}" >Organigramme de la
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                
+                <a href="{{ url('../') }}" class="navbar-brand " id="logo">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class=" navbar-nav  ms-auto">
+                        <a href="{{ url('../') }}" class="nav-item nav-link ">ACCUEIL</a>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">RADEEL</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
+                                <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
+                                <a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
                                     RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ESPACE CLIENT <i class="bi bi-chevron-down"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> ESPACE RH <i class="bi bi-chevron-down"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('../loi') }}">Nos valeurs</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../Avis recrutement') }}" >Réglement des marchés publics</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FOURNISSEURS <i class="bi bi-chevron-down"></i></a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('../programme') }}">Programme prévisionnel</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../Reglement') }}" >Réglement des marchés publics</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> PRATIQUE <i class="bi bi-chevron-down"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="{{ url('../bureau') }}">Bureau d'ordre digital</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../galerie') }}">Galerie / Audiovisual</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../Actualite') }}">Actualités</a></li>
-                            <li><a class="dropdown-item" href="{{ url('../coupure') }}">Avis d'interruption</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link " href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li class="nav-item"><a class="nav-link " href="{{ url('../') }}#contact"> CONTACT </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                                <a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités</a>
+                                <a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
+                                    ligne</a>
+                                <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
+                                <a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Grand client </a>
+                                <a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a>
+                                <a href="{{ url('../Autre') }}" class="dropdown-item">Guide client</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
+                                <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
+                                <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PRATIQUE</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                                <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
+                                <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                                <a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a>
+                                <a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a>
+                            </div>
+                        </div>
 
+                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                     </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- Navbar End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
@@ -162,15 +171,23 @@
             </div>
         </div>
     </div> -->
-<br><br>
+    <br><br>
     <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s" id="motsDirecteur">
-        <div class="container ">
+        <div class="container">
             <div class="row g-5">
+                <!-- Text column - On larger screens, the text and title will be on the left -->
                 <div class="col-lg-7">
                     <div class="section-title position-relative">
-                        <h2 class="mb-0 text" style="color: #077ec0; ">Mot du Directeur Général Mr Mohamed CHAOUI </h2>
+                        <h2 class="mb-0 text" style="color: #077ec0;">Mot du Directeur Général Mr Mohamed CHAOUI</h2>
                     </div>
-                  <br>
+                    <br>
+
+                    <!-- Image only visible on mobile -->
+                    <div class="d-lg-none mb-4"> <!-- Only visible on mobile screens -->
+                        <img class="rounded wow zoomIn img-fluid" data-wow-delay="0.1s" src="img/directeur.jpg"
+                            style="object-fit: cover; display: block; height: 300px;">
+                    </div>
+
                     <p class="mb-4">
                         La RADEEL s’érige en acteur incontournable du développement durable de la Province de Larache,
                         en assurant une distribution fiable, continue et sécurisée de l’eau potable et de l’électricité,
@@ -221,22 +238,25 @@
                         précieux des autorités locales.
                     </p>
                 </div>
-                <div class="col-lg-5">
+
+                <!-- Image column - Visible only on larger screens, image on right -->
+                <div class="col-lg-5 d-none d-lg-block">
                     <div class="container">
                         <br>
-                        <img class=" rounded wow zoomIn img-fluid" data-wow-delay="0.1s" src="img/directeur.jpg"
-                            style="object-fit: cover; display:block; height:580px;">
+                        <img class="rounded wow zoomIn img-fluid" data-wow-delay="0.1s" src="img/directeur.jpg"
+                            style="object-fit: cover; display: block; height: 580px;">
                     </div>
                 </div>
                 <br>
             </div>
         </div>
+
     </div>
     <!-- Page mots de directeur general RADEEL End -->
     <br><br><br><br><br>
 
-   {{-- footer --}}
-   <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -273,16 +293,16 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <a href="{{ url('../') }}#contact" class="h3 text-white">Contacter nous</a>
+                    <a href="index.php #contactID" class="h3 text-white">Contacter nous</a>
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647,lot Maghreb Jadid </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
-                            +212.539.52.09.25</a>
+                            +212.539.52.03.25</a>
                         <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
@@ -302,15 +322,40 @@
         </div>
     </div>
 
-       <!-- Template Javascript -->
-       <script src="js/main.js"></script>
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+    <script>
+        jQuery(document).ready(function () {
+            $('#modalIndex').modal('show')
+        });</script> <!-- Footer End -->
 </body>
 
 </html>

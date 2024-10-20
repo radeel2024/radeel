@@ -10,8 +10,6 @@ p{
     text-align: justify;
 }
 
-
-
 /*** Topbar Start ***/
 
 
@@ -41,136 +39,107 @@ p{
 
         /**
 * Desktop Navigation
-*/   .navbar-brand{
-    padding: 0;
-    margin: 0;
+*/
+
+
+       /*** Navbar ***/
+       
+       .sticky-top {
+        top: -200px;
+        background-color: white;
+    }
     
-}
-.navbar ul {
-    margin-left:0px;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    color: black;
-}
-
-.navbar li {
-    position: relative;
-    color: black;
-    font-weight: bolder;
-    font-size: 15px;.
-}
-
-.navbar>ul>li+li {
-    color: #616A6B;
-    font-size: 14px;
-    margin-left: 30px;
-}
-
-.navbar a,
-.navbar a:focus {
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 0;
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.8);
-    white-space: nowrap;
-    transition: 0.3s;
-    position: relative;
-    color: black;
-}
-
-.navbar a i,
-.navbar a:focus i {
-    font-size: 12px;
-    line-height: 0;
-    margin-left: 5px;
-    color: black;
-}
-
-.navbar>ul>li>a:before {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 3px;
-    left: 0;
-    background-color: #7DB41E;
-    visibility: hidden;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.navbar a:hover:before,
-.navbar li:hover>a:before,
-.navbar .active:before {
-    visibility: visible;
-    width: 100%;
-}
-
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-    color: black;
-}
-
-.navbar .dropdown ul {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    margin: 18px;
-    padding: 10px 0;
-    z-index: 99;
-    font-size:18px;
-    opacity: 0;
-    visibility: hidden;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
-}
-
-.navbar .dropdown ul li {
-    min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-    padding: 10px 20px;
-    font-size: 14px;
-    text-transform: none;
+    .dropdown-menu {
+    background-color: white;
     font-weight: 500;
-    color: black;
-}
+    color: #848484;
+    max-width: max-content;
+    
+    }
+    .navbar .navbar-nav .nav-link {
+        margin-right: 15px;
+        padding: 10px 0;
+        color: black;
+        font-size: 20;
+        font-weight: bolder;
+    }
+    .navbar-nav>.dropdown>.dropdown-menu>a{
+        font-size: 18px;
+        font:bolder;
+        margin-left: 3px;
+        padding-left:5px;
+        min-width:auto;
+    }
+    .navbar-nav>.dropdown>.dropdown-menu>a:before
+    {
+                color:black;
+                font:bolder;
+                background-color: #7DB41E;
+                transition: all 0.3s ease-in-out 0s;
 
-.navbar .dropdown ul a i {
-    font-size: 14px;
-    font-weight: bolder;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-    color: #7DB41E;
-    font-weight: bolder;
-}
-
-.navbar .dropdown:hover>ul {
-    opacity: 1;
-    visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-    top: 0;
-    left: calc(100% - 30px);
-    visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-    opacity: 1;
-    top: 0;
-    left: 100%;
-    visibility: visible;
-}
-
+    }
+    .navbar-nav>.dropdown>.dropdown-menu>a:after
+    { 
+              visibility: hidden;
+    }
+    .navbar-nav>.dropdown>.dropdown-menu>a:hover
+    {
+        min-width:auto;
+        color: #7DB41E;
+        font: bolder;
+    }
+    
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link.active,
+    .navbar-nav>.dropdown>.dropdown-menu>a:hover
+    {
+        color: #7DB41E;
+        font-weight: bolder;
+    }
+    
+    
+    
+    @media (max-width: 991.98px) {
+    
+        .navbar .navbar-nav .nav-link  {
+            margin-right: 0;
+            padding: 10px 0;
+        }
+    
+        .navbar .navbar-nav {
+            margin-top: 15px;
+            border-top: 1px solid #EEEEEE;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        
+    .sticky-top {
+        margin: 0px;
+        padding: 0px;
+        background-color: white;
+    }
+    .navbar{
+        margin: 0px;
+        height: 60px;
+    }
+    
+        .navbar-nav .dropdown>a {
+                font-size: 14px;
+                text-transform: none;
+                font-weight: 500;
+                color: black;
+                width: auto;
+        }
+    
+        .navbar .nav-item:hover .dropdown-menu {
+            top: 100%;
+            visibility: visible;
+            transition: .5s;
+            opacity: 1;
+            width:auto;
+        }
+    }
 
 /*** Spinner End ***/
 
@@ -538,6 +507,203 @@ p{
 
 /*** Services End ***/
 
+        #nav-link-1 .active {
+            color: #fff;
+            background-color: #fbc02d;
+            border-color: transparent;
+            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+        }
+        #nav-link-2 .active {
+            color: #fff;
+            background-color: #077ec0;
+            box-shadow: 0 12px 5px -10px rgb(33 150 243 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-3 .active {
+            color: #fff;
+            background-color: rgb(155, 187, 89);
+            ;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-3 a {
+            color: rgb(155, 187, 89);
+            ;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-2 a {
+            color: #077ec0;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        #nav-link-1 a {
+            color: #fbc02d;
+            background-color: #fff;
+            padding: 30px;
+            font-size: 19px;
+            margin: 20px;
+            box-shadow: 0 12px 5px -10px rgb(102 187 106 / 55%), 0 8px 10px -5px rgb(0 0 0 / 9%), 0 4px 1px -2px rgb(0 0 0 / 14%);
+        }
+        .bg_elect {
+            background-color: #fbc02d !important;
+            border-color: transparent;
+            box-shadow: 0 1px 9px 0 rgb(251 192 45 / 50%);
+        }
+        .why-us .content {
+            padding: 60px 100px 0 100px;
+        }
+        .why-us .content h3 {
+            font-weight: 400;
+            font-size: 34px;
+            color: #37517e;
+        }
+        .why-us .content h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 5px;
+        }
+        .why-us .content p {
+            font-size: 15px;
+            color: #848484;
+        }
+        .why-us .img {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .why-us .accordion-list,
+        .why-us .accordion-listP,
+        .why-us .accordion-listPP {
+            padding: 0 100px 60px 100px;
+        }
+        .why-us .accordion-list ul,
+        .why-us .accordion-listP ul,
+        .why-us .accordion-listPP ul {
+            padding: 0;
+            list-style: none;
+        }
+        .why-us .accordion-list li+li,
+        .why-us .accordion-listP li+li,
+        .why-us .accordion-listPP li+li {
+            margin-top: 15px;
+        }
+        .why-us .accordion-list li,
+        .why-us .accordion-listP li,
+        .why-us .accordion-listPP li {
+            padding: 20px;
+            background: #fff;
+            border-radius: 4px;
+        }
+        .why-us .accordion-list a,
+        .why-us .accordion-listP a,
+        .why-us .accordion-listPP a {
+            display: block;
+            position: relative;
+            font-family: "Poppins", sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+            padding-right: 30px;
+            outline: none;
+            cursor: pointer;
+        }
+        .why-us .accordion-list span,
+        .why-us .accordion-listP span,
+        .why-us .accordion-listPP span {
+            color: #47b2e4;
+            font-weight: 800;
+            font-size: 19px;
+            padding-right: 10px;
+        }
+        .why-us .accordion-list i,
+        .why-us .accordion-listP i,
+        .why-us .accordion-listPP i {
+            font-size: 24px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .why-us .accordion-list p,
+        .why-us .accordion-listP p,
+        .why-us .accordion-listPP p {
+            margin-bottom: 0;
+            padding: 5px 0 0 0;
+        }
+        .why-us .accordion-list .icon-show,
+        .why-us .accordion-listP .icon-show,
+        .why-us .accordion-listPP .icon-show {
+            display: none;
+        }
+        .why-us .accordion-list a.collapsed,
+        .why-us .accordion-listP a.collapsed,
+        .why-us .accordion-listPP a.collapsed {
+            color: #343a40;
+        }
+        .why-us .accordion-list a.collapsed:hover,
+        .why-us .accordion-listP a.collapsed:hover,
+        .why-us .accordion-listPP a.collapsed:hover {
+            color: #47b2e4;
+        }
+        .why-us .accordion-list a.collapsed .icon-show,
+        .why-us .accordion-listP a.collapsed .icon-show,
+        .why-us .accordion-listPP a.collapsed .icon-show {
+            display: inline-block;
+        }
+        .why-us .accordion-list a.collapsed .icon-close,
+        .why-us .accordion-listP a.collapsed .icon-close,
+        .why-us .accordion-listPP a.collapsed .icon-close {
+            display: none;
+        }
+        @media (max-width: 1024px) {
+            .why-us .content,
+            .why-us .accordion-list,
+            .why-us .accordion-listP,
+            .why-us .accordion-listPP {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        @media (max-width: 992px) {
+            .why-us .img {
+                min-height: 400px;
+            }
+            .why-us .content {
+                padding-top: 30px;
+            }
+            .why-us .accordion-list {
+                padding-bottom: 30px;
+            }
+        }
+        @media (max-width: 575px) {
+            .why-us .img {
+                min-height: 200px;
+            }
+        }
+        p {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h3 {
+            display: inline-block;
+            font-size: 20px;
+        }
+        ol li {
+            padding: 5px;
+        }
+        .bd-callout {
+            padding: 1.25rem;
+            margin-top: 1.25rem;
+            margin-bottom: 1.25rem;
+            border: 1px solid #e9ecef;
+            border-left-width: 0.25rem;
+            border-radius: 0.25rem;
+            border-left-color: red;
+        }
 
 /*** Project Start ***/
 

@@ -44,10 +44,6 @@
             background-size: cover;
         }
 
-        .nav-item.dropdown>a::after {
-            display: none !important;
-        }
-
         #container {
             max-width: 550px;
         }
@@ -88,9 +84,7 @@
             overflow-x: hidden;
         }
     </style>
-</head>
 
-<body>
     <style>
         .wrapper {
             position: fixed;
@@ -197,26 +191,10 @@
         }
     </style>
 
-  
+</head>
 
-   <!--Start of Tawk.to Script-->
-   <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+<body>
 
-
-  
-
-   
     <div class="container-fluid  py-2 d-none d-md-flex" style="background: #077ec0;">
         <div class="container">
             <div class="d-flex justify-content-between topbar">
@@ -246,389 +224,82 @@
     </div>
     <!-- end Spinner Start -->
 
-    <style>
-        #header {
-            height: 70px;
-            transition: all 0.5s;
-            z-index: 997;
-            background: white;
-            color: black;
-        }
-
-        #header .logo h1 {
-            margin: 0;
-            padding: 6px 0;
-            line-height: 1;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        #header .logo h1 a,
-        #header .logo h1 a:hover {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        #header .logo img {
-            padding: 0;
-            margin: 0;
-            max-height: 40px;
-        }
-
-        @media (max-width: 992px) {
-            #header {
-                height: 60px;
-            }
-        }
-
-
-        .navbar {
-            padding: 0;
-        }
-
-        .navbar ul {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            list-style: none;
-            align-items: center;
-            color: black;
-        }
-
-        .navbar li {
-            position: relative;
-            color: black;
-            font-size: 20;
-            font-weight: bolder;
-        }
-
-        .navbar>ul>li+li {
-            margin-left: 30px;
-            color: #616A6B;
-
-        }
-
-        .navbar a,
-        .navbar a:focus {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px 0;
-            font-size: 14px;
-            color: rgba(255, 255, 255, 0.8);
-            white-space: nowrap;
-            transition: 0.3s;
-            position: relative;
-            color: black;
-
-        }
-
-        .navbar a i,
-        .navbar a:focus i {
-            font-size: 12px;
-            line-height: 0;
-            margin-left: 5px;
-            color: black;
-
-        }
-
-        .navbar>ul>li>a:before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            bottom: 3px;
-            left: 0;
-            background-color: #7DB41E;
-            visibility: hidden;
-            width: 0px;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
-        .navbar a:hover:before,
-        .navbar li:hover>a:before,
-        .navbar .active:before {
-            visibility: visible;
-            width: 100%;
-        }
-
-        .navbar a:hover,
-        .navbar .active,
-        .navbar .active:focus,
-        .navbar li:hover>a {
-            color: black;
-        }
-
-        .navbar .dropdown ul {
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 100%;
-            margin: 0;
-            padding: 10px 0;
-            z-index: 99;
-            opacity: 0;
-            visibility: hidden;
-            background: #fff;
-            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-            transition: 0.3s;
-        }
-
-        .navbar .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar .dropdown ul a {
-            padding: 10px 20px;
-            font-size: 14px;
-            text-transform: none;
-            font-weight: 500;
-            color: black;
-        }
-
-        .navbar .dropdown ul a i {
-            font-size: 12px;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown ul a:hover,
-        .navbar .dropdown ul .active:hover,
-        .navbar .dropdown ul li:hover>a {
-            color: #7DB41E;
-            font-weight: bolder;
-        }
-
-        .navbar .dropdown:hover>ul {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .navbar .dropdown .dropdown ul {
-            top: 0;
-            left: calc(100% - 30px);
-            visibility: hidden;
-        }
-
-        .navbar .dropdown .dropdown:hover>ul {
-            opacity: 1;
-            top: 0;
-            left: 100%;
-            visibility: visible;
-        }
-
-        @media (max-width: 1366px) {
-            .navbar .dropdown .dropdown ul {
-                left: -90%;
-            }
-
-            .navbar .dropdown .dropdown:hover>ul {
-                left: -100%;
-            }
-        }
-
-        /**
-* Mobile Navigation
-*/
-        .mobile-nav-toggle {
-            color: #fff;
-            cursor: pointer;
-            display: none;
-            line-height: 0;
-            transition: 0.5s;
-        }
-
-        @media (max-width: 991px) {
-            .mobile-nav-toggle {
-                display: block;
-            }
-
-            .navbar ul {
-                display: none;
-            }
-        }
-
-        .navbar-mobile {
-            position: fixed;
-            overflow: hidden;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            background: rgba(16, 31, 29, 0.9);
-            transition: 0.3s;
-            z-index: 0;
-        }
-
-        .navbar-mobile .mobile-nav-toggle {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-        }
-
-        .navbar-mobile ul {
-            display: block;
-            position: absolute;
-            top: 55px;
-            right: 15px;
-            bottom: 15px;
-            left: 15px;
-            padding: 10px 0;
-            background-color: #fff;
-            overflow-y: auto;
-            transition: 0.3s;
-        }
-
-        .navbar-mobile>ul>li+li {
-            margin: 0;
-        }
-
-        .navbar-mobile a:hover:before,
-        .navbar-mobile li:hover>a:before,
-        .navbar-mobile .active:before {
-            visibility: hidden;
-        }
-
-        .navbar-mobile a,
-        .navbar-mobile a:focus {
-            padding: 10px 20px;
-            font-size: 15px;
-            color: #7DB41E;
-        }
-
-        .navbar-mobile a:hover,
-        .navbar-mobile .active,
-        .navbar-mobile li:hover>a {
-            color: #7DB41E;
-        }
-
-        .navbar-mobile .getstarted,
-        .navbar-mobile .getstarted:focus {
-            margin: 15px;
-        }
-
-        .navbar-mobile .dropdown ul {
-            position: static;
-            display: none;
-            margin: 10px 20px;
-            padding: 10px 0;
-            z-index: 99;
-            opacity: 1;
-            visibility: visible;
-            background: #fff;
-            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-        }
-
-        .navbar-mobile .dropdown ul li {
-            min-width: 200px;
-        }
-
-        .navbar-mobile .dropdown ul a {
-            padding: 10px 20px;
-        }
-
-        .navbar-mobile .dropdown ul a i {
-            font-size: 12px;
-        }
-
-        .navbar-mobile .dropdown ul a:hover,
-        .navbar-mobile .dropdown ul .active:hover,
-        .navbar-mobile .dropdown ul li:hover>a {
-            color: #7DB41E;
-        }
-
-        .navbar-mobile .dropdown>.dropdown-active {
-            display: block;
-        }
-    </style>
 
     <!-- Navbar Start -->
-    <header id="header" class="sticky-top d-flex align-items-center">
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
 
-        <div class="container d-flex justify-content-between">
-
-            <div class="logo">
-                <a href="{{ url('../') }}" class="navbar-brand">
-                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 130px; width=90px;">
+                <a href="{{ url('../') }}" class="navbar-brand " id="logo">
+                    <img src="https://www.radeel.ma/images/radeel-logo-1x1.png" style="height: 50px; width:50px;">
                 </a>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-            <nav id="navbarNav navbar-expand-sm " class="navbar ">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}">ACCUEIL</a></li>
-                    <li class="dropdown"><a href="{{ url('../') }}"><span>RADEEL</span> <i
-                                class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a></li>
-                            <li><a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur
-                                    Général</a></li>
-                            <li><a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class=" navbar-nav  ms-auto">
+                        <a href="{{ url('../') }}" class="nav-item nav-link">ACCUEIL</a>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">RADEEL</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
+                                <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
+                                <a href="{{ url('../StructureRadeel') }}" class="dropdown-item">Organigramme de la
                                     RADEEL</a>
-                            </li>
-                            <li><a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités </a></li>
-                            <li><a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences </a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#" class="nav-link active"><span>ESPACE CLIENT</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
-                                    ligne</strong></a></li>
-                            <li><a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a></li>
-                            <li><a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Gros client </a></li>
-                            <li><a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a></li>
-                            <li><a href="{{ url('../Autre') }}" class="dropdown-item">Guide client </a></li>
-                        </ul>
-                    </li>
+                                <a href="{{ url('../ActiviteRadeel') }}" class="dropdown-item">Nos Activités</a>
+                                <a href="{{ url('../agences') }}" class="dropdown-item">Nos Agences</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle active"
+                                data-bs-toggle="dropdown">ESPACE CLIENT</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
+                                    ligne</a>
+                                <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
+                                <a href="{{ url('../GrosAbonnee') }}" class="dropdown-item">Grand client </a>
+                                <a href="{{ url('../reclamation') }}" class="dropdown-item">Réclamation</a>
+                                <a href="{{ url('../Autre') }}" class="dropdown-item">Guide client</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">ESPACE
+                                RH</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
+                                <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
+                                <a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">FOURNISSEURS</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="{{ url('../') }}" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">PRATIQUE</a>
+                            <div class="dropdown-menu bg-light ">
+                                <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
+                                <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
+                                <a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
+                                <a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a>
+                                <a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a>
+                            </div>
+                        </div>
 
-                    <li class="dropdown"><a href="#"><span>ESPACE RH</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a></li>
-                            <li><a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi
-                                </a>
-                            </li>
-                            <li><a href="{{ url('../stage') }}" class="dropdown-item"> Nos offres Stages </a></li>
-
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>FOURNISSEURS</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
-                            </li>
-                            <li><a href="{{ url('../Reglement') }}" class="dropdown-item"> Réglement des marchés
-                                    publics </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>PRATIQUE</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
-                            </li>
-                            <li><a href="{{ url('../galerie') }}" class="dropdown-item">Galerie / Audiovisual</a>
-                            </li>
-                            <li><a href="{{ url('../Actualite') }}" class="dropdown-item">Actualités</a></li>
-                            <li><a href="{{ url('../coupure') }}" class="dropdown-item">Avis d'interruption </a></li>
-
-                        </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="{{ url('../stress') }}#contact"> STRESS HYDRIQUE </a></li>
-                    <li><a class="nav-link scrollto" href="{{ url('../') }}#contact"> CONTACT </a></li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                 
-
-                </ul>
-
-            </nav>
-
-
+                        <a href="{{ url('../') }}#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
         </div>
-    </header>
+        </nav>
+    </div>
+
+    <!-- Navbar End -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-headere py-5">
@@ -641,17 +312,7 @@
 
     <!-- contente  -->
     <style>
-        .bd-callout {
-            padding: 1.25rem;
-            margin-top: 1.25rem;
-            margin-bottom: 1.25rem;
-            border: 1px solid #e9ecef;
-            border-left-width: 0.25rem;
-            border-radius: 0.25rem;
-            border-left-color: red;
-            font-size: 20px;
-            line-height: 30px;
-        }
+        
 
         /* Custom CSS for vertical tabs */
         .vertical-tabs .nav-link {
@@ -662,7 +323,7 @@
             border: 1px solid #e9ecef;
             border-left-width: 0.25rem;
             border-radius: 0.25rem;
-            border-left-color: rgb(155,187,89);
+            border-left-color: rgb(155, 187, 89);
         }
 
         .vertical-tabs .nav-link.active {
@@ -688,13 +349,7 @@
             /* Optional: Adjust margin between tabs */
         }
 
-        .card-header {
-            color: #007bff;
-            color: white;
-            text-align: center;
-            font-size: 20px;
-            line-height: 30px;
-        }
+      
     </style>
 
     <div class="container">
@@ -731,7 +386,7 @@
                                             <p class="text-start">
                                                 Vous avez un projet (unité industrielle, hôtel, bain ou douche
                                                 ….), vous souhaitez vous raccorder au réseau d’eau potable.
-                                               
+
                                             <p class="text-start">
                                                 La première démarche à faire est de vous rendre aux agences de
                                                 la RADEEL muni des pièces suivantes :
@@ -784,41 +439,49 @@
                                             <p class="text-start"
                                                 style="color: #D1801D; Font-size:19px; text-decoration: underline;">
                                                 Procédure du
-                                                raccordement </p>
-                                            
+                                                raccordement
+                                            </p>
+
                                             <p class="text-start">Si votre site a besoin de s’approvisionner en
                                                 moyenne tension, veuillez vous rendre aux agences de la RADEEL
-                                                muni des pièces suivantes :</p>
+                                                muni des pièces suivantes :
+                                            </p>
                                             <div class="bd-callout bd-callout-info">
                                                 <p>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Demande de
+                                                        style="color:orange;padding-left:20px;"></i>
+                                                    Demande de
                                                     branchement au réseau moyenne tension
                                                     </br>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Plan de situation
+                                                        style="color:orange;padding-left:20px;"></i>
+                                                    Plan de situation
                                                     du site à alimenter (administration,
                                                     hôtel, fabrique, ….etc.)La puissance installée du poste</br>
                                                     <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie des status et
-                                                extrait de registre de commerce, ICE et CIN de gérant pour les personnes morales
-                                            </br>
-                                            <i class="fa fa-check  me-3"
-                                                    style="color:orange;padding-left:20px;"></i>Copie des plans de
-                                                construction approuvés par les autorités compétentes</br>
+                                                        style="color:orange;padding-left:20px;"></i>
+                                                    Copie des status et
+                                                    extrait de registre de commerce, ICE et CIN de gérant pour les
+                                                    personnes morales
+                                                    </br>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Copie de la C.I.N
+                                                        style="color:orange;padding-left:20px;"></i>
+                                                    Copie des plans de
+                                                    construction approuvés par les autorités compétentes</br>
+                                                    <i class="fa fa-check  me-3"
+                                                        style="color:orange;padding-left:20px;"></i>
+                                                    Copie de la C.I.N
                                                     du signataire
                                                     </br>
                                                     <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Délégation de
+                                                        style="color:orange;padding-left:20px;">
+                                                    </i>Délégation de
                                                     signature si le signataire est autre que le
                                                     gérant de la société
                                                     </br>
                                                 </p>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -895,16 +558,16 @@
                                                 tension ou eau usage gros abonné, veuillez adresser une demande
                                                 écrite à la Direction Générale de la RADEEL et joindre les
                                                 pièces suivantes :
-                                            <ul class="text-start">
-                                                <p>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Dernière facture
-                                                    payée</br>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Original du contrat
-                                                    d’abonnement</br>
-                                                </p>
-                                            </ul>
+                                                <ul class="text-start">
+                                                    <p>
+                                                        <i class="fa fa-check  me-3"
+                                                            style="color:orange;padding-left:20px;"></i>Dernière facture
+                                                        payée</br>
+                                                        <i class="fa fa-check  me-3"
+                                                            style="color:orange;padding-left:20px;"></i>Original du contrat
+                                                        d’abonnement</br>
+                                                    </p>
+                                                </ul>
                                             </p>
                                             <p class="text-start">Dès réception de votre demande, un agent de la
                                                 RADEEL se rendra sur
@@ -931,21 +594,26 @@
                                         <div class="accordion-body">
                                             <div class="accordion-body">
                                                 <p class="text-start">
-                                                Vous pouvez régler vos factures de consommation :
+                                                    Vous pouvez régler vos factures de consommation :
                                                 </p>
                                                 <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Au niveau de nos agence </h4>
+                                                    style="color: rgb(155,187,89);">Au niveau de nos agence 
+                                                </h4>
 
                                                 <ul class="text-start">
-                                                <p>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Agence Maghreb jadid à Larache</br>
-                                                    <i class="fa fa-check  me-3"
-                                                        style="color:orange;padding-left:20px;"></i>Agence Centrales à ksar kbir</br>
-                                                </p>
-                                            </ul>
+                                                    <p>
+                                                        <i class="fa fa-check  me-3"
+                                                            style="color:orange;padding-left:20px;"></i>Agence Maghreb
+                                                        jadid à Larache</br>
+                                                        <i class="fa fa-check  me-3"
+                                                            style="color:orange;padding-left:20px;"></i>Agence Centrales
+                                                        à ksar kbir</br>
+                                                    </p>
+                                                </ul>
                                                 <h4 class="Comptage moyenne tension text-start"
-                                                    style="color: rgb(155,187,89);">Par virement bancaire au compte RADEEL  </h4>
+                                                    style="color: rgb(155,187,89);">Par virement bancaire au compte
+                                                    RADEEL
+                                                </h4>
                                             </div>
                                         </div>
                                     </div>
@@ -956,27 +624,25 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
-
-
-
-    <!-- prompt formulaire Raccordement -->
-    <div class="modal fade" id="exampleModalCenter1" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+ <!-- prompt formulaire Raccordement -->
+ <div class="modal fade" id="exampleModalCenter1" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content" style="background-image: url(img/202.png);">
-
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
                 <div id="container" class="container mt-5">
                     <div class="progress px-1" style="height: 3px;">
                         <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="step-container d-flex justify-content-between">
-                        <div class="step-circle" >1</div>
-                        <div class="step-circle" >2</div>
-                        <div class="step-circle" >3</div>
+                        <div class="step-circle">1</div>
+                        <div class="step-circle">2</div>
+                        <div class="step-circle">3</div>
                     </div>
 
                     <form method="POST" action="{{ route('addraccoredement') }}" enctype="multipart/form-data"
@@ -1255,8 +921,8 @@
                             </div> --}}
                             <br>
                             <div class="step step-3">
-                                <button type="submit" class="btn "
-                                    style="background-color:#077ec0;color:white; margin-left: 200px">Envoyé</button>
+                                <button type="submit" class="btn justify-content-center"
+                                    style="background-color:#077ec0;color:white; ">Envoyé</button>
                             </div>
                         </div>
                     </form>
@@ -1264,6 +930,9 @@
             </div>
         </div>
     </div>
+
+
+
 
     <script>
         $('#reload').click(function () {
@@ -1277,9 +946,22 @@
         });
     </script>
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/66bdd8330cca4f8a7a765886/1i5ap9252';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-  {{-- footer --}}
-  <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
+    {{-- footer --}}
+    <div class="container-fluid footer wow fadeIn" data-wow-delay=".3s" style="background: #077ec0;">
         <div class="container pt-5 pb-4">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -1320,7 +1002,8 @@
                     <div class="text-white mt-4 d-flex flex-column contact-link">
                         <a href="https://www.google.com/maps/dir/35.1801715,-6.1420956/radeel/@35.1734126,-6.150075,16z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0xd0bc947c5cd4efd:0x39b8205ae5d8018d!2m2!1d-6.141061!2d35.1677008?entry=ttu"
                             class="pb-3 text-light border-bottom border-white"><i
-                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11; 92000 Larache                                </a>
+                                class="fas fa-map-marker-alt text me-2"></i>1647, Lotissement Maghreb Al jadid B.P : 11;
+                            92000 Larache </a>
                         <a href="tel:08 01 00 00 42" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-phone-alt text me-2"></i> 0801 000 042 </a>
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
