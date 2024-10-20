@@ -14,7 +14,7 @@
   <!-- Centered image -->
   <div class="center">
     <a href="{{ route('index') }}">
-      <img src="https://i.ibb.co/BrPYK8P/nn.png" alt="Radeel Logo"> 
+      <img src="https://i.ibb.co/QCqrBDN/nn.png" alt="Radeel Logo"> 
     </a>
   </div>
   

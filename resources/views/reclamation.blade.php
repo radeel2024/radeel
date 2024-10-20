@@ -512,7 +512,9 @@
                                     @if (session('traiter') == 1)
                                         <img src="images/traiter.png" class="img-fluid" width="100%" style="height: 400;">
                                     @endif
-
+                                    @if(session('envoyer') != 1 && session('encours') != 1 && session('traiter') != 1)
+                                            <h1>pas trouvé</h1>
+                                    @endif
 
                                 </div>
                             </div>
@@ -594,7 +596,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

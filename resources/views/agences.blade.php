@@ -347,8 +347,8 @@
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="" style="color:#077ec0; ">Agences commerciales Larache : </h1>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal"
+            <div class="row">
+                <div class="card col" data-wow-delay="0.1s" data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+Centrale+RADEEL/@35.1949436,-6.1486976,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc8d6963947b3:0x31f7172908884126!8m2!3d35.1949392!4d-6.1465089"
                     data-bs-target="#mapsModel1">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-primary">
@@ -356,6 +356,7 @@
                             style="position:absolute;top:0px; left:0px; color:white; padding:10px; border-radius: 10px 50px 30px 5px;height: 100px;">
                         </div>
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color:#077ec0 ;">Agence centrale</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>1, rue
@@ -366,10 +367,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" data-src=""
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-bs-toggle="modal" data-src=""
                     data-bs-target="#mapsModel">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-primary">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color:#077ec0">Agence siége</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Agence
@@ -381,38 +384,36 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d709.4075679204839!2d-6.149121674453165!3d35.172302264813005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2sBahnini%20Larache%20Center!3m2!1d35.172473499999995!2d-6.149575!4m5!1s0xd0bc9a222474085%3A0x6861ec4110526946!2s5VC2%2BX56%20Bahnini%20Larache%20Center%2C%20Larache!3m2!1d35.172473499999995!2d-6.149575!5e1!3m2!1sen!2sma!4v1728996476425!5m2!1sen!2sma"
                     data-bs-target="#mapsModel2">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-primary">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color:#077ec0">Agence Bahnini</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Lotissement
                                 El wafa<br>
                                 <i class="fas fa-clock" style="COLOR: #077ec0;"></i> Lun-Ven 8:00 -
                                 16:30
-                                <!-- <i class="fas fa-phone-alt text me-2" style="COLOR: #077ec0;"></i>0801 000 042 <br>
-                                <i class="fas fa-envelope text me-2" style="COLOR: #077ec0;"></i>
-                                reclamation@radeel.com -->
                             </p>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <br><br>
-            <div class="row g-4">
 
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+            <br>
+
+            <div class="row">
+                <div class="card col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel3">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-primary">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color:#077ec0">Agence smara</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="COLOR: #077ec0;"></i>Lotissement
@@ -427,6 +428,7 @@
                     </div>
                 </div>
             </div>
+
             <br><br>
 
         </div>
@@ -438,13 +440,14 @@
                 <h1 class="" style="color: rgb(155,187,89);  ">Agences commerciales Ksar Kbir : </h1>
 
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+            <div class="row">
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel4">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence centrale</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Route
@@ -460,12 +463,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel5">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Attallah</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2"
@@ -480,13 +485,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel6">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <!--    <div style="position:absolute;top:0px; left:0px; background-color:red; color:white; padding:10px; border-radius: 10px 50px 30px 5px;">  <span>Open</span></div> -->
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Assalam</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2"
@@ -509,12 +516,13 @@
             </div>
             <br><br>
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                <div class="card col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel7">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Oulad Hmaid </h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Agence
@@ -530,12 +538,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel8">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-warning">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: rgb(155,187,89);">Agence Ourouba </h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: rgb(155,187,89);"></i>Agence
@@ -563,13 +573,14 @@
                 <h1 class="" style="color: #D1801D ">Agences commerciales centres ruraux: </h1>
 
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+            <div class="row ">
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel9">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-w">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: #D1801D">Agence Khémis SAHEL</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i>Route nationale
@@ -583,12 +594,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel10">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-w">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: #D1801D">Agence Aouamra</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i>Route nationale
@@ -602,12 +615,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-wow-delay="0.1s"
+                &nbsp;&nbsp;
+                <div class="card col" data-wow-delay="0.1s" data-wow-delay="0.1s"
                     data-bs-toggle="modal"
                     data-src="https://www.google.com/maps/place/Agence+RADEEL+Salam/@35.1798363,-6.1423173,17z/data=!3m1!4b1!4m5!3m4!1s0xd0bc93ace23d6cf:0x59c3e42c0a1f6194!8m2!3d35.1798319!4d-6.1401286"
                     data-bs-target="#mapsModel11">
                     <div class="service-item rounded overflow-hidden news-image-hover news-image-hover-w">
                         <div class="position-relative p-4 pt-0">
+                            <br>
                             <h5 class="card-title" style="color: #D1801D"> Ksar BJIR</h5>
                             <p class="card-text">
                                 <i class="fas fa-map-marker-alt text me-2" style="color: #D1801D"></i> Ksar BJIR<br>
@@ -917,7 +932,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

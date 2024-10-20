@@ -819,7 +819,7 @@
                                         name="objet" style="border: 1px solid #666;">
                                     <input type="email" required class="form-control py-3 mb-3"
                                         placeholder="Entrez votre Email" name="email" style="border: 1px solid #666;">
-                                    <textarea required class="form-control mb-3" rows="6" cols="10" name="message"
+                                    <textarea required class="form-control mb-3" rows="14" cols="10" name="message"
                                         placeholder="Votre Message" style="border: 1px solid #666;"></textarea>
                                     <button class="btn form-control border-primary py-3 text"
                                         style="background-color:#077ec0; color:#eeeee4; border: #077ec0; font-size:19px;"
@@ -928,7 +928,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

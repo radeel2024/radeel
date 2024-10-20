@@ -460,7 +460,7 @@
                                                     <div class="row">
                                                         <div class=" justify-content-center align-items-stretch  ">
                                                             <div class="accordion-listP">
-                                                            <ul>
+                                                                <ul>
                                                                     <!-- zone d'action -->
                                                                     <li>
                                                                         <a data-bs-toggle="collapse"
@@ -641,7 +641,7 @@
                                                                                         </div>
                                                                                     </div>
 
-                                                            </div>
+                                                                            </div>
                                                                         </div>
                                                                     </li>
                                                                          <!-- Système d'alimentation électrique : -->
@@ -662,46 +662,40 @@
                                                                         <div id="accordion-list-31" class="collapse"
                                                                             data-bs-parent=".accordion-listP">
                                                                             <p class="text-start fs-8">
-                                                                                    <ol>
-                                                                                        <li>
-                                                                                            <h5>La ville de Larache : </h5>
-                                                                                            <ul>
-                                                                                                <li >- L’alimentation en eau potable de la ville de Larache est assurée en totalité par les ouvrages de production de l’Office Nationale de l’Electricité et de l’Eau potable (ONEE-Branche Eau), à partir des forages et de la station de traitement de Loukkous sur le barrage Oued El Makhazine</li>
-                                                                                                <li>- La Capacité de stockage à Larache : 32 600 m&sup3;</li>
-                                                                                            </ul>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <h5>Centre Rural Khemis Sahel :</h5>
-                                                                                            <ul>
-                                                                                                <li>- L’alimentation en eau potable du centre Khemis Sahel est assurée par :
-                                                                                                    <ul>
-                                                                                                        <li>L’Exploitation de quatre forages de la RADEEL, d’un débit global de 7 l/s environ, situés au douar Krimda à 3 Km du centre vers Tanger.</li>
-                                                                                                        <li>L’Alimentation à partir du réservoir semi-enterré (2 X 2300 m3) sis à la zone touristique via une station de pompage équipée de 3 groupes multicellulaires de 8 l/s, (soit un débit global de 24 l/s) ; et une conduite de refoulement en PVC Bi-orientée DN 200 mm de longueur 4 680 ml.</li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li>- La Capacité de stockage à Larache :  500 m³ </li>
-                                                                                            </ul>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <h5>Ville de Ksar El Kébir :</h5>
-                                                                                            <ul>
-                                                                                                <li>- L’alimentation en eau potable de la ville de ksar el Kébir est assurée par :
-                                                                                                    <ul>
-                                                                                                        <li>L’exploitation de Onze (11) forages RADEEL situés au territoire de la commune l’Aoumara.</li>
-                                                                                                        <li>Le système de production de l'ONEE</li>
-                                                                                                    </ul>
-                                                                                                </li>
-                                                                                                <li>- La Capacité de stockage est de : 22 000 m³ </li>
-                                                                                            </ul>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <h5>Centre Rural Aouamra :</h5>
-                                                                                            <ul>
-                                                                                                <li>- L’Alimentation est assurée par l’exploitation d’un forage RADEEL et un By-Pass pour garantir une alimentation continue en cas de coupure d'électricité.</li>
-                                                                                            </ul>
-                                                                                        </li>
-                                                                                    </ol>
-                                                                             </p>
+                                                                                <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >La ville de Larache :</h3>
+                                                                                <p style="margin-left:40px;">-L’alimentation en eau potable de la ville de Larache est assurée en totalité par les ouvrages de production de l’Office Nationale de l’Electricité et de l’Eau potable (ONEE-Branche Eau), à partir des forages et de la station de traitement de Loukkous sur le barrage Oued El Makhazine</p>
+                                                                                <p style="margin-left:40px;">-La Capacité de stockage à Larache : 32 600 m³</p>
+                                                                            </p>
+                                                                            <p class="text-start fs-8">
+                                                                                <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >Centre Rural Khemis Sahel :</h3>
+                                                                                <p style="margin-left:40px;">- L’alimentation en eau potable du centre Khemis Sahel est assurée par :
+                                                                                    <p style="margin-left:70px;">
+                                                                                        - L’Exploitation de quatre forages de la RADEEL, d’un débit global de 7 l/s environ, situés au douar Krimda à 3 Km du centre vers Tanger.
+                                                                                    </p>
+                                                                                    <p style="margin-left:70px;">
+                                                                                         - L’Alimentation à partir du réservoir semi-enterré (2 X 2300 m3) sis à la zone touristique via une station de pompage équipée de 3 groupes multicellulaires de 8 l/s, (soit un débit global de 24 l/s) ; et une conduite de refoulement en PVC Bi-orientée DN 200 mm de longueur 4 680 ml.
+                                                                                    </p>
+                                                                                </p>
+                                                                                <p style="margin-left:40px;">- La Capacité de stockage à Larache : 500 m³</p>
+                                                                            </p>
+                                                                            <p class="text-start fs-8">
+                                                                                <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >Ville de Ksar El Kébir :</h3>
+                                                                                <p style="margin-left:40px;">- L’alimentation en eau potable de la ville de ksar el Kébir est assurée par :
+                                                                                    <p style="margin-left:70px;">
+                                                                                        - L’exploitation de Onze (11) forages RADEEL situés au territoire de la commune l’Aoumara.
+                                                                                    </p>
+                                                                                    <p style="margin-left:70px;">
+                                                                                   - Le système de production de l'ONEE
+                                                                                    </p>
+                                                                                </p>
+                                                                                <p style="margin-left:40px;">-La Capacité de stockage est de : 22 000 m³</p>
+                                                                            </p>
+                                                                            <p class="text-start fs-8">
+                                                                                <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >Centre Rural Aouamra :</h3>
+                                                                                <p style="margin-left:40px;">- L’Alimentation est assurée par l’exploitation d’un forage RADEEL et un By-Pass pour garantir une alimentation continue en cas de coupure d'électricité
+                                                                                   
+                                                                                </p>
+                                                                            </p>
                                                                         </div>
                                                                     </li>
                                                                 <ul> 
@@ -916,7 +910,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

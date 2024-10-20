@@ -156,7 +156,7 @@
                     <div class="section-title position-relative ">
                     <p>Nos valeurs fondamentales constituent la base de notre identité et guident toutes nos actions. Elles nous permettent de construire des relations solides avec nos clients, partenaires, et collaborateurs, tout en poursuivant notre engagement envers l'excellence et l'innovation. </p>
                     <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;" >Culture Client </h3>
-Le client est au centre de nos orientations stratégiques. Nous nous engageons à adopter une politique de service orientée vers la satisfaction des attentes et besoins de nos clients. Écouter attentivement leurs préoccupations, et traiter leurs réclamations avec rapidité. </p>
+<p>Le client est au centre de nos orientations stratégiques. Nous nous engageons à adopter une politique de service orientée vers la satisfaction des attentes et besoins de nos clients. Écouter attentivement leurs préoccupations, et traiter leurs réclamations avec rapidité. </p>
 <h3 class="mb-0 text" style="color: #077ec0; padding-left:20px;">Culture de Solidarité </h3>
 
 <p>Nous croyons en un dialogue constant et constructif. Notre solidarité et cohésion sociale sont la clé de notre succès, pour bâtir une régie forte dédiée à servir l’intérêt général. </p>
@@ -226,7 +226,7 @@ Le client est au centre de nos orientations stratégiques. Nous nous engageons �
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

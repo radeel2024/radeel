@@ -307,8 +307,8 @@
                                             </p>
                                             <div class="bd-callout bd-callout-info">
                                                 <i class="fa fa-check me-3" style="color:orange;"></i>Formulaire de
-                                                branchement rempli <a href="./img/Demande branchement.pdf"
-                                                    target="_blank">(télécharger)</a><br>
+                                                branchement rempli <a href="./img/Demande-de-Branchement.pdf"
+                                                target="_blank">(télécharger)</a><br>
                                                 <i class="fa fa-check me-3" style="color:orange;"></i>Copie de la carte
                                                 d’identité (C.I.N, Carte de séjour ou passeport pour les personnes
                                                 physiques)<br>
@@ -473,6 +473,36 @@
                                         </div>
                                     </a>
                                     <div id="collapseOnee" class="collapse " data-bs-parent="#accordion1">
+                                        <div class="card-body">
+                                            <p class="text-start">
+                                                Pièces à fournir :
+                                            <div class="bd-callout bd-callout-info">
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:#077ec0;padding-left:20px;"></i>Demande de résiliation
+                                                <a href="./img/resiliation.pdf" target="_blank">(télécharger)</a></br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:#077ec0;padding-left:20px;"></i>Dernière facture d’eau
+                                                et(ou)d’électricité</br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:#077ec0;padding-left:20px;"></i>Contrat
+                                                d’abonnement</br>
+                                                <i class="fa fa-check  me-3"
+                                                    style="color:#077ec0;padding-left:20px;"></i>Copie de la carte
+                                                d’identité nationale(C.I.N)</br>
+
+                                            </div>
+                                            </p><br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <a class="btn"  href="{{ url('/resiliation') }}">
+                                        <div class="card-header" style="background-color:#077ec0; color:white;">
+                                            Demande Résiliation
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div id="collapseOneee" class="collapse " data-bs-parent="#accordion1">
                                         <div class="card-body">
                                             <p class="text-start">
                                                 Pièces à fournir :
@@ -1267,7 +1297,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i

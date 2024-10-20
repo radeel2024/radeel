@@ -172,7 +172,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <a href="{{ url('../') }}" class="navbar-brand">
-                        <img src="img/logo.png" style="height: 130px; width=90px;">
+                        <img src="img/logo.png" style="height: 130px; width:90px;">
                     </a>
                     <p class="mt-4 text-light">
                         La régie autonome intercommunale de distribution d’eau et d’électricité de la Province de
@@ -214,7 +214,7 @@
                         <a href="tel:05 53 95 20 25" class="py-3 text-light border-bottom border-white">
                             <i class="fas fa-fax" class="fas fa-phone-alt text me-2"></i>
                             +212.539.52.09.25</a>
-                        <a href="mailto:reclamation@radeel.com" class="py-3 text-light border-bottom border-white"><i
+                        <a href="mailto:reclamation@radeel.ma" class="py-3 text-light border-bottom border-white"><i
                                 class="fas fa-envelope text me-2"></i>
                             reclamation@radeel.ma</a>
                         <a href="#" class="py-3 text-light border-bottom border-white"><i
