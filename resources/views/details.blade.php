@@ -210,7 +210,7 @@
                         </div>
                         <div class="nav-item dropdown">
                             <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
-                            <div class="dropdown-menu bg-light ">
+                            <div class="dropdown-menu  ">
                                 <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</a>
                                 <a href="{{ url('../Abonnement') }}" class="dropdown-item">Particulier</a>
@@ -362,39 +362,18 @@
 
 
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="../lib/wow/wow.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/waypoints/waypoints.min.js"></script>
-    <script src="../lib/counterup/counterup.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
-
-
-    <script>
-        jQuery(document).ready(function () {
-            $('#modalIndex').modal('show')
-        });</script> <!-- Footer End -->
-
-
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <!-- JavaScript Libraries -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/wow/wow.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/waypoints/waypoints.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
 
     <!-- Template Javascript -->
-    <script src="../js/main.js"></script>
-
+    <script src="js/main.js"></script>
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);

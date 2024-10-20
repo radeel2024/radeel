@@ -81,7 +81,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class=" navbar-nav  ms-auto">
-                        <a href="{{ url('../') }}" class="nav-item active">ACCUEIL</a>
+                        <a href="{{ url('../') }}" class="nav-item ">ACCUEIL</a>
                         <div class="nav-item dropdown">
                             <a href="{{ url('../') }}" class=" nav-item dropdown-toggle" data-bs-toggle="dropdown">RADEEL
                             </a>
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle"
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle active"
                                 data-bs-toggle="dropdown">PRATIQUE </a>
                             <div class="dropdown-menu ">
                                 <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>

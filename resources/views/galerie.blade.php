@@ -145,11 +145,6 @@
             background-position: center;
             width: 100%;
         }
-
-        .nav-item.dropdown>a::after {
-            display: none !important;
-        }
-
         img {
             vertical-align: middle;
         }
@@ -304,8 +299,7 @@
                     <div class=" navbar-nav  ms-auto">
                         <a href="{{ url('../') }}" class="nav-item">ACCUEIL</a>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">RADEEL<i
-                                class="bi bi-chevron-down"></i></a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">RADEEL</a>
                             <div class="dropdown-menu">
                                 <a href="{{ url('../Quisommenous') }}" class="dropdown-item">Qui sommes-nous</a>
                                 <a href="{{ url('../MotDirecteur') }}" class="dropdown-item">Mot du Directeur</a>
@@ -316,8 +310,7 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT<i
-                                class="bi bi-chevron-down"></i></a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE CLIENT</a>
                             <div class="dropdown-menu ">
                                 <a href="{{ url('../paiement') }}" class="dropdown-item">Paiement en
                                     ligne</a>
@@ -328,8 +321,7 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH<i
-                                class="bi bi-chevron-down"></i></a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">ESPACE RH</a>
                             <div class="dropdown-menu">
                                 <a href="{{ url('../loi') }}" class="dropdown-item">Nos valeurs</a>
                                 <a href="{{ url('../Avis recrutement') }}" class="dropdown-item">Nos offres d'emploi</a>
@@ -337,15 +329,13 @@
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS<i
-                                class="bi bi-chevron-down"></i></a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle" data-bs-toggle="dropdown">FOURNISSEURS</a>
                             <div class="dropdown-menu">
                                 <a href="{{ url('../programme') }}" class="dropdown-item">Programme prévisionnel</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle active" data-bs-toggle="dropdown">PRATIQUE<i
-                                class="bi bi-chevron-down"></i></a>
+                            <a href="{{ url('../') }}" class="nav-item dropdown-toggle active" data-bs-toggle="dropdown">PRATIQUE</a>
                             <div class="dropdown-menu  ">
                                 <a href="{{ url('../bureau') }}" class="dropdown-item">Bureau d'ordre digital</a>
                                 <a href="{{ url('../stress') }}" class="dropdown-item">Stress Hydrique </a>
@@ -376,17 +366,7 @@
     <!-- Page Header End -->
 
     <style>
-        .nav-item.active a {
-            background-color: red
-                /* Votre couleur préférée */
-            ;
-            border-color: red
-                /* Couleur de la bordure */
-            ;
-            color: white
-                /* Couleur du texte */
-            ;
-        }
+        
 
         #nav-link-1 .active {
             color: #fff;
@@ -885,29 +865,18 @@
     </script>
     <!--End of Tawk.to Script-->
 
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <!-- JavaScript Libraries -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
 
 
 </body>
